@@ -1,5 +1,5 @@
-import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=monthly-axis-1';
-import {addChartActions} from './chart-actions.js?v=monthly-axis-1';
+import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=monthly-clean-1';
+import {addChartActions} from './chart-actions.js?v=monthly-clean-1';
 import {engagementUrl,engagementDescription,engagementContext} from './engagement.js';
 import {summarize,leadSponsorRankings} from './charts.js';
 import {normalize,filterBills,topicCounts,csv} from './model.js';
@@ -44,8 +44,7 @@ function monthlyChart(months){
  let marks='';
  for(let n=0;n<=ceiling;n+=step){const y=base-n/ceiling*plotHeight;marks+=`<line class="chart-gridline" x1="${left}" x2="${width-right}" y1="${y}" y2="${y}"/><text class="chart-axis" x="${left-8}" y="${y+4}" text-anchor="end">${n}</text>`;}
  months.forEach((m,i)=>{const center=left+(i+.5)*slot,x=center-bar/2,house=m.House/ceiling*plotHeight,senate=m.Senate/ceiling*plotHeight,label=new Date(m.month+'-15T12:00:00').toLocaleDateString('en-US',{month:'short',year:'numeric'});marks+=`<g><title>${label}: House ${m.House}, Senate ${m.Senate}, total ${m.total}</title><rect class="house-fill" x="${x}" y="${base-house}" width="${bar}" height="${house}"/><rect class="senate-fill" x="${x}" y="${base-house-senate}" width="${bar}" height="${senate}"/></g><line class="month-tick" x1="${center}" x2="${center}" y1="${base}" y2="${base+4}"/>`;if(i%3===0)marks+=`<text class="chart-month" x="${center}" y="${base+21}" text-anchor="middle">${label.split(' ')[0]}</text>`;});
- const split=left+slot*12;marks+=`<line class="year-divider" x1="${split}" x2="${split}" y1="${top}" y2="${base+25}"/>`;
- for(let year=0;year<2;year++){const x0=left+year*slot*12+2,x1=left+(year+1)*slot*12-2,y=base+35;marks+=`<path class="year-bracket" d="M${x0} ${y-4}v4H${x1}v-4"/><text class="chart-year" x="${(x0+x1)/2}" y="${base+56}" text-anchor="middle">${2025+year}</text>`;}
+ for(let year=0;year<2;year++){const x0=left+year*slot*12+10,x1=left+(year+1)*slot*12-10,y=base+35;marks+=`<path class="year-bracket" d="M${x0} ${y}H${x1}"/><text class="chart-year" x="${(x0+x1)/2}" y="${base+56}" text-anchor="middle">${2025+year}</text>`;}
  return `<svg class="monthly-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="Monthly bill introductions, grouped under 2025 and 2026. Each bar is one month, stacked by House and Senate. Exact values are listed below.">${marks}</svg>`;
 }
 function patternCharts(data){

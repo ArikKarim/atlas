@@ -44,4 +44,6 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 .overview-grid .chart-heading .chart-legend{padding-top:2px}.overview-grid .chart-empty{color:var(--muted);font-size:13px;margin:0}.overview-grid .chart-heading+.overview-plot{margin-top:18px}
 
 /* Two-tier timeline: month ticks above explicit year groups. */
-.overview-grid .monthly-chart{height:auto;min-width:470px;max-height:260px;aspect-ratio:560 / 250;margin-top:8px}.chart-month{font:12px 'Segoe UI',system-ui,sans-serif;fill:var(--muted)}.monthly-chart .chart-year{font-size:13px;font-weight:600;letter-spacing:.2px}.month-tick,.year-bracket{stroke:var(--muted);stroke-opacity:.6;stroke-width:1;fill:none}.year-divider{stroke:var(--muted);stroke-opacity:.45;stroke-width:1;stroke-dasharray:3 4}
+.overview-grid .monthly-chart{height:auto;min-width:470px;max-height:260px;aspect-ratio:560 / 250;margin-top:8px}.chart-month{font:12px 'Segoe UI',system-ui,sans-serif;fill:var(--muted)}.monthly-chart .chart-year{font-size:13px;font-weight:600;letter-spacing:.2px}.month-tick,.year-bracket{stroke:var(--muted);stroke-opacity:.6;stroke-width:1;fill:none}
+
+.monthly-chart .chart-gridline{stroke-opacity:.55}.monthly-chart .year-bracket{stroke-opacity:.35}.monthly-chart .month-tick{stroke-opacity:.3}

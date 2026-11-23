@@ -1,4 +1,4 @@
-import {chartSvg,chartCsv,patternsHash} from './chart-export.js?v=monthly-axis-1';
+import {chartSvg,chartCsv,patternsHash} from './chart-export.js?v=monthly-clean-1';
 function saveFile(name,blob){const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=name;document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);}
 async function pngBlob(svg){const url=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml;charset=utf-8'}));try{const image=new Image();await new Promise((resolve,reject)=>{image.onload=resolve;image.onerror=()=>reject(Error('Image could not be rendered'));image.src=url;});const canvas=document.createElement('canvas');canvas.width=image.naturalWidth*2;canvas.height=image.naturalHeight*2;const context=canvas.getContext('2d');if(!context)throw Error('Image export unavailable');context.drawImage(image,0,0,canvas.width,canvas.height);return await new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('Image could not be exported')),'image/png'));}finally{URL.revokeObjectURL(url);}}
 let shareDialog;
