@@ -28,7 +28,7 @@ Chart links use the address where you're running Atlas, so a localhost link only
 
 I started with the spreadsheet I maintained during my fellowship. The imported data contains 173 records, representing 170 distinct bills: 94 in the House and 76 in the Senate. The app combines duplicate bill records for the tracker and charts.
 
-I keep the original tracker as my research dataset. Atlas supplements it with official Congress.gov titles, dates, sponsors, cosponsors, and legislative actions. The official CRS summary appears separately from my own summary in bill details. Public SIIA materials are linked for 35 of the 37 bills with recorded engagement.
+I keep the original tracker as my research dataset. Atlas supplements it with official Congress.gov titles, dates, sponsors, cosponsors, and legislative actions. Bill details show my research summary. Public SIIA materials are linked for 35 of the 37 bills with recorded engagement.
 
 ## Working on the code
 
