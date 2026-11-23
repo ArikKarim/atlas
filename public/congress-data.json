@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-23T03:09:43.195Z",
+  "checkedAt": "2026-11-23T03:26:08.202Z",
   "source": "Congress.gov",
   "trackedCount": 170,
   "verifiedCount": 170,
@@ -21,7 +21,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-09-09T08:05:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3539": {
       "id": "H.R.3539",
@@ -37,7 +37,7 @@
       "officialSummary": "Leadership in Critical and Emerging Technologies Act or the Leadership in CET Act\nThis bill directs the U.S. Patent and Trademark Office (USPTO) to establish and carry out a pilot program to expedite the patent examination process for patents involving critical or emerging technologies (i.e., artificial intelligence, semiconductor design, or quantum information science). The USPTO must report to Congress on the impact and effectiveness of the pilot program.",
       "summaryDate": "2025-08-14T20:14:58Z",
       "congressUpdatedAt": "2025-12-05T22:08:32Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1495": {
       "id": "H.R.1495",
@@ -53,7 +53,7 @@
       "officialSummary": "Digital Economy Cybersecurity Advisory Act of 2025\nThis bill establishes a Digital Economy and Cybersecurity Board of Advisors within the National Telecommunications and Information Administration (NTIA). \nThe board must provide the NTIA with recommendations for (1) technical cybersecurity best practices to drive economic growth while securing information and communications networks; (2) policies to support the development and implementation of cybersecurity practices with respect to the internet and information and communications networks; (3) policies that promote security and resilience to cybersecurity incidents; and (4) policies to remove barriers to trust, security, innovation, and commercialization; among other topics. \nThe board must be composed of between 5 and 25 members, each of whom must have appropriate cybersecurity expertise. The NTIA must ensure board members provide balanced representation among specified sectors and positions, including chief cybersecurity officers, individuals who operate or maintain communications networks, software and equipment vendors, and individuals who operate or maintain internet applications. Board members must serve without compensation. \nThe board must terminate four years after the bill’s enactment.",
       "summaryDate": "2025-06-23T13:21:25Z",
       "congressUpdatedAt": "2026-11-10T19:44:02Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.2152": {
       "id": "H.R.2152",
@@ -69,7 +69,7 @@
       "officialSummary": "Artificial Intelligence Practices, Logistics, Actions, and Necessities Act or the AI PLAN Act\nThis bill requires the Department of the Treasury, the Department of Homeland Security (DHS), and the Department of Commerce to submit a report on the risks posed by the use of artificial intelligence in the commission of financial crimes by adversarial actors.\nThe report must\ndescribe interagency, intergovernmental, and public-private partnership activities, policies, and procedures to defend U.S. interests against the national and economic security risks posed by the use of artificial intelligence in the commission of financial crimes; \nprovide a list of readily available resources that can be immediately deployed by federal agencies to combat these risks, and\nprovide a list of resources needed by federal agencies to combat these risks.\nRisks that must be considered by the report include deepfakes, voice cloning, foreign election interference, synthetic identities, false flags that disrupt market operations, AI-supported social engineering, and general digital fraud.\nAfter submission of this report, Treasury, DHS, and Commerce must make recommendations for legislation and best practices for businesses and government entities to address these risks.",
       "summaryDate": "2026-07-21T19:44:30Z",
       "congressUpdatedAt": "2026-09-19T23:35:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.2770": {
       "id": "H.R.2770",
@@ -85,7 +85,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-17T16:27:39Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1770": {
       "id": "H.R.1770",
@@ -101,7 +101,7 @@
       "officialSummary": "Consumer Safety Technology Act\nThis bill (1) establishes a pilot program to explore the use of artificial intelligence to support the Consumer Product Safety Commission (CPSC), and (2) requires reports related to blockchain technology and digital tokens.\nSpecifically, the CPSC must consult with relevant stakeholders, such as data scientists and product manufacturers, and use artificial intelligence for a least one of the following purposes: (1) tracking trends in injuries involving consumer products, (2) identifying consumer product hazards, (3) monitoring the sale of recalled consumer products, or (4) identifying consumer products that do not meet specified importation requirements related to product safety.\nThe bill also requires (1) the Department of Commerce to report on existing and emerging uses of blockchain technology for consumer protection, and (2) the Federal Trade Commission to report on its efforts to prevent unfair or deceptive practices relating to digital tokens.",
       "summaryDate": "2025-07-01T19:11:33Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1736": {
       "id": "H.R.1736",
@@ -117,7 +117,7 @@
       "officialSummary": "Generative AI Terrorism Risk Assessment Act\nThis bill requires the Department of Homeland Security (DHS) to periodically provide Congress with an assessment of threats to the United States posed by the use of generative artificial intelligence (AI) for terrorism. Generative AI is defined as the class of AI models that emulate the structure and characteristics of input data to generate derived synthetic content, including images, videos, audio, text, and other digital content.\nThe bill also (1) requires DHS to review and disseminate related information gathered by state and major urban area fusion centers and the National Network of Fusion Centers, and (2) requires other federal agencies to share related information with DHS. (A fusion center is a collaborative effort of two or more federal, state, local, or tribal government agencies that combines resources, expertise, or information with the goal of maximizing the ability of such agencies to detect, prevent, investigate, apprehend, and respond to criminal or terrorist activity.)",
       "summaryDate": "2025-11-14T14:37:17Z",
       "congressUpdatedAt": "2026-09-07T10:56:18Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1766": {
       "id": "H.R.1766",
@@ -133,7 +133,7 @@
       "officialSummary": "NTIA Policy and Cybersecurity Coordination Act\nThis bill establishes an Office of Policy Development and Cybersecurity within the National Telecommunications and Information Administration (NTIA) to analyze and develop policies related to internet and communications technologies.\nSpecific activities of the office include, for example, developing policies that promote (1) innovation, competition, and other elements of the communications, media, and technology markets; (2) security and resilience to cybersecurity incidents while fostering innovation; and (3) commercialization of communications technologies.\nThe existing Associate Administrator for Policy Analysis and Development within NTIA must be redesignated as Associate Administrator for Policy Development and Cybersecurity, and must serve as head of the office.",
       "summaryDate": "2025-03-28T18:02:29Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1694": {
       "id": "H.R.1694",
@@ -149,7 +149,7 @@
       "officialSummary": "Artificial Intelligence Accountability Act or the AI Accountability Act\nThis bill requires the National Telecommunications and Information Administration (NTIA) to study and report on accountability measures for artificial intelligence (AI) systems. Under the bill, accountability measures are mechanisms designed to assure that a system is trustworthy, including audits, assessments, and certifications. \nSpecifically, the NTIA must study, solicit stakeholder feedback about, and report to Congress on the incorporation of accountability measures into AI systems used by communications technologies (such as telecommunications networks and social media platforms) and the ways in which AI accountability measures reduce risks related to AI systems (e.g., cybersecurity risks), among other topics. \nThe NTIA must also solicit stakeholder feedback and report to Congress on (1) information that should be available to individuals, communities, and businesses that interact with, are affected by, or study AI systems; and (2) methods for making that information available.",
       "summaryDate": "2025-05-14T19:00:03Z",
       "congressUpdatedAt": "2025-05-14T19:00:35Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1283": {
       "id": "H.R.1283",
@@ -165,7 +165,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-07-08T12:30:38Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3434": {
       "id": "H.R.3434",
@@ -181,7 +181,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-12-05T22:08:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.1734": {
       "id": "H.R.1734",
@@ -197,7 +197,7 @@
       "officialSummary": "Preventing Deep Fake Scams Act\nThis bill establishes the Task Force on Artificial Intelligence in the Financial Services Sector. Members include representatives from the Department of the Treasury, the Federal Reserve Board, the Federal Deposit Insurance Corporation, and the National Credit Union Administration. The task force must report on (1) how banks and credit unions prevent fraud that utilizes artificial intelligence, (2) best practices for financial institutions to protect their customers, and (3) related legislative and regulatory recommendations.",
       "summaryDate": "2026-10-06T21:32:29Z",
       "congressUpdatedAt": "2026-10-06T21:33:05Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8915": {
       "id": "H.R.8915",
@@ -213,7 +213,7 @@
       "officialSummary": "Nurture Originals, Foster Art, and Keep Entertainment Safe Act of 2026 or the NO FAKES Act of 2026\nThis bill creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness.\nSpecifically, the bill gives each individual or right holder the right to authorize the use of the individual's voice or visual likeness (1) in a digital replica, or (2) for a product or service requiring authorization to avoid liability under the bill. This property right is not assignable during the individual’s lifetime but is licensable and does not expire upon the death of the individual.\nGenerally, any individual or entity that engages in specified prohibited activities (e.g., distributing a digital replica without authorization) shall be liable in a civil action and subject to related penalties. The bill exempts specified uses from liability, such as categories of conduct likely to involve protected speech under the First Amendment (e.g., news reporting, sports broadcasts, and satire).\nThe bill establishes (1) a notice-and-takedown process for unauthorized digital replicas; and (2) a counter-notification process, which allows an individual to contest the removal of a digital replica. The bill establishes penalties related to false or deceptive notice or counter-notice.\nThe bill expressly preempts state laws related to digital replicas except for causes of action under state statutes or common law in existence as of January 2, 2025.",
       "summaryDate": "2026-07-17T20:53:20Z",
       "congressUpdatedAt": "2026-11-18T09:06:45Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3026": {
       "id": "H.R.3026",
@@ -229,7 +229,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-05-22T16:30:35Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3460": {
       "id": "H.R.3460",
@@ -245,7 +245,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-11T09:07:09Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3220": {
       "id": "H.R.3220",
@@ -261,7 +261,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-01-09T09:06:48Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3259": {
       "id": "H.R.3259",
@@ -277,7 +277,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-05-19T17:20:33Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.2385": {
       "id": "H.R.2385",
@@ -293,7 +293,7 @@
       "officialSummary": "Creating Resources for Every American To Experiment with Artificial Intelligence Act of 2025 or the CREATE AI Act of 2025\nThis bill establishes a national program to provide U.S. researchers, educators, and students with access to artificial intelligence (AI) data, computational resources, educational tools and services, and testbeds.\nThe program, to be known as the National Artificial Intelligence Research Resource (NAIRR), must be established by the National Science Foundation (NSF) to improve U.S. AI research capacity and spur the strategic development of AI capabilities. NAIRR may accept and use donated resources from the private sector and federal agencies.\nThose eligible to use NAIRR resources are (1) researchers, educators, and students based in the United States and affiliated with a U.S. institution of higher education, nonprofit, executive agency, or other specified entity; and (2) employees of U.S. executive agencies or federally funded research and development centers with a demonstrable mission need.\nNSF must select a nongovernmental organization to operate NAIRR (i.e., an operating entity) through a competitive and transparent process. The operating entity must ensure that a significant percentage of the annual allotment of computational resources is provided to projects primarily focused on AI privacy, ethics, safety, security, risk mitigation, or trustworthiness. The operating entity must also establish minimum security requirements for all individuals interacting with NAIRR.\nThe operating entity may establish a fee schedule for access to NAIRR, which must include a free tier of access and must ensure that the primary purpose of NAIRR is to support research.",
       "summaryDate": "2026-02-13T17:03:27Z",
       "congressUpdatedAt": "2026-11-18T17:28:50Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3210": {
       "id": "H.R.3210",
@@ -309,7 +309,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-05-22T18:38:05Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3447": {
       "id": "H.R.3447",
@@ -325,7 +325,7 @@
       "officialSummary": "Chip Security Act\nThis bill requires covered integrated circuit products (e.g., advanced computing chips) to incorporate certain security mechanisms.\nSpecifically, the bill directs the Department of Commerce to require any covered integrated circuit product to have chip security mechanisms that implement location verification before the product is exported, reexported, or in-country transferred to or in a foreign country.\nCommerce must require any person that has received a license or other authorization under the Export Control Reform Act of 2018 to export, reexport, or in-country transfer a covered product to promptly report to Commerce's Bureau of Industry and Security if the person obtains credible information that the product has been diverted away from its intended location or has been subjected to tampering.\nAdditionally, Commerce must conduct an assessment and report to Congress on whether additional chip security mechanisms should be adopted. If Commerce determines additional security measures are necessary, then Commerce must require any covered product to include the secondary chip security mechanisms before the product is exported, reexported, or in-country transferred to or in a foreign country.\nThe bill authorizes Commerce to take certain enforcement actions, such as verifying the ownership and location of a covered product that has been exported, reexported, or in-country transferred to or in a foreign country.\nCommerce must, within two years of the bill's enactment and annually thereafter for three years, assess new chip security mechanisms and report to Congress.",
       "summaryDate": "2026-07-23T15:40:35Z",
       "congressUpdatedAt": "2026-10-10T08:05:31Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3562": {
       "id": "H.R.3562",
@@ -341,7 +341,7 @@
       "officialSummary": "Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2025 or the DEFIANCE Act of 2025\nThis bill expands civil remedies for the nonconsensual disclosure of intimate images (i.e., nonconsensual pornography). The bill also establishes a new federal civil action for nonconsensual conduct involving intimate digital forgeries (i.e., deepfakes). The term intimate digital forgery means any intimate visual depiction of an identifiable individual created using software, machine learning, artificial intelligence, or other computer-generated or technological means that looks authentic.\nWith respect to the nonconsensual disclosure of intimate images, current law allows an identifiable individual to recover civil remedies, including litigation costs, damages, and injunctive relief. This bill increases the available damages by allowing the individual to recover punitive damages and by including, as part of actual damages, profits of the defendant that are attributable to the conduct at issue.\nThe bill also allows an identifiable individual who is the subject of an intimate digital forgery to file a federal civil action against anyone who knowingly discloses, produces or possesses with intent to disclose, or solicits and receives the intimate digital forgery without the individual's consent. Under the bill, the identifiable individual may recover the same expanded civil remedies that are available for the nonconsensual disclosure of intimate images.\nFinally, the bill establishes a 10-year statute of limitations for filing civil actions involving nonconsensual intimate digital forgeries or nonconsensual disclosure of intimate images. The statute begins to run when the individual discovers the violation or turns 18, whichever is later.",
       "summaryDate": "2026-07-07T14:48:26Z",
       "congressUpdatedAt": "2026-11-19T09:07:37Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3775": {
       "id": "H.R.3775",
@@ -357,7 +357,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-09-27T08:06:06Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.4801": {
       "id": "H.R.4801",
@@ -373,7 +373,7 @@
       "officialSummary": "Unleashing AI Innovation in Financial Services Act \nThis bill allows regulated financial entities to test artificial intelligence (AI) projects under waived or modified regulations upon the approval of an application by the appropriate federal financial regulatory agency. These agencies must establish AI innovation labs to enable such projects.\nUnder the bill, regulated entities may engage in AI test projects associated with financial products, services, or activities. Regulated entities must apply to the appropriate agency with a description and proposed duration of the AI test project, propose an alternative compliance strategy, and explain how the AI test project serves the public interest and does not present certain risks. \nThe alternative compliance strategy must include several elements, such as (1) identifying a regulation issued by an agency that the regulated entity requests to be waived or modified and (2) proposing an alternative method of compliance with the regulation's underlying statute. Upon approval, the agency may only enforce such a regulation according to the agreement. \nThe bill also provides for agency review of such applications, establishes procedures for entities that are subject to regulation by multiple agencies, and allows agencies to file for injunctive relief if an AI test project presents certain risks or dangers.",
       "summaryDate": "2026-07-24T16:28:27Z",
       "congressUpdatedAt": "2026-09-19T23:35:51Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5511": {
       "id": "H.R.5511",
@@ -389,7 +389,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-10T14:15:37Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6621": {
       "id": "H.R.6621",
@@ -405,7 +405,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-09T14:53:08Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8516": {
       "id": "H.R.8516",
@@ -421,7 +421,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:23:43Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.633": {
       "id": "H.R.633",
@@ -437,7 +437,7 @@
       "officialSummary": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes On Websites and Networks Act or the TAKE IT DOWN Act\nThis bill generally prohibits the nonconsensual online publication of intimate visual depictions of individuals, both authentic and computer-generated, and requires certain online platforms to promptly remove such depictions upon receiving notice of their existence. \nSpecifically, the bill prohibits the online publication of intimate visual depictions of\nan adult subject where publication is intended to cause or does cause harm to the subject, and where the depiction was published without the subject’s consent or, in the case of an authentic depiction, was created or obtained under circumstances where the adult had a reasonable expectation of privacy; or\na minor subject where publication is intended to abuse or harass the minor or to arouse or gratify the sexual desire of any person. \nViolators are subject to mandatory restitution and criminal penalties, including prison, a fine, or both. Threats to publish intimate visual depictions of a subject are similarly prohibited under the bill and subject to criminal penalties.  \nSeparately, covered platforms must establish a process through which subjects of intimate visual depictions may notify the platform of the existence of, and request removal of, an intimate visual depiction including the subject that was published without the subject’s consent. Covered platforms must remove such depictions within 48 hours of notification. Under the bill, covered platforms are defined as public websites, online services, or applications that primarily provide a forum for user-generated content.",
       "summaryDate": "2025-04-28T10:33:55Z",
       "congressUpdatedAt": "2026-07-27T16:11:10Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5360": {
       "id": "H.R.5360",
@@ -453,7 +453,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:34:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5388": {
       "id": "H.R.5388",
@@ -469,7 +469,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:38:37Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8413": {
       "id": "H.R.8413",
@@ -485,7 +485,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:18:47Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5584": {
       "id": "H.R.5584",
@@ -501,7 +501,7 @@
       "officialSummary": "Literacy in Future Technologies Artificial Intelligence Act or the LIFT AI Act\nThis bill authorizes the National Science Foundation to make merit-based grants to institutions of higher education, nonprofit organizations, and consortia of such entities to support artificial intelligence (AI) literacy for K-12 students and educators. Grants may be used for research and development of educational curricula, instructional material, professional development for teachers, and evaluation methods for AI literacy at the K-12 level.",
       "summaryDate": "2026-08-27T19:34:37Z",
       "congressUpdatedAt": "2026-08-27T19:35:38Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5351": {
       "id": "H.R.5351",
@@ -517,7 +517,7 @@
       "officialSummary": "NSF AI Education Act of 2025\nThis bill establishes, or authorizes the National Science Foundation (NSF) to establish, various scholarship, fellowship, and grant programs to promote education and professional development related to artificial intelligence (AI).\nThe bill authorizes NSF to award scholarships and fellowships to college students focusing their studies on AI. NSF may also support AI-related professional development fellowships for (1) students and faculty, (2) K-12 teachers and school professionals, and (3) industry professionals seeking short-term appointments to teach AI.\nNSF must also establish up to eight centers of AI excellence at community colleges or area career and technical education schools. Designated centers must develop best practices for AI research and education, integrating AI into the classroom, and facilitating partnerships with the private sector, among other topics. This program must be administered in coordination with the Department of Commerce Regional Technology and Innovation Hubs program.\nNSF may make merit-based grants to eligible entities, including institutions of higher education and nonprofit organizations, for research on AI teaching models, integration of AI in the classroom, and AI’s impact on educational outcomes for students through grade 12. Awards must be used to (1) prepare K-12 teachers to integrate AI into their classrooms; and (2) research, test, and implement AI-related instructional materials, teaching models, and professional development for teachers.\nFinally, NSF may establish a pilot program through which regional cohorts will provide AI-related peer support, mentoring, and research experiences to K-12 teachers and school leaders.",
       "summaryDate": "2026-07-17T20:29:53Z",
       "congressUpdatedAt": "2026-09-19T23:21:55Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9334": {
       "id": "H.R.9334",
@@ -533,7 +533,7 @@
       "officialSummary": "Workforce for AI Trust Act\nThis bill provides for various workforce development and research programs related to artificial intelligence (AI).\nFor example, the bill authorizes the National Institute of Standards and Technology (NIST) to support education and workforce development activities to expand careers in the AI workforce. Further, the bill requires NIST to develop a common system for describing and classifying AI-related tasks, knowledge, and skills that can be used to develop job descriptions or competency areas (an AI workforce framework). NIST must develop guidelines for using the framework and take other steps to support external use (e.g., through outreach and dissemination to AI education programs).\nSeparately, the National Science Foundation (NSF) may make awards through eligible institutions of higher education to support graduate and postdoctoral research fellowships across disciplines (including in social science and humanities) related to trustworthy AI. NSF may also make awards to support institutional workshops to advance the development and training of trustworthy AI systems.\nNSF must encourage the use of AI to accelerate work across NSF-supported fields, including by supporting (1) training for undergraduate and graduate students and postdoctoral researchers, (2) workshops on the application of trustworthy AI to new uses, and (3) supplements to existing research awards for applying AI to ongoing research.\nFurther, NSF must generally ensure that merit review panels convened to evaluate AI-related proposals incorporate perspectives from diverse research disciplines (e.g., social science, ethics, and linguistics).",
       "summaryDate": "2026-08-24T15:48:14Z",
       "congressUpdatedAt": "2026-08-24T15:50:46Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6461": {
       "id": "H.R.6461",
@@ -549,7 +549,7 @@
       "officialSummary": "Resources for Evaluating and Documenting AI Models or the READ AI Models Act\nThis bill requires the National Institute of Standards and Technology (NIST) to develop a customizable template for information to accompany artificial intelligence (AI) models.\nSpecifically, NIST must initiate a pilot program to establish a structured template that may be used to document information about an artificial intelligence model and any associated data, such as the model’s name, the developer, and the cutoff date for the model’s training data. The template must be modular to enable users to adopt and complete various sections to suit their needs and intended audience. NIST must also provide technical guidelines to accompany the template that incorporate consensus-based standards and industry best practices, as appropriate.\nIn developing these materials, NIST must collaborate with and conduct periodic outreach to various stakeholders, including private sector entities, international standards organizations, and institutions of higher education.\nNIST must publish and solicit public comment on a draft of the template and guidelines. Within 12 months of the start of the pilot program, NIST must publish the finished products and report to Congress with an assessment of the program.",
       "summaryDate": "2026-07-22T16:37:23Z",
       "congressUpdatedAt": "2026-09-25T08:05:52Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8893": {
       "id": "H.R.8893",
@@ -565,7 +565,7 @@
       "officialSummary": "Protecting Consumers from Deceptive AI Act\nThis bill requires the National Institute of Standards and Technology (NIST) to establish task forces to support the development of technical standards and guidelines for identifying content created using artificial intelligence (AI).\nSpecifically, the task forces must address (1) identifying and labeling audio, visual, or text-based content created or substantially modified using generative AI; and (2) providing content provenance metadata, watermarking, digital fingerprinting, and other relevant technical measures. (Content provenance is information about the origin and history of digital content.)\nThe task forces must consider issuing guidance for online platforms on storing and displaying content provenance data and metadata in a manner that preserves privacy (e.g., by informing users when they are sharing content that contains content provenance data or metadata).\nTo the extent possible, the output of these task forces should inform the development of technical standards by private, consensus organizations.\nThe task forces must report to NIST within a specified period with recommendations related to relevant technical standards and guidance. They must also periodically report to Congress on their activities.",
       "summaryDate": "2026-09-25T15:35:13Z",
       "congressUpdatedAt": "2026-10-23T08:06:07Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5272": {
       "id": "H.R.5272",
@@ -581,7 +581,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-16T08:05:54Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6529": {
       "id": "H.R.6529",
@@ -597,7 +597,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-25T08:05:33Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8033": {
       "id": "H.R.8033",
@@ -613,7 +613,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-06-30T08:07:05Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6984": {
       "id": "H.R.6984",
@@ -629,7 +629,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-18T09:05:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9372": {
       "id": "H.R.9372",
@@ -645,7 +645,7 @@
       "officialSummary": "Data Infrastructure Energy Measurement and Standards Act\nThis bill requires the National Institute of Standards and Technology (NIST) to carry out a program to inform the development of best practices, technical standards, and other resources for measuring workloads and energy and water use of data centers, including measurements relating to training and processing of artificial intelligence models.\nSpecifically, NIST must\ndevelop or identify best practices and other resources for such measurements, taking into account specified factors such as workload type and system configuration;\nconduct research and testing to improve the accuracy, timeliness, and reliability of such measurements;\nstudy data needs for energy and water demand forecasting and other research; and\nsupport the development of standardized metrics and data sharing mechanisms to promote improved energy and water demand forecasting.\nFurther, NIST must coordinate with the Department of Energy to ensure applicable metrics and data are managed and archived appropriately and promote open exchange of metrics and data as appropriate. NIST must also coordinate with international partners to maintain global data center energy measurement standards.\nFinally, NIST must periodically brief Congress on the program.",
       "summaryDate": "2026-09-29T16:11:22Z",
       "congressUpdatedAt": "2026-11-21T09:07:22Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9341": {
       "id": "H.R.9341",
@@ -661,7 +661,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-25T20:05:39Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9333": {
       "id": "H.R.9333",
@@ -677,7 +677,7 @@
       "officialSummary": "AI Flaw Reporting and Security Enhancement Act\nThis bill establishes a program to facilitate the voluntary reporting and tracking of artificial intelligence (AI) flaws, to be administered by the National Institute of Standards and Technology (NIST).\nIn carrying out this program, NIST must seek to convene various stakeholders to establish common definitions for terms related to AI flaws and criteria for the classification of AI flaws (e.g., security-related flaws and safety-related flaws). The group must also support the development of technical standards and guidance related to detecting, managing, and disclosing AI flaws and prioritizing the remediation of such flaws.\nFurther, NIST must develop, or enter into cooperative agreements with institutions of higher education or research institutions to develop, infrastructure for the voluntary reporting, collection, and tracking of AI flaws. This must include a national database of AI flaws or the modification of an existing national database to account for AI flaws. (NIST currently administers a national database of cybersecurity vulnerabilities.) NIST must consider certain topics when developing this infrastructure, including the interoperability of the infrastructure with relevant existing systems, standards, and best practices.\nWithin three years of the bill’s enactment, NIST must report to Congress on the implementation of these provisions.\nUnder the bill, an AI flaw is a set of conditions or behaviors that allow for the violation of certain policies (e.g., safety or security policies) and is not necessarily associated with malicious intent.",
       "summaryDate": "2026-07-24T15:53:08Z",
       "congressUpdatedAt": "2026-08-26T17:35:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8037": {
       "id": "H.R.8037",
@@ -693,7 +693,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-04-02T15:35:14Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6633": {
       "id": "H.R.6633",
@@ -709,7 +709,7 @@
       "officialSummary": "High-Capacity Grid Act\nThis bill requires public electric utilities to use the best-available transmission conductor for certain interstate transmission lines (i.e., power lines) in order to recover the costs of the conductor through consumers' electric bills.\nSpecifically, in any filing seeking to recover the costs of a transmission conductor for the transmission line and in any proceeding to determine if the costs may be recovered through rates, the bill directs the Federal Energy Regulatory Commission  to presume that (1) the use of a best-available transmission conductor is a prudent practice and that the associated costs are just and reasonable, and (2) the use of a transmission conductor that is not a best-available transmission conductor is not prudent and that the associated costs are not just and reasonable.\nA best-available transmission conductor is a conductor that (1) provides the greatest feasible and commercially available energy-carrying capacity at a given voltage level, (2) provides the highest feasible and commercially available electrical efficiency at that voltage level, and (3) mitigates thermal sag (drooping of power lines) at the maximum rated transmission-carrying capacity of the facility.\nThe bill applies to projects to (1) construct new transmission facilities; or (2) modify, upgrade, or replace an existing transmission line.",
       "summaryDate": "2026-09-11T15:12:15Z",
       "congressUpdatedAt": "2026-10-31T02:42:09Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7757": {
       "id": "H.R.7757",
@@ -725,7 +725,7 @@
       "officialSummary": "Kids Internet and Digital Safety Act or the KIDS Act\nThis bill requires specified online platforms to establish safeguards for minors. The safeguards include (1) limiting access to specified sexual material, (2) providing parental controls on social media and online video game platforms, and (3) requiring artificial intelligence (AI) chatbots to disclose certain information to users who are minors.\nFirst, publicly available online platforms on which more than one-third of the content is considered sexual material harmful to minors under the bill must adopt technology to identify minors and prevent them from accessing such material.\nNext, social media platforms must (1) implement default settings for minors that limit compulsive usage features and the ability of other users to communicate with minors, and (2) provide tools for parents to manage the privacy and account settings of a minor. Social media platforms may not allow ephemeral messaging features for minors.\nThe bill also requires online video game platforms to provide tools that allow parents to (1) limit communication between a minor and other users of the platform, and (2) restrict purchases by a minor on the platform. \nFurther, providers of AI chatbots must disclose to users who are minors (1) that the chatbot is an AI system and not a human, and (2) suicide and crisis intervention hotline information.\nFinally, the bill requires specified studies and reports about the effects of social media platforms on minors and provides for enforcement of the bill's requirements by the Federal Trade Commission and state attorneys general.",
       "summaryDate": "2026-06-26T13:36:37Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9352": {
       "id": "H.R.9352",
@@ -741,7 +741,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-03T08:06:33Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9326": {
       "id": "H.R.9326",
@@ -757,7 +757,7 @@
       "officialSummary": "Utilize Standards for All Act or the USA Act\nThis bill requires the National Institute of Standards and Technology (NIST) to support U.S. involvement in the development of standards for artificial intelligence (AI) and other critical and emerging technologies through briefings, pilot programs, and other activities.\nSpecifically, NIST must (1) brief Congress on opportunities for the federal government to support industry-led efforts to develop technical standards for AI and other critical and emerging technologies, (2) establish a web portal to inform U.S. industries and federal agencies of international efforts and opportunities to develop such standards, and (3) establish a five-year pilot program and award associated grants to support stakeholder meetings in the U.S. on developing such standards.\nNIST must also advance the principles of openness, due process, and consensus in the development of international standards and promote coordination among federal agencies with respect to private-sector standards development for emerging technologies.",
       "summaryDate": "2026-11-03T17:17:36Z",
       "congressUpdatedAt": "2026-11-03T17:18:49Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9381": {
       "id": "H.R.9381",
@@ -773,7 +773,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-19T09:08:15Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9477": {
       "id": "H.R.9477",
@@ -789,7 +789,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-16T08:09:19Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7058": {
       "id": "H.R.7058",
@@ -805,7 +805,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-05-04T19:15:58Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8819": {
       "id": "H.R.8819",
@@ -821,7 +821,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:37:37Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6571": {
       "id": "H.R.6571",
@@ -837,7 +837,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-01-08T17:49:52Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9439": {
       "id": "H.R.9439",
@@ -853,7 +853,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-07-06T17:58:49Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7977": {
       "id": "H.R.7977",
@@ -869,7 +869,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-12T09:06:35Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7064": {
       "id": "H.R.7064",
@@ -885,7 +885,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-02-10T09:05:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8094": {
       "id": "H.R.8094",
@@ -901,7 +901,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-04-09T17:22:19Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7801": {
       "id": "H.R.7801",
@@ -917,7 +917,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-16T16:27:22Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7151": {
       "id": "H.R.7151",
@@ -933,7 +933,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-02-18T17:27:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7985": {
       "id": "H.R.7985",
@@ -949,7 +949,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-03T08:06:48Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9917": {
       "id": "H.R.9917",
@@ -965,7 +965,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-11T09:07:08Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9915": {
       "id": "H.R.9915",
@@ -981,7 +981,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-28T19:43:47Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7305": {
       "id": "H.R.7305",
@@ -997,7 +997,7 @@
       "officialSummary": "Energy Threat Analysis Center Act of 2026\nThis bill reauthorizes through FY2031 and expands the pilot Energy Sector Operational Support for Cyber Resilience Program of the Department of Energy (DOE). The program aims to protect energy infrastructure through collaboration between the federal government and the energy sector and enhancing DOE’s emergency response capabilities.\nSpecifically, the bill expands the program objectives to include \nenhancing collaboration between the government and the energy sector to address threats to energy systems,\nadvancing the collective understanding of national security risks and vulnerabilities associated with the energy sector that may be exploited by adversaries, and\nhelping the energy sector increase its understanding of tactics of adversaries that present risks to the energy sector.\nThe bill allows DOE to establish an Energy Threat Analysis Center at one or more physical locations for program activities.\nThe bill also eliminates technical assistance provided under the program to small electric utilities.\nUnder the bill, the decision to provide assistance or information under the program to a governmental or private entity is at the sole discretion of the Secretary of Energy and is unreviewable.\nThe bill authorizes the Secretary to (1) enter into and perform contracts, grants, and other transactions with public agencies, private organizations, and persons to carry out the program; and (2) establish and utilize preapproved national security contracting mechanisms, model partnership agreements, and expedited review procedures for purposes of entering into such transactions.\nIn addition, the bill exempts the program from certain public disclosure and other transparency requirements.",
       "summaryDate": "2026-06-26T12:56:43Z",
       "congressUpdatedAt": "2026-09-19T23:33:46Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9335": {
       "id": "H.R.9335",
@@ -1013,7 +1013,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-01T08:06:34Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9339": {
       "id": "H.R.9339",
@@ -1029,7 +1029,7 @@
       "officialSummary": "Affordable Innovation for the Grid Act\nThis bill directs the Department of Energy to assess and report on the use of artificial intelligence and high-performance computing technologies to enhance the capacity, reliable operation, and operational efficiency of the bulk-power system.",
       "summaryDate": "2026-09-11T10:41:46Z",
       "congressUpdatedAt": "2026-10-31T02:42:10Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9340": {
       "id": "H.R.9340",
@@ -1045,7 +1045,7 @@
       "officialSummary": "Ratepayer Protection Act\nThe bill requires state utility regulators and nonregulated utilities to consider implementing a standard to hold certain large-load customers responsible for the costs associated with any generation, transmission, or distribution upgrade of electric service necessary to serve such customers. A large-load customer means a non-residential electric consumer that enters, or requests to enter, an agreement concerning the sale of electric energy primarily to operate information technology infrastructure and related systems pertaining to data storage and computational applications and services (e.g., data centers) that have a peak electric demand of 100 megawatts or more at a single site or campus. \nSpecifically, the bill requires states to consider implementing a federal standard for large-load customers. The standard must require rates charged by electric utilities for providing electric service to a large-load customer to be designed to recover from the large-load customer the full, incremental cost of any generation, transmission, or distribution upgrade necessary to serve such customer. This rate must include the costs that would be incurred if the large-load customer terminates an agreement with the electric utility pertaining to the sale of electric energy or otherwise ceases the purchase of energy from the electric utility.\nUnder the standard, an electric utility must require the large-load customer to provide to the utility financial assurances or contributions to cover the cost of any generation, transmission, or distribution upgrade that is necessary to serve the load of a large-load customer before the utility makes any generation, transmission, or distribution upgrade.",
       "summaryDate": "2026-09-14T13:21:03Z",
       "congressUpdatedAt": "2026-11-13T17:27:32Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6425": {
       "id": "H.R.6425",
@@ -1061,7 +1061,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:35:25Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5967": {
       "id": "H.R.5967",
@@ -1077,7 +1077,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-16T19:50:18Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6426": {
       "id": "H.R.6426",
@@ -1093,7 +1093,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:23:50Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.5900": {
       "id": "H.R.5900",
@@ -1109,7 +1109,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-11-19T17:23:23Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7215": {
       "id": "H.R.7215",
@@ -1125,7 +1125,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-04-14T08:05:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9578": {
       "id": "H.R.9578",
@@ -1141,7 +1141,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-23T08:06:02Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8170": {
       "id": "H.R.8170",
@@ -1157,7 +1157,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-02T08:05:57Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6879": {
       "id": "H.R.6879",
@@ -1173,7 +1173,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:26:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6875": {
       "id": "H.R.6875",
@@ -1189,7 +1189,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-10T08:05:44Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6996": {
       "id": "H.R.6996",
@@ -1205,7 +1205,7 @@
       "officialSummary": "Full AI Stack Export Promotion Act\nThis bill requires specified departments to promote the export of the U.S. full artificial intelligence (AI) stack. Full AI stack refers to the compute and data infrastructure that enables AI research and development, including high-performance computing resources, data centers, trained algorithms deployed on such infrastructure, cloud services and infrastructure, and technical standards with which these facets operate.\nSpecifically, the Department of Commerce must establish and carry out a program to identify and receive proposals from industry consortia for exporting the U.S. full AI stack to allies and partners. (Commerce implemented this program following a July 2025 executive order.)\nAdditionally, Commerce must\nwork with foreign purchasers of the U.S. full AI stack to institute security measures to prevent illicit or unauthorized foreign adversary (e.g., China) access to the U.S. full AI stack;\ndevelop practices and standards to demonstrate to potential purchasers the benefits of adopting the U.S. full AI stack; and\ncomplete, on a biannual basis for five years, an estimate of the success of exporting the U.S. full AI stack.\nThe bill directs the Department of State to\nincrease efforts to eliminate foreign barriers to exporting the U.S. full AI stack;\nestablish a diplomatic strategy outlining how the United States will address certain issues, such as communicating to foreign countries the importance and benefits of using the U.S. full AI stack to deploy AI; and\nstudy the benefits and impact of the global deployment of AI.\nThe bill also requires certain reports to Congress.",
       "summaryDate": "2026-09-03T16:52:32Z",
       "congressUpdatedAt": "2026-09-19T23:21:51Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.4920": {
       "id": "H.R.4920",
@@ -1221,7 +1221,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:22:15Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.4505": {
       "id": "H.R.4505",
@@ -1237,7 +1237,7 @@
       "officialSummary": "Export Controls Enforcement Act\nThis bill provides statutory authority for the Export Control Officer Program. Under the program, export control officers assist in monitoring the compliance of transactions subject to the Export Administration Regulations outside the United States to prevent and detect illicit diversion to unauthorized end uses, end users, or destinations.\nSpecifically, the bill directs the Department of Commerce's Bureau of Industry and Security (BIS) to establish the program for five years and station at least 20 export control officers at U.S. diplomatic or consular posts. The bill also outlines the duties of export control officers.\nAdditionally, BIS must appoint a director to lead the program.",
       "summaryDate": "2026-07-27T13:39:39Z",
       "congressUpdatedAt": "2026-09-19T23:21:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.7003": {
       "id": "H.R.7003",
@@ -1253,7 +1253,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:22:22Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8287": {
       "id": "H.R.8287",
@@ -1269,7 +1269,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:24:00Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8285": {
       "id": "H.R.8285",
@@ -1285,7 +1285,7 @@
       "officialSummary": "Protecting American Competition Act of 2026\nThis bill establishes additional requirements for the Department of Commerce's Bureau of Industry and Security (BIS) to review applications for export licenses and establishes related reporting requirements.\nSpecifically, the bill directs BIS, when reviewing an application for a license or other authorization for the export, reexport, or in-country transfer of controlled items, to consider whether the requested license or other authorization would be the initial license or other authorization for the export, reexport, or in-country transfer of the item to an ultimate consignee or end user.\nAfter issuing an initial license or other authorization, BIS must attempt to administer in a timely manner any subsequent license application by a different applicant for the same or a similar item to the same ultimate consignee or end user as the initial license.\nThe bill requires BIS to submit annual reports to specified congressional committees on initial licenses granted by BIS. Additionally, BIS must report to Congress on how it is implementing the bill's provisions.",
       "summaryDate": "2026-07-29T19:14:47Z",
       "congressUpdatedAt": "2026-09-19T23:21:34Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.6058": {
       "id": "H.R.6058",
@@ -1301,7 +1301,7 @@
       "officialSummary": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement Act or the STRIDE Act\nThis bill requires the Department of State to coordinate with the governments of other countries to prevent the Chinese Communist Party and other foreign adversaries from acquiring critical semiconductor technologies.\nSpecifically, the State Department must coordinate actions with governments of countries (partner countries) that maintain significant capabilities in semiconductor technology research, design, manufacturing, materials, equipment, or equipment subsystems and components.\nAmong other coordination objectives, the State Department must seek to achieve (1) alignment of export control policies regarding semiconductor technology manufacturing equipment and the critical subcomponents needed to produce such equipment; and (2) expanded restrictions on semiconductor technology design tools, intellectual property transfers, equipment servicing, and technical assistance that could enable semiconductor technology development capabilities in North Korea, China, Russia, or Iran.\nThe State Department must regularly assess the extent to which partner countries are implementing measures consist with U.S. policy described by the bill. If the State Department determines a partner country is not sufficiently implementing security measures, then the State Department must take specified actions, such as requesting that the Department of Commerce convene a meeting of the Export Administration Review Board (EARB) to identify and execute a plan of action. Further, the State Department must provide recommendations to the EARB to apply foreign direct product rule restrictions to semiconductor technology produced in the non-cooperating partner country that incorporates U.S.-origin technology, software, or equipment.\nFinally, the State Department must report to Congress every 90 days.",
       "summaryDate": "2026-10-21T13:08:43Z",
       "congressUpdatedAt": "2026-10-21T13:08:47Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.4278": {
       "id": "H.R.4278",
@@ -1317,7 +1317,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-07-31T19:39:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8283": {
       "id": "H.R.8283",
@@ -1333,7 +1333,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:41:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8169": {
       "id": "H.R.8169",
@@ -1349,7 +1349,7 @@
       "officialSummary": "Export Control Enforcement and Enhancement Act\nThis bill allows for expedited consideration of modifications to the Entity List. (The Entity List is managed by the Department of Commerce's Bureau of Industry and Security. The list identifies the names of persons who are involved, or have the potential to be involved, in activities contrary to U.S. national security or foreign policy interests.)\nSpecifically, the bill allows any member of the End-User Review Committee to submit proposals directly to the full committee requesting a vote for additions to, removals from, or other modifications with respect to the Entity List. Generally, within 30 days of receiving a proposal, the committee must vote to approve or disapprove the proposal.\nGenerally, the bill establishes a presumption of denial for a license application to export, reexport, or in-country transfer controlled items that involves a foreign person added to the Entity List under the authorities provided by this bill.",
       "summaryDate": "2026-07-28T13:29:16Z",
       "congressUpdatedAt": "2026-09-19T23:22:34Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.2683": {
       "id": "H.R.2683",
@@ -1365,7 +1365,7 @@
       "officialSummary": "Remote Access Security Act\nThis bill broadens the scope of the U.S. export control system to include remote access of items. Remote access means (1) access to an item subject to the jurisdiction of the United States by a foreign person through a network connection, including the internet or a cloud computing service, from a location other than where the item is physically located; or (2) any other form of access specified in regulations promulgated by the Department of Commerce.\nThe Export Control Reform Act of 2018 (ECRA), which is implemented through the Export Administration Regulations, provides a permanent statutory basis for controlling the export of dual-use goods (e.g., items with both civilian and military uses) and certain military parts and components. This bill applies export controls under ECRA to remote access of items, thereby allowing Commerce's Bureau of Industry and Security to issue licenses and impose penalties related to remote access of controlled items.",
       "summaryDate": "2026-01-12T13:50:38Z",
       "congressUpdatedAt": "2026-07-13T20:09:53Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.3633": {
       "id": "H.R.3633",
@@ -1381,7 +1381,7 @@
       "officialSummary": "Digital Asset Market Clarity Act of 2025 or the CLARITY Act of 2025\nThis bill establishes a regulatory framework for digital commodities, defined by the bill as digital assets that rely upon a blockchain for their value.\nThe Commodity Futures Trading Commission must generally regulate digital commodities transactions, including digital commodity exchanges, brokers, and dealers. To qualify for trade on an exchange (1) a digital commodity’s blockchain must be mature, or on a blockchain system that has achieved decentralized control as defined by the bill; or (2) the issuer of the digital commodity must file certain reports. The bill establishes requirements for trade monitoring, recordkeeping, and the commingling of customer assets.  \nThe bill exempts digital commodities on mature blockchains (and digital commodities on blockchains expected to mature within certain timeframes) from Securities and Exchange Commission (SEC) registration requirements if annual sales fall under a certain amount and other requirements are met. The bill provides the SEC with jurisdiction over digital commodity activities and transactions engaged in by certain brokers and dealers on alternative trading systems and by national securities exchanges. \nDigital commodity exchanges, brokers, and dealers are subject to the Bank Secrecy Act for anti-money laundering and related purposes.\nThe bill also sets forth requirements for alternative trading systems, previously issued digital commodities, and provisional registration until the bill is implemented.  \nFor more information on this bill, see CRS Insight IN12583, Crypto Legislation: An Overview of H.R. 3633, the CLARITY Act.",
       "summaryDate": "2025-07-14T21:21:33Z",
       "congressUpdatedAt": "2026-09-17T17:09:18Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9151": {
       "id": "H.R.9151",
@@ -1397,7 +1397,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-06T08:05:55Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9546": {
       "id": "H.R.9546",
@@ -1413,7 +1413,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-07-13T19:08:04Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9925": {
       "id": "H.R.9925",
@@ -1429,7 +1429,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-02T08:05:53Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9914": {
       "id": "H.R.9914",
@@ -1445,7 +1445,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-16T08:05:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.8462": {
       "id": "H.R.8462",
@@ -1461,7 +1461,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-19T23:32:36Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.9646": {
       "id": "H.R.9646",
@@ -1477,7 +1477,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-26T20:56:28Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.10362": {
       "id": "H.R.10362",
@@ -1493,7 +1493,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-16T08:05:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "H.R.10873": {
       "id": "H.R.10873",
@@ -1509,7 +1509,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-10T14:15:24Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2117": {
       "id": "S.2117",
@@ -1525,7 +1525,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-12-05T22:52:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2081": {
       "id": "S.2081",
@@ -1541,7 +1541,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1875": {
       "id": "S.1875",
@@ -1557,7 +1557,7 @@
       "officialSummary": "Streamlining Federal Cybersecurity Regulations Act of 2025\nThis bill establishes an interagency committee to review and align cybersecurity regulations and requirements imposed by executive agencies.\nThe committee, to be led and administered by the Office of the National Cyber Director, must include the heads of each executive agency with statutory authority to enforce mandatory cybersecurity requirements. Agencies must generally consult with the committee before promulgating or amending cybersecurity requirements.\nThe committee must develop a regulatory framework for the harmonization of agencies’ cybersecurity requirements. Under the bill, harmonization means the alignment of cybersecurity requirements to consist of a common set of minimum requirements that are applicable across sectors and sector-specific requirements as necessary. Specifically, the framework must contain processes for (1) establishing a reciprocal compliance mechanism for minimum requirements applicable to entities regulated by more than one agency; and (2) identifying and developing recommendations to address cybersecurity requirements that are overly burdensome, inconsistent, or contradictory. In developing this framework, the committee must seek public comment and consult with industry experts and stakeholders.\nOnce the framework is developed and published, the committee must select agencies to carry out a pilot program to apply the framework to a sampling of their cybersecurity requirements.\nIn consultation with the committee, the Office of Management and Budget must issue guidance to federal agencies on coordinating with the committee and, after the pilot program is complete, on ensuring cybersecurity requirements are consistent with the framework and lessons learned from the pilot program.",
       "summaryDate": "2026-02-24T15:52:32Z",
       "congressUpdatedAt": "2026-02-24T15:56:24Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1837": {
       "id": "S.1837",
@@ -1573,7 +1573,7 @@
       "officialSummary": "Disrupt Explicit Forged Images And Non-Consensual Edits Act of 2025 or the DEFIANCE Act of 2025\nThis bill expands civil remedies for the nonconsensual disclosure of intimate images (i.e., nonconsensual pornography). The bill also establishes a new federal civil action for nonconsensual conduct involving intimate digital forgeries (i.e., deepfakes). The term intimate digital forgery means any intimate visual depiction of an identifiable individual created using software, machine learning, artificial intelligence, or other computer-generated or technological means that looks authentic.\nWith respect to the nonconsensual disclosure of intimate images, current law allows an identifiable individual to recover civil remedies, including litigation costs, damages, and injunctive relief. This bill increases the available damages by allowing the individual to recover punitive damages and by including, as part of actual damages, profits of the defendant that are attributable to the conduct at issue.\nThe bill also allows an identifiable individual who is the subject of an intimate digital forgery to file a federal civil action against anyone who knowingly discloses, produces or possesses with intent to disclose, or solicits and receives the intimate digital forgery without the individual's consent. Under the bill, the identifiable individual may recover the same expanded civil remedies that are available for the nonconsensual disclosure of intimate images.\nFinally, the bill establishes a 10-year statute of limitations for filing civil actions involving nonconsensual intimate digital forgeries or nonconsensual disclosure of intimate images. The statute begins to run when the individual discovers the violation or turns 18, whichever is later.",
       "summaryDate": "2026-07-06T20:24:41Z",
       "congressUpdatedAt": "2026-08-10T11:58:35Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1775": {
       "id": "S.1775",
@@ -1589,7 +1589,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-12-05T22:07:26Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1746": {
       "id": "S.1746",
@@ -1605,7 +1605,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:09:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1699": {
       "id": "S.1699",
@@ -1621,7 +1621,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-02T11:03:20Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1705": {
       "id": "S.1705",
@@ -1637,7 +1637,7 @@
       "officialSummary": "Chip Security Act\nThis bill requires covered integrated circuit products (e.g., advanced computing chips) to incorporate certain security mechanisms.\nSpecifically, the bill directs the Department of Commerce to require any covered integrated circuit product to have chip security mechanisms that implement location verification before the product is exported, reexported, or in-country transferred to or in a foreign country.\nCommerce must require any person that has received a license or other authorization under the Export Control Reform Act of 2018 to export, reexport, or in-country transfer a covered product to promptly report to Commerce's Bureau of Industry and Security if the person obtains credible information that the product has been diverted away from its intended location or has been subjected to tampering.\nCommerce must, in coordination with the Department of Defense (DOD), conduct an assessment and report to Congress on whether additional chip security mechanisms should be adopted. If Commerce determines additional security measures are necessary, then Commerce must require any covered product to include the secondary chip security mechanisms before the product is exported, reexported, or in-country transferred to or in a foreign country.\nThe bill authorizes Commerce to take certain enforcement actions, such as verifying the ownership and location of a covered product that has been exported, reexported, or in-country transferred to or in a foreign country.\nCommerce must coordinate with DOD, within two years of the bill's enactment and annually thereafter for three years, to assess new chip security mechanisms and report to Congress.",
       "summaryDate": "2026-07-23T16:27:54Z",
       "congressUpdatedAt": "2026-11-17T12:03:42Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1638": {
       "id": "S.1638",
@@ -1653,7 +1653,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1473": {
       "id": "S.1473",
@@ -1669,7 +1669,7 @@
       "officialSummary": "Stop Stealing our Chips Act\nThis bill creates a whistleblower incentive program and establishes whistleblower protections for individuals who provide information to the Department of Commerce's Bureau of Industry and Security (BIS) related to violations of U.S. export control laws. \nCurrently, BIS administers and enforces controls on the export of dual-use goods (e.g., items with both civilian and military uses) and certain military parts and components. These export controls are implemented primarily under the Export Control Reform Act of 2018 (ECRA) through the Export Administration Regulations.\nUnder the bill, BIS must establish a whistleblower incentive program to reward individuals who voluntarily report original information that results in BIS imposing fines under ECRA on persons that violate, attempt to violate, conspire to violate, or cause a violation of ECRA or any related regulation, order, license, or authorization.\nAdditionally, BIS must establish a secure online portal for whistleblowers to report violations of ECRA. The bill outlines requirements for BIS to review, investigate, and provide status updates related to these reports.\nThe bill authorizes BIS to pay an award to any whistleblower who voluntarily reported original information that led to the imposition of a fine under ECRA. The bill establishes the Export Compliance Accountability Fund for paying these awards and funding related activities.\nThe bill also sets forth whistleblower protections by (1) prohibiting retaliation against individuals who act as whistleblowers, and (2) establishing confidentiality requirements.",
       "summaryDate": "2026-02-25T19:13:11Z",
       "congressUpdatedAt": "2026-07-18T20:50:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1367": {
       "id": "S.1367",
@@ -1685,7 +1685,7 @@
       "officialSummary": "Nurture Originals, Foster Art, and Keep Entertainment Safe Act of 2025 or the NO FAKES Act of 2025\nThis bill creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness.\nSpecifically, the bill gives each individual or right holder the right to authorize the use of the individual's voice or visual likeness (1) in a digital replica, or (2) for a product or service requiring authorization to avoid liability under the bill. This property right is not assignable during the individual’s lifetime but is licensable and does not expire upon the death of the individual.\nGenerally, any individual or entity that engages in specified prohibited activities (e.g., distributing a digital replica without authorization) shall be liable in a civil action and subject to related penalties. The bill exempts specified uses from liability, such as categories of conduct likely to involve protected speech under the First Amendment (e.g., news reporting, sports broadcasts, and satire).\nThe bill establishes a notice-and-takedown process for unauthorized digital replicas. The bill establishes penalties related to false or deceptive notice.\nThe bill expressly preempts state laws related to digital replicas except for causes of action under state statutes or common law in existence as of January 2, 2025.",
       "summaryDate": "2026-07-21T17:46:55Z",
       "congressUpdatedAt": "2026-08-10T11:58:36Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1397": {
       "id": "S.1397",
@@ -1701,7 +1701,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-10-09T03:26:15Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1343": {
       "id": "S.1343",
@@ -1717,7 +1717,7 @@
       "officialSummary": "Advancing Quantum Manufacturing Act of 2025\nThis bill requires certain agencies to coordinate and support activities to advance quantum information science.\nSpecifically, the National Quantum Coordination Office must establish a liaison between the Department of Energy and the National Science Foundation to coordinate activities under the National Quantum Initiative Program. The National Academies of Sciences, Engineering, and Medicine must report on the program's progress, and the National Institute of Standards and Technology (NIST) quantum consortium must report on impediments to collaboration under the program. \nThe bill also requires NIST to establish or support a Manufacturing USA institute that focuses on manufacturing processes and the related workforce for quantum computing and technology. (Manufacturing USA is a network of research institutes that collaborate to develop advanced manufacturing technologies.)",
       "summaryDate": "2026-11-18T20:07:34Z",
       "congressUpdatedAt": "2026-11-18T20:08:29Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1378": {
       "id": "S.1378",
@@ -1733,7 +1733,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1337": {
       "id": "S.1337",
@@ -1749,7 +1749,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-07-10T11:03:21Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1344": {
       "id": "S.1344",
@@ -1765,7 +1765,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1331": {
       "id": "S.1331",
@@ -1781,7 +1781,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-08-06T03:41:15Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1346": {
       "id": "S.1346",
@@ -1797,7 +1797,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-05-23T13:56:57Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1290": {
       "id": "S.1290",
@@ -1813,7 +1813,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1269": {
       "id": "S.1269",
@@ -1829,7 +1829,7 @@
       "officialSummary": "Promoting United States Leadership in Standards Act of 2025\nThis bill requires the National Institute of Standards and Technology (NIST) to support U.S. involvement in the development of standards for artificial intelligence (AI) and other critical and emerging technologies through briefings, pilot programs, and other activities. NIST must carry out these activities in coordination with the Department of State.\nSpecifically, NIST must (1) brief Congress on opportunities for the federal government to support industry-led efforts to develop technical standards for AI and other critical and emerging technologies, (2) establish a web portal to inform U.S. industries and federal agencies of international efforts and opportunities to develop such standards, and (3) establish a five-year pilot program and award associated grants to support stakeholder meetings in the U.S. on developing such standards.",
       "summaryDate": "2026-10-23T15:44:01Z",
       "congressUpdatedAt": "2026-10-23T15:46:02Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1213": {
       "id": "S.1213",
@@ -1845,7 +1845,7 @@
       "officialSummary": "Protect Elections from Deceptive AI Act\nThis bill prohibits the distribution of materially deceptive audio or visual media that is generated by artificial intelligence (AI) relating to federal candidates.\nThe bill generally prohibits individuals, political committees, and other entities from knowingly distributing materially deceptive AI-generated audio or visual media in carrying out a federal election activity or of a federal candidate for the purpose of (1) influencing an election, or (2) soliciting funds. This prohibition does not apply to certain entities, such as radio or television broadcasting stations that broadcast such media with disclosures as part of a bona fide newscast.\nThe bill also permits a federal candidate whose voice or likeness appears in such materially deceptive AI-generated audio or visual media to bring a civil action for injunctive relief or damages.",
       "summaryDate": "2025-07-01T20:45:35Z",
       "congressUpdatedAt": "2025-12-05T21:39:24Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.579": {
       "id": "S.579",
@@ -1861,7 +1861,7 @@
       "officialSummary": "Department of Energy Quantum Leadership Act of 2025\nThis bill modifies and reauthorizes various Department of Energy (DOE) programs related to quantum research and development and establishes several new, related research programs.\nSpecifically, the bill expands the scope of DOE’s quantum information science research program to include research, development, and demonstration on quantum information science, engineering, and technology. Among other requirements, DOE must (1) establish an early-stage research and development program in high-performance quantum computing; (2) study quantum science, engineering, and technology supply chain needs; and (3) establish a university-led trainee program to address quantum workforce development needs.\nThe bill also reauthorizes the National Quantum Information Science Research Centers and the Quantum User Expansion for Science and Technology program through FY2030. Further, the bill modifies DOE’s quantum network infrastructure program to require research related to the development of (1) quantum network and entanglement distribution protocols or applications, and (2) high-efficiency room-temperature photon detectors for quantum photonic applications.\nFinally, the bill establishes an instrumentation and infrastructure program to maintain U.S. leadership in quantum information science, engineering, and technology; develop domestic quantum supply chains; and provide resources for the broader scientific community. In carrying out the program, DOE must develop, design, build, purchase, and commercialize specialized equipment, laboratory infrastructure, and state-of-the-art instrumentation. In coordination with industry and institutions of higher education, DOE must support the development of quantum foundries focused on meeting the device, hardware, software, and materials needs of the scientific community and the quantum supply chain.",
       "summaryDate": "2026-02-05T20:00:00Z",
       "congressUpdatedAt": "2026-09-08T18:09:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.438": {
       "id": "S.438",
@@ -1877,7 +1877,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-04-11T18:47:33Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.321": {
       "id": "S.321",
@@ -1893,7 +1893,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-10T11:51:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.232": {
       "id": "S.232",
@@ -1909,7 +1909,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-18T17:00:10Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2153": {
       "id": "S.2153",
@@ -1925,7 +1925,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-10T11:51:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2367": {
       "id": "S.2367",
@@ -1941,7 +1941,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-10T11:58:45Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2381": {
       "id": "S.2381",
@@ -1957,7 +1957,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2528": {
       "id": "S.2528",
@@ -1973,7 +1973,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-20T22:26:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2615": {
       "id": "S.2615",
@@ -1989,7 +1989,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-10T22:44:00Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2750": {
       "id": "S.2750",
@@ -2005,7 +2005,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2714": {
       "id": "S.2714",
@@ -2021,7 +2021,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2164": {
       "id": "S.2164",
@@ -2037,7 +2037,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3319": {
       "id": "S.3319",
@@ -2053,7 +2053,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-01-15T04:09:36Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4407": {
       "id": "S.4407",
@@ -2069,7 +2069,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:10:03Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3062": {
       "id": "S.3062",
@@ -2085,7 +2085,7 @@
       "officialSummary": "Guidelines for User Age-verification and Responsible Dialogue Act of 2026 or the GUARD Act\nThis bill establishes requirements for and limitations on entities that provide publicly available artificial intelligence (AI) chatbots, including AI companions.\nUnder the bill, an AI chatbot is an application or program that simulates human conversation by generating responses to user prompts. An AI companion is a type of AI chatbot that simulates a sustained interpersonal relationship or emotional interaction with the user.\nThe bill makes it a federal crime to provide an AI chatbot that exposes minors to sexual content or encourages minors to commit suicide or carry out nonsuicidal self-injury, unlawful physical or sexual violence, or homicide. A violation is subject to a criminal fine of up to $250,000 per offense.\nAdditionally, the bill prohibits minors from accessing AI companions. Under the bill, an entity that provides an AI chatbot must require each individual who accesses an AI companion to set up a user account and must also verify that the user is an adult. A violation is subject to a civil penalty of up to $250,000 per violation.\nFinally, the bill requires an AI chatbot that is publicly available to disclose that the AI chatbot is not a human and is not a licensed professional (e.g. doctor, lawyer, or therapist). A violation is subject to a civil penalty of up to $250,000 per violation.",
       "summaryDate": "2026-10-05T15:42:52Z",
       "congressUpdatedAt": "2026-10-05T15:55:51Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3809": {
       "id": "S.3809",
@@ -2101,7 +2101,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-12T21:57:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4414": {
       "id": "S.4414",
@@ -2117,7 +2117,7 @@
       "officialSummary": "Literacy in Future Technologies Artificial Intelligence Act or the LIFT AI Act\nThis bill authorizes the National Science Foundation to make merit-based grants to institutions of higher education, nonprofit organizations, and consortia of such entities to support artificial intelligence (AI) literacy for K-12 students and educators. Grants may be used for research and development of educational curricula, instructional material, professional development for teachers, and evaluation methods for AI literacy at the K-12 level.",
       "summaryDate": "2026-09-01T19:54:44Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3957": {
       "id": "S.3957",
@@ -2133,7 +2133,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3682": {
       "id": "S.3682",
@@ -2149,7 +2149,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:09:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1633": {
       "id": "S.1633",
@@ -2165,7 +2165,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3952": {
       "id": "S.3952",
@@ -2181,7 +2181,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4213": {
       "id": "S.4213",
@@ -2197,7 +2197,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-02T11:03:21Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4855": {
       "id": "S.4855",
@@ -2213,7 +2213,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4825": {
       "id": "S.4825",
@@ -2229,7 +2229,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-01T16:27:20Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4833": {
       "id": "S.4833",
@@ -2245,7 +2245,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-07-15T15:32:16Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4695": {
       "id": "S.4695",
@@ -2261,7 +2261,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-10T11:51:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4214": {
       "id": "S.4214",
@@ -2277,7 +2277,7 @@
       "officialSummary": "Artificial Intelligence Data Center Moratorium Act\nThis bill prohibits building or upgrading artificial intelligence (AI) data centers until laws regulating AI and AI data centers are enacted. It also restricts the export of AI-related computing hardware to countries without similar laws in effect.\nSpecifically, no AI data center may be constructed or upgraded until laws are enacted (1) subjecting AI products to prerelease federal review and approval for safety and effectiveness, and (2) ensuring that AI-related economic gains benefit workers and the people of the United States (including by preventing AI-related job loss). \nFurther, with respect to AI data centers built or upgraded after the moratorium ends, these laws must ensure\nsuch centers do not increase consumers’ utility bills and do not harm the environment;\naffected communities are empowered to approve or reject construction or upgrades;\nsuch centers create union jobs subject to labor standards; and\nno government subsidy is provided for the construction, upgrade, or operation of such centers.\nUnder the bill, the term AI data center includes collocated structures and equipment under common ownership or control used for AI development or operation that meet certain power and design specifications.\nAdditionally, the Department of Commerce must prohibit the export, reexport, or in-country transfer of specified computing hardware for AI-related use to any country that does not have comparable laws or regulations in effect.\nFinally, the Department of Energy must periodically report on AI data centers’ funding sources, energy and water use, and labor.",
       "summaryDate": "2026-08-31T17:55:20Z",
       "congressUpdatedAt": "2026-11-17T17:27:45Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2938": {
       "id": "S.2938",
@@ -2293,7 +2293,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-07T15:09:56Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3813": {
       "id": "S.3813",
@@ -2309,7 +2309,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-10T11:51:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4915": {
       "id": "S.4915",
@@ -2325,7 +2325,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1396": {
       "id": "S.1396",
@@ -2341,7 +2341,7 @@
       "officialSummary": "Content Origin Protection and Integrity from Edited and Deepfaked Media Act of 2025\nThis bill requires certain tools used to create or modify digital content, including artificial intelligence (AI), to allow users to embed in such content information documenting its origin and history. This is known as content provenance information. The bill also prohibits the removal or alteration of content provenance information in certain circumstances.\nSpecifically, tools used for the primary purpose of creating or significantly modifying content via algorithms, or  creating or substantially modifying digital representations of copyrighted work, must allow users to include content provenance information in the resulting digital content.\nFurther, the bill prohibits certain large websites and applications (e.g., social media applications) from removing, altering, tampering with, or disabling content provenance information; and it prohibits any individual or entity from taking such actions in furtherance of an unfair or deceptive act in commerce.\nFinally, the bill prohibits certain commercial uses of digital representations of copyrighted work that has associated content provenance information without the consent of the work’s owner. Specifically, such representations may not be used to (1) train a system that uses AI or an algorithm, or (2) create algorithmically generated or modified content.\nThe bill provides for enforcement by the Federal Trade Commission and state attorneys general (or other authorized state officials). Owners of digital representations of copyrighted content with associated content provenance information may also bring suit to enforce violations related to their content.",
       "summaryDate": "2026-02-23T19:57:24Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4656": {
       "id": "S.4656",
@@ -2357,7 +2357,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-06-17T20:04:00Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4991": {
       "id": "S.4991",
@@ -2373,7 +2373,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:09:59Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5054": {
       "id": "S.5054",
@@ -2389,7 +2389,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-02T11:03:21Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5051": {
       "id": "S.5051",
@@ -2405,7 +2405,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5061": {
       "id": "S.5061",
@@ -2421,7 +2421,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5057": {
       "id": "S.5057",
@@ -2437,7 +2437,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-11T13:59:48Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5055": {
       "id": "S.5055",
@@ -2453,7 +2453,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-11T17:38:38Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5358": {
       "id": "S.5358",
@@ -2469,7 +2469,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-08-19T18:53:27Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5130": {
       "id": "S.5130",
@@ -2485,7 +2485,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.278": {
       "id": "S.278",
@@ -2501,7 +2501,7 @@
       "officialSummary": "Kids Off Social Media Act\nThis bill limits children’s access to social media platforms and requires both platforms and schools to implement certain restrictions on children’s social media usage. \nSpecifically, the bill prohibits social media platforms from knowingly allowing children under the age of 13 to create or maintain accounts. Platforms must delete existing accounts held by children and any personal data collected from child users. Platforms are also generally prohibited from using automated systems to suggest or promote content based on personal data collected from users under the age of 17. The bill directs the Federal Trade Commission to enforce these provisions. States may also bring civil actions against platforms whose violations of these provisions have adversely affected their residents. \nFurther, as a condition of receiving discounted telecommunications service under the Schools and Libraries Universal Service Support (E-Rate) program, schools must enforce policies preventing the use of E-Rate-supported services, networks, and devices to access social media, and must use blocking or filtering technology to prevent such access. Schools that do not make a good faith effort to comply and correct known violations are required to reimburse any E-Rate support they received for the applicable period. Schools must also submit copies of their internet safety policies to the Federal Communications Commission for publication. \nUnder the bill, social media platforms are defined as public-facing sites that function primarily as forums for user-generated content. Some categories of online platforms are explicitly excluded, including sites that provide primarily videoconferencing, emailing, or educational services.",
       "summaryDate": "2025-03-14T18:48:51Z",
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5090": {
       "id": "S.5090",
@@ -2517,7 +2517,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:03:40Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5105": {
       "id": "S.5105",
@@ -2533,7 +2533,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-04T16:38:50Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5187": {
       "id": "S.5187",
@@ -2549,7 +2549,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-20T21:18:55Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5171": {
       "id": "S.5171",
@@ -2565,7 +2565,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:10:03Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4199": {
       "id": "S.4199",
@@ -2581,7 +2581,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-08T18:10:03Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.1748": {
       "id": "S.1748",
@@ -2597,7 +2597,7 @@
       "officialSummary": "Kids Online Safety Act\nThis bill requires covered online platforms, including social media platforms, to implement tools and safeguards to protect users and visitors under the age of 17. Covered platforms are online platforms, video games, messaging applications, or video streaming services used or likely to be used by individuals under the age of 17, with specified exceptions. \nThe bill generally requires covered platforms to exercise reasonable care in the design and use of features that increase minors’ online activity in order to prevent and mitigate harm to minors (e.g., mental health disorders and severe harassment).  \nCovered platforms are also required to provide certain safeguards to minors, such as protections for minors’ data; tools for parents of minors, such as access to minors’ privacy settings; and a mechanism for account holders and visitors to report harm to minors on the platform. \nCovered platforms are prohibited from conducting market or product research on children under the age of 13, and may only conduct such research on those under the age of 17 with parental consent. \nThe bill provides for enforcement through the Federal Trade Commission and states. \nThe bill also requires online platforms to meet certain requirements before using algorithms that select, order, or prioritize information presented to users based on user-specific data not provided for that purpose. Specifically, such platforms must (1) provide users with notice of the use of such algorithms, and (2) permit users to switch to an algorithm that does not rely on such user-specific data.",
       "summaryDate": "2025-08-05T16:35:06Z",
       "congressUpdatedAt": "2026-11-17T12:03:42Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.737": {
       "id": "S.737",
@@ -2613,7 +2613,7 @@
       "officialSummary": "Shielding Children's Retinas from Egregious Exposure on the Net Act or the SCREEN ActThis bill establishes age-verification requirements for commercial interactive computer services (e.g., websites) that make available content that is harmful to minors (e.g., content that appeals to the prurient interest in nudity or sex,  is obscene, or is child pornography).Specifically, the bill requires such services to adopt and utilize technology verification measures to ensure that (1) users of the service are not minors, and (2) minors are prevented from accessing any content on the service that is harmful to minors.Additionally, such services must (1) use the technology to verify a user's age; (2) publish the verification process that the service uses; and (3) subject users' Internet Protocol (IP) addresses, including known virtual proxy network (VPN) IP addresses, to the technology verification measures, unless the service determines a user is not located within the United States.Covered services also must implement data security measures to protect information about individuals collected through the verification process.The Federal Trade Commission must conduct regular audits of such services, issue guidance, and otherwise enforce the requirements of this bill.",
       "summaryDate": "2025-08-12T19:52:44Z",
       "congressUpdatedAt": "2026-11-17T20:41:54Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4749": {
       "id": "S.4749",
@@ -2629,7 +2629,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-09-17T17:43:09Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.5648": {
       "id": "S.5648",
@@ -2645,7 +2645,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-10-20T16:45:25Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3150": {
       "id": "S.3150",
@@ -2661,7 +2661,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-12-09T20:09:24Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.4281": {
       "id": "S.4281",
@@ -2677,7 +2677,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-11T12:03:35Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3519": {
       "id": "S.3519",
@@ -2693,7 +2693,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-19T12:03:39Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.3597": {
       "id": "S.3597",
@@ -2709,7 +2709,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2026-11-21T21:26:34Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     },
     "S.2558": {
       "id": "S.2558",
@@ -2725,7 +2725,7 @@
       "officialSummary": "",
       "summaryDate": null,
       "congressUpdatedAt": "2025-09-18T20:15:41Z",
-      "verifiedAt": "2026-11-23T03:09:43.195Z"
+      "verifiedAt": "2026-11-23T03:26:08.202Z"
     }
   }
 }
