@@ -12,7 +12,7 @@ There's a light/dark toggle, and image exports follow the selected appearance. Y
 
 ## Access
 
-Atlas opens with a password screen and remembers access for the current browser session. This is a browser-based gate for a static GitHub Pages site; the repository and data files remain public. It is not server-side authentication.
+The live GitHub Pages site currently has a browser-based password screen. The repository and data files remain public. I've also prepared a server implementation that checks access before serving the app or data, using signed session cookies. It is not deployed yet. Keeping the same URL requires routing `/atlas/` through that server and closing the other public data copies. Setup and the remaining steps are in [Protected hosting](docs/PROTECTED-HOSTING.md).
 
 ## Run it locally
 
@@ -45,6 +45,8 @@ npm test
 ```
 
 They cover the bill data, filters, counts, engagement links, exports, chart links, and server.
+
+`npm run start:secure` starts the protected server after `ATLAS_PASSWORD` is set in its environment. `npm start` remains the local static preview. `npm run audit:trends` checks all chart scopes against the expanded 202-bill dataset, including the 32 reviewed companions; the last audit is saved in `data/trends-audit.json`.
 
 © 2026 Arik Karim
 

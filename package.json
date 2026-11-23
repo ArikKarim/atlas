@@ -8,7 +8,9 @@
     "test": "node --test test.mjs test/*.test.mjs",
     "sync:congress": "node scripts/sync-congress.mjs",
     "discover:congress": "node scripts/discover-congress.mjs",
-    "review:candidates": "node scripts/review-candidates.mjs"
+    "review:candidates": "node scripts/review-candidates.mjs",
+    "start:secure": "node secure-server.mjs",
+    "audit:trends": "node scripts/audit-trends.mjs"
   },
   "engines": {
     "node": ">=24"
