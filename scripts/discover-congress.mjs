@@ -15,7 +15,7 @@ export const scopeRules=[
 ];
 export function plain(value){return String(value||'').replace(/<[^>]*>/g,' ').replace(/&(?:amp|lt|gt|quot|apos|nbsp);/g,v=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'",'&nbsp;':' '}[v])).replace(/\s+/g,' ').trim();}
 export function idFor(bill){const type=String(bill?.type).toLowerCase();return Number(bill?.congress)===119&&['hr','s'].includes(type)&&/^[1-9]\d*$/.test(String(bill.number))?(type==='hr'?'H.R.':'S.')+bill.number:null;}
-export function matches(text,field){return scopeRules.flatMap(([area,re])=>{const match=re.exec(plain(text));return match?[{area,field,term:match[0],excerpt:plain(text).slice(Math.max(0,match.index-90),match.index+180)}]:[];});}
+export function matches(text,field){return scopeRules.flatMap(([area,re])=>{const value=plain(text),match=re.exec(value);if(match&&/^chips?$/i.test(match[0])&&!/\b(?:semiconductor|microelectronic|integrated circuit|computing|chipmaking|chip manufacturing)\b/i.test(value)&&/\b(?:medicaid|medicare|children.?s health insurance|CHIP IN|health care|healthcare|health insurance|medical|dental|maternal)\b/i.test(value))return [];return match?[{area,field,term:match[0],excerpt:plain(text).slice(Math.max(0,match.index-90),match.index+180)}]:[];});}
 export function findCandidates(list,summaries,relations,tracked,decisions={}){
  const known=new Set(normalize(tracked).map(b=>b.id)),byId=new Map();
  for(const bill of list){const id=idFor(bill);if(id&&!known.has(id))byId.set(id,{id,title:plain(bill.title),chamber:String(bill.type).toLowerCase()==='hr'?'House':'Senate',evidence:matches(bill.title,'title'),relatedTo:[],summary:'',summaryDate:null});}

@@ -28,3 +28,8 @@ test('standalone review page safely embeds official text and generates valid bro
  const html=reviewHtml({candidateCount:1,generatedAt:'2026-11-22T12:00:00Z',coverage:{billCount:5,trackedBills:1},candidates:[{id:'S.1',title:'</script><script>bad()</script>',subjects:[],areas:[],evidence:[],relatedTo:[],latestAction:{text:''},decision:'pending'}]});
  assert.ok(!html.includes('</script><script>bad()'));const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];assert.doesNotThrow(()=>new Script(code));assert.ok(html.includes('Export decisions'));assert.ok(html.includes('Include')||html.includes("'include'"));
 });
+
+test('CHIP health insurance and veterans acronyms do not count as semiconductor evidence',()=>{
+ for(const text of ["Expands the Children's Health Insurance Program (CHIP).",'CHIP IN for Veterans Act','Provides medical and dental benefits through CHIP.'])assert.equal(matches(text,'title').length,0);
+ assert.ok(matches('CHIPS Training in America Act','title').length);assert.ok(matches('Medical research on semiconductor chips','summary').length);
+});

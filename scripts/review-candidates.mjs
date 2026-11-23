@@ -11,7 +11,7 @@ export function validateDecisions(input,report){
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  try{const report=await read(new URL('congress-candidates.json',root)),index=process.argv.indexOf('--import');let records={};try{records=(await read(new URL('candidate-decisions.json',root))).records||{};}catch(e){if(e.code!=='ENOENT')throw e;}
  if(index>=0){if(!process.argv[index+1])throw Error('Supply a decisions JSON file');records={...records,...validateDecisions(await read(process.argv[index+1]),report)};await writeFile(new URL('candidate-decisions.json',root),JSON.stringify({schemaVersion:1,congress:119,records},null,2)+'\n');}
- for(const b of report.candidates){b.decision=records[b.id]?.decision||'pending';b.note=records[b.id]?.note||'';}
+ for(const b of report.candidates){const d=records[b.id]?.title===b.title?records[b.id]:null;b.decision=d?.decision||'pending';b.note=d?.note||'';}
  await writeFile(new URL('candidate-review.html',root),reviewHtml(report));await writeFile(new URL('CANDIDATE-REVIEW.md',root),markdownReport(report));console.log('Open data/candidate-review.html. Decisions do not modify the published Tracker.');
  }catch(e){console.error(e.message);process.exitCode=1;}
 }
