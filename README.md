@@ -43,3 +43,7 @@ npm test
 They cover the bill data, filters, counts, engagement links, exports, chart links, and server.
 
 © 2026 Arik Karim
+
+## GitHub Pages
+
+The deployment workflow runs the checks and publishes the contents of public/ whenever I push to main. In the repository's Pages settings, the publishing source should be GitHub Actions. The project URL is https://arikkarim.com/atlas/ because my account's Pages site uses that domain. The hosted site runs entirely in the browser; the Node server is only needed for local use.

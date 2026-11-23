@@ -107,7 +107,7 @@ document.querySelectorAll('[data-view]').forEach(button=>{button.onclick=()=>sho
 window.addEventListener('hashchange',()=>{const state=readPatternsHash(location.hash);showView(state.view,state)});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-bill]');if(b)billDetail(b.dataset.bill)});
 
-try{const response=await fetch('/bills.json');if(!response.ok)throw Error('Source unavailable');raw=await response.json();bills=normalize(raw);showView(readPatternsHash(location.hash).view,readPatternsHash(location.hash))}catch{main.innerHTML='<div class="notice">The tracker data could not be loaded. Restart Atlas and refresh this page.</div>'}
+try{const response=await fetch(new URL('./bills.json',import.meta.url));if(!response.ok)throw Error('Source unavailable');raw=await response.json();bills=normalize(raw);showView(readPatternsHash(location.hash).view,readPatternsHash(location.hash))}catch{main.innerHTML='<div class="notice">The tracker data could not be loaded. Restart Atlas and refresh this page.</div>'}
 
 
 
