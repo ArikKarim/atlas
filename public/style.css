@@ -63,3 +63,17 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 .table-wrap th:nth-child(6){width:196px}
 .tag{display:inline-flex;align-items:center;white-space:nowrap;overflow-wrap:normal;word-break:normal;width:max-content;padding:4px 7px;font-size:12px;line-height:1.4}
 @media(max-width:650px){.table-wrap{max-height:75dvh;min-height:min(420px,75dvh)}}
+
+/* Static-site password entry. */
+[hidden]{display:none!important}
+.password-gate{min-height:100dvh;display:grid;place-items:center;padding:32px 20px;background:var(--bg)}
+.access-card{width:100%;max-width:380px;padding:32px;border:1px solid var(--line);background:var(--surface);border-radius:4px}
+.access-card h1{margin:0 0 10px;font-size:30px;font-weight:650;letter-spacing:-.6px;line-height:1.2}
+.access-card>p{margin:0 0 26px;color:var(--muted);font-size:16px}
+.access-card form label{display:block;margin-bottom:8px;font-size:14px;font-weight:600}
+.access-card input{height:44px;font-size:16px}
+.access-card input[aria-invalid=true]{border-color:var(--ink)}
+.access-error{min-height:22px;margin:8px 0 14px;font-size:14px;color:var(--ink)}
+.access-card button{width:100%;min-height:44px;border:1px solid var(--ink);border-radius:3px;background:var(--ink);color:var(--bg);font-size:16px;font-weight:600}
+.access-card button:hover{opacity:.86}
+.access-card .access-credit{margin:28px 0 0;font-size:13px}

@@ -10,6 +10,10 @@ The **Trends** tab looks at introductions over time, policy focus areas, lead sp
 
 There's a light/dark toggle, and image exports follow the selected appearance. You can also export filtered bill results as CSV.
 
+## Access
+
+Atlas opens with a password screen and remembers access for the current browser session. This is a browser-based gate for a static GitHub Pages site; the repository and data files remain public. It is not server-side authentication.
+
 ## Run it locally
 
 You'll need Node.js 24 or newer. There are no packages to install or build steps to run.
