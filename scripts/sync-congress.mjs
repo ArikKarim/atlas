@@ -27,7 +27,7 @@ export function congressClient(apiKey,{fetchImpl=fetch,sleep=pause}={}){
  if(!apiKey)throw Error('Add the CONGRESS_GOV_API_KEY repository secret before running this sync.');
  async function request(path){
   const url=new URL(path,apiRoot);
-  if(url.origin!=='https://api.congress.gov'||!url.pathname.startsWith('/v3/bill/119/'))throw Error('Unexpected API destination');
+  if(url.origin!=='https://api.congress.gov'||!/^\/v3\/(?:bill|summaries)\/119(?:\/|$)/.test(url.pathname))throw Error('Unexpected API destination');
   url.searchParams.delete('api_key');url.searchParams.set('format','json');url.searchParams.set('limit','250');
   for(let attempt=0;attempt<3;attempt++){
    let response;try{response=await fetchImpl(url,{headers:{'X-Api-Key':apiKey,Accept:'application/json'},redirect:'error',signal:AbortSignal.timeout(20000)});}catch{if(attempt<2){await sleep(1000*(attempt+1));continue;}throw Error('Congress.gov request could not be completed');}
@@ -39,7 +39,7 @@ export function congressClient(apiKey,{fetchImpl=fetch,sleep=pause}={}){
    try{return await response.json();}catch{throw Error('Congress.gov returned an invalid response');}
   }
  }
- async function collection(path,field){let next=path,all=[],seen=new Set();for(let page=0;next&&page<20;page++){
+ async function collection(path,field){let next=path,all=[],seen=new Set();for(let page=0;next&&page<200;page++){
   const key=String(next);if(seen.has(key))throw Error('Repeated API pagination link');seen.add(key);
   const data=await request(next);if(!data||!Array.isArray(data[field]))throw Error(`Missing ${field} response`);
   all.push(...data[field]);next=data.pagination?.next||null;

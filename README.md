@@ -59,3 +59,11 @@ All 170 bills have verified official records. I corrected the AI public-awarenes
 The source dataset is `public/bills.json`, the official snapshot is `public/congress-data.json`, and the review report is `data/congress-sync-report.json`. Bill details show when the official record was checked. If a request fails, Atlas keeps previously verified facts with their original verification date; a completely unsuccessful refresh leaves the last published snapshot intact.
 
 For local refreshes, set `CONGRESS_GOV_API_KEY` in the process environment and run `npm run sync:congress`. No API key is needed to view the site or run the tests.
+
+## Finding bills I may have missed
+
+The daily Congress.gov workflow also builds a candidate review queue. It scans all 119th Congress House and Senate bill titles, available CRS summary versions from the start of the Congress, and related-bill links for bills already in Atlas. The scope includes AI, algorithms, data centers and computing, semiconductors and export controls, grid infrastructure, quantum technology, and privacy. It retrieves official sponsors, actions, and subjects for discovered candidates. It does not search full bill text or scan every bill’s subjects.
+
+I review candidates in `data/candidate-review.html`, a standalone page I can download and open locally. It supports search, policy-area and review filters, evidence, notes, and Include / Exclude / Defer decisions. I can export decisions as JSON or the candidate list as CSV. This review page is kept outside the public site. The current list is also in [data/CANDIDATE-REVIEW.md](data/CANDIDATE-REVIEW.md).
+
+To regenerate the queue locally, set `CONGRESS_GOV_API_KEY` and run `npm run discover:congress`. To save exported decisions in the repository, run `npm run review:candidates -- --import path/to/atlas-candidate-decisions.json`. Decisions are tied to bill IDs and official titles; a changed title needs a new review. Included candidates still need a reviewed update with focus areas, a summary, and separately verified SIIA engagement before they enter the Tracker or Trends. Discovery never writes to the published bill dataset.

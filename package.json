@@ -6,7 +6,9 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test test.mjs test/*.test.mjs",
-    "sync:congress": "node scripts/sync-congress.mjs"
+    "sync:congress": "node scripts/sync-congress.mjs",
+    "discover:congress": "node scripts/discover-congress.mjs",
+    "review:candidates": "node scripts/review-candidates.mjs"
   },
   "engines": {
     "node": ">=24"

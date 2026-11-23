@@ -4,6 +4,9 @@ on:
     branches: [main]
     paths:
       - scripts/sync-congress.mjs
+      - scripts/discover-congress.mjs
+      - scripts/review-page.mjs
+      - data/candidate-decisions.json
       - public/bills.json
       - data/congress-identities.json
       - .github/workflows/congress-sync.yml
@@ -28,14 +31,18 @@ jobs:
         run: npm run sync:congress
         env:
           CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
+      - name: Discover candidate bills for review
+        run: npm run discover:congress
+        env:
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
       - name: Run checks
         run: npm test
       - name: Save public snapshot and review report
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/congress-data.json data/congress-sync-report.json
+          git add public/congress-data.json data/congress-sync-report.json data/congress-candidates.json data/CANDIDATE-REVIEW.md data/candidate-review.html
           if ! git diff --cached --quiet; then
-            git commit -m 'Refresh Congress.gov legislative data'
+            git commit -m 'Refresh Congress.gov records and candidate review queue'
             git push
           fi
