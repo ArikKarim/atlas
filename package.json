@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.mjs",
-    "test": "node --test test.mjs"
+    "test": "node --test test.mjs test/*.test.mjs",
+    "sync:congress": "node scripts/sync-congress.mjs"
   },
   "engines": {
     "node": ">=24"

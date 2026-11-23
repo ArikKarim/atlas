@@ -28,7 +28,7 @@ Chart links use the address where you're running Atlas, so a localhost link only
 
 I started with the spreadsheet I maintained during my fellowship. The imported data contains 173 records, representing 170 distinct bills: 94 in the House and 76 in the Senate. The app combines duplicate bill records for the tracker and charts.
 
-The legislative information reflects that dataset; it doesn't update automatically from Congress.gov. Public SIIA materials are linked for 35 of the 37 bills with recorded engagement.
+I keep the original tracker as my research dataset. Atlas supplements it with verified Congress.gov dates, sponsors, cosponsors, and legislative actions. The official CRS summary appears separately from my own summary in bill details. Public SIIA materials are linked for 35 of the 37 bills with recorded engagement.
 
 ## Working on the code
 
@@ -47,3 +47,13 @@ They cover the bill data, filters, counts, engagement links, exports, chart link
 ## GitHub Pages
 
 The deployment workflow runs the checks and publishes the contents of public/ whenever I push to main. In the repository's Pages settings, the publishing source should be GitHub Actions. The project URL is https://arikkarim.com/atlas/ because my account's Pages site uses that domain. The hosted site runs entirely in the browser; the Node server is only needed for local use.
+
+## Congress.gov updates
+
+I use the Congress.gov API to refresh the tracked bills daily at 11:23 UTC and when I update the sync script or source data. The API key is stored as the GitHub Actions secret `CONGRESS_GOV_API_KEY`; it is never sent to visitors. I can also run **Sync Congress.gov data** manually from the Actions tab. A successful refresh automatically redeploys the site.
+
+Before updating a bill, the sync checks its Congress, bill type, number, and title against the official record and its alternate titles. It ignores differences in punctuation, leading articles, and title years. A mismatch is saved for review instead of replacing the tracked bill with an unrelated record. Focus areas, SIIA engagement, public-material links, and my summaries remain unchanged.
+
+The source dataset is `public/bills.json`, the official snapshot is `public/congress-data.json`, and the review report is `data/congress-sync-report.json`. Bill details show when the official record was checked. If a request fails, Atlas keeps previously verified facts with their original verification date; a completely unsuccessful refresh leaves the last published snapshot intact.
+
+For local refreshes, set `CONGRESS_GOV_API_KEY` in the process environment and run `npm run sync:congress`. No API key is needed to view the site or run the tests.
