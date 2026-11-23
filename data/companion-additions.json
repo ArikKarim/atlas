@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-23T03:52:21.369Z",
+  "scope": "House–Senate counterparts of bills already in Atlas; excludes merely related proposals and same-chamber versions.",
+  "additions": [
+    {
+      "id": "H.R.2794",
+      "title": "NO FAKES Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "summary": "Creates federal protections against unauthorized digital replicas of a person’s voice or likeness, with civil remedies and a notice-and-takedown framework. Includes exceptions for protected expression and certain other uses.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "S.1367",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ],
+      "engagementUrl": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/"
+    },
+    {
+      "id": "H.R.5885",
+      "title": "GAIN AI Act of 2025",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "summary": "Requires exporters seeking licenses to sell advanced AI chips to countries of concern to certify that U.S. customers have priority access to those chips.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "S.3150",
+          "relationship": "Reviewed companion",
+          "evidence": "Matching official titles and policy provisions; reviewed House–Senate counterparts"
+        }
+      ],
+      "engagementUrl": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/"
+    },
+    {
+      "id": "H.R.7434",
+      "title": "AI Grand Challenges Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "summary": "Authorizes the Director of the National Science Foundation to identify grand challenges and award competitive prizes for artificial intelligence research and development.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.3809",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.9442",
+      "title": "Artificial Intelligence Data Center Moratorium Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "AI Regulation & Governance",
+      "summary": "Imposes a moratorium on the construction of new data centers until legislation is enacted that safeguards the public from the dangers of artificial intelligence.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.4214",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.146",
+      "title": "TAKE IT DOWN Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "summary": "Prohibits the nonconsensual publication of intimate images, including AI-generated deepfakes, and requires covered platforms to remove reported material within 48 hours. Establishes criminal penalties and a notice-and-removal process.",
+      "engagement": "Endorsed.",
+      "counterparts": [
+        {
+          "id": "H.R.633",
+          "relationship": "Contained in public law",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ],
+      "engagementUrl": "https://www.siia.net/siia-supports-passage-of-s-146-the-take-it-down-act/"
+    },
+    {
+      "id": "S.1792",
+      "title": "AI Whistleblower Protection Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Frontier AI Safety & Security",
+      "summary": "Prohibits employment discrimination against whistleblowers reporting AI security vulnerabilities or AI violations.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.3460",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.1833",
+      "title": "Leadership in CET Act",
+      "primary": "Intellectual Property",
+      "secondary": "Semiconductors & Advanced Tech",
+      "summary": "Requires the Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office to establish and carry out a pilot program to expedite the examination of applications for certain patents.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.3539",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.3108",
+      "title": "AI-Related Job Impacts Clarity Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "summary": "Directs the Labor Dept./BLS to study and report on AI's impact on U.S. jobs.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.9352",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.4441",
+      "title": "CREATE AI Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "summary": "Establishes the National Artificial Intelligence Research Resource to give eligible U.S. researchers, educators, and students access to AI computing resources, data, tools, and testbeds.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.2385",
+          "relationship": "Reviewed companion",
+          "evidence": "Matching official titles and policy provisions; reviewed House–Senate counterparts"
+        }
+      ]
+    },
+    {
+      "id": "S.4456",
+      "title": "AI OVERWATCH Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "summary": "Requires export licenses and safeguards for advanced AI chips sold to countries of concern, including review of national-security risks and effects on U.S. computing capacity.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "H.R.6875",
+          "relationship": "Reviewed companion",
+          "evidence": "Matching official titles and policy provisions; reviewed House–Senate counterparts"
+        }
+      ],
+      "engagementUrl": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/"
+    },
+    {
+      "id": "S.4591",
+      "title": "NO FAKES Act of 2026",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "summary": "Creates federal protections against unauthorized digital replicas of a person’s voice or likeness. Establishes civil remedies, a notice-and-takedown process, and counter-notification procedures, with exceptions for protected expression.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "H.R.8915",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ],
+      "engagementUrl": "https://www.siia.net/wp-content/uploads/2026/06/2026.06.16-NO_FAKES_Letter-SJC-HJC.pdf"
+    },
+    {
+      "id": "S.4762",
+      "title": "Generative AI Terrorism Risk Assessment Act",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Frontier AI Safety & Security",
+      "summary": "Requires the Secretary of Homeland Security to conduct annual assessments on terrorism threats to the United States posed by terrorist organizations utilizing generative artificial intelligence applications.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.1736",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.1623",
+      "title": "SCREEN Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "summary": "Requires covered commercial websites and services offering material harmful to minors to verify users’ ages and prevent minors from accessing that content. Includes privacy and security requirements and Federal Trade Commission enforcement.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "S.737",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ],
+      "engagementUrl": "https://www.siia.net/wp-content/uploads/2025/12/SIIA-Letter-Online-Privacy-and-Safety-December-18-2025.pdf"
+    },
+    {
+      "id": "H.R.5712",
+      "title": "Quantum LEAP Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "",
+      "summary": "Establishes the Commission on American Quantum Information Science Dominance, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.1746",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.6322",
+      "title": "Stop Stealing our Chips Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "summary": "Amends the Export Control Reform Act of 2018 to establish a whistleblower incentive program and provide protections to whistleblowers.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.1473",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.7218",
+      "title": "CHAT Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "summary": "Requires artificial intelligence chatbots to implement age verification measures and establish certain protections for minor users, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.2714",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.7399",
+      "title": "Kids Off Social Media Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "summary": "Prohibits users who are under age 13 from accessing social media platforms, to prohibit the use of personalized recommendation systems on individuals under age 17, and limit the use of social media in schools.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.278",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.7433",
+      "title": "Kids Off Social Media Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "summary": "Prohibits users who are under age 13 from accessing social media platforms, to prohibit the use of personalized recommendation systems on individuals under age 17, and limit the use of social media in schools.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.278",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.8241",
+      "title": "Power for the People Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "summary": "Promotes the creation of data center load queues and data center-specific rate classes to mitigate the impact of data centers on other electricity consumers, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.3682",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.8623",
+      "title": "GUARD Act",
+      "primary": "Children & Youth",
+      "secondary": "Transparency & Accountability",
+      "summary": "Requires artificial intelligence chatbots to implement age verification measures and make certain disclosures, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.3062",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.9155",
+      "title": "CONSENT Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "summary": "Establishes a private right of action against a person who transmits unsolicited intimate visual depictions.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.4695",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.9825",
+      "title": "Data Center Water and Energy Transparency Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "summary": "Requires data center operators to submit to States or the Administrator of the Environmental Protection Agency and the Secretaries of Energy and Agriculture reports on data center energy and water use, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.4213",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.11015",
+      "title": "PHD Talent Act of 2026",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Standards, Testing & Research",
+      "summary": "Requires the Secretary of Energy to establish a program to strengthen the domestic science and engineering workforce through partnerships among institutions of higher education, National Laboratories, other Federal science agencies, and industry to support accelerated doctoral programs, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "S.5187",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.2049",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "summary": "Amends the National Telecommunications and Information Administration Organization Act to establish the Office of Policy Development and Cybersecurity.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.1766",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.3355",
+      "title": "National Strategy for Combating Scams Act of 2025",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "summary": "Directs an FBI-led federal working group to coordinate a national strategy against scams, including AI-enabled scams.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.6425",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.4821",
+      "title": "STOP Scams Against Seniors Act",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "summary": "Authorizes Byrne-JAG grant funds for elder-justice task forces targeting scams against seniors",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.6426",
+          "relationship": "Identical bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.4840",
+      "title": "Export Control Enforcement and Enhancement Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "summary": "Strengthens U.S. national security by expediting additions to the Commerce Department’s Entity List and restricting foreign access to sensitive American technologies.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.8169",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.5028",
+      "title": "Ratepayer Protection Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "summary": "Amends the Public Utility Regulatory Policies Act of 1978 to establish a Federal standard relating to the recovery of the full, incremental costs of upgrades that serve large-load customers, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.9340",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.5333",
+      "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
+      "primary": "Semiconductors & Advanced Tech",
+      "secondary": "Standards, Testing & Research",
+      "summary": "Requires the Secretary of Commerce, acting through the Assistant Secretary of Commerce for Communications and Information, to develop a plan for how the United States will advance and advocate for Wi-Fi and other unlicensed technologies, and for other purposes.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.9151",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "S.5400",
+      "title": "STRIDE Act",
+      "primary": "Semiconductors & Advanced Tech",
+      "secondary": "Trade & Export Controls",
+      "summary": "Aims to protect global semiconductor supply chains and prevent adversarial nations from acquiring critical technology.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.6058",
+          "relationship": "Related bill",
+          "evidence": "Congress.gov related bills and matching official titles"
+        }
+      ]
+    },
+    {
+      "id": "H.R.6484",
+      "title": "Kids Online Safety Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "summary": "Requires covered online platforms to provide safeguards and parental tools to protect minors, including privacy protections and ways to report harm. Establishes federal and state enforcement responsibilities.",
+      "engagement": "Engaged, not endorsed.",
+      "counterparts": [
+        {
+          "id": "S.1748",
+          "relationship": "Reviewed companion",
+          "evidence": "Matching official titles and policy provisions; reviewed House–Senate counterparts"
+        }
+      ],
+      "engagementUrl": "https://lda.gov/filings/public/filing/2b10815e-ab9c-468a-9404-aac95501b17b/print/"
+    },
+    {
+      "id": "S.5640",
+      "title": "Data Center Transparency Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "summary": "Requires federal reports on data centers’ effects on air and water quality and their electricity consumption, including impacts on residential energy costs.",
+      "engagement": "",
+      "counterparts": [
+        {
+          "id": "H.R.6984",
+          "relationship": "Reviewed companion",
+          "evidence": "Matching official titles and policy provisions; reviewed House–Senate counterparts"
+        }
+      ]
+    }
+  ]
+}

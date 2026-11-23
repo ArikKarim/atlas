@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - scripts/sync-congress.mjs
+      - scripts/add-companions.mjs
+      - data/companion-additions.json
       - scripts/discover-congress.mjs
       - scripts/review-page.mjs
       - data/candidate-decisions.json
@@ -27,6 +29,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
+      - name: Fill reviewed companion additions
+        run: node scripts/add-companions.mjs
+        env:
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
       - name: Refresh verified legislative facts
         run: npm run sync:congress
         env:
@@ -41,7 +47,7 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add public/congress-data.json data/congress-sync-report.json data/congress-candidates.json data/CANDIDATE-REVIEW.md data/candidate-review.html
+          git add public/bills.json data/companion-audit.json public/congress-data.json data/congress-sync-report.json data/congress-candidates.json data/CANDIDATE-REVIEW.md data/candidate-review.html
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh Congress.gov records and candidate review queue'
             git push

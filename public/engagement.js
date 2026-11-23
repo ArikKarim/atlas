@@ -33,7 +33,7 @@ export const engagementMaterials = {
   "S.278": "https://www.siia.net/wp-content/uploads/2025/02/SIIA-Letter-to-Senate-Commerce-on-KOSMA.pdf",
   "S.3597": "https://www.siia.net/policies/siia-commends-the-reintroduction-of-the-national-quantum-initiative-reauthorization-act/"
 };
-export function engagementUrl(bill){const url=engagementMaterials[bill.id.trim()];if(!bill.engagement||!url)return null;try{const parsed=new URL(url);return parsed.protocol==='https:'&&['www.siia.net','siia.net','lda.gov'].includes(parsed.hostname)?url:null;}catch{return null;}}
+export function engagementUrl(bill){const url=bill.engagementMaterial||engagementMaterials[bill.id.trim()];if(!bill.engagement||!url)return null;try{const parsed=new URL(url);return parsed.protocol==='https:'&&['www.siia.net','siia.net','lda.gov'].includes(parsed.hostname)?url:null;}catch{return null;}}
 
 // Additional public, bill-specific sources located during the engagement-link review.
 engagementMaterials['H.R.2683']='https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/';
