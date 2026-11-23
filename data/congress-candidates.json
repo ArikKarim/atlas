@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T03:26:51.745Z",
+  "generatedAt": "2026-11-23T03:32:07.022Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -53,7 +53,7 @@
       "pattern": "\\b(?:data privacy|consumer privacy|personal data|data protection|data brokers?|biometric|privacy protections?)\\b"
     }
   ],
-  "candidateCount": 474,
+  "candidateCount": 421,
   "candidates": [
     {
       "id": "H.R.1",
@@ -9144,49 +9144,6 @@
       "policyArea": "Government Operations and Politics"
     },
     {
-      "id": "H.R.217",
-      "title": "CHIP IN for Veterans Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "CHIP IN for Veterans Act of 2025"
-        },
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "mmunities Helping Invest through Property and Improvements Needed for Veterans Act or the CHIP IN for Veterans Act This bill makes permanent, starting December 16, 2026, the pilot program under which the Department of Veterans Affairs (VA) may accept donations of proper",
-          "versionDate": "2025-02-18T21:22:29Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Communities Helping Invest through Property and Improvements Needed for Veterans Act or the CHIP IN for Veterans Act This bill makes permanent, starting December 16, 2026, the pilot program under which the Department of Veterans Affairs (VA) may accept donations of property or facilities from certain nonfederal entities (e.g., state authorities or private entities). The bill also removes the limit on the number of donations that the VA may accept under the program.",
-      "summaryDate": "2025-02-18T21:22:29Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-01-07",
-      "sponsor": "Bacon (R-NE)",
-      "latestAction": {
-        "date": "2025-05-20",
-        "text": "Received in the Senate and Read twice and referred to the Committee on Veterans' Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/217",
-      "subjects": [
-        "Charitable contributions",
-        "Department of Veterans Affairs",
-        "Government buildings, facilities, and property",
-        "Land transfers"
-      ],
-      "policyArea": "Armed Forces and National Security"
-    },
-    {
       "id": "H.R.310",
       "title": "Restoring Energy Market Freedom Act",
       "chamber": "House",
@@ -9379,43 +9336,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/908",
       "subjects": [],
       "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "H.R.1019",
-      "title": "Medicaid Program Improvement Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "the requirement that state Medicaid programs and the Children's Health Insurance Program (CHIP) have a process in place to obtain updated addresses for enrollees. It also requires contracted managed care plans to report addresses that have been directly verified by enro",
-          "versionDate": "2025-03-10T19:15:25Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medicaid Program Improvement Act This bill provides statutory authority for the requirement that state Medicaid programs and the Children's Health Insurance Program (CHIP) have a process in place to obtain updated addresses for enrollees. It also requires contracted managed care plans to report addresses that have been directly verified by enrollees to states.",
-      "summaryDate": "2025-03-10T19:15:25Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-05",
-      "sponsor": "Miller-Meeks (R-IA)",
-      "latestAction": {
-        "date": "2025-02-05",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1019",
-      "subjects": [
-        "Child health",
-        "Medicaid",
-        "Poverty and welfare assistance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.1047",
@@ -9678,90 +9598,6 @@
       "policyArea": "Taxation"
     },
     {
-      "id": "H.R.1381",
-      "title": "COVID–19 Vaccination Non-Discrimination Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "cluding any funding under Medicare, Medicaid, or the Children's Health Insurance Program (CHIP).",
-          "versionDate": "2026-10-06T21:31:38Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "COVID-19 Vaccination Non-Discrimination Act This bill prohibits making federal funds available to any facility that refuses to treat an individual based on the individual's COVID-19 vaccination status, including any funding under Medicare, Medicaid, or the Children's Health Insurance Program (CHIP).",
-      "summaryDate": "2026-10-06T21:31:38Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-14",
-      "sponsor": "Houchin (R-IN)",
-      "latestAction": {
-        "date": "2025-02-14",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1381",
-      "subjects": [
-        "Cardiovascular and respiratory health",
-        "Disability and health-based discrimination",
-        "Health information and medical records",
-        "Health programs administration and funding",
-        "Immunology and vaccination",
-        "Infectious and parasitic diseases"
-      ],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.1428",
-      "title": "Poverty Line Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "upplemental Nutrition Assistance Program (SNAP), the Children’s Health Insurance Program (CHIP), and the National School Lunch Program. The poverty guidelines are currently calculated by adjusting the Census Bureau’s poverty thresholds to account for changes in the Cons",
-          "versionDate": "2025-04-25T20:38:21Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "t; Government information and archives; Inflation and prices; Internet, web applications, social media; Poverty and welfare assistance"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Poverty Line Act of 2025 This bill revises the methodology used to calculate the federal poverty guidelines. The federal poverty guidelines are used to determine eligibility for many federal and state public assistance programs, including the Supplemental Nutrition Assistance Program (SNAP), the Children’s Health Insurance Program (CHIP), and the National School Lunch Program. The poverty guidelines are currently calculated by adjusting the Census Bureau’s poverty thresholds to account for changes in the Consumer Price Index. The bill requires the Department of Health and Human Services (HHS) to calculate regional poverty guidelines based on a combination of factors including average household expenditures on food, clothing, utilities, and transportation; the average cost of rental housing; and the average cost of health insurance. These factors must be calculated using regional data as applicable. HHS must make available to the public a tool for determining the poverty guideline applicable to a given household. The new regional poverty guidelines established by HHS may not be lower than existing, corresponding poverty guidelines as of the date of enactment of the bill. HHS must review and evaluate the poverty guidelines at least every four years and propose changes to this methodology as appropriate. The bill takes effect three years after its enactment.",
-      "summaryDate": "2025-04-25T20:38:21Z",
-      "areas": [
-        "Semiconductors & export controls",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-18",
-      "sponsor": "Mullin (D-CA)",
-      "latestAction": {
-        "date": "2025-02-18",
-        "text": "Referred to the Committee on Education and Workforce, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1428",
-      "subjects": [
-        "Congressional oversight",
-        "Government information and archives",
-        "Inflation and prices",
-        "Internet, web applications, social media",
-        "Poverty and welfare assistance"
-      ],
-      "policyArea": "Social Welfare"
-    },
-    {
       "id": "H.R.1486",
       "title": "Economic Espionage Prevention Act",
       "chamber": "House",
@@ -9847,45 +9683,6 @@
       "policyArea": "Transportation and Public Works"
     },
     {
-      "id": "H.R.1509",
-      "title": "Accelerating Kids’ Access to Care Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ay temporarily treat children under Medicaid and the Children's Health Insurance Program (CHIP) without undergoing additional screening requirements. Specifically, states must establish a process through which qualifying out-of-state providers may enroll for five years ",
-          "versionDate": "2025-08-05T21:30:22Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Accelerating Kids’ Access to Care Act of 2025 This bill requires states to establish a process through which qualifying out-of-state providers may temporarily treat children under Medicaid and the Children's Health Insurance Program (CHIP) without undergoing additional screening requirements. Specifically, states must establish a process through which qualifying out-of-state providers may enroll for five years as participating providers to treat individuals under the age of 21 without undergoing additional screening requirements. A qualifying out-of-state provider (1) must not have been excluded or terminated from participating in a federal health care program or state Medicaid program; and (2) must have been successfully enrolled in Medicare or a state Medicaid program based on a determination that the provider posed a limited risk of fraud, waste, or abuse. The bill’s changes take effect three years after enactment.",
-      "summaryDate": "2025-08-05T21:30:22Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-21",
-      "sponsor": "Trahan (D-MA)",
-      "latestAction": {
-        "date": "2025-02-21",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1509",
-      "subjects": [
-        "Child health",
-        "Health care coverage and access",
-        "Intergovernmental relations",
-        "Medicaid",
-        "Poverty and welfare assistance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.1576",
       "title": "Protecting American Agriculture from Foreign Adversaries Act of 2025",
       "chamber": "House",
@@ -9928,48 +9725,6 @@
         "U.S. and foreign investments"
       ],
       "policyArea": "Foreign Trade and International Finance"
-    },
-    {
-      "id": "H.R.1620",
-      "title": "Finn Sawyer Access to Cancer Testing Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "d laboratory tests under Medicare, Medicaid, and the Children's Health Insurance Program (CHIP). Specifically, the bill provides for coverage of microarray analysis, DNA and RNA sequencing, whole-exome sequencing, and other next-generation sequencing for individuals dia",
-          "versionDate": "2025-03-27T15:07:52Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Finn Sawyer Access to Cancer Testing Act This bill provides for coverage of certain cancer diagnostic and laboratory tests under Medicare, Medicaid, and the Children's Health Insurance Program (CHIP). Specifically, the bill provides for coverage of microarray analysis, DNA and RNA sequencing, whole-exome sequencing, and other next-generation sequencing for individuals diagnosed with cancer. Additionally, the Department of Health and Human Services must establish an education and awareness program for physicians and the public about genomic testing and the role of genetic counselors.",
-      "summaryDate": "2025-03-27T15:07:52Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-26",
-      "sponsor": "Matsui (D-CA)",
-      "latestAction": {
-        "date": "2025-02-26",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1620",
-      "subjects": [
-        "Cancer",
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Health promotion and preventive care",
-        "Medicaid",
-        "Medical tests and diagnostic methods",
-        "Medicare",
-        "Poverty and welfare assistance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.1709",
@@ -10054,43 +9809,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "H.R.1720",
-      "title": "Hospice Recertification Flexibility Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ew hospice programs under Medicare, Medicaid, or the Children's Health Insurance Program (CHIP) due to fraud, waste, or abuse; (2) to providers who are subject to enhanced oversight under Medicare, Medicaid, or CHIP; and (3) to practitioners who are not enrolled as Medi",
-          "versionDate": "2025-08-18T21:23:28Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Hospice Recertification Flexibility Act This bill extends until December 31, 2027, the ability of physicians and nurse practitioners to fulfill certain requirements for hospice care recertification under Medicare via telehealth. Specifically, physicians and nurse practitioners may continue to fulfill the requirement of a face-to-face encounter with the hospice patient via telehealth. Such telehealth encounters must be identified with a specialized claims modifier for purposes of billing. The bill's authorization does not apply (1) in areas in which there has been a moratorium for at least six months on the enrollment of new hospice programs under Medicare, Medicaid, or the Children's Health Insurance Program (CHIP) due to fraud, waste, or abuse; (2) to providers who are subject to enhanced oversight under Medicare, Medicaid, or CHIP; and (3) to practitioners who are not enrolled as Medicare providers and who have private contracts with Medicare patients that do not meet applicable opt-out requirements.",
-      "summaryDate": "2025-08-18T21:23:28Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-27",
-      "sponsor": "Miller (R-WV)",
-      "latestAction": {
-        "date": "2025-02-27",
-        "text": "Referred to the House Committee on Ways and Means."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1720",
-      "subjects": [
-        "Health care coverage and access",
-        "Health technology, devices, supplies",
-        "Long-term, rehabilitative, and terminal care",
-        "Medicare"
-      ],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.1737",
       "title": "To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria.",
       "chamber": "House",
@@ -10126,83 +9844,6 @@
         "Virgin Islands"
       ],
       "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "H.R.1875",
-      "title": "Medicaid Provider Screening Accountability Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "re program, any other state Medicaid program, or the Children's Health Insurance Program (CHIP) using certain databases (e.g., the Data EXchange system). The bill requires states to continue to check these databases on at least a monthly basis after providers are enroll",
-          "versionDate": "2025-04-02T15:30:04Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medicaid Provider Screening Accountability Act This bill requires state Medicaid programs to check, as part of the provider enrollment and reenrollment process, whether providers were terminated from participating in the Medicare program, any other state Medicaid program, or the Children's Health Insurance Program (CHIP) using certain databases (e.g., the Data EXchange system). The bill requires states to continue to check these databases on at least a monthly basis after providers are enrolled.",
-      "summaryDate": "2025-04-02T15:30:04Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-03-05",
-      "sponsor": "Langworthy (R-NY)",
-      "latestAction": {
-        "date": "2025-03-05",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1875",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.1901",
-      "title": "CHIPP Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "t or the CHIPP Act This bill permanently extends the Children's Health Insurance Program (CHIP) and related measures, programs, and authorities. Specifically, the bill permanently funds CHIP and related programs that support the development of child health quality measu",
-          "versionDate": "2025-04-02T15:37:01Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Children’s Health Insurance Program Permanency Act or the CHIPP Act This bill permanently extends the Children's Health Insurance Program (CHIP) and related measures, programs, and authorities. Specifically, the bill permanently funds CHIP and related programs that support the development of child health quality measures and outreach and enrollment efforts. The bill also permanently authorizes the Medicaid and CHIP express lane eligibility option, which allows states to use information from designated programs (e.g., the Supplemental Nutrition Assistance Program) to streamline eligibility determinations for children. Additionally, under the bill, states may expand eligibility to children whose family income exceeds the otherwise applicable limits.",
-      "summaryDate": "2025-04-02T15:37:01Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-03-06",
-      "sponsor": "Barragán (D-CA)",
-      "latestAction": {
-        "date": "2025-03-06",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1901",
-      "subjects": [
-        "Child health",
-        "Government trust funds",
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Health care quality",
-        "Health programs administration and funding",
-        "Health promotion and preventive care",
-        "Medicaid",
-        "Performance measurement",
-        "Poverty and welfare assistance",
-        "State and local finance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.2166",
@@ -10350,102 +9991,6 @@
         "U.S. and foreign investments"
       ],
       "policyArea": "Commerce"
-    },
-    {
-      "id": "H.R.2491",
-      "title": "ABC Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "trative processes related to Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and Social Security programs in order to streamline these processes for family caregivers. Specifically, the Centers for Medicare & Medicaid Services (CMS) and the Social Se",
-          "versionDate": "2026-07-24T22:03:17Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Alleviating Barriers for Caregivers Act or the ABC Act This bill requires federal agencies to review and modify the administrative processes related to Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and Social Security programs in order to streamline these processes for family caregivers. Specifically, the Centers for Medicare & Medicaid Services (CMS) and the Social Security Administration (SSA) must review processes related to eligibility determinations, applications, forms, and communications for these programs and identify ways to simplify and streamline these processes for family caregivers (e.g., reducing the need for family caregivers to submit the same information for multiple programs). The CMS and SSA must solicit input from family caregivers and state and regional organizations, implement any identified improvements, and report on these efforts to Congress. In addition, the CMS must issue a letter to state Medicaid and CHIP programs that encourages states to conduct a similar review and that provides potential improvements.",
-      "summaryDate": "2026-07-24T22:03:17Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-03-31",
-      "sponsor": "Cammack (R-FL)",
-      "latestAction": {
-        "date": "2025-03-31",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2491",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.2533",
-      "title": "EASE Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ish specialty health care to Medicare, Medicaid, and Children's Health Insurance Program (CHIP) beneficiaries in rural areas. To conduct the model, the CMMI must select at least one provider network that is a nonprofit entity and that consists of at least 50 federally q",
-          "versionDate": "2026-07-24T22:04:40Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Ensuring Access to Specialty care Everywhere Act of 2025 or the EASE Act of 2025 This bill requires the Center for Medicare and Medicaid Innovation (CMMI) to test a model that uses a network of providers to remotely furnish specialty health care to Medicare, Medicaid, and Children's Health Insurance Program (CHIP) beneficiaries in rural areas. To conduct the model, the CMMI must select at least one provider network that is a nonprofit entity and that consists of at least 50 federally qualified health centers, rural health clinics, critical access hospitals, or rural emergency hospitals. At least half of the providers in the network must be located in rural areas. Providers must use digital methods (e.g., telehealth technology) to provide specialty care and must coordinate with beneficiaries' primary care providers.",
-      "summaryDate": "2026-07-24T22:04:40Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-04-01",
-      "sponsor": "Arrington (R-TX)",
-      "latestAction": {
-        "date": "2025-04-01",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2533",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.2586",
-      "title": "Reentry Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "preceding the individual's release. The Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to the accessibility and quality of health care for incarcerated individuals, including the impact",
-          "versionDate": "2025-04-22T16:09:36Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Reentry Act of 2025 This bill allows for Medicaid payment of medical services furnished to an incarcerated individual during the 30-day period preceding the individual's release. The Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to the accessibility and quality of health care for incarcerated individuals, including the impact of the bill's changes.",
-      "summaryDate": "2025-04-22T16:09:36Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-04-01",
-      "sponsor": "Tonko (D-NY)",
-      "latestAction": {
-        "date": "2025-04-01",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2586",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.2657",
@@ -11025,69 +10570,6 @@
       "policyArea": "Environmental Protection"
     },
     {
-      "id": "H.R.4028",
-      "title": "Stabilize Medicaid and CHIP Coverage Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "Stabilize Medicaid and CHIP Coverage Act"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-17",
-      "sponsor": "Dingell (D-MI)",
-      "latestAction": {
-        "date": "2025-06-17",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4028",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.4074",
-      "title": "Optimizing Postpartum Outcomes Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "partum pelvic health services under Medicaid and the Children's Health Insurance Program (CHIP), (2) the Government Accountability Office to study gaps in Medicaid coverage of these and other services for postpartum women, and (3) the Centers for Disease Control and Pre",
-          "versionDate": "2025-07-25T16:33:06Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Optimizing Postpartum Outcomes Act of 2025 This bill requires (1) the Centers for Medicare & Medicaid Services to issue guidance to support coverage of prenatal and postpartum pelvic health services under Medicaid and the Children's Health Insurance Program (CHIP), (2) the Government Accountability Office to study gaps in Medicaid coverage of these and other services for postpartum women, and (3) the Centers for Disease Control and Prevention to educate health professionals and postpartum women on pelvic health services.",
-      "summaryDate": "2025-07-25T16:33:06Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-23",
-      "sponsor": "Bacon (R-NE)",
-      "latestAction": {
-        "date": "2025-06-23",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4074",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.4233",
       "title": "ARMOR Act",
       "chamber": "House",
@@ -11127,38 +10609,6 @@
         "United Kingdom"
       ],
       "policyArea": "International Affairs"
-    },
-    {
-      "id": "H.R.4484",
-      "title": "ADAPT Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "age options for such services under Medicaid and the Children's Health Insurance Program (CHIP).",
-          "versionDate": "2025-12-02T16:38:15Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Accelerating the Development of Advanced Psychology Trainees Act or the ADAPT Act This bill provides for Medicare coverage of services that are furnished by advanced psychology trainees. It also requires the Centers for Medicare & Medicaid Services to issue guidance for states on coverage options for such services under Medicaid and the Children's Health Insurance Program (CHIP).",
-      "summaryDate": "2025-12-02T16:38:15Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-07-17",
-      "sponsor": "Balderson (R-OH)",
-      "latestAction": {
-        "date": "2025-07-17",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4484",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.4942",
@@ -11437,207 +10887,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/5289",
       "subjects": [],
       "policyArea": "International Affairs"
-    },
-    {
-      "id": "H.R.5304",
-      "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " Health Review Commission, the Institute of Museum and Library Services, the Medicaid and CHIP Payment and Access Commission, the Medicare Payment Advisory Commission, the National Council on Disability, the National Labor Relations Board, the National Mediation Board, ",
-          "versionDate": "2025-09-22T18:35:12Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "ernmental relations; International exchange and broadcasting; Internet, web applications, social media; Iran; Labor market; Labor standards; Labor-management relations; Latin America; Law enforcement administration and funding; Law enforcement officers; Libraries and ar"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026 This bill provides FY2026 appropriations to the Departments of Labor, Health and Human Services, and Education; and related agencies. The bill provides appropriations to the Department of Labor for the Employment and Training Administration, Veterans' Employment and Training, the Employee Benefits Security Administration, the Pension Benefit Guaranty Corporation, the Office of Workers' Compensation Programs, the Wage and Hour Division, the Office of Labor-Management Standards, the Occupational Safety and Health Administration, the Mine Safety and Health Administration, the Bureau of Labor Statistics, the Office of Disability Employment Policy, and Departmental Management. The bill provides appropriations to the Department of Health and Human Services for the Health Resources and Services Administration, the Centers for Disease Control and Prevention, the National Institutes of Health, the Substance Abuse and Mental Health Services Administration, the Centers for Medicare and Medicaid Services, the Administration for Children and Families, the Administration for Community Living, the Administration for Strategic Preparedness and Response, and the Office of the Secretary. The bill provides appropriations to the Department of Education for Education for the Disadvantaged; Impact Aid; School Improvement Programs; Safe Schools and Citizenship Education; Indian Education; Innovation and Improvement; Special Education; Rehabilitation Services; Special Institutions for Persons with Disabilities; Career, Technical, and Adult Education; Higher Education; Howard University; the College Housing and Academic Facilities Loans Program; the Historically Black College and University Capital Financing Program Account; Student Financial Assistance; Student Aid Administration; the Institute of Education Sciences; and Departmental Management. The bill also provides appropriations to several related agencies, including the America First Corps, the Committee for Purchase From People Who Are Blind or Severely Disabled, the Federal Mediation and Conciliation Service, the…",
-      "summaryDate": "2025-09-22T18:35:12Z",
-      "areas": [
-        "Semiconductors & export controls",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-09-11",
-      "sponsor": "Aderholt (R-AL)",
-      "latestAction": {
-        "date": "2025-09-11",
-        "text": "Placed on the Union Calendar, Calendar No. 227."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5304",
-      "subjects": [
-        "Abortion",
-        "Administrative remedies",
-        "Adoption and foster care",
-        "Adult education and literacy",
-        "Aging",
-        "Appropriations",
-        "Asia",
-        "Athletes",
-        "Birth defects",
-        "Blood and blood diseases",
-        "Cancer",
-        "Cardiovascular and respiratory health",
-        "Caribbean area",
-        "Census and government statistics",
-        "Centers for Disease Control and Prevention (CDC)",
-        "Chemical and biological weapons",
-        "Child care and development",
-        "Child health",
-        "Child safety and welfare",
-        "China",
-        "Civil actions and liability",
-        "Coal",
-        "Committee for Purchase from People Who Are Blind or Severely Disabled",
-        "Commuting",
-        "Computers and information technology",
-        "Congressional oversight",
-        "Corporation for National and Community Service",
-        "Cuba",
-        "Cultural exchanges and relations",
-        "Data collection, sharing, protection",
-        "Department of Education",
-        "Department of Health and Human Services",
-        "Department of Labor",
-        "Detention of persons",
-        "Digestive and metabolic diseases",
-        "Disability and health-based discrimination",
-        "Disability and paralysis",
-        "Disability assistance",
-        "Domestic violence and child abuse",
-        "Drug trafficking and controlled substances",
-        "Drug, alcohol, tobacco use",
-        "Education of the disadvantaged",
-        "Education programs funding",
-        "Educational facilities and institutions",
-        "Elementary and secondary education",
-        "Emergency planning and evacuation",
-        "Employee benefits and pensions",
-        "Employee hiring",
-        "Employment and training programs",
-        "Employment discrimination and employee rights",
-        "Energy assistance for the poor and aged",
-        "Environmental health",
-        "Europe",
-        "Evidence and witnesses",
-        "Executive agency funding and structure",
-        "Family services",
-        "Federal Mediation and Conciliation Service",
-        "Federal Mine Safety and Health Review Commission",
-        "Firearms and explosives",
-        "Foreign labor",
-        "Fraud offenses and financial crimes",
-        "Government employee pay, benefits, personnel management",
-        "Government information and archives",
-        "Government lending and loan guarantees",
-        "Government trust funds",
-        "HIV/AIDS",
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Health facilities and institutions",
-        "Health personnel",
-        "Health programs administration and funding",
-        "Health promotion and preventive care",
-        "Health technology, devices, supplies",
-        "Hereditary and development disorders",
-        "Higher education",
-        "Housing and community development funding",
-        "Human trafficking",
-        "Immunology and vaccination",
-        "Indian social and development programs",
-        "Infectious and parasitic diseases",
-        "Intergovernmental relations",
-        "International exchange and broadcasting",
-        "Internet, web applications, social media",
-        "Iran",
-        "Labor market",
-        "Labor standards",
-        "Labor-management relations",
-        "Latin America",
-        "Law enforcement administration and funding",
-        "Law enforcement officers",
-        "Libraries and archives",
-        "Maine",
-        "Medicaid",
-        "Medical education",
-        "Medical research",
-        "Medicare",
-        "Medicare Payment Advisory Commission",
-        "Mental health",
-        "Middle East",
-        "Migrant, seasonal, agricultural labor",
-        "Mining",
-        "Minority education",
-        "Minority health",
-        "Mississippi",
-        "Motor vehicles",
-        "Musculoskeletal and skin diseases",
-        "Museums, exhibitions, cultural centers",
-        "National Council on Disability",
-        "National Institutes of Health (NIH)",
-        "National Labor Relations Board (NLRB)",
-        "National Mediation Board",
-        "National and community service",
-        "Neurological disorders",
-        "New Hampshire",
-        "New York State",
-        "North Korea",
-        "Nuclear weapons",
-        "Occupational Safety and Health Review Commission",
-        "Organ and tissue donation and transplantation",
-        "Pension Benefit Guaranty Corporation",
-        "Pornography",
-        "Poverty and welfare assistance",
-        "Preschool education",
-        "Protection of officials",
-        "Public contracts and procurement",
-        "Racial and ethnic relations",
-        "Railroad Retirement Board",
-        "Railroads",
-        "Refugees, asylum, displaced persons",
-        "Religion",
-        "Research administration and funding",
-        "Research and development",
-        "Rural conditions and development",
-        "Russia",
-        "School administration",
-        "School athletics",
-        "Seafood",
-        "Sex and reproductive health",
-        "Sex offenses",
-        "Sex, gender, sexual orientation discrimination",
-        "Sexually transmitted diseases",
-        "Smuggling and trafficking",
-        "Social Security Administration",
-        "Social security and elderly assistance",
-        "Social work, volunteer service, charitable organizations",
-        "Special education",
-        "State and local government operations",
-        "Strategic materials and reserves",
-        "Student aid and college costs",
-        "Trade adjustment assistance",
-        "Unemployment",
-        "Venezuela",
-        "Vermont",
-        "Veterans' education, employment, rehabilitation",
-        "Veterans' loans, housing, homeless programs",
-        "Vocational and technical education",
-        "Wages and earnings",
-        "Women's health",
-        "Worker safety and health",
-        "World health",
-        "Youth employment and child labor"
-      ],
-      "policyArea": "Economics and Public Finance"
     },
     {
       "id": "H.R.5371",
@@ -11920,70 +11169,6 @@
         "Intellectual property"
       ],
       "policyArea": "Economics and Public Finance"
-    },
-    {
-      "id": "H.R.5448",
-      "title": "Protecting Free Vaccines Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "cines Act This bill requires Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and private health insurers to cover, without cost-sharing, vaccines that were recommended by the Centers for Disease Control and Prevention's Advisory Committee on Immuniza",
-          "versionDate": "2026-03-20T19:21:07Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Protecting Free Vaccines Act This bill requires Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and private health insurers to cover, without cost-sharing, vaccines that were recommended by the Centers for Disease Control and Prevention's Advisory Committee on Immunization Practices as of October 25, 2024. The requirement ends on January 1, 2030.",
-      "summaryDate": "2026-03-20T19:21:07Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-09-18",
-      "sponsor": "Pallone (D-NJ)",
-      "latestAction": {
-        "date": "2025-09-18",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Education and Workforce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5448",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.5684",
-      "title": "Medical Foods and Formulas Access Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " bill expands coverage under Medicare, Medicaid, the Children’s Health Insurance Program (CHIP), and the Federal Employees Health Benefits Program to include medically necessary food and associated equipment and supplies. The bill defines medically necessary food as spe",
-          "versionDate": "2026-01-07T20:53:00Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medical Foods and Formulas Access Act of 2025 This bill expands coverage under Medicare, Medicaid, the Children’s Health Insurance Program (CHIP), and the Federal Employees Health Benefits Program to include medically necessary food and associated equipment and supplies. The bill defines medically necessary food as specially formulated and processed products (e.g., nutritional formulas) prescribed by health care practitioners for individuals who have special dietary requirements because of certain digestive or metabolic disorders or conditions.",
-      "summaryDate": "2026-01-07T20:53:00Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-10-03",
-      "sponsor": "McGovern (D-MA)",
-      "latestAction": {
-        "date": "2025-10-03",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, and Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5684",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.5853",
@@ -12476,38 +11661,6 @@
       "policyArea": "Commerce"
     },
     {
-      "id": "H.R.6303",
-      "title": "CARE for Moms Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "s. The bill requires state Medicaid programs and the Children’s Health Insurance Program (CHIP) to cover women for 12 months postpartum and to cover dental services for pregnant and postpartum women The bill also allows for two years of postpartum coverage for women und",
-          "versionDate": "2026-10-06T20:51:33Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Community Access, Resources, and Empowerment for Moms Act or the CARE for Moms Act This bill establishes and expands federal programs to increase access to health care for pregnant and postpartum women, particularly those in underserved communities. It also increases and expands excise taxes on tobacco products. The bill requires state Medicaid programs and the Children’s Health Insurance Program (CHIP) to cover women for 12 months postpartum and to cover dental services for pregnant and postpartum women The bill also allows for two years of postpartum coverage for women under the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Also, the bill establishes grant programs for state-based collaboratives to improve perinatal health care, mobile health units for obstetric care in rural and underserved communities, the doula workforce, and regional centers of excellence to educate health professionals on implicit bias and culturally competent care. The Department of Health and Human Services (HHS) must publish information on Medicaid and CHIP benefits for pregnant and postpartum women and report to Congress on maternal health needs and expenditures. In addition, hospitals, as a condition of Medicare participation, must notify HHS at least 90 days before closing an obstetric unit. Additionally, the bill increases existing excise taxes on cigarettes, equalizes tax rates among all other tobacco products, and establishes annual inflation adjustments. It also establishes new excise taxes for other tobacco products deemed as such by the Food and Drug Administration that are not already subject to such federal taxes.",
-      "summaryDate": "2026-10-06T20:51:33Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-11-25",
-      "sponsor": "Kelly (D-IL)",
-      "latestAction": {
-        "date": "2025-11-25",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on Education and Workforce, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6303",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.6351",
       "title": "Advancing Regional Quantum Hubs Act",
       "chamber": "House",
@@ -12587,37 +11740,6 @@
         "Telephone and wireless communication"
       ],
       "policyArea": "Commerce"
-    },
-    {
-      "id": "H.R.6516",
-      "title": "To amend the Patient Protection and Affordable Care Act to identify individuals dually enrolled in Medicaid or CHIP and an Exchange.",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "Protection and Affordable Care Act to identify individuals dually enrolled in Medicaid or CHIP and an Exchange."
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-09",
-      "sponsor": "Burchett (R-TN)",
-      "latestAction": {
-        "date": "2025-12-09",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6516",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.6734",
@@ -13180,38 +12302,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "H.R.8425",
-      "title": "Strengthening the Vaccines for Children Program Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ams and coverage for children under Medicaid and the Children's Health Insurance Program (CHIP). Specifically, the bill expands and otherwise modifies the Vaccines for Children Program, which provides free vaccinations to individuals 18 years of age or younger who are u",
-          "versionDate": "2026-05-12T20:09:02Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Strengthening the Vaccines for Children Program Act of 2026 This bill expands vaccination programs and coverage for children under Medicaid and the Children's Health Insurance Program (CHIP). Specifically, the bill expands and otherwise modifies the Vaccines for Children Program, which provides free vaccinations to individuals 18 years of age or younger who are uninsured or underinsured (i.e., with limited or no insurance for vaccines), are eligible for Medicaid, or are American Indians or Alaskan Natives. The bill expands the program to include children enrolled in CHIP. The Government Accountability Office must report on the related effects of the bill's changes. The bill also temporarily requires payments under Medicaid and CHIP for vaccine administration and counseling services for children to be made at a rate that is no less than the rate under Medicare for equivalent services. It also increases the Federal Medical Assistance Percentage (i.e., federal matching rate) for states that conduct culturally appropriate outreach regarding the benefits of vaccinations for children.",
-      "summaryDate": "2026-05-12T20:09:02Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-04-21",
-      "sponsor": "Schrier (D-WA)",
-      "latestAction": {
-        "date": "2026-04-21",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8425",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.8530",
       "title": "Quantum for Health Act",
       "chamber": "House",
@@ -13377,38 +12467,6 @@
       "policyArea": "Housing and Community Development"
     },
     {
-      "id": "H.R.8907",
-      "title": "IMPACT to Save Moms Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "e, including postpartum care, under Medicaid and the Children's Health Insurance Program (CHIP).",
-          "versionDate": "2026-06-29T19:30:26Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Innovative Maternal Payment and Coverage To Save Moms Act or the IMPACT to Save Moms Act This bill requires the Centers for Medicare & Medicaid Services to establish the Perinatal Care Alternative Payment Model Demonstration Project through FY2031 to allow states to test payment models for maternity care, including postpartum care, under Medicaid and the Children's Health Insurance Program (CHIP).",
-      "summaryDate": "2026-06-29T19:30:26Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-05-19",
-      "sponsor": "Schakowsky (D-IL)",
-      "latestAction": {
-        "date": "2026-05-19",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8907",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.8959",
       "title": "Semiconductor Superiority Act",
       "chamber": "House",
@@ -13469,159 +12527,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9076",
       "subjects": [],
       "policyArea": "Government Operations and Politics"
-    },
-    {
-      "id": "H.R.9260",
-      "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2027",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " Health Review Commission, the Institute of Museum and Library Services, the Medicaid and CHIP Payment and Access Commission, the Medicare Payment Advisory Commission, the National Council on Disability, the National Labor Relations Board, the National Mediation Board, ",
-          "versionDate": "2026-06-17T13:53:27Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2027 This bill provides FY2027 appropriations to the Departments of Labor, Health and Human Services, and Education; and related agencies. The bill provides appropriations to the Department of Labor for the Employment and Training Administration, the Veterans' Employment and Training Service, the Employee Benefits Security Administration, the Pension Benefit Guaranty Corporation, the Wage and Hour Division, the Office of Labor-Management Standards, the Office of Workers' Compensation Programs, the Occupational Safety and Health Administration, the Mine Safety and Health Administration, the Bureau of Labor Statistics, the Office of Disability Employment Policy, and Departmental Management. The bill provides appropriations to the Department of Health and Human Services for the Health Resources and Services Administration, the Centers for Disease Control and Prevention, the National Institutes of Health, the Substance Abuse and Mental Health Services Administration, the Centers for Medicare and Medicaid Services, the Administration for Children and Families, the Administration for Community Living, the Administration for Strategic Preparedness and Response, and the Office of the Secretary. The bill provides appropriations to the Department of Education for the Office of Elementary and Secondary Education; the Office of Special Education and Rehabilitative Services; the Office of Career, Technical, and Adult Education; the Office of Federal Student Aid; the Office of Postsecondary Education; the Institute of Education Sciences; and Departmental Management. The bill also provides appropriations to several related agencies, including the Committee for Purchase From People Who Are Blind or Severely Disabled, the Corporation for National and Community Service, the Federal Mediation and Conciliation Service, the Federal Mine Safety and Health Review Commission, the Institute of Museum and Library Services, the Medicaid and CHIP Payment and Access Commission, the Medicare Payment Advisory Commission, the National Council on Disability, the National Labor Relations…",
-      "summaryDate": "2026-07-01T19:12:01Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-11",
-      "sponsor": "Aderholt (R-AL)",
-      "latestAction": {
-        "date": "2026-06-11",
-        "text": "Placed on the Union Calendar, Calendar No. 604."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9260",
-      "subjects": [
-        "Adoption and foster care",
-        "Aging",
-        "Alabama",
-        "Allergies",
-        "Alternative dispute resolution, mediation, arbitration",
-        "Arkansas",
-        "Blood and blood diseases",
-        "Cancer",
-        "Cardiovascular and respiratory health",
-        "Centers for Disease Control and Prevention (CDC)",
-        "Child care and development",
-        "Child health",
-        "Civil actions and liability",
-        "Committee for Purchase from People Who Are Blind or Severely Disabled",
-        "Computers and information technology",
-        "Corporation for National and Community Service",
-        "Dental care",
-        "Department of Education",
-        "Department of Health and Human Services",
-        "Department of Labor",
-        "Digestive and metabolic diseases",
-        "Disability assistance",
-        "Drug, alcohol, tobacco use",
-        "Education of the disadvantaged",
-        "Elementary and secondary education",
-        "Employee benefits and pensions",
-        "Employment and training programs",
-        "Employment discrimination and employee rights",
-        "Energy assistance for the poor and aged",
-        "Environmental health",
-        "Executive agency funding and structure",
-        "Family services",
-        "Federal Mediation and Conciliation Service",
-        "Federal Mine Safety and Health Review Commission",
-        "Fraud offenses and financial crimes",
-        "Genetics",
-        "Georgia",
-        "Government buildings, facilities, and property",
-        "Government lending and loan guarantees",
-        "Government trust funds",
-        "HIV/AIDS",
-        "Health care coverage and access",
-        "Health personnel",
-        "Health programs administration and funding",
-        "Health promotion and preventive care",
-        "Health technology, devices, supplies",
-        "Hearing, speech, and vision care",
-        "Hereditary and development disorders",
-        "Higher education",
-        "Hospital care",
-        "Illinois",
-        "Immunology and vaccination",
-        "Indian social and development programs",
-        "Infectious and parasitic diseases",
-        "Kentucky",
-        "Labor standards",
-        "Labor-management relations",
-        "Libraries and archives",
-        "Licensing and registrations",
-        "Louisiana",
-        "Maine",
-        "Maryland",
-        "Medicaid",
-        "Medical education",
-        "Medicare",
-        "Medicare Payment Advisory Commission",
-        "Mental health",
-        "Migrant, seasonal, agricultural labor",
-        "Mining",
-        "Minority education",
-        "Minority health",
-        "Mississippi",
-        "Missouri",
-        "Musculoskeletal and skin diseases",
-        "Museums, exhibitions, cultural centers",
-        "National Institutes of Health (NIH)",
-        "National Labor Relations Board (NLRB)",
-        "National Mediation Board",
-        "National and community service",
-        "Neurological disorders",
-        "New Hampshire",
-        "New York State",
-        "North Carolina",
-        "Nursing",
-        "Occupational Safety and Health Review Commission",
-        "Ohio",
-        "Organ and tissue donation and transplantation",
-        "Pennsylvania",
-        "Pension Benefit Guaranty Corporation",
-        "Photography and imaging",
-        "Poverty and welfare assistance",
-        "Railroad Retirement Board",
-        "Railroads",
-        "Refugees, asylum, displaced persons",
-        "Research administration and funding",
-        "Research and development",
-        "Rural conditions and development",
-        "Seafood",
-        "Sex and reproductive health",
-        "Sexually transmitted diseases",
-        "Social Security Administration",
-        "Social security and elderly assistance",
-        "South Carolina",
-        "Special education",
-        "State and local government operations",
-        "Student aid and college costs",
-        "Tennessee",
-        "Transportation employees",
-        "Unemployment",
-        "User charges and fees",
-        "Vermont",
-        "Veterans' education, employment, rehabilitation",
-        "Veterans' medical care",
-        "Virginia",
-        "Visas and passports",
-        "Vocational and technical education",
-        "Wages and earnings",
-        "West Virginia",
-        "Women's health",
-        "Worker safety and health"
-      ],
-      "policyArea": "Economics and Public Finance"
     },
     {
       "id": "H.R.9318",
@@ -13686,38 +12591,6 @@
       "policyArea": "Commerce"
     },
     {
-      "id": "H.R.9542",
-      "title": "Protecting Health Care and Lowering Costs Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " Medicaid; (2) generally restricts, beginning in FY2027, federal payment for Medicaid and CHIP to services for individuals who are U.S. residents and are either U.S. citizens, lawful permanent residents, Cuban-Haitian entrants, or Compact of Free Association migrants la",
-          "versionDate": "2026-07-14T20:26:41Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Protecting Health Care and Lowering Costs Act of 2026 This bill repeals the Medicaid provisions that were enacted under what is commonly known as the One Big Beautiful Bill Act. Among other provisions, the act (1) requires individuals who are eligible for Medicaid as part of the Medicaid expansion population to engage in community service, work, or other activities in order to qualify for Medicaid; (2) generally restricts, beginning in FY2027, federal payment for Medicaid and CHIP to services for individuals who are U.S. residents and are either U.S. citizens, lawful permanent residents, Cuban-Haitian entrants, or Compact of Free Association migrants lawfully residing in the United States; and (3) generally limits Medicaid provider taxes beginning in FY2027. For more information about these and other Medicaid provisions in the act, see CRS Report R48633 .",
-      "summaryDate": "2026-07-14T20:26:41Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-30",
-      "sponsor": "Boyle (D-PA)",
-      "latestAction": {
-        "date": "2026-06-30",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9542",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.9585",
       "title": "Advancing American Quantum Leadership Act of 2026",
       "chamber": "House",
@@ -13747,38 +12620,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9585",
       "subjects": [],
       "policyArea": "Foreign Trade and International Finance"
-    },
-    {
-      "id": "H.R.9623",
-      "title": "Protecting Americans’ Health Care Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " Medicaid; (2) generally restricts, beginning in FY2027, federal payment for Medicaid and CHIP to services for individuals who are U.S. residents and are either U.S. citizens, lawful permanent residents, Cuban-Haitian entrants, or Compact of Free Association migrants la",
-          "versionDate": "2026-07-27T19:01:19Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Protecting Americans' Health Care Act of 2026 This bill repeals the Medicaid provisions that were enacted under what is commonly known as the One Big Beautiful Bill Act. Among other provisions, the act (1) requires individuals who are eligible for Medicaid as part of the Medicaid expansion population to engage in community service, work, or other activities in order to qualify for Medicaid; (2) generally restricts, beginning in FY2027, federal payment for Medicaid and CHIP to services for individuals who are U.S. residents and are either U.S. citizens, lawful permanent residents, Cuban-Haitian entrants, or Compact of Free Association migrants lawfully residing in the United States; and (3) generally limits Medicaid provider taxes beginning in FY2027. For more information about these and other Medicaid provisions in the act, see CRS Report R48633 .",
-      "summaryDate": "2026-07-27T19:01:19Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-09",
-      "sponsor": "Boyle (D-PA)",
-      "latestAction": {
-        "date": "2026-07-09",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9623",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.9629",
@@ -13812,134 +12653,6 @@
       "policyArea": "Environmental Protection"
     },
     {
-      "id": "H.R.9682",
-      "title": "Cure Hepatitis C Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " hepatitis C who are (1) enrolled in Medicaid or the Children’s Health Insurance Program (CHIP), (2) confined to federal, state, or local correctional facilities (or were released and began treatment there), (3) uninsured, or (4) receiving health care through the Indian",
-          "versionDate": "2026-07-22T18:31:22Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Cure Hepatitis C Act of 2026 This bill establishes programs and requirements to provide free medications to treat hepatitis C in certain high-risk or vulnerable populations. It also establishes grants and other resources to support testing and treatment for hepatitis C. The bill provides funding for FY2027 to implement these provisions. The Department of Health and Human Services (HHS) must enter into a five-year purchasing contract with manufacturers of drugs that treat hepatitis C so that eligible individuals may receive the drugs without cost-sharing. Eligible individuals are those diagnosed with hepatitis C who are (1) enrolled in Medicaid or the Children’s Health Insurance Program (CHIP), (2) confined to federal, state, or local correctional facilities (or were released and began treatment there), (3) uninsured, or (4) receiving health care through the Indian Health Service. State Medicaid and CHIP programs and state and local correctional facilities may opt into the program; participation is mandatory for federal correctional facilities and the Indian Health Service. HHS must award grants to certain entities, including states, public health organizations, and correctional facilities, to support the coordination and provision of screening, treatment, and supportive services for the affected populations. The bill also allows Medicare beneficiaries to receive hepatitis C drugs without cost-sharing from 2028-2032.",
-      "summaryDate": "2026-07-22T18:31:22Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-14",
-      "sponsor": "Miller-Meeks (R-IA)",
-      "latestAction": {
-        "date": "2026-07-14",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committees on the Judiciary, Natural Resources, and Ways and Means, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9682",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.9816",
-      "title": "MOMMIES Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " of programs and requirements under Medicaid and the Children's Health Insurance Program (CHIP) relating to maternal health. For example, the bill expands eligibility for coverage under Medicaid and CHIP from 60 days to one year after the last day of pregnancy and requi",
-          "versionDate": "2026-08-25T20:30:18Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Maximizing Outcomes for Moms through Medicaid Improvement and Enhancement of Services Act or the MOMMIES Act This bill establishes a series of programs and requirements under Medicaid and the Children's Health Insurance Program (CHIP) relating to maternal health. For example, the bill expands eligibility for coverage under Medicaid and CHIP from 60 days to one year after the last day of pregnancy and requires such coverage to include oral health services. The bill also establishes a demonstration program in which states receive grants to implement or expand models for maternity care homes that provide services to Medicaid or CHIP beneficiaries. The Government Accountability Office must report on (1) gaps in coverage under Medicaid and CHIP for pregnant and postpartum women, and (2) the use of telehealth by state Medicaid programs to increase access to maternity care.",
-      "summaryDate": "2026-08-25T20:30:18Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-21",
-      "sponsor": "Pressley (D-MA)",
-      "latestAction": {
-        "date": "2026-07-21",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9816",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.9831",
-      "title": "Medicaid Dental Benefit Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ing to such coverage. Additionally, the Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to adult oral health care.",
-          "versionDate": "2026-08-25T20:30:51Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medicaid Dental Benefit Act of 2026 This bill requires state Medicaid programs to cover dental and oral health services for adults. It also increases the Federal Medical Assistance Percentage (i.e., federal matching rate) for such services. The Centers for Medicare & Medicaid Services must develop oral health quality and equity measures and conduct outreach relating to such coverage. Additionally, the Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to adult oral health care.",
-      "summaryDate": "2026-08-25T20:30:51Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Barragán (D-CA)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9831",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.9833",
-      "title": "Ensuring Kids Have Access to Medically Necessary Dental Care Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "are Act This bill modifies dental coverage under the Children's Health Insurance Program (CHIP). Specifically, the bill prohibits lifetime or annual limits on CHIP dental coverage. It also requires states to offer dental-only supplemental coverage under CHIP to children",
-          "versionDate": "2026-08-25T20:32:43Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Ensuring Kids Have Access to Medically Necessary Dental Care Act This bill modifies dental coverage under the Children's Health Insurance Program (CHIP). Specifically, the bill prohibits lifetime or annual limits on CHIP dental coverage. It also requires states to offer dental-only supplemental coverage under CHIP to children who have other health insurance but are otherwise eligible for CHIP (i.e., wraparound coverage); such coverage is currently at the option of the state.",
-      "summaryDate": "2026-08-25T20:32:43Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Barragán (D-CA)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9833",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "H.R.9843",
       "title": "Enhancing Electric Grid Resilience Act",
       "chamber": "House",
@@ -13969,38 +12682,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9843",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "H.R.9867",
-      "title": "Expand the Behavioral Health Workforce Now Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "stance use disorder providers under Medicaid and the Children's Health Insurance Program (CHIP), particularly in rural and underserved areas.",
-          "versionDate": "2026-08-25T20:31:26Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Expand the Behavioral Health Workforce Now Act This bill requires the Centers for Medicare & Medicaid Services to issue guidance for states on ways to increase education, training, recruitment, and retention of mental health and substance use disorder providers under Medicaid and the Children's Health Insurance Program (CHIP), particularly in rural and underserved areas.",
-      "summaryDate": "2026-08-25T20:31:26Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Neguse (D-CO)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9867",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "H.R.9899",
@@ -14064,70 +12745,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9945",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "H.R.9946",
-      "title": "Equity in STI Testing Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "d infections under Medicare Advantage, Medicaid, the Children's Health Insurance Program (CHIP), TRICARE, Department of Veterans Affairs health benefits, and the Indian Health Service.",
-          "versionDate": "2026-10-05T16:55:41Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Equity in STI Testing Act This bill provides for coverage, without cost-sharing, of testing for certain sexually transmitted infections under Medicare Advantage, Medicaid, the Children's Health Insurance Program (CHIP), TRICARE, Department of Veterans Affairs health benefits, and the Indian Health Service.",
-      "summaryDate": "2026-10-05T16:55:41Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-23",
-      "sponsor": "Williams (D-GA)",
-      "latestAction": {
-        "date": "2026-07-30",
-        "text": "Referred to the Subcommittee on Health."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9946",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "H.R.9958",
-      "title": "Head Start Expansion and Improvement Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ogram for Women, Infants, and Children (WIC); or the Children’s Health Insurance Program (CHIP). The bill directs the Department of Health and Human Services (HHS) to establish a program to make grants to Head Start agencies (including Early Head Start agencies) to cons",
-          "versionDate": "2026-09-18T18:49:18Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Head Start Expansion and Improvement Act of 2026 This bill reauthorizes through FY2032 and otherwise revises Head Start programs. Specifically, the bill expands eligibility for Head Start programs to include families with incomes below 138% of the federal poverty level. The bill also adds a definition for public assistance under the Head Start Act to include Temporary Assistance for Needy Families (TANF); Supplemental Security Income (SSI); the Supplemental Nutrition Assistance Program (SNAP); the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC); or the Children’s Health Insurance Program (CHIP). The bill directs the Department of Health and Human Services (HHS) to establish a program to make grants to Head Start agencies (including Early Head Start agencies) to construct or improve facilities. HHS must also establish and carry out a program to make grants to Head Start agencies for increasing the compensation paid to employees. The bill also provides student loan forgiveness for certain Head Start and Early Head Start child care workers. In particular, the Department of Education must cancel the outstanding balance of principal, interest, and fees due on Federal Direct Loans for a borrower who (1) has been employed full-time by a Head Start or Early Head Start program for three years, and (2) has provided care or instruction to children enrolled in such a program.",
-      "summaryDate": "2026-09-18T18:49:18Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-27",
-      "sponsor": "Hayes (D-CT)",
-      "latestAction": {
-        "date": "2026-07-27",
-        "text": "Referred to the House Committee on Education and Workforce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9958",
-      "subjects": [],
-      "policyArea": "Education"
     },
     {
       "id": "H.R.10005",
@@ -15722,87 +14339,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.752",
-      "title": "Accelerating Kids’ Access to Care Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ay temporarily treat children under Medicaid and the Children's Health Insurance Program (CHIP) without undergoing additional screening requirements. Specifically, states must establish a process through which qualifying out-of-state providers may enroll for five years ",
-          "versionDate": "2025-08-18T21:19:09Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Accelerating Kids’ Access to Care Act This bill requires states to establish a process through which qualifying out-of-state providers may temporarily treat children under Medicaid and the Children's Health Insurance Program (CHIP) without undergoing additional screening requirements. Specifically, states must establish a process through which qualifying out-of-state providers may enroll for five years as participating providers to treat individuals under the age of 21 without undergoing additional screening requirements. A qualifying out-of-state provider (1) must not have been excluded or terminated from participating in a federal health care program or state Medicaid program; and (2) must have been successfully enrolled in Medicare or a state Medicaid program based on a determination that the provider posed a limited risk of fraud, waste, or abuse. The bill’s changes take effect three years after enactment.",
-      "summaryDate": "2025-08-18T21:19:09Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-26",
-      "sponsor": "Grassley (R-IA)",
-      "latestAction": {
-        "date": "2025-02-26",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/752",
-      "subjects": [
-        "Child health",
-        "Health care coverage and access",
-        "Intergovernmental relations",
-        "Medicaid",
-        "Poverty and welfare assistance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.755",
-      "title": "Finn Sawyer Access to Cancer Testing Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "d laboratory tests under Medicare, Medicaid, and the Children's Health Insurance Program (CHIP). Specifically, the bill provides for coverage of microarray analysis, DNA and RNA sequencing, whole-exome sequencing, and other next-generation sequencing for individuals dia",
-          "versionDate": "2025-04-02T15:10:15Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Finn Sawyer Access to Cancer Testing Act This bill provides for coverage of certain cancer diagnostic and laboratory tests under Medicare, Medicaid, and the Children's Health Insurance Program (CHIP). Specifically, the bill provides for coverage of microarray analysis, DNA and RNA sequencing, whole-exome sequencing, and other next-generation sequencing for individuals diagnosed with cancer. Additionally, the Department of Health and Human Services must establish an education and awareness program for physicians and the public about genomic testing and the role of genetic counselors.",
-      "summaryDate": "2025-04-02T15:10:15Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-26",
-      "sponsor": "Wicker (R-MS)",
-      "latestAction": {
-        "date": "2025-02-26",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/755",
-      "subjects": [
-        "Cancer",
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Health promotion and preventive care",
-        "Medicaid",
-        "Medical tests and diagnostic methods",
-        "Medicare",
-        "Poverty and welfare assistance",
-        "State and local government operations"
-      ],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.769",
       "title": "United States Research Protection Act of 2025",
       "chamber": "Senate",
@@ -16047,70 +14583,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1208",
       "subjects": [],
       "policyArea": "Finance and Financial Sector"
-    },
-    {
-      "id": "S.1227",
-      "title": "ABC Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "trative processes related to Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and Social Security programs in order to streamline these processes for family caregivers. Specifically, the Centers for Medicare & Medicaid Services (CMS) and the Social Se",
-          "versionDate": "2026-07-24T22:17:13Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Alleviating Barriers for Caregivers Act or the ABC Act This bill requires federal agencies to review and modify the administrative processes related to Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and Social Security programs in order to streamline these processes for family caregivers. Specifically, the Centers for Medicare & Medicaid Services (CMS) and the Social Security Administration (SSA) must review processes related to eligibility determinations, applications, forms, and communications for these programs and identify ways to simplify and streamline these processes for family caregivers (e.g., reducing the need for family caregivers to submit the same information for multiple programs). The CMS and SSA must solicit input from family caregivers and state and regional organizations, implement any identified improvements, and report on these efforts to Congress. In addition, the CMS must issue a letter to state Medicaid and CHIP programs that encourages states to conduct a similar review and that provides potential improvements.",
-      "summaryDate": "2026-07-24T22:17:13Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-04-01",
-      "sponsor": "Markey (D-MA)",
-      "latestAction": {
-        "date": "2025-04-01",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1227",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.1248",
-      "title": "EASE Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ish specialty health care to Medicare, Medicaid, and Children's Health Insurance Program (CHIP) beneficiaries in rural areas. To conduct the model, the CMMI must select at least one provider network that is a nonprofit entity and that consists of at least 50 federally q",
-          "versionDate": "2026-07-24T22:18:17Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Ensuring Access to Specialty Care Everywhere Act or the EASE Act This bill requires the Center for Medicare and Medicaid Innovation (CMMI) to test a model that uses a network of providers to remotely furnish specialty health care to Medicare, Medicaid, and Children's Health Insurance Program (CHIP) beneficiaries in rural areas. To conduct the model, the CMMI must select at least one provider network that is a nonprofit entity and that consists of at least 50 federally qualified health centers, rural health clinics, critical access hospitals, or rural emergency hospitals. At least half of the providers in the network must be located in rural areas. Providers must use digital methods (e.g., telehealth technology) to provide specialty care and must coordinate with beneficiaries' primary care providers.",
-      "summaryDate": "2026-07-24T22:18:17Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-04-02",
-      "sponsor": "Mullin (R-OK)",
-      "latestAction": {
-        "date": "2025-04-02",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1248",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "S.1467",
@@ -16414,132 +14886,6 @@
       "policyArea": "Crime and Law Enforcement"
     },
     {
-      "id": "S.1835",
-      "title": "CHIP IN for Veterans Act of 2025",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "CHIP IN for Veterans Act of 2025"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-05-21",
-      "sponsor": "Fischer (R-NE)",
-      "latestAction": {
-        "date": "2025-05-21",
-        "text": "Read twice and referred to the Committee on Veterans' Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1835",
-      "subjects": [],
-      "policyArea": "Armed Forces and National Security"
-    },
-    {
-      "id": "S.1941",
-      "title": "Cure Hepatitis C Act of 2025",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " hepatitis C who are (1) enrolled in Medicaid or the Children’s Health Insurance Program (CHIP), (2) confined to federal, state, or local correctional facilities (or were released and began treatment there), (3) uninsured, or (4) receiving health care through the Indian",
-          "versionDate": "2026-05-27T20:42:16Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Cure Hepatitis C Act of 2025 This bill establishes programs and requirements to provide free medications to treat hepatitis C in certain high-risk or vulnerable populations. It also establishes grants and other resources to support testing and treatment for hepatitis C. The bill provides funding for FY2025 to implement these provisions. The Department of Health and Human Services (HHS) must enter into a five-year purchasing contract with manufacturers of drugs that treat hepatitis C so that eligible individuals may receive the drugs without cost-sharing. Eligible individuals are those diagnosed with hepatitis C who are (1) enrolled in Medicaid or the Children’s Health Insurance Program (CHIP), (2) confined to federal, state, or local correctional facilities (or were released and began treatment there), (3) uninsured, or (4) receiving health care through the Indian Health Service. Eligibility is limited to those with specified legal immigration statuses. State Medicaid and CHIP programs and state and local correctional facilities may opt into the program; participation is mandatory for federal correctional facilities and the Indian Health Service. HHS must award grants to certain entities, including states, public health organizations, and correctional facilities, to support the coordination and provision of screening, treatment, and supportive services for the affected populations. The bill also allows Medicare beneficiaries to receive hepatitis C drugs without cost-sharing from 2027-2031.",
-      "summaryDate": "2026-05-27T20:42:16Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-04",
-      "sponsor": "Cassidy (R-LA)",
-      "latestAction": {
-        "date": "2025-06-04",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1941",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.2064",
-      "title": "Helping Tobacco Users Quit Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "o Users Quit Act This bill provides for Medicaid and Children's Health Insurance Program (CHIP) coverage of certain tobacco cessation services. Specifically, the bill provides for coverage, without cost-sharing, of diagnostic, therapy, and counseling services and pharma",
-          "versionDate": "2025-07-25T16:21:32Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Helping Tobacco Users Quit Act This bill provides for Medicaid and Children's Health Insurance Program (CHIP) coverage of certain tobacco cessation services. Specifically, the bill provides for coverage, without cost-sharing, of diagnostic, therapy, and counseling services and pharmacotherapy, including prescription and nonprescription tobacco cessation agents, that are provided under medical supervision and in accordance with specified guidelines. It also applies a 90% Federal Medical Assistance Percentage (i.e., federal matching rate) for such items and services for five years.",
-      "summaryDate": "2025-07-25T16:21:32Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-12",
-      "sponsor": "Blunt Rochester (D-DE)",
-      "latestAction": {
-        "date": "2025-06-12",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2064",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.2069",
-      "title": "Stabilize Medicaid and CHIP Coverage Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "Stabilize Medicaid and CHIP Coverage Act"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-12",
-      "sponsor": "Whitehouse (D-RI)",
-      "latestAction": {
-        "date": "2025-06-12",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2069",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.2124",
       "title": "Election Worker Protection Act of 2025",
       "chamber": "Senate",
@@ -16616,291 +14962,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.2289",
-      "title": "Healthy Moms and Babies Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "port maternal health services under Medicaid and the Children's Health Insurance Program (CHIP). For example, the bill allows state Medicaid programs to cover services that are provided by maternity health homes (designated providers or health teams that provide pregnan",
-          "versionDate": "2025-11-18T20:33:32Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Healthy Moms and Babies Act This bill establishes programs and requirements to support maternal health services under Medicaid and the Children's Health Insurance Program (CHIP). For example, the bill allows state Medicaid programs to cover services that are provided by maternity health homes (designated providers or health teams that provide pregnancy and postpartum coordinated care services). It also establishes a demonstration program to expand telehealth services for pregnant and postpartum women under Medicaid. The bill also establishes an advisory group on birthing practices for health care professionals, requires a study on Medicaid coverage of doula services, and establishes other requirements relating to the maternal health care workforce. It also requires the Centers for Medicare & Medicaid Services to develop guidance on ways to address social determinants of health for pregnant and postpartum women and to reduce maternal mortality for Medicaid and CHIP beneficiaries.",
-      "summaryDate": "2025-11-18T20:33:32Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-07-15",
-      "sponsor": "Grassley (R-IA)",
-      "latestAction": {
-        "date": "2026-03-19",
-        "text": "Committee on Health, Education, Labor, and Pensions. Hearings held."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2289",
-      "subjects": [
-        "Accounting and auditing",
-        "Advisory bodies",
-        "American Samoa",
-        "Child health",
-        "Congressional oversight",
-        "Data collection, sharing, protection",
-        "Federal officials",
-        "Government information and archives",
-        "Government studies and investigations",
-        "Guam",
-        "Health care coverage and access",
-        "Health care quality",
-        "Health information and medical records",
-        "Health personnel",
-        "Health technology, devices, supplies",
-        "Hospital care",
-        "Intergovernmental relations",
-        "Medicaid",
-        "Mental health",
-        "Minority health",
-        "Northern Mariana Islands",
-        "Poverty and welfare assistance",
-        "Puerto Rico",
-        "Racial and ethnic relations",
-        "Sex and reproductive health",
-        "State and local government operations",
-        "Surgery and anesthesia",
-        "U.S. territories and protectorates",
-        "Virgin Islands",
-        "Women's health"
-      ],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.2356",
-      "title": "ADAPT Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "age options for such services under Medicaid and the Children's Health Insurance Program (CHIP).",
-          "versionDate": "2025-12-02T16:37:49Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Accelerating the Development of Advanced Psychology Trainees Act or the ADAPT Act This bill provides for Medicare coverage of services that are furnished by advanced psychology trainees. It also requires the Centers for Medicare & Medicaid Services to issue guidance for states on coverage options for such services under Medicaid and the Children's Health Insurance Program (CHIP).",
-      "summaryDate": "2025-12-02T16:37:49Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-07-17",
-      "sponsor": "Barrasso (R-WY)",
-      "latestAction": {
-        "date": "2025-07-17",
-        "text": "Read twice and referred to the Committee on Finance. (text: CR S4459)"
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2356",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.2587",
-      "title": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " Health Review Commission, the Institute of Museum and Library Services, the Medicaid and CHIP Payment and Access Commission, the Medicare Payment Advisory Commission, the National Council on Disability, the National Labor Relations Board, the National Mediation Board, ",
-          "versionDate": "2025-09-22T16:10:40Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026 This bill provides FY2026 appropriations to the Departments of Labor, Health and Human Services, and Education; and related agencies. The bill provides appropriations to the Department of Labor for the Employment and Training Administration, Veterans' Employment and Training, the Employee Benefits Security Administration, the Pension Benefit Guaranty Corporation, the Wage and Hour Division, the Office of Labor-Management Standards, the Office of Federal Contract Compliance Programs, the Office of Workers' Compensation Programs, the Occupational Safety and Health Administration, the Mine Safety and Health Administration, the Bureau of Labor Statistics, the Office of Disability Employment Policy, and Departmental Management. The bill provides appropriations to the Department of Health and Human Services for the Health Resources and Services Administration, the Centers for Disease Control and Prevention, the National Institutes of Health, the Substance Abuse and Mental Health Services Administration, the Agency for Healthcare Research and Quality, the Centers for Medicare and Medicaid Services, the Administration for Children and Families, the Administration for Community Living, the Administration for Strategic Preparedness and Response, and the Office of the Secretary. The bill provides appropriations to the Department of Education for Education for the Disadvantaged; Impact Aid; School Improvement Programs; Indian Education; Innovation and Improvement; Safe Schools and Citizenship Education; English Language Acquisition; Special Education; Rehabilitation Services; Special Institutions for Persons with Disabilities; Career, Technical, and Adult Education; Student Financial Assistance; Student Aid Administration; Higher Education; Howard University; the College Housing and Academic Facilities Loans Program; the Historically Black College and University Capital Financing Program Account; the Institute of Education Sciences; and Departmental Management. The bill also provides appropriations to several related agencies, including the Committee for Purchase…",
-      "summaryDate": "2025-09-22T16:10:40Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-07-31",
-      "sponsor": "Capito (R-WV)",
-      "latestAction": {
-        "date": "2025-07-31",
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 140."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2587",
-      "subjects": [
-        "Abortion",
-        "Administrative remedies",
-        "Adoption and foster care",
-        "Adult education and literacy",
-        "Aging",
-        "Alabama",
-        "Allergies",
-        "Appropriations",
-        "Birth defects",
-        "Blood and blood diseases",
-        "Border security and unlawful immigration",
-        "Broadcasting, cable, digital technologies",
-        "Cancer",
-        "Cardiovascular and respiratory health",
-        "Census and government statistics",
-        "Centers for Disease Control and Prevention (CDC)",
-        "Child care and development",
-        "Child health",
-        "Child safety and welfare",
-        "Coal",
-        "Committee for Purchase from People Who Are Blind or Severely Disabled",
-        "Computer security and identity theft",
-        "Computers and information technology",
-        "Congressional oversight",
-        "Corporation for National and Community Service",
-        "Corporation for Public Broadcasting",
-        "Data collection, sharing, protection",
-        "Dental care",
-        "Department of Education",
-        "Department of Health and Human Services",
-        "Department of Labor",
-        "Detention of persons",
-        "Digestive and metabolic diseases",
-        "Disability and paralysis",
-        "Disability assistance",
-        "Domestic violence and child abuse",
-        "Drug trafficking and controlled substances",
-        "Drug, alcohol, tobacco use",
-        "Education of the disadvantaged",
-        "Education programs funding",
-        "Educational facilities and institutions",
-        "Elementary and secondary education",
-        "Emergency planning and evacuation",
-        "Employee benefits and pensions",
-        "Employment and training programs",
-        "Employment discrimination and employee rights",
-        "Energy assistance for the poor and aged",
-        "Environmental health",
-        "Evidence and witnesses",
-        "Executive agency funding and structure",
-        "Family planning and birth control",
-        "Family services",
-        "Federal Mediation and Conciliation Service",
-        "Federal Mine Safety and Health Review Commission",
-        "Foreign labor",
-        "Foreign language and bilingual programs",
-        "Fraud offenses and financial crimes",
-        "Genetics",
-        "Georgia",
-        "Government employee pay, benefits, personnel management",
-        "Government information and archives",
-        "Government lending and loan guarantees",
-        "Government trust funds",
-        "HIV/AIDS",
-        "Health care coverage and access",
-        "Health care quality",
-        "Health facilities and institutions",
-        "Health information and medical records",
-        "Health personnel",
-        "Health programs administration and funding",
-        "Health promotion and preventive care",
-        "Health technology, devices, supplies",
-        "Hearing, speech, and vision care",
-        "Hereditary and development disorders",
-        "Higher education",
-        "Homelessness and emergency shelter",
-        "Housing and community development funding",
-        "Immigrant health and welfare",
-        "Immunology and vaccination",
-        "Indian social and development programs",
-        "Infectious and parasitic diseases",
-        "Intergovernmental relations",
-        "Kentucky",
-        "Labor standards",
-        "Labor-management relations",
-        "Law enforcement administration and funding",
-        "Lawyers and legal services",
-        "Libraries and archives",
-        "Maine",
-        "Marshall Islands",
-        "Maryland",
-        "Medicaid",
-        "Medical research",
-        "Medical tests and diagnostic methods",
-        "Medicare",
-        "Medicare Payment Advisory Commission",
-        "Mental health",
-        "Micronesia",
-        "Migrant, seasonal, agricultural labor",
-        "Mining",
-        "Minority education",
-        "Minority health",
-        "Mississippi",
-        "Musculoskeletal and skin diseases",
-        "Museums, exhibitions, cultural centers",
-        "National Institutes of Health (NIH)",
-        "National Labor Relations Board (NLRB)",
-        "National Mediation Board",
-        "National and community service",
-        "Neurological disorders",
-        "New Hampshire",
-        "New York State",
-        "North Carolina",
-        "Nursing",
-        "Occupational Safety and Health Review Commission",
-        "Ohio",
-        "Pennsylvania",
-        "Pension Benefit Guaranty Corporation",
-        "Photography and imaging",
-        "Poverty and welfare assistance",
-        "Preschool education",
-        "Protection of officials",
-        "Public contracts and procurement",
-        "Railroad Retirement Board",
-        "Railroads",
-        "Refugees, asylum, displaced persons",
-        "Research administration and funding",
-        "Rural conditions and development",
-        "School administration",
-        "Seafood",
-        "Sex and reproductive health",
-        "Sexually transmitted diseases",
-        "Social Security Administration",
-        "Social security and elderly assistance",
-        "South Carolina",
-        "Special education",
-        "State and local finance",
-        "State and local government operations",
-        "Student aid and college costs",
-        "Teaching, teachers, curricula",
-        "Temporary and part-time employment",
-        "Tennessee",
-        "Transportation employees",
-        "Unemployment",
-        "Vermont",
-        "Veterans' education, employment, rehabilitation",
-        "Veterans' loans, housing, homeless programs",
-        "Veterinary medicine and animal diseases",
-        "Virginia",
-        "Vocational and technical education",
-        "Wages and earnings",
-        "West Virginia",
-        "Women's employment",
-        "Women's health",
-        "Worker safety and health",
-        "World health",
-        "Youth employment and child labor"
-      ],
-      "policyArea": "Economics and Public Finance"
-    },
-    {
       "id": "S.2812",
       "title": "Brake for Kids Act of 2025",
       "chamber": "Senate",
@@ -16931,38 +14992,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2812",
       "subjects": [],
       "policyArea": "Transportation and Public Works"
-    },
-    {
-      "id": "S.2857",
-      "title": "Protecting Free Vaccines Act of 2025",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "t of 2025 This bill requires Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and private health insurers to cover, without cost-sharing, vaccines that were recommended by the Centers for Disease Control and Prevention's Advisory Committee on Immuniza",
-          "versionDate": "2026-05-12T20:07:24Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Protecting Free Vaccines Act of 2025 This bill requires Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and private health insurers to cover, without cost-sharing, vaccines that were recommended by the Centers for Disease Control and Prevention's Advisory Committee on Immunization Practices as of October 25, 2024. The requirement ends on January 1, 2030.",
-      "summaryDate": "2026-05-12T20:07:24Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-09-18",
-      "sponsor": "Wyden (D-OR)",
-      "latestAction": {
-        "date": "2025-09-18",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2857",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "S.2934",
@@ -17082,38 +15111,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.3304",
-      "title": "Medical Foods and Formulas Access Act of 2025",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " bill expands coverage under Medicare, Medicaid, the Children’s Health Insurance Program (CHIP), and the Federal Employees Health Benefits Program to include medically necessary food and associated equipment and supplies. The bill defines medically necessary food as spe",
-          "versionDate": "2026-06-09T20:30:30Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medical Foods and Formulas Access Act of 2025 This bill expands coverage under Medicare, Medicaid, the Children’s Health Insurance Program (CHIP), and the Federal Employees Health Benefits Program to include medically necessary food and associated equipment and supplies. The bill defines medically necessary food as specially formulated and processed products (e.g., nutritional formulas) prescribed by health care practitioners for individuals who have special dietary requirements because of certain digestive or metabolic disorders or conditions.",
-      "summaryDate": "2026-06-09T20:30:30Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-02",
-      "sponsor": "Wicker (R-MS)",
-      "latestAction": {
-        "date": "2025-12-02",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3304",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.3312",
       "title": "Quantum Readiness and Innovation Act of 2025",
       "chamber": "Senate",
@@ -17176,57 +15173,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.3386",
-      "title": "Health Care Freedom for Patients Act of 2025",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "s. It also restricts payments under Medicaid and the Children's Health Insurance Program (CHIP) regarding certain noncitizens and restricts coverage of gender-transition procedures. Specifically, the bill provides funds for the Department of Health and Human Services to",
-          "versionDate": "2025-12-11T16:09:26Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Health Care Freedom for Patients Act of 2025 This bill allows certain individuals with health savings accounts (HSAs) to receive federal payments. It also restricts payments under Medicaid and the Children's Health Insurance Program (CHIP) regarding certain noncitizens and restricts coverage of gender-transition procedures. Specifically, the bill provides funds for the Department of Health and Human Services to deposit payments into an individual’s HSA during 2026-2027 if the individual has a bronze or catastrophic plan through a health insurance exchange, is between the ages of 18 and 64, and has income up to 700% of the federal poverty level (FPL). Individuals may receive $1,000 or $1,500 annually, depending on age. The bill also provides funds, beginning in 2027, for cost-sharing reductions for certain individuals who have a silver plan and income up to 250% of the FPL. Beginning in 2027, the bill allows any individual to enroll in a catastrophic plan. Currently, these plans are limited to those under the age of 30 or who have certain exemptions. The bill also reduces the enhanced federal matching rate for the Medicaid expansion population in states that provide any health benefits for individuals who are not qualified aliens under federal law. The bill makes Medicaid and CHIP coverage of individuals while their status is being verified optional and conditions federal payment during this period on verification. Finally, the bill prohibits exchange plans from covering gender-transition procedures as an essential health benefit and prohibits federal payment under Medicaid and CHIP for these procedures.",
-      "summaryDate": "2025-12-11T16:09:26Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-08",
-      "sponsor": "Crapo (R-ID)",
-      "latestAction": {
-        "date": "2025-12-11",
-        "text": "Cloture on the motion to proceed to the measure not invoked in Senate by Yea-Nay Vote. 51 - 48. Record Vote Number: 643. (CR S8654)"
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3386",
-      "subjects": [
-        "Abortion",
-        "Child health",
-        "Department of Health and Human Services",
-        "Drug therapy",
-        "Executive agency funding and structure",
-        "Government information and archives",
-        "Health care costs and insurance",
-        "Health care coverage and access",
-        "Health programs administration and funding",
-        "Immigration status and procedures",
-        "Income tax credits",
-        "Intergovernmental relations",
-        "Medicaid",
-        "Poverty and welfare assistance",
-        "Sex, gender, sexual orientation discrimination",
-        "State and local finance",
-        "State and local government operations",
-        "Surgery and anesthesia"
-      ],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.3397",
       "title": "ECCHO Act",
       "chamber": "Senate",
@@ -17257,38 +15203,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3397",
       "subjects": [],
       "policyArea": "Crime and Law Enforcement"
-    },
-    {
-      "id": "S.3486",
-      "title": "Expand the Behavioral Health Workforce Now Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "stance use disorder providers under Medicaid and the Children's Health Insurance Program (CHIP), particularly in rural and underserved areas.",
-          "versionDate": "2026-10-08T19:22:34Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Expand the Behavioral Health Workforce Now Act This bill requires the Centers for Medicare & Medicaid Services to issue guidance for states on ways to increase education, training, recruitment, and retention of mental health and substance use disorder providers under Medicaid and the Children's Health Insurance Program (CHIP), particularly in rural and underserved areas.",
-      "summaryDate": "2026-10-08T19:22:34Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-16",
-      "sponsor": "Daines (R-MT)",
-      "latestAction": {
-        "date": "2025-12-16",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3486",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "S.3494",
@@ -17593,38 +15507,6 @@
       "policyArea": "Crime and Law Enforcement"
     },
     {
-      "id": "S.4481",
-      "title": "IMPACT to Save Moms Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "e, including postpartum care, under Medicaid and the Children's Health Insurance Program (CHIP).",
-          "versionDate": "2026-06-12T19:32:50Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Innovative Maternal Payment and Coverage To Save Moms Act or the IMPACT to Save Moms Act This bill requires the Centers for Medicare & Medicaid Services to establish the Perinatal Care Alternative Payment Model Demonstration Project through FY2031 to allow states to test payment models for maternity care, including postpartum care, under Medicaid and the Children's Health Insurance Program (CHIP).",
-      "summaryDate": "2026-06-12T19:32:50Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-05-11",
-      "sponsor": "Blunt Rochester (D-DE)",
-      "latestAction": {
-        "date": "2026-05-11",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4481",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.4750",
       "title": "Semiconductor Superiority Act",
       "chamber": "Senate",
@@ -17685,37 +15567,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4810",
       "subjects": [],
       "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "S.4815",
-      "title": "CHIP IN for Veterans Act of 2026",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "CHIP",
-          "excerpt": "CHIP IN for Veterans Act of 2026"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-17",
-      "sponsor": "Fischer (R-NE)",
-      "latestAction": {
-        "date": "2026-06-17",
-        "text": "Read twice and referred to the Committee on Veterans' Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4815",
-      "subjects": [],
-      "policyArea": "Armed Forces and National Security"
     },
     {
       "id": "S.4823",
@@ -17819,38 +15670,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.4913",
-      "title": "MOMMIES Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": " of programs and requirements under Medicaid and the Children's Health Insurance Program (CHIP) relating to maternal health. For example, the bill expands eligibility for coverage under Medicaid and CHIP from 60 days to one year after the last day of pregnancy and requi",
-          "versionDate": "2026-07-14T20:24:07Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Maximizing Outcomes for Moms through Medicaid Improvement and Enhancement of Services Act or the MOMMIES Act This bill establishes a series of programs and requirements under Medicaid and the Children's Health Insurance Program (CHIP) relating to maternal health. For example, the bill expands eligibility for coverage under Medicaid and CHIP from 60 days to one year after the last day of pregnancy and requires such coverage to include oral health services. The bill also establishes a demonstration program in which states receive grants to implement or expand models for maternity care homes that provide services to Medicaid or CHIP beneficiaries. The Government Accountability Office must report on (1) gaps in coverage under Medicaid and CHIP for pregnant and postpartum women, and (2) the use of telehealth by state Medicaid programs to increase access to maternity care.",
-      "summaryDate": "2026-07-14T20:24:07Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-24",
-      "sponsor": "Booker (D-NJ)",
-      "latestAction": {
-        "date": "2026-06-24",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4913",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
       "id": "S.4946",
       "title": "Health and Location Data Protection Act of 2026",
       "chamber": "Senate",
@@ -17911,70 +15730,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5074",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "S.5088",
-      "title": "Ensuring Kids Have Access to Medically Necessary Dental Care Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "are Act This bill modifies dental coverage under the Children's Health Insurance Program (CHIP). Specifically, the bill prohibits lifetime or annual limits on CHIP dental coverage. It also requires states to offer dental-only supplemental coverage under CHIP to children",
-          "versionDate": "2026-08-25T20:33:09Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Ensuring Kids Have Access to Medically Necessary Dental Care Act This bill modifies dental coverage under the Children's Health Insurance Program (CHIP). Specifically, the bill prohibits lifetime or annual limits on CHIP dental coverage. It also requires states to offer dental-only supplemental coverage under CHIP to children who have other health insurance but are otherwise eligible for CHIP (i.e., wraparound coverage); such coverage is currently at the option of the state.",
-      "summaryDate": "2026-08-25T20:33:09Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Alsobrooks (D-MD)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5088",
-      "subjects": [],
-      "policyArea": "Health"
-    },
-    {
-      "id": "S.5091",
-      "title": "Medicaid Dental Benefit Act of 2026",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "ing to such coverage. Additionally, the Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to adult oral health care.",
-          "versionDate": "2026-08-25T20:33:37Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Medicaid Dental Benefit Act of 2026 This bill requires state Medicaid programs to cover dental and oral health services for adults. It also increases the Federal Medical Assistance Percentage (i.e., federal matching rate) for such services. The Centers for Medicare & Medicaid Services must develop oral health quality and equity measures and conduct outreach relating to such coverage. Additionally, the Medicaid and Children's Health Insurance Program (CHIP) Payment and Access Commission must report on specified information relating to adult oral health care.",
-      "summaryDate": "2026-08-25T20:33:37Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Alsobrooks (D-MD)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Read twice and referred to the Committee on Finance."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5091",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "S.5139",
@@ -18199,38 +15954,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5459",
       "subjects": [],
       "policyArea": "Agriculture and Food"
-    },
-    {
-      "id": "S.5515",
-      "title": "CARE for Moms Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "CHIP",
-          "excerpt": "s. The bill requires state Medicaid programs and the Children’s Health Insurance Program (CHIP) to cover women for 12 months postpartum and to cover dental services for pregnant and postpartum women The bill also allows for two years of postpartum coverage for women und",
-          "versionDate": "2026-10-16T19:59:33Z"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "Community Access, Resources, and Empowerment for Moms Act or the CARE for Moms Act This bill establishes and expands federal programs to increase access to health care for pregnant and postpartum women, particularly those in underserved communities. It also increases and expands excise taxes on tobacco products. The bill requires state Medicaid programs and the Children’s Health Insurance Program (CHIP) to cover women for 12 months postpartum and to cover dental services for pregnant and postpartum women The bill also allows for two years of postpartum coverage for women under the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). Also, the bill establishes grant programs for state-based collaboratives to improve perinatal health care, mobile health units for obstetric care in rural and underserved communities, the doula workforce, and regional centers of excellence to educate health professionals on implicit bias and culturally competent care. The Department of Health and Human Services (HHS) must publish information on Medicaid and CHIP benefits for pregnant and postpartum women and report to Congress on maternal health needs and expenditures. In addition, hospitals, as a condition of Medicare participation, must notify HHS at least 90 days before closing an obstetric unit. Additionally, the bill increases existing excise taxes on cigarettes, equalizes tax rates among all other tobacco products, and establishes annual inflation adjustments. It also establishes new excise taxes for other tobacco products deemed as such by the Food and Drug Administration that are not already subject to such federal taxes.",
-      "summaryDate": "2026-10-16T19:59:33Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-09-24",
-      "sponsor": "Durbin (D-IL)",
-      "latestAction": {
-        "date": "2026-09-24",
-        "text": "Read twice and referred to the Committee on Finance. (text: CR S4998-5003)"
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5515",
-      "subjects": [],
-      "policyArea": "Health"
     },
     {
       "id": "S.5544",

@@ -1,6 +1,6 @@
 # Atlas candidate review
 
-Generated 2026-11-23T03:26:51.745Z. 474 candidates; 170 tracked bills remain unchanged.
+Generated 2026-11-23T03:32:07.022Z. 421 candidates; 170 tracked bills remain unchanged.
 
 Open `candidate-review.html` for filters, evidence, and Include / Exclude / Defer decisions. Export your decisions and import them with `npm run review:candidates -- --import path/to/decisions.json`. Included candidates still require an explicit reviewed change to the Tracker.
 
@@ -239,13 +239,11 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.5400](https://www.congress.gov/bill/119th-congress/senate-bill/5400) | STRIDE Act | Related to tracked bill | Semiconductors & export controls | Curtis (R-UT) | H.R.6058 | pending |
 | [H.R.169](https://www.congress.gov/bill/119th-congress/house-bill/169) | Prevent Family Fire Act of 2025 | Broader policy scope | Privacy & data governance | Levin (D-CA) |  | pending |
 | [H.R.185](https://www.congress.gov/bill/119th-congress/house-bill/185) | Responsible Legislating Act | Broader policy scope | Semiconductors & export controls | McGovern (D-MA) |  | pending |
-| [H.R.217](https://www.congress.gov/bill/119th-congress/house-bill/217) | CHIP IN for Veterans Act of 2025 | Broader policy scope | Semiconductors & export controls | Bacon (R-NE) |  | pending |
 | [H.R.310](https://www.congress.gov/bill/119th-congress/house-bill/310) | Restoring Energy Market Freedom Act | Broader policy scope | Semiconductors & export controls | Perry (R-PA) |  | pending |
 | [H.R.488](https://www.congress.gov/bill/119th-congress/house-bill/488) | Combating Cartels on Social Media Act of 2025 | Broader policy scope | Algorithms & platforms | Ciscomani (R-AZ) |  | pending |
 | [H.R.564](https://www.congress.gov/bill/119th-congress/house-bill/564) | Repeal the TikTok Ban Act | Broader policy scope | Algorithms & platforms | Khanna (D-CA) |  | pending |
 | [H.R.626](https://www.congress.gov/bill/119th-congress/house-bill/626) | Northwest Energy Security Act | Broader policy scope | Energy & grid | Newhouse (R-WA) |  | pending |
 | [H.R.908](https://www.congress.gov/bill/119th-congress/house-bill/908) | Stop the Censorship Act | Broader policy scope | Algorithms & platforms | Gosar (R-AZ) |  | pending |
-| [H.R.1019](https://www.congress.gov/bill/119th-congress/house-bill/1019) | Medicaid Program Improvement Act | Broader policy scope | Semiconductors & export controls | Miller-Meeks (R-IA) |  | pending |
 | [H.R.1047](https://www.congress.gov/bill/119th-congress/house-bill/1047) | GRID Power Act | Broader policy scope | Energy & grid | Balderson (R-OH) |  | pending |
 | [H.R.1101](https://www.congress.gov/bill/119th-congress/house-bill/1101) | Taxpayer Data Protection Act | Broader policy scope | Privacy & data governance | Stevens (D-MI) |  | pending |
 | [H.R.1117](https://www.congress.gov/bill/119th-congress/house-bill/1117) | Responsibility in Drug Advertising Act of 2025 | Broader policy scope | Algorithms & platforms | DeLauro (D-CT) |  | pending |
@@ -253,26 +251,16 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.1316](https://www.congress.gov/bill/119th-congress/house-bill/1316) | Maintaining American Superiority by Improving Export Control Transparency Act | Broader policy scope | Semiconductors & export controls | Jackson (R-TX) |  | pending |
 | [H.R.1318](https://www.congress.gov/bill/119th-congress/house-bill/1318) | United States Research Protection Act | Broader policy scope | Semiconductors & export controls | Kennedy (R-UT) |  | pending |
 | [H.R.1328](https://www.congress.gov/bill/119th-congress/house-bill/1328) | Supply Chain Security and Growth Act of 2025 | Broader policy scope | Semiconductors & export controls | Malliotakis (R-NY) |  | pending |
-| [H.R.1381](https://www.congress.gov/bill/119th-congress/house-bill/1381) | COVID–19 Vaccination Non-Discrimination Act | Broader policy scope | Semiconductors & export controls | Houchin (R-IN) |  | pending |
-| [H.R.1428](https://www.congress.gov/bill/119th-congress/house-bill/1428) | Poverty Line Act of 2025 | Broader policy scope | Semiconductors & export controls; Algorithms & platforms | Mullin (D-CA) |  | pending |
 | [H.R.1486](https://www.congress.gov/bill/119th-congress/house-bill/1486) | Economic Espionage Prevention Act | Broader policy scope | Semiconductors & export controls; Privacy & data governance | McCormick (R-GA) |  | pending |
 | [H.R.1487](https://www.congress.gov/bill/119th-congress/house-bill/1487) | Agricultural and Forestry Hauling Efficiency Act | Broader policy scope | Semiconductors & export controls | McGuire (R-VA) |  | pending |
-| [H.R.1509](https://www.congress.gov/bill/119th-congress/house-bill/1509) | Accelerating Kids’ Access to Care Act of 2025 | Broader policy scope | Semiconductors & export controls | Trahan (D-MA) |  | pending |
 | [H.R.1576](https://www.congress.gov/bill/119th-congress/house-bill/1576) | Protecting American Agriculture from Foreign Adversaries Act of 2025 | Broader policy scope | Privacy & data governance | Newhouse (R-WA) |  | pending |
-| [H.R.1620](https://www.congress.gov/bill/119th-congress/house-bill/1620) | Finn Sawyer Access to Cancer Testing Act | Broader policy scope | Semiconductors & export controls | Matsui (D-CA) |  | pending |
 | [H.R.1709](https://www.congress.gov/bill/119th-congress/house-bill/1709) | Understanding Cybersecurity of Mobile Networks Act | Broader policy scope | Algorithms & platforms | Landsman (D-OH) |  | pending |
 | [H.R.1713](https://www.congress.gov/bill/119th-congress/house-bill/1713) | Agricultural Risk Review Act of 2025 | Broader policy scope | Privacy & data governance | Lucas (R-OK) |  | pending |
-| [H.R.1720](https://www.congress.gov/bill/119th-congress/house-bill/1720) | Hospice Recertification Flexibility Act | Broader policy scope | Semiconductors & export controls | Miller (R-WV) |  | pending |
 | [H.R.1737](https://www.congress.gov/bill/119th-congress/house-bill/1737) | To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria. | Broader policy scope | Data centers & compute | Plaskett (D-VI) |  | pending |
-| [H.R.1875](https://www.congress.gov/bill/119th-congress/house-bill/1875) | Medicaid Provider Screening Accountability Act | Broader policy scope | Semiconductors & export controls | Langworthy (R-NY) |  | pending |
-| [H.R.1901](https://www.congress.gov/bill/119th-congress/house-bill/1901) | CHIPP Act | Broader policy scope | Semiconductors & export controls | Barragán (D-CA) |  | pending |
 | [H.R.2166](https://www.congress.gov/bill/119th-congress/house-bill/2166) | Safe Routes Act of 2025 | Broader policy scope | Semiconductors & export controls | Wied (R-WI) |  | pending |
 | [H.R.2261](https://www.congress.gov/bill/119th-congress/house-bill/2261) | Strengthening Oversight of DHS Intelligence Act | Broader policy scope | Privacy & data governance | Hernández (D-PR) |  | pending |
 | [H.R.2348](https://www.congress.gov/bill/119th-congress/house-bill/2348) | Brake for Kids Act of 2025 | Broader policy scope | Algorithms & platforms | Stauber (R-MN) |  | pending |
 | [H.R.2480](https://www.congress.gov/bill/119th-congress/house-bill/2480) | Securing Semiconductor Supply Chains Act of 2025 | Broader policy scope | Semiconductors & export controls | Landsman (D-OH) |  | pending |
-| [H.R.2491](https://www.congress.gov/bill/119th-congress/house-bill/2491) | ABC Act | Broader policy scope | Semiconductors & export controls | Cammack (R-FL) |  | pending |
-| [H.R.2533](https://www.congress.gov/bill/119th-congress/house-bill/2533) | EASE Act of 2025 | Broader policy scope | Semiconductors & export controls | Arrington (R-TX) |  | pending |
-| [H.R.2586](https://www.congress.gov/bill/119th-congress/house-bill/2586) | Reentry Act of 2025 | Broader policy scope | Semiconductors & export controls | Tonko (D-NY) |  | pending |
 | [H.R.2657](https://www.congress.gov/bill/119th-congress/house-bill/2657) | Sammy’s Law | Broader policy scope | Algorithms & platforms | Wasserman Schultz (D-FL) |  | pending |
 | [H.R.2808](https://www.congress.gov/bill/119th-congress/house-bill/2808) | Homebuyers Privacy Protection Act | Broader policy scope | Privacy & data governance | Rose (R-TN) |  | pending |
 | [H.R.2889](https://www.congress.gov/bill/119th-congress/house-bill/2889) | Online Consumer Protection Act | Broader policy scope | Algorithms & platforms | Schakowsky (D-IL) |  | pending |
@@ -288,10 +276,7 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.3788](https://www.congress.gov/bill/119th-congress/house-bill/3788) | Support for Quantum Supply Chains Act | Broader policy scope | Quantum technology | Sykes (D-OH) |  | pending |
 | [H.R.3921](https://www.congress.gov/bill/119th-congress/house-bill/3921) | STOP CSAM Act of 2025 | Broader policy scope | Privacy & data governance; Algorithms & platforms | Moore (R-AL) |  | pending |
 | [H.R.3928](https://www.congress.gov/bill/119th-congress/house-bill/3928) | Improving Water Quality Certifications and American Energy Infrastructure Act | Broader policy scope | Energy & grid | Rouzer (R-NC) |  | pending |
-| [H.R.4028](https://www.congress.gov/bill/119th-congress/house-bill/4028) | Stabilize Medicaid and CHIP Coverage Act | Broader policy scope | Semiconductors & export controls | Dingell (D-MI) |  | pending |
-| [H.R.4074](https://www.congress.gov/bill/119th-congress/house-bill/4074) | Optimizing Postpartum Outcomes Act of 2025 | Broader policy scope | Semiconductors & export controls | Bacon (R-NE) |  | pending |
 | [H.R.4233](https://www.congress.gov/bill/119th-congress/house-bill/4233) | ARMOR Act | Broader policy scope | Semiconductors & export controls | Kim (R-CA) |  | pending |
-| [H.R.4484](https://www.congress.gov/bill/119th-congress/house-bill/4484) | ADAPT Act | Broader policy scope | Semiconductors & export controls | Balderson (R-OH) |  | pending |
 | [H.R.4942](https://www.congress.gov/bill/119th-congress/house-bill/4942) | Quantum Encryption Readiness and Resilience Act | Broader policy scope | Quantum technology | Subramanyam (D-VA) |  | pending |
 | [H.R.4990](https://www.congress.gov/bill/119th-congress/house-bill/4990) | Wildfire Grid Resiliency Act | Broader policy scope | Energy & grid | Torres (D-CA) |  | pending |
 | [H.R.5022](https://www.congress.gov/bill/119th-congress/house-bill/5022) | No Advanced Chips for the CCP Act of 2025. | Broader policy scope | Semiconductors & export controls | Krishnamoorthi (D-IL) |  | pending |
@@ -300,10 +285,7 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.5173](https://www.congress.gov/bill/119th-congress/house-bill/5173) | No Social Media at School Act | Broader policy scope | Algorithms & platforms | Craig (D-MN) |  | pending |
 | [H.R.5248](https://www.congress.gov/bill/119th-congress/house-bill/5248) | PROFIT Act of 2026 | Broader policy scope | Semiconductors & export controls | Kim (R-CA) |  | pending |
 | [H.R.5289](https://www.congress.gov/bill/119th-congress/house-bill/5289) | Semiconductor Sovereignty Act | Broader policy scope | Semiconductors & export controls | Vindman (D-VA) |  | pending |
-| [H.R.5304](https://www.congress.gov/bill/119th-congress/house-bill/5304) | Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026 | Broader policy scope | Semiconductors & export controls; Algorithms & platforms | Aderholt (R-AL) |  | pending |
 | [H.R.5371](https://www.congress.gov/bill/119th-congress/house-bill/5371) | Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026 | Broader policy scope | Privacy & data governance | Cole (R-OK) |  | pending |
-| [H.R.5448](https://www.congress.gov/bill/119th-congress/house-bill/5448) | Protecting Free Vaccines Act | Broader policy scope | Semiconductors & export controls | Pallone (D-NJ) |  | pending |
-| [H.R.5684](https://www.congress.gov/bill/119th-congress/house-bill/5684) | Medical Foods and Formulas Access Act of 2025 | Broader policy scope | Semiconductors & export controls | McGovern (D-MA) |  | pending |
 | [H.R.5853](https://www.congress.gov/bill/119th-congress/house-bill/5853) | To amend the Export Control Reform Act of 2018 to increase the civil penalties that may be imposed under such Act. | Broader policy scope | Semiconductors & export controls | Self (R-TX) |  | pending |
 | [H.R.5925](https://www.congress.gov/bill/119th-congress/house-bill/5925) | HHS Reproductive and Sexual Health Ombuds Act of 2025 | Broader policy scope | Privacy & data governance | Williams (D-GA) |  | pending |
 | [H.R.5929](https://www.congress.gov/bill/119th-congress/house-bill/5929) | Critical Minerals Supply Chain Resiliency Act of 2026 | Broader policy scope | Energy & grid | Barr (R-KY) |  | pending |
@@ -316,10 +298,8 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.6266](https://www.congress.gov/bill/119th-congress/house-bill/6266) | Algorithm Accountability Act | Broader policy scope | Algorithms & platforms | Kennedy (R-UT) |  | pending |
 | [H.R.6290](https://www.congress.gov/bill/119th-congress/house-bill/6290) | Safe Social Media Act | Broader policy scope | Algorithms & platforms | Bentz (R-OR) |  | pending |
 | [H.R.6291](https://www.congress.gov/bill/119th-congress/house-bill/6291) | Children and Teens’ Online Privacy Protection Act | Broader policy scope | Privacy & data governance; Algorithms & platforms | Walberg (R-MI) |  | pending |
-| [H.R.6303](https://www.congress.gov/bill/119th-congress/house-bill/6303) | CARE for Moms Act | Broader policy scope | Semiconductors & export controls | Kelly (D-IL) |  | pending |
 | [H.R.6351](https://www.congress.gov/bill/119th-congress/house-bill/6351) | Advancing Regional Quantum Hubs Act | Broader policy scope | Quantum technology | Gillen (D-NY) |  | pending |
 | [H.R.6484](https://www.congress.gov/bill/119th-congress/house-bill/6484) | Kids Online Safety Act | Broader policy scope | Algorithms & platforms | Bilirakis (R-FL) |  | pending |
-| [H.R.6516](https://www.congress.gov/bill/119th-congress/house-bill/6516) | To amend the Patient Protection and Affordable Care Act to identify individuals dually enrolled in Medicaid or CHIP and an Exchange. | Broader policy scope | Semiconductors & export controls | Burchett (R-TN) |  | pending |
 | [H.R.6734](https://www.congress.gov/bill/119th-congress/house-bill/6734) | Auto Data Privacy and Autonomy Act | Broader policy scope | Privacy & data governance | Burlison (R-MO) |  | pending |
 | [H.R.7110](https://www.congress.gov/bill/119th-congress/house-bill/7110) | Eliminating Bias in Algorithmic Systems Act of 2026 | Broader policy scope | Algorithms & platforms | Lee (D-PA) |  | pending |
 | [H.R.7124](https://www.congress.gov/bill/119th-congress/house-bill/7124) | Realigning Mobile Phone Biometrics for American Privacy Protection Act | Broader policy scope | Privacy & data governance | Thompson (D-MS) |  | pending |
@@ -336,32 +316,20 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.8237](https://www.congress.gov/bill/119th-congress/house-bill/8237) | Quantum Instrumentation for Science and Engineering Act | Broader policy scope | Quantum technology | Salinas (D-OR) |  | pending |
 | [H.R.8284](https://www.congress.gov/bill/119th-congress/house-bill/8284) | Bureau of Industry and Security License Administration Enhancement Act | Broader policy scope | Semiconductors & export controls | McCaul (R-TX) |  | pending |
 | [H.R.8288](https://www.congress.gov/bill/119th-congress/house-bill/8288) | Strengthening Export Controls Compliance Act | Broader policy scope | Semiconductors & export controls | Amo (D-RI) |  | pending |
-| [H.R.8425](https://www.congress.gov/bill/119th-congress/house-bill/8425) | Strengthening the Vaccines for Children Program Act of 2026 | Broader policy scope | Semiconductors & export controls | Schrier (D-WA) |  | pending |
 | [H.R.8530](https://www.congress.gov/bill/119th-congress/house-bill/8530) | Quantum for Health Act | Broader policy scope | Quantum technology | Sykes (D-OH) |  | pending |
 | [H.R.8665](https://www.congress.gov/bill/119th-congress/house-bill/8665) | Allied Defense Sales Act | Broader policy scope | Semiconductors & export controls | Zinke (R-MT) |  | pending |
 | [H.R.8689](https://www.congress.gov/bill/119th-congress/house-bill/8689) | Strategic Export Controls and Border Security Enhancement Act | Broader policy scope | Semiconductors & export controls | Jackson (R-TX) |  | pending |
 | [H.R.8787](https://www.congress.gov/bill/119th-congress/house-bill/8787) | Servicemember Payment Data Privacy and Security Act | Broader policy scope | Privacy & data governance | Cline (R-VA) |  | pending |
 | [H.R.8814](https://www.congress.gov/bill/119th-congress/house-bill/8814) | HUD Data Privacy Act of 2026 | Broader policy scope | Privacy & data governance | Goldman (D-NY) |  | pending |
-| [H.R.8907](https://www.congress.gov/bill/119th-congress/house-bill/8907) | IMPACT to Save Moms Act | Broader policy scope | Semiconductors & export controls | Schakowsky (D-IL) |  | pending |
 | [H.R.8959](https://www.congress.gov/bill/119th-congress/house-bill/8959) | Semiconductor Superiority Act | Broader policy scope | Semiconductors & export controls | Buchanan (R-FL) |  | pending |
 | [H.R.9076](https://www.congress.gov/bill/119th-congress/house-bill/9076) | Postal Data Privacy Act of 2026 | Broader policy scope | Privacy & data governance | Scanlon (D-PA) |  | pending |
-| [H.R.9260](https://www.congress.gov/bill/119th-congress/house-bill/9260) | Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2027 | Broader policy scope | Semiconductors & export controls | Aderholt (R-AL) |  | pending |
 | [H.R.9318](https://www.congress.gov/bill/119th-congress/house-bill/9318) | National Security Commission Quantum Computing Act of 2026 | Broader policy scope | Quantum technology | Lawler (R-NY) |  | pending |
 | [H.R.9482](https://www.congress.gov/bill/119th-congress/house-bill/9482) | Health and Location Data Protection Act of 2026 | Broader policy scope | Privacy & data governance | Scanlon (D-PA) |  | pending |
-| [H.R.9542](https://www.congress.gov/bill/119th-congress/house-bill/9542) | Protecting Health Care and Lowering Costs Act of 2026 | Broader policy scope | Semiconductors & export controls | Boyle (D-PA) |  | pending |
 | [H.R.9585](https://www.congress.gov/bill/119th-congress/house-bill/9585) | Advancing American Quantum Leadership Act of 2026 | Broader policy scope | Quantum technology | Lawler (R-NY) |  | pending |
-| [H.R.9623](https://www.congress.gov/bill/119th-congress/house-bill/9623) | Protecting Americans’ Health Care Act of 2026 | Broader policy scope | Semiconductors & export controls | Boyle (D-PA) |  | pending |
 | [H.R.9629](https://www.congress.gov/bill/119th-congress/house-bill/9629) | Protecting Communities from Data Center Impacts Act of 2026 | Broader policy scope | Data centers & compute | Landsman (D-OH) |  | pending |
-| [H.R.9682](https://www.congress.gov/bill/119th-congress/house-bill/9682) | Cure Hepatitis C Act of 2026 | Broader policy scope | Semiconductors & export controls | Miller-Meeks (R-IA) |  | pending |
-| [H.R.9816](https://www.congress.gov/bill/119th-congress/house-bill/9816) | MOMMIES Act | Broader policy scope | Semiconductors & export controls | Pressley (D-MA) |  | pending |
-| [H.R.9831](https://www.congress.gov/bill/119th-congress/house-bill/9831) | Medicaid Dental Benefit Act of 2026 | Broader policy scope | Semiconductors & export controls | Barragán (D-CA) |  | pending |
-| [H.R.9833](https://www.congress.gov/bill/119th-congress/house-bill/9833) | Ensuring Kids Have Access to Medically Necessary Dental Care Act | Broader policy scope | Semiconductors & export controls | Barragán (D-CA) |  | pending |
 | [H.R.9843](https://www.congress.gov/bill/119th-congress/house-bill/9843) | Enhancing Electric Grid Resilience Act | Broader policy scope | Energy & grid | Castor (D-FL) |  | pending |
-| [H.R.9867](https://www.congress.gov/bill/119th-congress/house-bill/9867) | Expand the Behavioral Health Workforce Now Act | Broader policy scope | Semiconductors & export controls | Neguse (D-CO) |  | pending |
 | [H.R.9899](https://www.congress.gov/bill/119th-congress/house-bill/9899) | Afghanistan TPS Act of 2026 | Broader policy scope | Privacy & data governance | Crow (D-CO) |  | pending |
 | [H.R.9945](https://www.congress.gov/bill/119th-congress/house-bill/9945) | Lowering Energy Costs through Grid Modernization Act | Broader policy scope | Energy & grid | Whitesides (D-CA) |  | pending |
-| [H.R.9946](https://www.congress.gov/bill/119th-congress/house-bill/9946) | Equity in STI Testing Act | Broader policy scope | Semiconductors & export controls | Williams (D-GA) |  | pending |
-| [H.R.9958](https://www.congress.gov/bill/119th-congress/house-bill/9958) | Head Start Expansion and Improvement Act of 2026 | Broader policy scope | Semiconductors & export controls | Hayes (D-CT) |  | pending |
 | [H.R.10005](https://www.congress.gov/bill/119th-congress/house-bill/10005) | Data Center Resource Disclosure Act | Broader policy scope | Data centers & compute | Scholten (D-MI) |  | pending |
 | [H.R.10041](https://www.congress.gov/bill/119th-congress/house-bill/10041) | Smart Data Center Policy Act | Broader policy scope | Data centers & compute | Vindman (D-VA) |  | pending |
 | [H.R.10102](https://www.congress.gov/bill/119th-congress/house-bill/10102) | Data Center Community Reinvestment Act of 2026 | Broader policy scope | Data centers & compute | Salinas (D-OR) |  | pending |
@@ -407,8 +375,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.652](https://www.congress.gov/bill/119th-congress/senate-bill/652) | Protecting Patients from Deceptive Drug Ads Act | Broader policy scope | Algorithms & platforms | Durbin (D-IL) |  | pending |
 | [S.732](https://www.congress.gov/bill/119th-congress/senate-bill/732) | Protecting American Agriculture from Foreign Adversaries Act of 2025 | Broader policy scope | Privacy & data governance | Marshall (R-KS) |  | pending |
 | [S.744](https://www.congress.gov/bill/119th-congress/senate-bill/744) | Maintaining American Superiority by Improving Export Control Transparency Act | Broader policy scope | Semiconductors & export controls | Banks (R-IN) |  | pending |
-| [S.752](https://www.congress.gov/bill/119th-congress/senate-bill/752) | Accelerating Kids’ Access to Care Act | Broader policy scope | Semiconductors & export controls | Grassley (R-IA) |  | pending |
-| [S.755](https://www.congress.gov/bill/119th-congress/senate-bill/755) | Finn Sawyer Access to Cancer Testing Act | Broader policy scope | Semiconductors & export controls | Wicker (R-MS) |  | pending |
 | [S.769](https://www.congress.gov/bill/119th-congress/senate-bill/769) | United States Research Protection Act of 2025 | Broader policy scope | Semiconductors & export controls | Cornyn (R-TX) |  | pending |
 | [S.836](https://www.congress.gov/bill/119th-congress/senate-bill/836) | Children and Teens’ Online Privacy Protection Act | Broader policy scope | Privacy & data governance; Algorithms & platforms | Markey (D-MA) |  | pending |
 | [S.840](https://www.congress.gov/bill/119th-congress/senate-bill/840) | Digital Integrity in Democracy Act | Broader policy scope | Algorithms & platforms | Welch (D-VT) |  | pending |
@@ -416,8 +382,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.1063](https://www.congress.gov/bill/119th-congress/senate-bill/1063) | Safe Routes Act of 2025 | Broader policy scope | Semiconductors & export controls | Johnson (R-WI) |  | pending |
 | [S.1100](https://www.congress.gov/bill/119th-congress/senate-bill/1100) | Nutritious SNAP Act of 2025 | Broader policy scope | Semiconductors & export controls | Paul (R-KY) |  | pending |
 | [S.1208](https://www.congress.gov/bill/119th-congress/senate-bill/1208) | Privacy Act Modernization Act of 2025 | Broader policy scope | Privacy & data governance | Wyden (D-OR) |  | pending |
-| [S.1227](https://www.congress.gov/bill/119th-congress/senate-bill/1227) | ABC Act | Broader policy scope | Semiconductors & export controls | Markey (D-MA) |  | pending |
-| [S.1248](https://www.congress.gov/bill/119th-congress/senate-bill/1248) | EASE Act | Broader policy scope | Semiconductors & export controls | Mullin (R-OK) |  | pending |
 | [S.1467](https://www.congress.gov/bill/119th-congress/senate-bill/1467) | Homebuyers Privacy Protection Act | Broader policy scope | Privacy & data governance | Reed (D-RI) |  | pending |
 | [S.1475](https://www.congress.gov/bill/119th-congress/senate-bill/1475) | Clean Cloud Act of 2025 | Broader policy scope | Data centers & compute; Energy & grid | Whitehouse (D-RI) |  | pending |
 | [S.1544](https://www.congress.gov/bill/119th-congress/senate-bill/1544) | Insurance Data Protection Act | Broader policy scope | Privacy & data governance | Britt (R-AL) |  | pending |
@@ -425,26 +389,15 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.1691](https://www.congress.gov/bill/119th-congress/senate-bill/1691) | Traveler Privacy Protection Act of 2025 | Broader policy scope | Privacy & data governance | Merkley (D-OR) |  | pending |
 | [S.1745](https://www.congress.gov/bill/119th-congress/senate-bill/1745) | Dismantling Ideological Policies for Semiconductors and Science Act | Broader policy scope | Semiconductors & export controls | Cotton (R-AR) |  | pending |
 | [S.1829](https://www.congress.gov/bill/119th-congress/senate-bill/1829) | STOP CSAM Act of 2025 | Broader policy scope | Privacy & data governance; Algorithms & platforms | Hawley (R-MO) |  | pending |
-| [S.1835](https://www.congress.gov/bill/119th-congress/senate-bill/1835) | CHIP IN for Veterans Act of 2025 | Broader policy scope | Semiconductors & export controls | Fischer (R-NE) |  | pending |
-| [S.1941](https://www.congress.gov/bill/119th-congress/senate-bill/1941) | Cure Hepatitis C Act of 2025 | Broader policy scope | Semiconductors & export controls | Cassidy (R-LA) |  | pending |
-| [S.2064](https://www.congress.gov/bill/119th-congress/senate-bill/2064) | Helping Tobacco Users Quit Act | Broader policy scope | Semiconductors & export controls | Blunt Rochester (D-DE) |  | pending |
-| [S.2069](https://www.congress.gov/bill/119th-congress/senate-bill/2069) | Stabilize Medicaid and CHIP Coverage Act | Broader policy scope | Semiconductors & export controls | Whitehouse (D-RI) |  | pending |
 | [S.2124](https://www.congress.gov/bill/119th-congress/senate-bill/2124) | Election Worker Protection Act of 2025 | Broader policy scope | Algorithms & platforms | Klobuchar (D-MN) |  | pending |
 | [S.2268](https://www.congress.gov/bill/119th-congress/senate-bill/2268) | Agricultural Risk Review Act of 2025 | Broader policy scope | Privacy & data governance | Cramer (R-ND) |  | pending |
-| [S.2289](https://www.congress.gov/bill/119th-congress/senate-bill/2289) | Healthy Moms and Babies Act | Broader policy scope | Semiconductors & export controls | Grassley (R-IA) |  | pending |
-| [S.2356](https://www.congress.gov/bill/119th-congress/senate-bill/2356) | ADAPT Act | Broader policy scope | Semiconductors & export controls | Barrasso (R-WY) |  | pending |
-| [S.2587](https://www.congress.gov/bill/119th-congress/senate-bill/2587) | Departments of Labor, Health and Human Services, and Education, and Related Agencies Appropriations Act, 2026 | Broader policy scope | Semiconductors & export controls | Capito (R-WV) |  | pending |
 | [S.2812](https://www.congress.gov/bill/119th-congress/senate-bill/2812) | Brake for Kids Act of 2025 | Broader policy scope | Algorithms & platforms | Young (R-IN) |  | pending |
-| [S.2857](https://www.congress.gov/bill/119th-congress/senate-bill/2857) | Protecting Free Vaccines Act of 2025 | Broader policy scope | Semiconductors & export controls | Wyden (D-OR) |  | pending |
 | [S.2934](https://www.congress.gov/bill/119th-congress/senate-bill/2934) | Protecting Americans from Russian Litigation Act of 2025 | Broader policy scope | Semiconductors & export controls | Cornyn (R-TX) |  | pending |
 | [S.3193](https://www.congress.gov/bill/119th-congress/senate-bill/3193) | Algorithm Accountability Act | Broader policy scope | Algorithms & platforms | Curtis (R-UT) |  | pending |
 | [S.3301](https://www.congress.gov/bill/119th-congress/senate-bill/3301) | Chip EQUIP Act | Broader policy scope | Semiconductors & export controls | Kelly (D-AZ) |  | pending |
-| [S.3304](https://www.congress.gov/bill/119th-congress/senate-bill/3304) | Medical Foods and Formulas Access Act of 2025 | Broader policy scope | Semiconductors & export controls | Wicker (R-MS) |  | pending |
 | [S.3312](https://www.congress.gov/bill/119th-congress/senate-bill/3312) | Quantum Readiness and Innovation Act of 2025 | Broader policy scope | Quantum technology | Peters (D-MI) |  | pending |
 | [S.3374](https://www.congress.gov/bill/119th-congress/senate-bill/3374) | SAFE Chips Act of 2025 | Broader policy scope | Semiconductors & export controls | Ricketts (R-NE) |  | pending |
-| [S.3386](https://www.congress.gov/bill/119th-congress/senate-bill/3386) | Health Care Freedom for Patients Act of 2025 | Broader policy scope | Semiconductors & export controls | Crapo (R-ID) |  | pending |
 | [S.3397](https://www.congress.gov/bill/119th-congress/senate-bill/3397) | ECCHO Act | Broader policy scope | Privacy & data governance | Grassley (R-IA) |  | pending |
-| [S.3486](https://www.congress.gov/bill/119th-congress/senate-bill/3486) | Expand the Behavioral Health Workforce Now Act | Broader policy scope | Semiconductors & export controls | Daines (R-MT) |  | pending |
 | [S.3494](https://www.congress.gov/bill/119th-congress/senate-bill/3494) | Auto Data Privacy and Autonomy Act | Broader policy scope | Privacy & data governance | Lee (R-UT) |  | pending |
 | [S.3618](https://www.congress.gov/bill/119th-congress/senate-bill/3618) | No Fentanyl on Social Media Act of 2026 | Broader policy scope | Algorithms & platforms | Husted (R-OH) |  | pending |
 | [S.3633](https://www.congress.gov/bill/119th-congress/senate-bill/3633) | Middle Mile for Rural America Act | Broader policy scope | Data centers & compute | Hyde-Smith (R-MS) |  | pending |
@@ -454,18 +407,13 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.4193](https://www.congress.gov/bill/119th-congress/senate-bill/4193) | Wildfire and Grid Reliability Act | Broader policy scope | Energy & grid | Wyden (D-OR) |  | pending |
 | [S.4211](https://www.congress.gov/bill/119th-congress/senate-bill/4211) | Consumer Data Privacy and Security Act of 2026 | Broader policy scope | Privacy & data governance | Moran (R-KS) |  | pending |
 | [S.4268](https://www.congress.gov/bill/119th-congress/senate-bill/4268) | Privacy Protection Updates Act | Broader policy scope | Privacy & data governance | Wyden (D-OR) |  | pending |
-| [S.4481](https://www.congress.gov/bill/119th-congress/senate-bill/4481) | IMPACT to Save Moms Act | Broader policy scope | Semiconductors & export controls | Blunt Rochester (D-DE) |  | pending |
 | [S.4750](https://www.congress.gov/bill/119th-congress/senate-bill/4750) | Semiconductor Superiority Act | Broader policy scope | Semiconductors & export controls | Budd (R-NC) |  | pending |
 | [S.4810](https://www.congress.gov/bill/119th-congress/senate-bill/4810) | CHIPS Training in America Act of 2026 | Broader policy scope | Semiconductors & export controls | Kelly (D-AZ) |  | pending |
-| [S.4815](https://www.congress.gov/bill/119th-congress/senate-bill/4815) | CHIP IN for Veterans Act of 2026 | Broader policy scope | Semiconductors & export controls | Fischer (R-NE) |  | pending |
 | [S.4823](https://www.congress.gov/bill/119th-congress/senate-bill/4823) | Advancing American Quantum Leadership Act of 2026 | Broader policy scope | Quantum technology | Kim (D-NJ) |  | pending |
 | [S.4835](https://www.congress.gov/bill/119th-congress/senate-bill/4835) | Bureau of Industry and Security License Administration Enhancement Act | Broader policy scope | Semiconductors & export controls | Cramer (R-ND) |  | pending |
 | [S.4883](https://www.congress.gov/bill/119th-congress/senate-bill/4883) | A bill to amend the Export Control Reform Act of 2018 to increase the civil penalties that may be imposed under that Act. | Broader policy scope | Semiconductors & export controls | Kennedy (R-LA) |  | pending |
-| [S.4913](https://www.congress.gov/bill/119th-congress/senate-bill/4913) | MOMMIES Act | Broader policy scope | Semiconductors & export controls | Booker (D-NJ) |  | pending |
 | [S.4946](https://www.congress.gov/bill/119th-congress/senate-bill/4946) | Health and Location Data Protection Act of 2026 | Broader policy scope | Privacy & data governance | Warren (D-MA) |  | pending |
 | [S.5074](https://www.congress.gov/bill/119th-congress/senate-bill/5074) | Enhancing Electric Grid Resilience Act | Broader policy scope | Energy & grid | Welch (D-VT) |  | pending |
-| [S.5088](https://www.congress.gov/bill/119th-congress/senate-bill/5088) | Ensuring Kids Have Access to Medically Necessary Dental Care Act | Broader policy scope | Semiconductors & export controls | Alsobrooks (D-MD) |  | pending |
-| [S.5091](https://www.congress.gov/bill/119th-congress/senate-bill/5091) | Medicaid Dental Benefit Act of 2026 | Broader policy scope | Semiconductors & export controls | Alsobrooks (D-MD) |  | pending |
 | [S.5139](https://www.congress.gov/bill/119th-congress/senate-bill/5139) | National Quantum Readiness Act of 2026 | Broader policy scope | Quantum technology | Rounds (R-SD) |  | pending |
 | [S.5226](https://www.congress.gov/bill/119th-congress/senate-bill/5226) | Parental Approval for Youth Social Media Act of 2026 | Broader policy scope | Algorithms & platforms | Gallego (D-AZ) |  | pending |
 | [S.5313](https://www.congress.gov/bill/119th-congress/senate-bill/5313) | Quantum-GUARD Act of 2026 | Broader policy scope | Quantum technology | Coons (D-DE) |  | pending |
@@ -473,7 +421,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.5408](https://www.congress.gov/bill/119th-congress/senate-bill/5408) | Student Voter Data Protection Act | Broader policy scope | Privacy & data governance | Lee (R-UT) |  | pending |
 | [S.5418](https://www.congress.gov/bill/119th-congress/senate-bill/5418) | No Tax Breaks for Data Centers Act | Broader policy scope | Data centers & compute | Hawley (R-MO) |  | pending |
 | [S.5459](https://www.congress.gov/bill/119th-congress/senate-bill/5459) | Agricultural Data Privacy Act of 2026 | Broader policy scope | Privacy & data governance | Ricketts (R-NE) |  | pending |
-| [S.5515](https://www.congress.gov/bill/119th-congress/senate-bill/5515) | CARE for Moms Act | Broader policy scope | Semiconductors & export controls | Durbin (D-IL) |  | pending |
 | [S.5544](https://www.congress.gov/bill/119th-congress/senate-bill/5544) | Facial Recognition and Biometric Technology Moratorium Act of 2026 | Broader policy scope | Privacy & data governance | Markey (D-MA) |  | pending |
 | [S.5552](https://www.congress.gov/bill/119th-congress/senate-bill/5552) | Motion Picture, Television, and Entertainment Revitalization Act | Broader policy scope | Algorithms & platforms | Scott (R-SC) |  | pending |
 | [S.5590](https://www.congress.gov/bill/119th-congress/senate-bill/5590) | Electric Grid Supply Chain Security Act | Broader policy scope | Energy & grid | Banks (R-IN) |  | pending |
