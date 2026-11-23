@@ -1,5 +1,5 @@
 import {summarize,leadSponsorRankings} from './charts.js';
-const chamberSeries=[{label:'House',color:'#3974ad'},{label:'Senate',color:'#81b6b0'}];
+const chamberSeries=[{label:'House',color:'#3974ad'},{label:'Senate',color:'#a765a5'}];
 const statusSeries=[{label:'Endorsed',color:'#6baf81'},{label:'Engaged, not endorsed',color:'#d8b75a'}];
 export function chartSpecs(bills,chamber=''){
  const data=summarize(bills,chamber),rankings=leadSponsorRankings(bills),scope=chamber||'House and Senate';
@@ -22,7 +22,7 @@ const xml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;
 function wrap(text,limit=40){const words=String(text).split(/\s+/),lines=[];let line='';for(const word of words){if(line&&line.length+word.length+1>limit){lines.push(line);line=word;}else line+=(line?' ':'')+word;}if(line)lines.push(line);return lines.length?lines:[''];}
 export function chartSvg(spec,theme='light'){
  const dark=theme==='dark',background=dark?'#181a1d':'#ffffff',axisColor=dark?'#343940':'#e3e6e9',textColor=dark?'#e4e6e9':'#20252b',muted=dark?'#abb1b9':'#616a74';
- const colors=dark?{'#3974ad':'#7ba7d2','#81b6b0':'#96c5bf','#64748b':'#9baabd'}:{};
+ const colors=dark?{'#3974ad':'#7ba7d2','#a765a5':'#c79cc6','#64748b':'#9baabd'}:{};
  const color=value=>colors[value]||value;
  spec={...spec,series:spec.series.map(s=>({...s,color:color(s.color)})),rows:spec.rows.map(r=>({...r,color:r.color?color(r.color):undefined}))};
  if(['House','Senate'].includes(spec.scope)&&spec.series.some(s=>s.label===spec.scope)){const indexes=spec.series.map((s,i)=>s.label===spec.scope?i:-1).filter(i=>i>=0);spec={...spec,series:indexes.map(i=>spec.series[i]),rows:spec.rows.map(r=>({...r,values:indexes.map(i=>r.values[i])}))};}
