@@ -6,7 +6,7 @@ I built Atlas to make the AI legislation I tracked during my Fall 2026 fellowshi
 
 The **Bill tracker** has 170 bills. You can search by bill number, title, sponsor, or text; filter by chamber, focus area, and SIIA engagement; and open summaries and Congress.gov records. Green labels mark bills SIIA endorsed, and yellow labels mark bills SIIA engaged on without endorsing. Where public materials are available, the labels link to them.
 
-The **Trends** tab looks at introductions over time, policy focus areas, lead sponsors, cosponsors, sponsor party, and SIIA engagement. You can switch between chambers and expand exact counts. Each chart has a Share button for PNG, SVG, CSV, or a link to that chart.
+The **Trends** tab looks at introductions over time, policy focus areas, lead sponsors, cosponsors, sponsor party, and SIIA engagement. You can switch between chambers and expand exact counts. The SIIA engagement card also has an expandable list of endorsed and engaged bills, with links to bill details and public SIIA materials. Each chart has a Share button for PNG, SVG, CSV, or a link to that chart.
 
 There's a light/dark toggle, and image exports follow the selected appearance. You can also export filtered bill results as CSV.
 
