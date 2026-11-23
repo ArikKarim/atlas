@@ -1,28 +1,13 @@
 {
-  "checkedAt": "2026-11-23T02:53:16.237Z",
-  "verifiedCount": 97,
-  "refreshedCount": 97,
+  "checkedAt": "2026-11-23T02:59:30.020Z",
+  "verifiedCount": 109,
+  "refreshedCount": 109,
   "review": [
-    {
-      "id": "H.R.1495",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
-    },
     {
       "id": "H.R.2770",
       "status": "identity-review",
       "sourceTitle": "Transformational AI to Modernize the Economy (TAME) against Extreme Weather Act",
       "congressTitle": "TAME Extreme Weather and Wildfires Act"
-    },
-    {
-      "id": "H.R.3026",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
-    },
-    {
-      "id": "H.R.5511",
-      "status": "request-error",
-      "message": "Unsupported bill identifier"
     },
     {
       "id": "H.R.633",
@@ -67,16 +52,6 @@
       "congressTitle": "READ AI Models Act"
     },
     {
-      "id": "H.R.8037",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
-    },
-    {
-      "id": "H.R.6633",
-      "status": "request-error",
-      "message": "Unsupported bill identifier"
-    },
-    {
       "id": "H.R.7757",
       "status": "identity-review",
       "sourceTitle": "Kids Internet and Digital Safety Act (KIDS) Act",
@@ -107,14 +82,9 @@
       "congressTitle": "REAL Act"
     },
     {
-      "id": "H.R.9439",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
-    },
-    {
       "id": "H.R.7801",
       "status": "identity-review",
-      "sourceTitle": "Cloud Labs to Advance Biotechnology (LAB) Act of 2026 ",
+      "sourceTitle": "Cloud Labs to Advance Biotechnology (LAB) Act of 2026",
       "congressTitle": "Cloud LAB Act of 2026"
     },
     {
@@ -144,7 +114,7 @@
     {
       "id": "H.R.8170",
       "status": "identity-review",
-      "sourceTitle": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act ",
+      "sourceTitle": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act",
       "congressTitle": "MATCH Act"
     },
     {
@@ -156,7 +126,7 @@
     {
       "id": "H.R.6875",
       "status": "identity-review",
-      "sourceTitle": "Artificial Intelligence Oversight of Verified Exports and Restrictions on Weaponizable Advanced Technology to Covered High-Risk Actors (AI OVERWATCH) Act ",
+      "sourceTitle": "Artificial Intelligence Oversight of Verified Exports and Restrictions on Weaponizable Advanced Technology to Covered High-Risk Actors (AI OVERWATCH) Act",
       "congressTitle": "AI OVERWATCH Act"
     },
     {
@@ -174,13 +144,8 @@
     {
       "id": "H.R.6058",
       "status": "identity-review",
-      "sourceTitle": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement (STRIDE) Act ",
+      "sourceTitle": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement (STRIDE) Act",
       "congressTitle": "STRIDE Act"
-    },
-    {
-      "id": "H.R.4278",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
     },
     {
       "id": "H.R.2683",
@@ -235,11 +200,6 @@
       "status": "identity-review",
       "sourceTitle": "AI & Critical Technology Workforce Framework Act of 2025",
       "congressTitle": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025"
-    },
-    {
-      "id": "S.321",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
     },
     {
       "id": "S.2381",
@@ -332,11 +292,6 @@
       "congressTitle": "CLEAR Act"
     },
     {
-      "id": "S.4656",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
-    },
-    {
       "id": "S.5051",
       "status": "identity-review",
       "sourceTitle": "The Artificial Intelligence Access, Gatekeeper Exchange and Nondiscriminatory Transfer (AI AGENT) Act",
@@ -353,11 +308,6 @@
       "status": "identity-review",
       "sourceTitle": "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence  (SAFE AI) Act",
       "congressTitle": "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence Act of 2026"
-    },
-    {
-      "id": "S.5055",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
     },
     {
       "id": "S.5358",
@@ -388,16 +338,6 @@
       "status": "identity-review",
       "sourceTitle": "Promoting High-Skilled Doctorial (PHD) Talent Act",
       "congressTitle": "PHD Talent Act of 2026"
-    },
-    {
-      "id": "S.5171",
-      "status": "request-error",
-      "message": "Unsupported bill identifier"
-    },
-    {
-      "id": "S.4199",
-      "status": "request-error",
-      "message": "Incomplete cosponsor response"
     },
     {
       "id": "S.737",
