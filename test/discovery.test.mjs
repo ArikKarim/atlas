@@ -4,7 +4,13 @@ import {Script} from 'node:vm';
 import {findCandidates,matches,idFor} from '../scripts/discover-congress.mjs';
 import {reviewHtml} from '../scripts/review-page.mjs';
 import {validateDecisions} from '../scripts/review-candidates.mjs';
+import {congressClient} from '../scripts/sync-congress.mjs';
 const bill=(number,title,type='HR',congress=119)=>({number,title,type,congress});
+test('discovery records inconsistent related-bill counts without weakening official fact checks',async()=>{
+ const client=congressClient('test-only',{fetchImpl:async()=>({ok:true,status:200,json:async()=>({relatedBills:[bill(2,'Companion')],pagination:{count:2}})})}),warnings=[];
+ await assert.rejects(client.collection('bill/119/hr/1/relatedbills','relatedBills'),/Incomplete/);
+ const rows=await client.collection('bill/119/hr/1/relatedbills','relatedBills',{allowCountMismatch:true,onCountMismatch:x=>warnings.push(x)});assert.equal(rows.length,1);assert.deepEqual(warnings,[{expected:2,received:1}]);
+});
 test('discovery includes broad infrastructure, algorithms, and missing companions without adding tracked or wrong-Congress bills',()=>{
  const tracked=[{id:'H.R.1',title:'AI Act'}],list=[bill(1,'AI Act'),bill(2,'Data Center Energy Act'),bill(3,'Semiconductor Supply Act'),bill(4,'Algorithmic Accountability Act'),bill(5,'Unrelated title','S'),bill(6,'AI Act','HR',118),bill(7,'AI Resolution','HRES'),bill(8,'Acronym Act'),bill(9,'Ordinary Act')];
  const summaries=[{bill:bill(8,'Acronym Act'),text:'<p>Requires safeguards for machine learning.</p>',updateDate:'2026-01-01'},{bill:bill(8,'Acronym Act'),text:'<p>Updated artificial intelligence safeguards.</p>',updateDate:'2026-02-01'}];

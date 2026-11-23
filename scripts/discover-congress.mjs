@@ -33,13 +33,13 @@ async function parallel(items,fn,concurrency=3){let index=0;await Promise.all(Ar
 export async function discover({apiKey,fetchImpl=fetch,now=new Date().toISOString(),onProgress=console.log}={}){
  const client=congressClient(apiKey,{fetchImpl}),tracked=normalize(JSON.parse(await readFile(new URL('public/bills.json',project),'utf8')));
  let decisions={};try{decisions=JSON.parse(await readFile(new URL('data/candidate-decisions.json',project),'utf8')).records||{};}catch(e){if(e.code!=='ENOENT')throw e;}
- const list=[],summaries=[],relations=[];
+ const list=[],summaries=[],relations=[],warnings=[];
  for(const type of ['hr','s']){
   onProgress('Scanning '+type.toUpperCase()+' titles');list.push(...await client.collection('bill/119/'+type,'bills'));
   onProgress('Scanning '+type.toUpperCase()+' summaries');summaries.push(...await client.collection('summaries/119/'+type+'?fromDateTime=2025-01-03T00:00:00Z&sort=updateDate+desc','summaries'));
  }
  let checked=0;
- await parallel(tracked,async source=>{const id=billIdentity(source.id);const related=await client.collection(`bill/119/${id.type}/${id.number}/relatedbills`,'relatedBills');for(const bill of related)relations.push({sourceId:source.id,bill,relationship:(bill.relationshipDetails||[]).map(r=>r.type).filter(Boolean).join('; ')});if(++checked%40===0)onProgress(`Checked related bills for ${checked}/${tracked.length}`);});
+ await parallel(tracked,async source=>{const id=billIdentity(source.id);const related=await client.collection(`bill/119/${id.type}/${id.number}/relatedbills`,'relatedBills',{allowCountMismatch:true,onCountMismatch:counts=>warnings.push({id:source.id,field:'relatedBills',...counts,message:'API supplied fewer related bills than its count, without another page.'})});for(const bill of related)relations.push({sourceId:source.id,bill,relationship:(bill.relationshipDetails||[]).map(r=>r.type).filter(Boolean).join('; ')});if(++checked%40===0)onProgress(`Checked related bills for ${checked}/${tracked.length}`);});
  const candidates=findCandidates(list,summaries,relations,tracked,decisions);checked=0;
  await parallel(candidates,async row=>{
   const id=billIdentity(row.id),path=`bill/119/${id.type}/${id.number}`,data=await client.request(path);if(idFor(data?.bill)!==row.id)throw Error('Candidate identity mismatch: '+row.id);
@@ -50,7 +50,7 @@ export async function discover({apiKey,fetchImpl=fetch,now=new Date().toISOStrin
   if(++checked%50===0)onProgress(`Verified ${checked}/${candidates.length} candidates`);
  });
  for(const b of candidates){if(b.summary.length>2200)b.summary=b.summary.slice(0,2200).replace(/\s+\S*$/,'')+'…';}
- const report={schemaVersion:1,generatedAt:now,congress:119,coverage:{billCount:list.length,summaryVersions:summaries.length,trackedBills:tracked.length,relatedBillChecks:tracked.length,fields:['display title','available CRS summary versions','related-bill links'],limitations:'Does not search full bill text or scan subjects on every bill. Subjects are retrieved for discovered candidates. Matches are suggestions for review, not additions or verified SIIA engagement.'},rules:scopeRules.map(([area,re])=>({area,pattern:re.source})),candidateCount:candidates.length,candidates};
+ const report={schemaVersion:1,generatedAt:now,congress:119,coverage:{warnings,billCount:list.length,summaryVersions:summaries.length,trackedBills:tracked.length,relatedBillChecks:tracked.length,fields:['display title','available CRS summary versions','related-bill links'],limitations:'Does not search full bill text or scan subjects on every bill. Subjects are retrieved for discovered candidates. Matches are suggestions for review, not additions or verified SIIA engagement.'},rules:scopeRules.map(([area,re])=>({area,pattern:re.source})),candidateCount:candidates.length,candidates};
  await mkdir(new URL('data/',project),{recursive:true});
  for(const [name,content] of [['congress-candidates.json',JSON.stringify(report,null,2)+'\n'],['candidate-review.html',reviewHtml(report)],['CANDIDATE-REVIEW.md',markdownReport(report)]]){const dest=new URL('data/'+name,project),tmp=new URL(dest.href+'.tmp');await writeFile(tmp,content);await rename(tmp,dest);}
  return report;

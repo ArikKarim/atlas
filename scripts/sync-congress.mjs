@@ -39,11 +39,11 @@ export function congressClient(apiKey,{fetchImpl=fetch,sleep=pause}={}){
    try{return await response.json();}catch{throw Error('Congress.gov returned an invalid response');}
   }
  }
- async function collection(path,field){let next=path,all=[],seen=new Set();for(let page=0;next&&page<200;page++){
+ async function collection(path,field,{allowCountMismatch=false,onCountMismatch=()=>{}}={}){let next=path,all=[],seen=new Set();for(let page=0;next&&page<200;page++){
   const key=String(next);if(seen.has(key))throw Error('Repeated API pagination link');seen.add(key);
   const data=await request(next);if(!data||!Array.isArray(data[field]))throw Error(`Missing ${field} response`);
   all.push(...data[field]);next=data.pagination?.next||null;
-  if(!next&&Number.isFinite(data.pagination?.count)&&all.length<data.pagination.count)throw Error(`Incomplete ${field} pagination`);
+  if(!next&&Number.isFinite(data.pagination?.count)&&all.length<data.pagination.count){if(allowCountMismatch)onCountMismatch({expected:data.pagination.count,received:all.length});else throw Error(`Incomplete ${field} pagination`);}
  }if(next)throw Error('API pagination limit exceeded');return all;}
  return {request,collection};
 }
