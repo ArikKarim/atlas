@@ -50,5 +50,6 @@ jobs:
           git add public/bills.json data/companion-audit.json public/congress-data.json data/congress-sync-report.json data/congress-candidates.json data/CANDIDATE-REVIEW.md data/candidate-review.html
           if ! git diff --cached --quiet; then
             git commit -m 'Refresh Congress.gov records and candidate review queue'
+            git pull --rebase origin main
             git push
           fi
