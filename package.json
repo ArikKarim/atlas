@@ -1,0 +1,14 @@
+{
+  "name": "atlas-congress-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "description": "A searchable 119th Congress AI bill tracker with SIIA engagement links and shareable policy trend charts."
+}
