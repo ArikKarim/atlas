@@ -4,9 +4,9 @@ I built Atlas to make the AI legislation I tracked during my Fall 2026 fellowshi
 
 ## What's in it
 
-The **Tracker** has 170 bills, sorted by bill number by default. You can search by bill number, title, sponsor, or text; filter by chamber, focus area, and SIIA engagement; and open summaries and Congress.gov records. Green labels mark bills SIIA endorsed, and yellow labels mark bills SIIA engaged on without endorsing. Where public materials are available, the labels link to them.
+The **Tracker** has 202 bills, sorted by bill number by default. You can search by bill number, title, sponsor, or text; filter by chamber, focus area, and SIIA engagement; and open summaries and Congress.gov records. Green labels mark bills SIIA endorsed, and yellow labels mark bills SIIA engaged on without endorsing. Where public materials are available, the labels link to them.
 
-The **Trends** tab looks at introductions over time, policy focus areas, lead sponsors, cosponsors, sponsor party, and SIIA engagement. You can switch between chambers and expand exact counts. The SIIA engagement card also has an expandable list of endorsed and engaged bills, with links to bill details and public SIIA materials. Each chart has a Share button for PNG, SVG, CSV, or a link to that chart.
+The **Trends** tab looks at introductions over time, policy focus areas, lead sponsors, cosponsors, sponsor party, and SIIA engagement. You can switch between chambers and expand exact counts. Two companion charts show coverage across the House and Senate and the time between the first introduction in each chamber. Bill details link to tracked companions. The SIIA engagement card also has an expandable list of endorsed and engaged bills, with links to bill details and public SIIA materials. Each chart has a Share button for PNG, SVG, CSV, or a link to that chart.
 
 There's a light/dark toggle, and image exports follow the selected appearance. You can also export filtered bill results as CSV.
 
@@ -26,9 +26,9 @@ Chart links use the address where you're running Atlas, so a localhost link only
 
 ## About the data
 
-I started with the spreadsheet I maintained during my fellowship. The imported data contains 173 records, representing 170 distinct bills: 94 in the House and 76 in the Senate. The app combines duplicate bill records for the tracker and charts.
+I started with the spreadsheet I maintained during my fellowship. The imported data contains 173 records, representing 170 distinct bills: 94 in the House and 76 in the Senate. The app combines duplicate bill records for the tracker and charts. I subsequently added 32 reviewed House–Senate companion bills, bringing the current tracker to 202 bills. Other discovery candidates stay in the review queue.
 
-I keep the original tracker as my research dataset. Atlas supplements it with official Congress.gov titles, dates, sponsors, cosponsors, and legislative actions. Bill details show my research summary. Public SIIA materials are linked for 35 of the 37 bills with recorded engagement.
+I keep the original tracker as my research dataset. Atlas supplements it with official Congress.gov titles, dates, sponsors, cosponsors, and legislative actions. Bill details show my research summary. Public SIIA materials are linked for 42 of the 44 bills with recorded engagement. Companion bills receive their own engagement labels only when there is bill-specific evidence.
 
 ## Working on the code
 
@@ -54,7 +54,7 @@ I use the Congress.gov API to refresh the tracked bills daily at 11:23 UTC and w
 
 Before updating a bill, the sync checks its Congress, bill type, number, and title against the official record and its alternate titles. It ignores differences in punctuation, leading articles, and title years. A mismatch is saved for review instead of replacing the tracked bill with an unrelated record. I also review title differences such as acronym expansions and record approved matches in `data/congress-identities.json`. Approvals are tied to the exact source title, bill identity, and official title. The Tracker displays official titles, while older names stay searchable. Focus areas, SIIA engagement, public-material links, and my summaries remain my research.
 
-All 170 bills have verified official records. I corrected the AI public-awareness proposal from S.4596 (its 118th Congress number) to S.1699 in the 119th Congress, including its sponsor, date, cosponsors, action, and summary. The correction is recorded in `data/congress-corrections.json`. Trends and chart exports use the same updated records as the Tracker.
+All 202 bills have verified official records. I corrected the AI public-awareness proposal from S.4596 (its 118th Congress number) to S.1699 in the 119th Congress, including its sponsor, date, cosponsors, action, and summary. The correction is recorded in `data/congress-corrections.json`. Trends and chart exports use the same updated records as the Tracker.
 
 The source dataset is `public/bills.json`, the official snapshot is `public/congress-data.json`, and the review report is `data/congress-sync-report.json`. Bill details show when the official record was checked. If a request fails, Atlas keeps previously verified facts with their original verification date; a completely unsuccessful refresh leaves the last published snapshot intact.
 
@@ -67,3 +67,9 @@ The daily Congress.gov workflow also builds a candidate review queue. It scans a
 I review candidates in `data/candidate-review.html`, a standalone page I can download and open locally. It supports search, policy-area and review filters, evidence, notes, and Include / Exclude / Defer decisions. I can export decisions as JSON or the candidate list as CSV. This review page is kept outside the public site. The current list is also in [data/CANDIDATE-REVIEW.md](data/CANDIDATE-REVIEW.md).
 
 To regenerate the queue locally, set `CONGRESS_GOV_API_KEY` and run `npm run discover:congress`. To save exported decisions in the repository, run `npm run review:candidates -- --import path/to/atlas-candidate-decisions.json`. Decisions are tied to bill IDs and official titles; a changed title needs a new review. Included candidates still need a reviewed update with focus areas, a summary, and separately verified SIIA engagement before they enter the Tracker or Trends. Discovery never writes to the published bill dataset.
+
+## Companion bills
+
+I use Congress.gov’s related-bill records to identify House–Senate counterparts, checking matching official titles and substantive purpose. A generic related-bill link alone does not make two proposals companions. Reviewed additions are recorded in `data/companion-additions.json`, and `data/companion-audit.json` lists the relationships used by the site. The daily workflow fills these approved additions with official sponsors, cosponsors, introduction dates, and actions, then refreshes the full tracker.
+
+Companion coverage counts each tracked bill once. Introduction-gap charts group connected companions into bill families and compare the earliest House introduction with the earliest Senate introduction, counting each family once. This avoids counting multiple House versions as separate cross-chamber gaps. Exact dates and family members are available below the chart.

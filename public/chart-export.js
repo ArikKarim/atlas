@@ -1,12 +1,16 @@
+import {companionStats} from './companions.js';
 import {summarize,leadSponsorRankings} from './charts.js';
 const chamberSeries=[{label:'House',color:'#3974ad'},{label:'Senate',color:'#a765a5'}];
 const statusSeries=[{label:'Endorsed',color:'#6baf81'},{label:'Engaged, not endorsed',color:'#d8b75a'}];
 export function chartSpecs(bills,chamber=''){
+ const companions=companionStats(bills,chamber);
  const data=summarize(bills,chamber),rankings=leadSponsorRankings(bills),scope=chamber||'House and Senate';
  const spec=(id,title,note,series,rows,extra={})=>({id,title,note,scope,kind:'bar',series,rows,...extra});
  const paired=items=>items.map(x=>({label:x.name,values:[x.House,x.Senate]}));
  const engaged=data.topics.filter(t=>t.endorsed+t.engaged>0).sort((a,b)=>(b.endorsed+b.engaged)-(a.endorsed+a.engaged)||a.name.localeCompare(b.name));
  return [
+  spec('companion-coverage','House–Senate companion coverage','',chamberSeries,companions.coverage.map(r=>({label:r.label,values:[r.House,r.Senate]}))),
+  spec('companion-gaps','Companion introduction gaps','',[{label:'Bill families',color:'#64748b'}],companions.bands.map(b=>({label:b.label,values:[b.count]})),{unit:'Bill families',scope:'House and Senate'}),
   spec('monthly-introductions','Bill introductions by month','',chamberSeries,data.months.map(m=>({label:m.month,values:[m.House,m.Senate]})),{kind:'monthly'}),
   spec('focus-areas','Top 10 focus areas by bill count','',chamberSeries,paired(data.topics.slice(0,10))),
   ...(chamber?[chamber]:['House','Senate']).map(c=>spec(c.toLowerCase()+'-sponsors','Top 10 leading '+c+' sponsors','',chamberSeries.filter(s=>s.label===c),rankings[c].slice(0,10).map(p=>({label:p.name,values:[p.count]})),{max:Math.max(1,...Object.values(rankings).flat().map(p=>p.count)),unit:'Bills led',scope:c})),
