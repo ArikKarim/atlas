@@ -1,5 +1,5 @@
-import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js';
-import {addChartActions} from './chart-actions.js';
+import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=blue-plum-1';
+import {addChartActions} from './chart-actions.js?v=blue-plum-1';
 import {engagementUrl,engagementDescription,engagementContext} from './engagement.js';
 import {summarize,leadSponsorRankings} from './charts.js';
 import {normalize,filterBills,topicCounts,csv} from './model.js';
