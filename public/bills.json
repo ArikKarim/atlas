@@ -14,7 +14,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 2,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1000"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1000",
+    "companions": []
   },
   {
     "id": "H.R.3539",
@@ -31,7 +32,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 3,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3539"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3539",
+    "companions": [
+      {
+        "id": "S.1833",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.1495",
@@ -48,7 +55,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 4,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1495"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1495",
+    "companions": []
   },
   {
     "id": "H.R.2152",
@@ -65,7 +73,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 5,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2152"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2152",
+    "companions": []
   },
   {
     "id": "H.R.2770",
@@ -82,7 +91,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 6,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2770"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2770",
+    "companions": []
   },
   {
     "id": "H.R.1770",
@@ -99,7 +109,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 7,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1770"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1770",
+    "companions": []
   },
   {
     "id": "H.R.1736",
@@ -116,7 +127,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 8,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1736"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1736",
+    "companions": [
+      {
+        "id": "S.4762",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.1766",
@@ -133,7 +150,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 9,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1766"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1766",
+    "companions": [
+      {
+        "id": "S.2049",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.1694",
@@ -150,7 +173,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 10,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1694"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1694",
+    "companions": []
   },
   {
     "id": "H.R.1283",
@@ -167,7 +191,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 11,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1283"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1283",
+    "companions": []
   },
   {
     "id": "H.R.3434",
@@ -184,7 +209,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 12,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3434"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3434",
+    "companions": [
+      {
+        "id": "S.1775",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.1734",
@@ -201,7 +232,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 13,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1734"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1734",
+    "companions": [
+      {
+        "id": "S.2117",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.8915",
@@ -218,7 +255,17 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 14,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8915"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8915",
+    "companions": [
+      {
+        "id": "S.4591",
+        "relationship": "Identical bill"
+      },
+      {
+        "id": "S.1367",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.3026",
@@ -235,7 +282,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 15,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3026"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3026",
+    "companions": []
   },
   {
     "id": "H.R.3460",
@@ -252,7 +300,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 16,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3460"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3460",
+    "companions": [
+      {
+        "id": "S.1792",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.3220",
@@ -269,7 +323,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 17,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3220"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3220",
+    "companions": [
+      {
+        "id": "S.1344",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.3259",
@@ -286,7 +346,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 18,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3259"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3259",
+    "companions": []
   },
   {
     "id": "H.R.2385",
@@ -303,7 +364,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 19,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2385"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2385",
+    "companions": [
+      {
+        "id": "S.4441",
+        "relationship": "Reviewed companion"
+      }
+    ]
   },
   {
     "id": "H.R.3210",
@@ -320,7 +387,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 20,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3210"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3210",
+    "companions": []
   },
   {
     "id": "H.R.3447",
@@ -337,7 +405,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 21,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3447",
+    "companions": [
+      {
+        "id": "S.1705",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.3562",
@@ -354,7 +428,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 22,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3562"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3562",
+    "companions": [
+      {
+        "id": "S.1837",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.3775",
@@ -371,7 +451,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 23,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3775"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3775",
+    "companions": []
   },
   {
     "id": "H.R.4801",
@@ -388,7 +469,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 24,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4801"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4801",
+    "companions": [
+      {
+        "id": "S.2528",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.5511 ",
@@ -405,7 +492,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 25,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5511"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5511",
+    "companions": [
+      {
+        "id": "S.2164",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.6621",
@@ -422,7 +515,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 26,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6621"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6621",
+    "companions": [
+      {
+        "id": "S.3319",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.8516",
@@ -439,7 +538,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 27,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8516"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8516",
+    "companions": []
   },
   {
     "id": "H.R.633",
@@ -456,7 +556,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 28,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/633"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/633",
+    "companions": [
+      {
+        "id": "S.146",
+        "relationship": "Contained in public law"
+      }
+    ]
   },
   {
     "id": "H.R.5360",
@@ -473,7 +579,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 29,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5360"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5360",
+    "companions": []
   },
   {
     "id": "H.R.5388",
@@ -490,7 +597,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 30,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5388"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5388",
+    "companions": []
   },
   {
     "id": "H.R.8413",
@@ -507,7 +615,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 31,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8413"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8413",
+    "companions": []
   },
   {
     "id": "H.R.5584",
@@ -524,7 +633,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 32,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5584"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5584",
+    "companions": [
+      {
+        "id": "S.4414",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.5351",
@@ -541,7 +656,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 33,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5351"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5351",
+    "companions": []
   },
   {
     "id": "H.R.9334",
@@ -558,7 +674,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 34,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9334"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9334",
+    "companions": []
   },
   {
     "id": "H.R.6461",
@@ -575,7 +692,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 35,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
+    "companions": []
   },
   {
     "id": "H.R.8893",
@@ -592,7 +710,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 36,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8893"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8893",
+    "companions": []
   },
   {
     "id": "H.R.5272",
@@ -609,7 +728,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 37,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5272"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5272",
+    "companions": [
+      {
+        "id": "S.1213",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.6529",
@@ -626,7 +751,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 38,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6529"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6529",
+    "companions": []
   },
   {
     "id": "H.R.8033",
@@ -643,7 +769,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 39,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8033"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8033",
+    "companions": []
   },
   {
     "id": "H.R.6984",
@@ -660,7 +787,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 40,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6984"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6984",
+    "companions": [
+      {
+        "id": "S.5640",
+        "relationship": "Reviewed companion"
+      }
+    ]
   },
   {
     "id": "H.R.9372",
@@ -677,7 +810,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 41,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9372"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9372",
+    "companions": []
   },
   {
     "id": "H.R.9341",
@@ -694,7 +828,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 42,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9341"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9341",
+    "companions": []
   },
   {
     "id": "H.R.9333",
@@ -711,7 +846,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 43,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9333"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9333",
+    "companions": []
   },
   {
     "id": "H.R.8037",
@@ -728,7 +864,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 44,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8037"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8037",
+    "companions": []
   },
   {
     "id": "H.R.6633  ",
@@ -745,7 +882,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "House",
     "sourceRow": 45,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6633"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6633",
+    "companions": []
   },
   {
     "id": "H.R.7757",
@@ -762,7 +900,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 46,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7757"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
+    "companions": []
   },
   {
     "id": "H.R.9352",
@@ -779,7 +918,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 47,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9352"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9352",
+    "companions": [
+      {
+        "id": "S.3108",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.9326",
@@ -796,7 +941,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 48,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9326"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9326",
+    "companions": []
   },
   {
     "id": "H.R.9381",
@@ -813,7 +959,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 49,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9381"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9381",
+    "companions": []
   },
   {
     "id": "H.R.9477",
@@ -830,7 +977,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 50,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9477"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9477",
+    "companions": []
   },
   {
     "id": "H.R.7058",
@@ -847,7 +995,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 51,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7058"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7058",
+    "companions": []
   },
   {
     "id": "H.R.8819",
@@ -864,7 +1013,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 52,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8819"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8819",
+    "companions": []
   },
   {
     "id": "H.R.6571",
@@ -881,7 +1031,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 53,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6571"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6571",
+    "companions": []
   },
   {
     "id": "H.R.9439",
@@ -898,7 +1049,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 54,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9439"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9439",
+    "companions": []
   },
   {
     "id": "H.R.7977",
@@ -915,7 +1067,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 55,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7977"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7977",
+    "companions": []
   },
   {
     "id": "H.R.7064",
@@ -932,7 +1085,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 56,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7064"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7064",
+    "companions": []
   },
   {
     "id": "H.R.8094",
@@ -949,7 +1103,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 57,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8094"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8094",
+    "companions": []
   },
   {
     "id": "H.R.7801",
@@ -966,7 +1121,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 58,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7801"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7801",
+    "companions": []
   },
   {
     "id": "H.R.7151",
@@ -983,7 +1139,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 59,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7151"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7151",
+    "companions": [
+      {
+        "id": "S.1699",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.7985",
@@ -1000,7 +1162,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 60,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7985"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7985",
+    "companions": []
   },
   {
     "id": "H.R.9917",
@@ -1017,7 +1180,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 61,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9917",
+    "companions": []
   },
   {
     "id": "H.R.9915",
@@ -1034,7 +1198,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 62,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9915"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9915",
+    "companions": []
   },
   {
     "id": "H.R.7305",
@@ -1051,7 +1216,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 63,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7305"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7305",
+    "companions": []
   },
   {
     "id": "H.R.9335",
@@ -1068,7 +1234,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 64,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9335"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9335",
+    "companions": []
   },
   {
     "id": "H.R.9339",
@@ -1085,7 +1252,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 65,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9339"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9339",
+    "companions": []
   },
   {
     "id": "H.R.9340",
@@ -1102,7 +1270,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 66,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9340"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9340",
+    "companions": [
+      {
+        "id": "S.5028",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.6425",
@@ -1119,7 +1293,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 67,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6425"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6425",
+    "companions": [
+      {
+        "id": "S.3355",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.5967",
@@ -1136,7 +1316,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 68,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5967"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5967",
+    "companions": []
   },
   {
     "id": "H.R.6426",
@@ -1153,7 +1334,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 69,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6426"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6426",
+    "companions": [
+      {
+        "id": "S.4821",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.5900",
@@ -1170,7 +1357,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 70,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5900"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5900",
+    "companions": []
   },
   {
     "id": "H.R.7215",
@@ -1187,7 +1375,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 71,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7215"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7215",
+    "companions": []
   },
   {
     "id": "H.R.9578",
@@ -1204,7 +1393,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 72,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9578"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9578",
+    "companions": []
   },
   {
     "id": "H.R.8170",
@@ -1221,7 +1411,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 73,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8170"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8170",
+    "companions": []
   },
   {
     "id": "H.R.6879",
@@ -1238,7 +1429,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 74,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6879"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6879",
+    "companions": []
   },
   {
     "id": "H.R.6875",
@@ -1255,7 +1447,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 75,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6875"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
+    "companions": [
+      {
+        "id": "S.4456",
+        "relationship": "Reviewed companion"
+      }
+    ]
   },
   {
     "id": "H.R.6996",
@@ -1272,7 +1470,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 76,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6996"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6996",
+    "companions": []
   },
   {
     "id": "H.R.4920",
@@ -1289,7 +1488,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 77,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4920"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4920",
+    "companions": []
   },
   {
     "id": "H.R.4505",
@@ -1306,7 +1506,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 78,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4505"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4505",
+    "companions": []
   },
   {
     "id": "H.R.7003",
@@ -1323,7 +1524,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 79,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7003"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7003",
+    "companions": []
   },
   {
     "id": "H.R.8287",
@@ -1340,7 +1542,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 80,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8287"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8287",
+    "companions": []
   },
   {
     "id": "H.R.8285",
@@ -1357,7 +1560,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 81,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8285"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8285",
+    "companions": []
   },
   {
     "id": "H.R.6058",
@@ -1374,7 +1578,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 82,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6058"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6058",
+    "companions": [
+      {
+        "id": "S.5400",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.4278",
@@ -1391,7 +1601,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 83,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4278"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4278",
+    "companions": []
   },
   {
     "id": "H.R.4505",
@@ -1408,7 +1619,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 84,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4505"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/4505",
+    "companions": []
   },
   {
     "id": "H.R.8283",
@@ -1425,7 +1637,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 85,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8283",
+    "companions": []
   },
   {
     "id": "H.R.8169",
@@ -1442,7 +1655,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 86,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8169"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8169",
+    "companions": [
+      {
+        "id": "S.4840",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.2683",
@@ -1459,7 +1678,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 87,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
+    "companions": []
   },
   {
     "id": "H.R.3633",
@@ -1476,7 +1696,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 88,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+    "companions": []
   },
   {
     "id": "H.R.9151",
@@ -1493,7 +1714,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 89,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9151"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9151",
+    "companions": [
+      {
+        "id": "S.5333",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "H.R.9546",
@@ -1510,7 +1737,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 90,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9546"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9546",
+    "companions": []
   },
   {
     "id": "H.R.9925",
@@ -1527,7 +1755,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "House",
     "sourceRow": 91,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
+    "companions": []
   },
   {
     "id": "H.R.9914",
@@ -1544,7 +1773,13 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 92,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+    "companions": [
+      {
+        "id": "S.5105",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "H.R.8462",
@@ -1561,7 +1796,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 93,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8462"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8462",
+    "companions": []
   },
   {
     "id": "H.R.9646",
@@ -1578,7 +1814,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 94,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9646"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9646",
+    "companions": []
   },
   {
     "id": "H.R.10362",
@@ -1595,7 +1832,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 95,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10362"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10362",
+    "companions": []
   },
   {
     "id": "H.R.10873",
@@ -1612,7 +1850,8 @@
     "engagement": "",
     "sourceSheet": "House",
     "sourceRow": 97,
-    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10873"
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/10873",
+    "companions": []
   },
   {
     "id": "S.2117",
@@ -1629,7 +1868,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 2,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2117"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2117",
+    "companions": [
+      {
+        "id": "H.R.1734",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.2081",
@@ -1646,7 +1891,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 3,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2081"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2081",
+    "companions": []
   },
   {
     "id": "S.1875",
@@ -1663,7 +1909,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 4,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1875"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1875",
+    "companions": []
   },
   {
     "id": "S.1837",
@@ -1680,7 +1927,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 5,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1837",
+    "companions": [
+      {
+        "id": "H.R.3562",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.1775",
@@ -1697,7 +1950,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 6,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1775",
+    "companions": [
+      {
+        "id": "H.R.3434",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.1746",
@@ -1714,7 +1973,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 7,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1746"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1746",
+    "companions": [
+      {
+        "id": "H.R.5712",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1699",
@@ -1731,7 +1996,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 8,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1699"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1699",
+    "companions": [
+      {
+        "id": "H.R.7151",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.1705",
@@ -1748,7 +2019,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 9,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1705"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+    "companions": [
+      {
+        "id": "H.R.3447",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1638",
@@ -1765,7 +2042,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 10,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1638"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1638",
+    "companions": []
   },
   {
     "id": "S.1473",
@@ -1782,7 +2060,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 11,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1473",
+    "companions": [
+      {
+        "id": "H.R.6322",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1367",
@@ -1799,7 +2083,17 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 12,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1367"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1367",
+    "companions": [
+      {
+        "id": "H.R.8915",
+        "relationship": "Related bill"
+      },
+      {
+        "id": "H.R.2794",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1397",
@@ -1816,7 +2110,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 13,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1397"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1397",
+    "companions": []
   },
   {
     "id": "S.1343",
@@ -1833,7 +2128,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 14,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1343"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1343",
+    "companions": []
   },
   {
     "id": "S.1378",
@@ -1850,7 +2146,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 15,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1378"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1378",
+    "companions": []
   },
   {
     "id": "S.1337",
@@ -1867,7 +2164,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 16,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1337"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1337",
+    "companions": []
   },
   {
     "id": "S.1344",
@@ -1884,7 +2182,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 17,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1344"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1344",
+    "companions": [
+      {
+        "id": "H.R.3220",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1331",
@@ -1901,7 +2205,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 18,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1331"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1331",
+    "companions": []
   },
   {
     "id": "S.1346",
@@ -1918,7 +2223,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 19,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1346"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1346",
+    "companions": []
   },
   {
     "id": "S.1290",
@@ -1935,7 +2241,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 20,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1290"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1290",
+    "companions": []
   },
   {
     "id": "S.1269",
@@ -1952,7 +2259,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 21,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1269"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1269",
+    "companions": []
   },
   {
     "id": "S.1213",
@@ -1969,7 +2277,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 22,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1213"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1213",
+    "companions": [
+      {
+        "id": "H.R.5272",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.579",
@@ -1986,7 +2300,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 23,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/579"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/579",
+    "companions": []
   },
   {
     "id": "S.438",
@@ -2003,7 +2318,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 24,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/438"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/438",
+    "companions": []
   },
   {
     "id": "S.321",
@@ -2020,7 +2336,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 25,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/321"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/321",
+    "companions": []
   },
   {
     "id": "S.232",
@@ -2037,7 +2354,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 26,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/232"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/232",
+    "companions": []
   },
   {
     "id": "S.2153",
@@ -2054,7 +2372,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 27,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2153"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2153",
+    "companions": []
   },
   {
     "id": "S.2367",
@@ -2071,7 +2390,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 28,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2367"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2367",
+    "companions": []
   },
   {
     "id": "S.2381",
@@ -2088,7 +2408,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 29,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2381"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2381",
+    "companions": []
   },
   {
     "id": "S.2528",
@@ -2105,7 +2426,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 30,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2528"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2528",
+    "companions": [
+      {
+        "id": "H.R.4801",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.2615",
@@ -2122,7 +2449,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 31,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2615"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2615",
+    "companions": []
   },
   {
     "id": "S.2750",
@@ -2139,7 +2467,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 32,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
+    "companions": []
   },
   {
     "id": "S.2714",
@@ -2156,7 +2485,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 33,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+    "companions": [
+      {
+        "id": "H.R.7218",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.2164",
@@ -2173,7 +2508,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 34,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2164"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2164",
+    "companions": [
+      {
+        "id": "H.R.5511",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.3319",
@@ -2190,7 +2531,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 35,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3319"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3319",
+    "companions": [
+      {
+        "id": "H.R.6621",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.4407",
@@ -2207,7 +2554,8 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 36,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+    "companions": []
   },
   {
     "id": "S.3062",
@@ -2224,7 +2572,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 37,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3062"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3062",
+    "companions": [
+      {
+        "id": "H.R.8623",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.3809",
@@ -2241,7 +2595,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 38,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3809"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3809",
+    "companions": [
+      {
+        "id": "H.R.7434",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.4414",
@@ -2258,7 +2618,13 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 39,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4414"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4414",
+    "companions": [
+      {
+        "id": "H.R.5584",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.3957",
@@ -2275,7 +2641,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 40,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3957"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3957",
+    "companions": []
   },
   {
     "id": "S.3682",
@@ -2292,7 +2659,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 41,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3682"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3682",
+    "companions": [
+      {
+        "id": "H.R.8241",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.1633",
@@ -2309,7 +2682,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 42,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633",
+    "companions": []
   },
   {
     "id": "S.3952",
@@ -2326,7 +2700,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 43,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3952"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3952",
+    "companions": []
   },
   {
     "id": "S.4213",
@@ -2343,7 +2718,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 44,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4213"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4213",
+    "companions": [
+      {
+        "id": "H.R.9825",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.4855",
@@ -2360,7 +2741,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 45,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4855"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4855",
+    "companions": []
   },
   {
     "id": "S.4825",
@@ -2377,7 +2759,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 46,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4825"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4825",
+    "companions": []
   },
   {
     "id": "S.4833",
@@ -2394,7 +2777,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 47,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4833"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4833",
+    "companions": []
   },
   {
     "id": "S.4695",
@@ -2411,7 +2795,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 48,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4695"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4695",
+    "companions": [
+      {
+        "id": "H.R.9155",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.4214",
@@ -2428,7 +2818,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 49,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214",
+    "companions": [
+      {
+        "id": "H.R.9442",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.2938",
@@ -2445,7 +2841,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 50,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2938"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2938",
+    "companions": []
   },
   {
     "id": "S.3813",
@@ -2462,7 +2859,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 51,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3813"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3813",
+    "companions": []
   },
   {
     "id": "S.4915",
@@ -2479,7 +2877,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 52,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4915",
+    "companions": []
   },
   {
     "id": "S.1396",
@@ -2496,7 +2895,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 53,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1396",
+    "companions": []
   },
   {
     "id": "S.4656",
@@ -2513,7 +2913,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 54,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4656",
+    "companions": []
   },
   {
     "id": "S.4991",
@@ -2530,7 +2931,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 55,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4991"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4991",
+    "companions": []
   },
   {
     "id": "S.5054",
@@ -2547,7 +2949,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 56,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5054"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5054",
+    "companions": []
   },
   {
     "id": "S.5051",
@@ -2564,7 +2967,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 57,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5051"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5051",
+    "companions": []
   },
   {
     "id": "S.5061",
@@ -2581,7 +2985,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 58,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
+    "companions": []
   },
   {
     "id": "S.5057",
@@ -2598,7 +3003,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 59,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5057"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5057",
+    "companions": []
   },
   {
     "id": "S.5055",
@@ -2615,7 +3021,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 60,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5055"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5055",
+    "companions": []
   },
   {
     "id": "S.5358",
@@ -2632,7 +3039,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 61,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5358"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5358",
+    "companions": []
   },
   {
     "id": "S.5130",
@@ -2649,7 +3057,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 62,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5130"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5130",
+    "companions": []
   },
   {
     "id": "S.278",
@@ -2666,7 +3075,17 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 63,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/278"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/278",
+    "companions": [
+      {
+        "id": "H.R.7433",
+        "relationship": "Related bill"
+      },
+      {
+        "id": "H.R.7399",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.5090",
@@ -2683,7 +3102,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 64,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5090"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5090",
+    "companions": []
   },
   {
     "id": "S.5105",
@@ -2700,7 +3120,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 65,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5105"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5105",
+    "companions": [
+      {
+        "id": "H.R.9914",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.5187",
@@ -2717,7 +3143,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 66,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5187"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5187",
+    "companions": [
+      {
+        "id": "H.R.11015",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.5171 ",
@@ -2734,7 +3166,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 67,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5171"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5171",
+    "companions": []
   },
   {
     "id": "S.4199",
@@ -2751,7 +3184,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 68,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4199"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4199",
+    "companions": []
   },
   {
     "id": "S.1748",
@@ -2768,7 +3202,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 69,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1748"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1748",
+    "companions": [
+      {
+        "id": "H.R.6484",
+        "relationship": "Reviewed companion"
+      }
+    ]
   },
   {
     "id": "S.737",
@@ -2785,7 +3225,13 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 70,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/737"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/737",
+    "companions": [
+      {
+        "id": "H.R.1623",
+        "relationship": "Identical bill"
+      }
+    ]
   },
   {
     "id": "S.4749",
@@ -2802,7 +3248,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 71,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4749"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4749",
+    "companions": []
   },
   {
     "id": "S.5648",
@@ -2819,7 +3266,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 72,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5648"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5648",
+    "companions": []
   },
   {
     "id": "S.3150",
@@ -2836,7 +3284,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 73,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3150"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3150",
+    "companions": [
+      {
+        "id": "H.R.5885",
+        "relationship": "Reviewed companion"
+      }
+    ]
   },
   {
     "id": "S.1705 ",
@@ -2853,7 +3307,13 @@
     "engagement": "Engaged, not endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 74,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1705"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1705",
+    "companions": [
+      {
+        "id": "H.R.3447",
+        "relationship": "Related bill"
+      }
+    ]
   },
   {
     "id": "S.4281",
@@ -2870,7 +3330,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 75,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4281"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4281",
+    "companions": []
   },
   {
     "id": "S.3519",
@@ -2887,7 +3348,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 76,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3519"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3519",
+    "companions": []
   },
   {
     "id": "S.3597",
@@ -2904,7 +3366,8 @@
     "engagement": "Endorsed.",
     "sourceSheet": "Senate",
     "sourceRow": 77,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3597"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3597",
+    "companions": []
   },
   {
     "id": "S.2558",
@@ -2921,7 +3384,8 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 78,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2558"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2558",
+    "companions": []
   },
   {
     "id": "S.579",
@@ -2938,6 +3402,694 @@
     "engagement": "",
     "sourceSheet": "Senate",
     "sourceRow": 79,
-    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/579"
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/579",
+    "companions": []
+  },
+  {
+    "id": "H.R.2794",
+    "title": "NO FAKES Act of 2025",
+    "chamber": "House",
+    "primary": "Synthetic Media & Content",
+    "secondary": "Intellectual Property",
+    "sponsor": "Salazar (R-FL)",
+    "cosponsors": "Dean (D-PA); Moran (R-TX); Balint (D-VT); Morelle (D-NY); Lee (R-FL); Lee (D-NV); Wittman (R-VA); Friedman (D-CA); Miller (R-OH); Moskowitz (D-FL)",
+    "cosponsorCount": "10",
+    "introduced": "2025-04-09",
+    "action": "Referred to the House Committee on the Judiciary. (2025-04-09)",
+    "summary": "Creates federal protections against unauthorized digital replicas of a person’s voice or likeness, with civil remedies and a notice-and-takedown framework. Includes exceptions for protected expression and certain other uses.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/2794",
+    "companions": [
+      {
+        "id": "S.1367",
+        "relationship": "Related bill"
+      },
+      {
+        "id": "S.4591",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.5885",
+    "title": "GAIN AI Act of 2025",
+    "chamber": "House",
+    "primary": "Trade & Export Controls",
+    "secondary": "Semiconductors & Advanced Tech",
+    "sponsor": "Moolenaar (R-MI)",
+    "cosponsors": "Krishnamoorthi (D-IL); Moran (R-TX); Gottheimer (D-NJ); Crawford (R-AR)",
+    "cosponsorCount": "4",
+    "introduced": "2025-10-31",
+    "action": "Referred to the House Committee on Foreign Affairs. (2025-10-31)",
+    "summary": "Requires exporters seeking licenses to sell advanced AI chips to countries of concern to certify that U.S. customers have priority access to those chips.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
+    "companions": [
+      {
+        "id": "S.3150",
+        "relationship": "Reviewed companion"
+      }
+    ]
+  },
+  {
+    "id": "H.R.7434",
+    "title": "AI Grand Challenges Act of 2026",
+    "chamber": "House",
+    "primary": "Standards, Testing & Research",
+    "secondary": "AI Economy, Competition & Innovation",
+    "sponsor": "Lieu (D-CA)",
+    "cosponsors": "Obernolte (R-CA)",
+    "cosponsorCount": "1",
+    "introduced": "2026-02-09",
+    "action": "Referred to the House Committee on Science, Space, and Technology. (2026-02-09)",
+    "summary": "Authorizes the Director of the National Science Foundation to identify grand challenges and award competitive prizes for artificial intelligence research and development.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7434",
+    "companions": [
+      {
+        "id": "S.3809",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.9442",
+    "title": "Artificial Intelligence Data Center Moratorium Act",
+    "chamber": "House",
+    "primary": "Data Centers, Energy & Infrastructure",
+    "secondary": "AI Regulation & Governance",
+    "sponsor": "Ocasio-Cortez (D-NY)",
+    "cosponsors": "McGovern (D-MA); Tlaib (D-MI); Watson Coleman (D-NJ); Grijalva (D-AZ); Sewell (D-AL); García (D-IL); Goldman (D-NY); Cohen (D-TN); Carson (D-IN); McIver (D-NJ); Waters (D-CA); DeSaulnier (D-CA); Figures (D-AL); Mfume (D-MD); Pingree (D-ME); Lee (D-PA); Casar (D-TX); Mejia (D-NJ); Frost (D-FL); Huffman (D-CA)",
+    "cosponsorCount": "20",
+    "introduced": "2026-06-24",
+    "action": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. (2026-06-24)",
+    "summary": "Imposes a moratorium on the construction of new data centers until legislation is enacted that safeguards the public from the dangers of artificial intelligence.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9442",
+    "companions": [
+      {
+        "id": "S.4214",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.146",
+    "title": "TAKE IT DOWN Act",
+    "chamber": "Senate",
+    "primary": "Synthetic Media & Content",
+    "secondary": "",
+    "sponsor": "Cruz (R-TX)",
+    "cosponsors": "Klobuchar (D-MN); Capito (R-WV); Blumenthal (D-CT); Cassidy (R-LA); Booker (D-NJ); Barrasso (R-WY); Rosen (D-NV); Lummis (R-WY); Hickenlooper (D-CO); Budd (R-NC); Blackburn (R-TN); Wicker (R-MS); Young (R-IN); Curtis (R-UT); Sheehy (R-MT); Warnock (D-GA); Heinrich (D-NM); Peters (D-MI); Schiff (D-CA); Cortez Masto (D-NV); Shaheen (D-NH)",
+    "cosponsorCount": "21",
+    "introduced": "2025-01-16",
+    "action": "Became Public Law No: 119-12. (2025-05-19)",
+    "summary": "Prohibits the nonconsensual publication of intimate images, including AI-generated deepfakes, and requires covered platforms to remove reported material within 48 hours. Establishes criminal penalties and a notice-and-removal process.",
+    "engagement": "Endorsed.",
+    "engagementMaterial": "https://www.siia.net/siia-supports-passage-of-s-146-the-take-it-down-act/",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
+    "companions": [
+      {
+        "id": "H.R.633",
+        "relationship": "Contained in public law"
+      }
+    ]
+  },
+  {
+    "id": "S.1792",
+    "title": "AI Whistleblower Protection Act",
+    "chamber": "Senate",
+    "primary": "Transparency & Accountability",
+    "secondary": "Frontier AI Safety & Security",
+    "sponsor": "Grassley (R-IA)",
+    "cosponsors": "Coons (D-DE); Blackburn (R-TN); Klobuchar (D-MN); Hawley (R-MO); Schatz (D-HI); Slotkin (D-MI); Schumer (D-NY); Blumenthal (D-CT); Gillibrand (D-NY); Durbin (D-IL); Curtis (R-UT); Kelly (D-AZ); Schiff (D-CA)",
+    "cosponsorCount": "13",
+    "introduced": "2025-05-15",
+    "action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (2025-05-15)",
+    "summary": "Prohibits employment discrimination against whistleblowers reporting AI security vulnerabilities or AI violations.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
+    "companions": [
+      {
+        "id": "H.R.3460",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.1833",
+    "title": "Leadership in CET Act",
+    "chamber": "Senate",
+    "primary": "Intellectual Property",
+    "secondary": "Semiconductors & Advanced Tech",
+    "sponsor": "Blackburn (R-TN)",
+    "cosponsors": "Welch (D-VT); Britt (R-AL); Schiff (D-CA); Coons (D-DE)",
+    "cosponsorCount": "4",
+    "introduced": "2025-05-21",
+    "action": "Read twice and referred to the Committee on the Judiciary. (2025-05-21)",
+    "summary": "Requires the Under Secretary of Commerce for Intellectual Property and Director of the United States Patent and Trademark Office to establish and carry out a pilot program to expedite the examination of applications for certain patents.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1833",
+    "companions": [
+      {
+        "id": "H.R.3539",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.3108",
+    "title": "AI-Related Job Impacts Clarity Act",
+    "chamber": "Senate",
+    "primary": "Education, Workforce & Literacy",
+    "secondary": "AI Economy, Competition & Innovation",
+    "sponsor": "Hawley (R-MO)",
+    "cosponsors": "Warner (D-VA); Kaine (D-VA); Blackburn (R-TN)",
+    "cosponsorCount": "3",
+    "introduced": "2025-11-05",
+    "action": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions. (2025-11-05)",
+    "summary": "Directs the Labor Dept./BLS to study and report on AI's impact on U.S. jobs.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3108",
+    "companions": [
+      {
+        "id": "H.R.9352",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.4441",
+    "title": "CREATE AI Act",
+    "chamber": "Senate",
+    "primary": "Standards, Testing & Research",
+    "secondary": "AI Economy, Competition & Innovation",
+    "sponsor": "Young (R-IN)",
+    "cosponsors": "Heinrich (D-NM); Rounds (R-SD); Booker (D-NJ); Schumer (D-NY); Husted (R-OH); Wicker (R-MS); Blunt Rochester (D-DE)",
+    "cosponsorCount": "7",
+    "introduced": "2026-04-29",
+    "action": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (2026-04-29)",
+    "summary": "Establishes the National Artificial Intelligence Research Resource to give eligible U.S. researchers, educators, and students access to AI computing resources, data, tools, and testbeds.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4441",
+    "companions": [
+      {
+        "id": "H.R.2385",
+        "relationship": "Reviewed companion"
+      }
+    ]
+  },
+  {
+    "id": "S.4456",
+    "title": "AI OVERWATCH Act",
+    "chamber": "Senate",
+    "primary": "Trade & Export Controls",
+    "secondary": "Semiconductors & Advanced Tech",
+    "sponsor": "Banks (R-IN)",
+    "cosponsors": "Warren (D-MA); Cotton (R-AR); Shaheen (D-NH); Ricketts (R-NE); Cortez Masto (D-NV); Scott (R-FL); Coons (D-DE); McCormick (R-PA); Slotkin (D-MI); Schumer (D-NY); Curtis (R-UT); Blunt Rochester (D-DE)",
+    "cosponsorCount": "12",
+    "introduced": "2026-04-30",
+    "action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (2026-04-30)",
+    "summary": "Requires export licenses and safeguards for advanced AI chips sold to countries of concern, including review of national-security risks and effects on U.S. computing capacity.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4456",
+    "companions": [
+      {
+        "id": "H.R.6875",
+        "relationship": "Reviewed companion"
+      }
+    ]
+  },
+  {
+    "id": "S.4591",
+    "title": "NO FAKES Act of 2026",
+    "chamber": "Senate",
+    "primary": "Synthetic Media & Content",
+    "secondary": "Intellectual Property",
+    "sponsor": "Coons (D-DE)",
+    "cosponsors": "Blackburn (R-TN); Klobuchar (D-MN); Tillis (R-NC); Durbin (D-IL); Britt (R-AL); Hirono (D-HI); Moody (R-FL); Welch (D-VT); Cassidy (R-LA); Schiff (D-CA); Hagerty (R-TN); Slotkin (D-MI); Lankford (R-OK); Blumenthal (D-CT); Scott (R-FL)",
+    "cosponsorCount": "15",
+    "introduced": "2026-05-20",
+    "action": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 446. (2026-06-24)",
+    "summary": "Creates federal protections against unauthorized digital replicas of a person’s voice or likeness. Establishes civil remedies, a notice-and-takedown process, and counter-notification procedures, with exceptions for protected expression.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://www.siia.net/wp-content/uploads/2026/06/2026.06.16-NO_FAKES_Letter-SJC-HJC.pdf",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4591",
+    "companions": [
+      {
+        "id": "H.R.8915",
+        "relationship": "Identical bill"
+      },
+      {
+        "id": "H.R.2794",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.4762",
+    "title": "Generative AI Terrorism Risk Assessment Act",
+    "chamber": "Senate",
+    "primary": "Government & Public-Sector AI",
+    "secondary": "Frontier AI Safety & Security",
+    "sponsor": "Scott (R-FL)",
+    "cosponsors": "Lummis (R-WY); Blackburn (R-TN)",
+    "cosponsorCount": "2",
+    "introduced": "2026-06-11",
+    "action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs. (2026-06-11)",
+    "summary": "Requires the Secretary of Homeland Security to conduct annual assessments on terrorism threats to the United States posed by terrorist organizations utilizing generative artificial intelligence applications.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4762",
+    "companions": [
+      {
+        "id": "H.R.1736",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.1623",
+    "title": "SCREEN Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "Privacy & Data Governance",
+    "sponsor": "Miller (R-IL)",
+    "cosponsors": "Van Drew (R-NJ); Brecheen (R-OK); LaMalfa (R-CA); Scott (R-GA); Kennedy (R-UT); Crane (R-AZ); Aderholt (R-AL); Babin (R-TX); Rose (R-TN); Ogles (R-TN); Self (R-TX); Harris (R-MD); Harshbarger (R-TN); Harris (R-NC); Weber (R-TX); Baird (R-IN); Norman (R-SC); Moore (R-AL); Biggs (R-SC); Steube (R-FL); Owens (R-UT); Miller (R-WV); Bice (R-OK); Moore (R-UT); Harrigan (R-NC); Edwards (R-NC); Gill (R-TX)",
+    "cosponsorCount": "27",
+    "introduced": "2025-02-26",
+    "action": "Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by Voice Vote. (2025-12-11)",
+    "summary": "Requires covered commercial websites and services offering material harmful to minors to verify users’ ages and prevent minors from accessing that content. Includes privacy and security requirements and Federal Trade Commission enforcement.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://www.siia.net/wp-content/uploads/2025/12/SIIA-Letter-Online-Privacy-and-Safety-December-18-2025.pdf",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/1623",
+    "companions": [
+      {
+        "id": "S.737",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.5712",
+    "title": "Quantum LEAP Act of 2025",
+    "chamber": "House",
+    "primary": "Quantum Technology",
+    "secondary": "",
+    "sponsor": "Fleischmann (R-TN)",
+    "cosponsors": "",
+    "cosponsorCount": "0",
+    "introduced": "2025-10-08",
+    "action": "Referred to the House Committee on Science, Space, and Technology. (2025-10-08)",
+    "summary": "Establishes the Commission on American Quantum Information Science Dominance, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/5712",
+    "companions": [
+      {
+        "id": "S.1746",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.6322",
+    "title": "Stop Stealing our Chips Act",
+    "chamber": "House",
+    "primary": "Trade & Export Controls",
+    "secondary": "Semiconductors & Advanced Tech",
+    "sponsor": "Kean (R-NJ)",
+    "cosponsors": "Johnson (D-TX); Krishnamoorthi (D-IL); Moolenaar (R-MI); McClain (R-MI); Harder (D-CA); Matsui (D-CA); Moran (R-TX); McDonald Rivet (D-MI); Lawler (R-NY); Gottheimer (D-NJ); Crawford (R-AR); LaHood (R-IL)",
+    "cosponsorCount": "12",
+    "introduced": "2025-11-28",
+    "action": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 1. (2026-04-22)",
+    "summary": "Amends the Export Control Reform Act of 2018 to establish a whistleblower incentive program and provide protections to whistleblowers.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6322",
+    "companions": [
+      {
+        "id": "S.1473",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.7218",
+    "title": "CHAT Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "",
+    "sponsor": "Lawler (R-NY)",
+    "cosponsors": "Barrett (R-MI)",
+    "cosponsorCount": "1",
+    "introduced": "2026-01-22",
+    "action": "Referred to the House Committee on Energy and Commerce. (2026-01-22)",
+    "summary": "Requires artificial intelligence chatbots to implement age verification measures and establish certain protections for minor users, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7218",
+    "companions": [
+      {
+        "id": "S.2714",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.7399",
+    "title": "Kids Off Social Media Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "Education, Workforce & Literacy",
+    "sponsor": "Luna (R-FL)",
+    "cosponsors": "",
+    "cosponsorCount": "0",
+    "introduced": "2026-02-05",
+    "action": "Referred to the House Committee on Energy and Commerce. (2026-02-05)",
+    "summary": "Prohibits users who are under age 13 from accessing social media platforms, to prohibit the use of personalized recommendation systems on individuals under age 17, and limit the use of social media in schools.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7399",
+    "companions": [
+      {
+        "id": "S.278",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.7433",
+    "title": "Kids Off Social Media Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "Education, Workforce & Literacy",
+    "sponsor": "Luna (R-FL)",
+    "cosponsors": "Schrier (D-WA)",
+    "cosponsorCount": "1",
+    "introduced": "2026-02-09",
+    "action": "Referred to the House Committee on Energy and Commerce. (2026-02-09)",
+    "summary": "Prohibits users who are under age 13 from accessing social media platforms, to prohibit the use of personalized recommendation systems on individuals under age 17, and limit the use of social media in schools.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/7433",
+    "companions": [
+      {
+        "id": "S.278",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.8241",
+    "title": "Power for the People Act of 2026",
+    "chamber": "House",
+    "primary": "Data Centers, Energy & Infrastructure",
+    "secondary": "",
+    "sponsor": "Tonko (D-NY)",
+    "cosponsors": "Castor (D-FL); Cohen (D-TN); Elfreth (D-MD); Dexter (D-OR); Foushee (D-NC); Garamendi (D-CA); Goldman (D-NY); Lynch (D-MA); Norton (D-DC); Ivey (D-MD); McClain Delaney (D-MD); McClellan (D-VA); Mfume (D-MD); Olszewski (D-MD); Schakowsky (D-IL); Quigley (D-IL); McCollum (D-MN); Latimer (D-NY); Escobar (D-TX); DeSaulnier (D-CA); Balint (D-VT); Pingree (D-ME); Levin (D-CA); Underwood (D-IL); McDonald Rivet (D-MI); Pettersen (D-CO); Dean (D-PA)",
+    "cosponsorCount": "27",
+    "introduced": "2026-04-09",
+    "action": "Referred to the House Committee on Energy and Commerce. (2026-04-09)",
+    "summary": "Promotes the creation of data center load queues and data center-specific rate classes to mitigate the impact of data centers on other electricity consumers, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8241",
+    "companions": [
+      {
+        "id": "S.3682",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.8623",
+    "title": "GUARD Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "Transparency & Accountability",
+    "sponsor": "Moore (R-UT)",
+    "cosponsors": "Foushee (D-NC); Craig (D-MN); Lawler (R-NY); Edwards (R-NC); Owens (R-UT); Patronis (R-FL); Boyle (D-PA)",
+    "cosponsorCount": "7",
+    "introduced": "2026-04-30",
+    "action": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned. (2026-04-30)",
+    "summary": "Requires artificial intelligence chatbots to implement age verification measures and make certain disclosures, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/8623",
+    "companions": [
+      {
+        "id": "S.3062",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.9155",
+    "title": "CONSENT Act",
+    "chamber": "House",
+    "primary": "Synthetic Media & Content",
+    "secondary": "",
+    "sponsor": "McClellan (D-VA)",
+    "cosponsors": "Moran (R-TX)",
+    "cosponsorCount": "1",
+    "introduced": "2026-06-04",
+    "action": "Referred to the House Committee on the Judiciary. (2026-06-04)",
+    "summary": "Establishes a private right of action against a person who transmits unsolicited intimate visual depictions.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9155",
+    "companions": [
+      {
+        "id": "S.4695",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.9825",
+    "title": "Data Center Water and Energy Transparency Act of 2026",
+    "chamber": "House",
+    "primary": "Data Centers, Energy & Infrastructure",
+    "secondary": "Transparency & Accountability",
+    "sponsor": "Underwood (D-IL)",
+    "cosponsors": "Vasquez (D-NM)",
+    "cosponsorCount": "1",
+    "introduced": "2026-07-22",
+    "action": "Referred to the House Committee on Energy and Commerce. (2026-07-22)",
+    "summary": "Requires data center operators to submit to States or the Administrator of the Environmental Protection Agency and the Secretaries of Energy and Agriculture reports on data center energy and water use, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/9825",
+    "companions": [
+      {
+        "id": "S.4213",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.11015",
+    "title": "PHD Talent Act of 2026",
+    "chamber": "House",
+    "primary": "Education, Workforce & Literacy",
+    "secondary": "Standards, Testing & Research",
+    "sponsor": "Fong (R-CA)",
+    "cosponsors": "Subramanyam (D-VA)",
+    "cosponsorCount": "1",
+    "introduced": "2026-11-12",
+    "action": "Referred to the House Committee on Education and Workforce. (2026-11-12)",
+    "summary": "Requires the Secretary of Energy to establish a program to strengthen the domestic science and engineering workforce through partnerships among institutions of higher education, National Laboratories, other Federal science agencies, and industry to support accelerated doctoral programs, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/11015",
+    "companions": [
+      {
+        "id": "S.5187",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.2049",
+    "title": "NTIA Policy and Cybersecurity Coordination Act",
+    "chamber": "Senate",
+    "primary": "Cybersecurity",
+    "secondary": "",
+    "sponsor": "Hickenlooper (D-CO)",
+    "cosponsors": "Capito (R-WV); Curtis (R-UT); Blunt Rochester (D-DE)",
+    "cosponsorCount": "3",
+    "introduced": "2025-06-12",
+    "action": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (2025-06-12)",
+    "summary": "Amends the National Telecommunications and Information Administration Organization Act to establish the Office of Policy Development and Cybersecurity.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2049",
+    "companions": [
+      {
+        "id": "H.R.1766",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.3355",
+    "title": "National Strategy for Combating Scams Act of 2025",
+    "chamber": "Senate",
+    "primary": "Fraud & Scams",
+    "secondary": "",
+    "sponsor": "Gillibrand (D-NY)",
+    "cosponsors": "Scott (R-FL); Kelly (D-AZ); Moody (R-FL); Ossoff (D-GA)",
+    "cosponsorCount": "4",
+    "introduced": "2025-12-04",
+    "action": "Read twice and referred to the Committee on the Judiciary. (2025-12-04)",
+    "summary": "Directs an FBI-led federal working group to coordinate a national strategy against scams, including AI-enabled scams.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3355",
+    "companions": [
+      {
+        "id": "H.R.6425",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.4821",
+    "title": "STOP Scams Against Seniors Act",
+    "chamber": "Senate",
+    "primary": "Fraud & Scams",
+    "secondary": "",
+    "sponsor": "Moody (R-FL)",
+    "cosponsors": "",
+    "cosponsorCount": "0",
+    "introduced": "2026-06-17",
+    "action": "Read twice and referred to the Committee on the Judiciary. (2026-06-17)",
+    "summary": "Authorizes Byrne-JAG grant funds for elder-justice task forces targeting scams against seniors",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4821",
+    "companions": [
+      {
+        "id": "H.R.6426",
+        "relationship": "Identical bill"
+      }
+    ]
+  },
+  {
+    "id": "S.4840",
+    "title": "Export Control Enforcement and Enhancement Act",
+    "chamber": "Senate",
+    "primary": "Trade & Export Controls",
+    "secondary": "",
+    "sponsor": "Blackburn (R-TN)",
+    "cosponsors": "Kelly (D-AZ)",
+    "cosponsorCount": "1",
+    "introduced": "2026-06-18",
+    "action": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs. (2026-06-18)",
+    "summary": "Strengthens U.S. national security by expediting additions to the Commerce Department’s Entity List and restricting foreign access to sensitive American technologies.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4840",
+    "companions": [
+      {
+        "id": "H.R.8169",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.5028",
+    "title": "Ratepayer Protection Act",
+    "chamber": "Senate",
+    "primary": "Data Centers, Energy & Infrastructure",
+    "secondary": "",
+    "sponsor": "Husted (R-OH)",
+    "cosponsors": "Tuberville (R-AL); Moody (R-FL); Ricketts (R-NE); Marshall (R-KS); Kennedy (R-LA); Collins (R-ME); Graham (R-SC); Cotton (R-AR); Hoeven (R-ND); Britt (R-AL); Cornyn (R-TX); Ernst (R-IA); Armstrong (R-OK); Hagerty (R-TN); Young (R-IN); Fischer (R-NE)",
+    "cosponsorCount": "16",
+    "introduced": "2026-07-16",
+    "action": "Read twice and referred to the Committee on Energy and Natural Resources. (2026-07-16)",
+    "summary": "Amends the Public Utility Regulatory Policies Act of 1978 to establish a Federal standard relating to the recovery of the full, incremental costs of upgrades that serve large-load customers, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5028",
+    "companions": [
+      {
+        "id": "H.R.9340",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.5333",
+    "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
+    "chamber": "Senate",
+    "primary": "Semiconductors & Advanced Tech",
+    "secondary": "Standards, Testing & Research",
+    "sponsor": "Rosen (D-NV)",
+    "cosponsors": "Ricketts (R-NE)",
+    "cosponsorCount": "1",
+    "introduced": "2026-08-06",
+    "action": "Read twice and referred to the Committee on Commerce, Science, and Transportation. (2026-08-06)",
+    "summary": "Requires the Secretary of Commerce, acting through the Assistant Secretary of Commerce for Communications and Information, to develop a plan for how the United States will advance and advocate for Wi-Fi and other unlicensed technologies, and for other purposes.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5333",
+    "companions": [
+      {
+        "id": "H.R.9151",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "S.5400",
+    "title": "STRIDE Act",
+    "chamber": "Senate",
+    "primary": "Semiconductors & Advanced Tech",
+    "secondary": "Trade & Export Controls",
+    "sponsor": "Curtis (R-UT)",
+    "cosponsors": "",
+    "cosponsorCount": "0",
+    "introduced": "2026-09-15",
+    "action": "Read twice and referred to the Committee on Foreign Relations. (2026-09-15)",
+    "summary": "Aims to protect global semiconductor supply chains and prevent adversarial nations from acquiring critical technology.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5400",
+    "companions": [
+      {
+        "id": "H.R.6058",
+        "relationship": "Related bill"
+      }
+    ]
+  },
+  {
+    "id": "H.R.6484",
+    "title": "Kids Online Safety Act",
+    "chamber": "House",
+    "primary": "Children & Youth",
+    "secondary": "",
+    "sponsor": "Bilirakis (R-FL)",
+    "cosponsors": "",
+    "cosponsorCount": "0",
+    "introduced": "2025-12-05",
+    "action": "Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by the Yeas and Nays: 13 - 10. (2025-12-11)",
+    "summary": "Requires covered online platforms to provide safeguards and parental tools to protect minors, including privacy protections and ways to report harm. Establishes federal and state enforcement responsibilities.",
+    "engagement": "Engaged, not endorsed.",
+    "engagementMaterial": "https://lda.gov/filings/public/filing/2b10815e-ab9c-468a-9404-aac95501b17b/print/",
+    "url": "https://www.congress.gov/bill/119th-congress/house-bill/6484",
+    "companions": [
+      {
+        "id": "S.1748",
+        "relationship": "Reviewed companion"
+      }
+    ]
+  },
+  {
+    "id": "S.5640",
+    "title": "Data Center Transparency Act of 2026",
+    "chamber": "Senate",
+    "primary": "Data Centers, Energy & Infrastructure",
+    "secondary": "Transparency & Accountability",
+    "sponsor": "Blunt Rochester (D-DE)",
+    "cosponsors": "Curtis (R-UT)",
+    "cosponsorCount": "1",
+    "introduced": "2026-09-30",
+    "action": "Read twice and referred to the Committee on Environment and Public Works. (2026-09-30)",
+    "summary": "Requires federal reports on data centers’ effects on air and water quality and their electricity consumption, including impacts on residential energy costs.",
+    "engagement": "",
+    "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5640",
+    "companions": [
+      {
+        "id": "H.R.6984",
+        "relationship": "Reviewed companion"
+      }
+    ]
   }
 ]

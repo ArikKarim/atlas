@@ -1,6 +1,6 @@
 # Atlas candidate review
 
-Generated 2026-11-23T03:32:07.022Z. 421 candidates; 170 tracked bills remain unchanged.
+Generated 2026-11-23T03:58:35.552Z. 389 candidates; 202 tracked bills remain unchanged.
 
 Open `candidate-review.html` for filters, evidence, and Include / Exclude / Defer decisions. Export your decisions and import them with `npm run review:candidates -- --import path/to/decisions.json`. Included candidates still require an explicit reviewed change to the Tracker.
 
@@ -27,7 +27,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.1692](https://www.congress.gov/bill/119th-congress/house-bill/1692) | PATHS Act | Direct AI reference | AI & automation; Algorithms & platforms | Guest (R-MS) |  | pending |
 | [H.R.1941](https://www.congress.gov/bill/119th-congress/house-bill/1941) | Preventing Deepfakes of Intimate Images Act | Direct AI reference | AI & automation; Algorithms & platforms | Morelle (D-NY) |  | pending |
 | [H.R.1985](https://www.congress.gov/bill/119th-congress/house-bill/1985) | Promoting Precision Agriculture Act | Direct AI reference | AI & automation | Davis (D-NC) |  | pending |
-| [H.R.2794](https://www.congress.gov/bill/119th-congress/house-bill/2794) | NO FAKES Act of 2025 | Direct AI reference | AI & automation; Algorithms & platforms | Salazar (R-FL) | H.R.8915, S.1367 | pending |
 | [H.R.3029](https://www.congress.gov/bill/119th-congress/house-bill/3029) | To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes. | Direct AI reference | AI & automation | Salinas (D-OR) |  | pending |
 | [H.R.3303](https://www.congress.gov/bill/119th-congress/house-bill/3303) | America—Israel AI Cooperation Act | Direct AI reference | AI & automation | Ogles (R-TN) |  | pending |
 | [H.R.3514](https://www.congress.gov/bill/119th-congress/house-bill/3514) | Improving Seniors’ Timely Access to Care Act of 2025 | Direct AI reference | AI & automation; Algorithms & platforms | Kelly (R-PA) |  | pending |
@@ -49,7 +48,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.5332](https://www.congress.gov/bill/119th-congress/house-bill/5332) | Liquid Cooling for AI Act of 2025 | Direct AI reference | AI & automation | Obernolte (R-CA) |  | pending |
 | [H.R.5764](https://www.congress.gov/bill/119th-congress/house-bill/5764) | AI for Main Street Act | Direct AI reference | AI & automation | Alford (R-MO) |  | pending |
 | [H.R.5784](https://www.congress.gov/bill/119th-congress/house-bill/5784) | AI–WISE Act | Direct AI reference | AI & automation | Scholten (D-MI) |  | pending |
-| [H.R.5885](https://www.congress.gov/bill/119th-congress/house-bill/5885) | GAIN AI Act of 2025 | Direct AI reference | AI & automation | Moolenaar (R-MI) |  | pending |
 | [H.R.6077](https://www.congress.gov/bill/119th-congress/house-bill/6077) | HEAL-AI Act | Direct AI reference | AI & automation | Barragán (D-CA) |  | pending |
 | [H.R.6159](https://www.congress.gov/bill/119th-congress/house-bill/6159) | AI for ALL Act | Direct AI reference | AI & automation | Rivas (D-CA) |  | pending |
 | [H.R.6275](https://www.congress.gov/bill/119th-congress/house-bill/6275) | China AI Power Report Act | Direct AI reference | AI & automation; Algorithms & platforms | Moylan (R-GU) |  | pending |
@@ -65,7 +63,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.7158](https://www.congress.gov/bill/119th-congress/house-bill/7158) | Expanding AI Voices Act | Direct AI reference | AI & automation | Foushee (D-NC) |  | pending |
 | [H.R.7226](https://www.congress.gov/bill/119th-congress/house-bill/7226) | Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2026 | Direct AI reference | AI & automation | Moore (R-UT) |  | pending |
 | [H.R.7294](https://www.congress.gov/bill/119th-congress/house-bill/7294) | AI for Secure Networks Act | Direct AI reference | AI & automation | Menendez (D-NJ) |  | pending |
-| [H.R.7434](https://www.congress.gov/bill/119th-congress/house-bill/7434) | AI Grand Challenges Act of 2026 | Direct AI reference | AI & automation | Lieu (D-CA) | H.R.8516, S.3809 | pending |
 | [H.R.7576](https://www.congress.gov/bill/119th-congress/house-bill/7576) | AI Workforce Training Act | Direct AI reference | AI & automation | Gottheimer (D-NJ) |  | pending |
 | [H.R.7696](https://www.congress.gov/bill/119th-congress/house-bill/7696) | AI Cyber Grid Protection Resilient Development Act of 2026 | Direct AI reference | AI & automation | Hernández (D-PR) |  | pending |
 | [H.R.7697](https://www.congress.gov/bill/119th-congress/house-bill/7697) | International AI Energy Grid Modernization Strategy Act | Direct AI reference | AI & automation; Energy & grid | Hernández (D-PR) |  | pending |
@@ -96,7 +93,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.9323](https://www.congress.gov/bill/119th-congress/house-bill/9323) | Department of Advanced Technology and Artificial Intelligence Act | Direct AI reference | AI & automation | Rivas (D-CA) |  | pending |
 | [H.R.9363](https://www.congress.gov/bill/119th-congress/house-bill/9363) | AI Security and Innovation Act | Direct AI reference | AI & automation | Obernolte (R-CA) |  | pending |
 | [H.R.9427](https://www.congress.gov/bill/119th-congress/house-bill/9427) | AI Workforce Impact Study Act of 2026 | Direct AI reference | AI & automation | Foushee (D-NC) |  | pending |
-| [H.R.9442](https://www.congress.gov/bill/119th-congress/house-bill/9442) | Artificial Intelligence Data Center Moratorium Act | Direct AI reference | AI & automation; Data centers & compute | Ocasio-Cortez (D-NY) | S.4214 | pending |
 | [H.R.9501](https://www.congress.gov/bill/119th-congress/house-bill/9501) | AI Tax Integrity Act of 2026 | Direct AI reference | AI & automation | Buchanan (R-FL) |  | pending |
 | [H.R.9506](https://www.congress.gov/bill/119th-congress/house-bill/9506) | To amend the National Artificial Intelligence Initiative Act of 2020 to require the Director of the Office of Science and Technology Policy to establish a prize competition program relating to artificial intelligence, and for other purposes. | Direct AI reference | AI & automation | Begich (R-AK) |  | pending |
 | [H.R.9566](https://www.congress.gov/bill/119th-congress/house-bill/9566) | To establish a pilot program for use by U.S. Customs and Border Protection at land ports of entry along the Arizona border to assess the use of artificial intelligence through an anomaly detection algorithm, and for other purposes. | Direct AI reference | AI & automation; Algorithms & platforms | Schweikert (R-AZ) |  | pending |
@@ -137,7 +133,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.11055](https://www.congress.gov/bill/119th-congress/house-bill/11055) | To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency a pilot program to be known as the "BRIDGE AI Mission Program" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for other purposes. | Direct AI reference | AI & automation | Fong (R-CA) |  | pending |
 | [H.R.11076](https://www.congress.gov/bill/119th-congress/house-bill/11076) | To amend the Homeland Security Act of 2002 to require the Director of the Cybersecurity and Infrastructure Security Agency to lead cybersecurity efforts relating to the secure adoption, discovery, identification, authorization, monitoring, accountability, and risk management of artificial intelligence agents operating on executive agency information systems, and for other purposes. | Direct AI reference | AI & automation | Van Epps (R-TN) |  | pending |
 | [S.2](https://www.congress.gov/bill/119th-congress/senate-bill/2) | Secure America Act | Direct AI reference | AI & automation; Algorithms & platforms; Privacy & data governance | Graham (R-SC) |  | pending |
-| [S.146](https://www.congress.gov/bill/119th-congress/senate-bill/146) | TAKE IT DOWN Act | Direct AI reference | AI & automation; Algorithms & platforms | Cruz (R-TX) | H.R.633 | pending |
 | [S.168](https://www.congress.gov/bill/119th-congress/senate-bill/168) | Energy for America’s Economic Future Act | Direct AI reference | AI & automation | Schmitt (R-MO) |  | pending |
 | [S.501](https://www.congress.gov/bill/119th-congress/senate-bill/501) | Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats | Direct AI reference | AI & automation | Budd (R-NC) |  | pending |
 | [S.507](https://www.congress.gov/bill/119th-congress/senate-bill/507) | Promoting Precision Agriculture Act of 2025 | Direct AI reference | AI & automation | Thune (R-SD) |  | pending |
@@ -146,9 +141,7 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.1053](https://www.congress.gov/bill/119th-congress/senate-bill/1053) | FIGHT China Act of 2025 | Direct AI reference | AI & automation; Quantum technology | Cornyn (R-TX) |  | pending |
 | [S.1071](https://www.congress.gov/bill/119th-congress/senate-bill/1071) | National Defense Authorization Act for Fiscal Year 2026 | Direct AI reference | AI & automation; Algorithms & platforms | Cornyn (R-TX) |  | pending |
 | [S.1110](https://www.congress.gov/bill/119th-congress/senate-bill/1110) | Leveraging Artificial Intelligence to Streamline the Code of Federal Regulations Act of 2025 | Direct AI reference | AI & automation | Husted (R-OH) |  | pending |
-| [S.1792](https://www.congress.gov/bill/119th-congress/senate-bill/1792) | AI Whistleblower Protection Act | Direct AI reference | AI & automation | Grassley (R-IA) | H.R.3460, H.R.8516 | pending |
 | [S.1816](https://www.congress.gov/bill/119th-congress/senate-bill/1816) | Improving Seniors’ Timely Access to Care Act of 2025 | Direct AI reference | AI & automation; Algorithms & platforms | Marshall (R-KS) |  | pending |
-| [S.1833](https://www.congress.gov/bill/119th-congress/senate-bill/1833) | Leadership in CET Act | Direct AI reference | AI & automation; Semiconductors & export controls; Quantum technology | Blackburn (R-TN) | H.R.3539 | pending |
 | [S.2177](https://www.congress.gov/bill/119th-congress/senate-bill/2177) | No Adversarial AI Act | Direct AI reference | AI & automation | Scott (R-FL) |  | pending |
 | [S.2262](https://www.congress.gov/bill/119th-congress/senate-bill/2262) | American Voices in Federal Lands Act | Direct AI reference | AI & automation | Barrasso (R-WY) |  | pending |
 | [S.2346](https://www.congress.gov/bill/119th-congress/senate-bill/2346) | Preparing Election Administrators for AI Act | Direct AI reference | AI & automation | Klobuchar (D-MN) |  | pending |
@@ -158,7 +151,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.2937](https://www.congress.gov/bill/119th-congress/senate-bill/2937) | AI LEAD Act | Direct AI reference | AI & automation | Durbin (D-IL) |  | pending |
 | [S.2997](https://www.congress.gov/bill/119th-congress/senate-bill/2997) | Right to Override Act | Direct AI reference | AI & automation; Algorithms & platforms | Markey (D-MA) |  | pending |
 | [S.3063](https://www.congress.gov/bill/119th-congress/senate-bill/3063) | LIFE with AI Act | Direct AI reference | AI & automation | Cassidy (R-LA) |  | pending |
-| [S.3108](https://www.congress.gov/bill/119th-congress/senate-bill/3108) | AI-Related Job Impacts Clarity Act | Direct AI reference | AI & automation | Hawley (R-MO) | H.R.9352 | pending |
 | [S.3202](https://www.congress.gov/bill/119th-congress/senate-bill/3202) | Advanced Artificial Intelligence Security Readiness Act of 2025 | Direct AI reference | AI & automation | Young (R-IN) |  | pending |
 | [S.3269](https://www.congress.gov/bill/119th-congress/senate-bill/3269) | Liquid Cooling for AI Act of 2025 | Direct AI reference | AI & automation | McCormick (R-PA) |  | pending |
 | [S.3308](https://www.congress.gov/bill/119th-congress/senate-bill/3308) | Artificial Intelligence Civil Rights Act of 2025 | Direct AI reference | AI & automation | Markey (D-MA) |  | pending |
@@ -179,15 +171,11 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.4179](https://www.congress.gov/bill/119th-congress/senate-bill/4179) | AI/AN CAPTA | Direct AI reference | AI & automation | Murkowski (R-AK) |  | pending |
 | [S.4402](https://www.congress.gov/bill/119th-congress/senate-bill/4402) | A bill to require a report on the use of artificial intelligence with respect to access to unminimized information collected pursuant to the Foreign Intelligence Surveillance Act of 1978, and for other purposes. | Direct AI reference | AI & automation | Schiff (D-CA) |  | pending |
 | [S.4429](https://www.congress.gov/bill/119th-congress/senate-bill/4429) | Connected Vehicle Security Act of 2026 | Direct AI reference | AI & automation | Moreno (R-OH) |  | pending |
-| [S.4441](https://www.congress.gov/bill/119th-congress/senate-bill/4441) | CREATE AI Act | Direct AI reference | AI & automation | Young (R-IN) |  | pending |
-| [S.4456](https://www.congress.gov/bill/119th-congress/senate-bill/4456) | AI OVERWATCH Act | Direct AI reference | AI & automation | Banks (R-IN) |  | pending |
-| [S.4591](https://www.congress.gov/bill/119th-congress/senate-bill/4591) | NO FAKES Act of 2026 | Direct AI reference | AI & automation; Algorithms & platforms | Coons (D-DE) | H.R.8915, S.1367 | pending |
 | [S.4627](https://www.congress.gov/bill/119th-congress/senate-bill/4627) | FARM AI Act of 2026 | Direct AI reference | AI & automation | Budd (R-NC) |  | pending |
 | [S.4707](https://www.congress.gov/bill/119th-congress/senate-bill/4707) | Responsible Artificial Intelligence Defense Act of 2026 | Direct AI reference | AI & automation | Coons (D-DE) |  | pending |
 | [S.4727](https://www.congress.gov/bill/119th-congress/senate-bill/4727) | Artificial Intelligence Environmental Impacts Act of 2026 | Direct AI reference | AI & automation | Markey (D-MA) |  | pending |
 | [S.4742](https://www.congress.gov/bill/119th-congress/senate-bill/4742) | AI DATA Act | Direct AI reference | AI & automation | Kelly (D-AZ) |  | pending |
 | [S.4743](https://www.congress.gov/bill/119th-congress/senate-bill/4743) | AI Bubble Transparency Act | Direct AI reference | AI & automation | Warren (D-MA) |  | pending |
-| [S.4762](https://www.congress.gov/bill/119th-congress/senate-bill/4762) | Generative AI Terrorism Risk Assessment Act | Direct AI reference | AI & automation | Scott (R-FL) | H.R.1736 | pending |
 | [S.4774](https://www.congress.gov/bill/119th-congress/senate-bill/4774) | Fraudulent Artificial Intelligence Regulations (FAIR) Elections Act of 2026 | Direct AI reference | AI & automation | Merkley (D-OR) |  | pending |
 | [S.4784](https://www.congress.gov/bill/119th-congress/senate-bill/4784) | National Defense Authorization Act for Fiscal Year 2027 | Direct AI reference | AI & automation | Wicker (R-MS) |  | pending |
 | [S.4916](https://www.congress.gov/bill/119th-congress/senate-bill/4916) | Aging with Artificial Intelligence Act of 2026 | Direct AI reference | AI & automation | Kelly (D-AZ) |  | pending |
@@ -206,37 +194,19 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.5541](https://www.congress.gov/bill/119th-congress/senate-bill/5541) | Cybersecurity and AI Board of Investigations Act of 2026 | Direct AI reference | AI & automation | Markey (D-MA) |  | pending |
 | [S.5576](https://www.congress.gov/bill/119th-congress/senate-bill/5576) | Artificial Intelligence Risk Management and Security Act of 2026 | Direct AI reference | AI & automation | Warner (D-VA) |  | pending |
 | [S.5785](https://www.congress.gov/bill/119th-congress/senate-bill/5785) | A bill to require the Securities and Exchange Commission to issue rules relating to the use of artificial intelligence by public companies, and for other purposes. | Direct AI reference | AI & automation | Warner (D-VA) |  | pending |
-| [H.R.1623](https://www.congress.gov/bill/119th-congress/house-bill/1623) | SCREEN Act | Related to tracked bill | Algorithms & platforms | Miller (R-IL) | S.737 | pending |
-| [H.R.1768](https://www.congress.gov/bill/119th-congress/house-bill/1768) | Lower Costs for Everyday Americans Act | Related to tracked bill | Algorithms & platforms | Pallone (D-NJ) | H.R.633 | pending |
+| [H.R.1768](https://www.congress.gov/bill/119th-congress/house-bill/1768) | Lower Costs for Everyday Americans Act | Related to tracked bill | Algorithms & platforms | Pallone (D-NJ) | H.R.633, S.146 | pending |
 | [H.R.3690](https://www.congress.gov/bill/119th-congress/house-bill/3690) | Securing Innovation in Financial Regulation Act | Related to tracked bill |  | Lucas (R-OK) | H.R.3633 | pending |
 | [H.R.3707](https://www.congress.gov/bill/119th-congress/house-bill/3707) | NSF and USDA Interagency Research Act | Related to tracked bill |  | Baird (R-IN) | H.R.8516 | pending |
 | [H.R.4906](https://www.congress.gov/bill/119th-congress/house-bill/4906) | USA Act | Related to tracked bill |  | Webster (R-FL) | H.R.9326 | pending |
-| [H.R.5712](https://www.congress.gov/bill/119th-congress/house-bill/5712) | Quantum LEAP Act of 2025 | Related to tracked bill | Quantum technology | Fleischmann (R-TN) | S.1746 | pending |
 | [H.R.6289](https://www.congress.gov/bill/119th-congress/house-bill/6289) | Promoting a Safe Internet for Minors Act | Related to tracked bill | Algorithms & platforms | Lee (R-FL) | H.R.7757 | pending |
-| [H.R.6322](https://www.congress.gov/bill/119th-congress/house-bill/6322) | Stop Stealing our Chips Act | Related to tracked bill | Semiconductors & export controls; Algorithms & platforms | Kean (R-NJ) | S.1473 | pending |
 | [H.R.6437](https://www.congress.gov/bill/119th-congress/house-bill/6437) | Kids Internet Safety Partnership Act | Related to tracked bill | Algorithms & platforms | Fry (R-SC) | H.R.7757 | pending |
 | [H.R.6981](https://www.congress.gov/bill/119th-congress/house-bill/6981) | SHINE Act of 2026 | Related to tracked bill |  | Lee (D-NV) | H.R.7977 | pending |
 | [H.R.7007](https://www.congress.gov/bill/119th-congress/house-bill/7007) | Governing for the People Act | Related to tracked bill |  | McGovern (D-MA) | H.R.3210 | pending |
-| [H.R.7218](https://www.congress.gov/bill/119th-congress/house-bill/7218) | CHAT Act | Related to tracked bill |  | Lawler (R-NY) | S.2714 | pending |
-| [H.R.7399](https://www.congress.gov/bill/119th-congress/house-bill/7399) | Kids Off Social Media Act | Related to tracked bill | Algorithms & platforms; Privacy & data governance | Luna (R-FL) | S.278 | pending |
-| [H.R.7433](https://www.congress.gov/bill/119th-congress/house-bill/7433) | Kids Off Social Media Act | Related to tracked bill | Algorithms & platforms; Privacy & data governance | Luna (R-FL) | S.278 | pending |
 | [H.R.7493](https://www.congress.gov/bill/119th-congress/house-bill/7493) | Stop Corporate Inversions Act of 2026 | Related to tracked bill |  | Doggett (D-TX) | S.4825 | pending |
-| [H.R.8241](https://www.congress.gov/bill/119th-congress/house-bill/8241) | Power for the People Act of 2026 | Related to tracked bill |  | Tonko (D-NY) | S.3682 | pending |
 | [H.R.8423](https://www.congress.gov/bill/119th-congress/house-bill/8423) | Energy Consumer Protection Act of 2026 | Related to tracked bill |  | Schakowsky (D-IL) | H.R.7977 | pending |
-| [H.R.8623](https://www.congress.gov/bill/119th-congress/house-bill/8623) | GUARD Act | Related to tracked bill |  | Moore (R-UT) | S.3062 | pending |
-| [H.R.9155](https://www.congress.gov/bill/119th-congress/house-bill/9155) | CONSENT Act | Related to tracked bill |  | McClellan (D-VA) | S.4695 | pending |
-| [H.R.9825](https://www.congress.gov/bill/119th-congress/house-bill/9825) | Data Center Water and Energy Transparency Act of 2026 | Related to tracked bill | Data centers & compute | Underwood (D-IL) | S.4213 | pending |
 | [H.R.10322](https://www.congress.gov/bill/119th-congress/house-bill/10322) | Data Center Fair Share Act | Related to tracked bill | Data centers & compute | Subramanyam (D-VA) | H.R.9340 | pending |
-| [H.R.11015](https://www.congress.gov/bill/119th-congress/house-bill/11015) | PHD Talent Act of 2026 | Related to tracked bill |  | Fong (R-CA) | S.5187 | pending |
-| [S.2049](https://www.congress.gov/bill/119th-congress/senate-bill/2049) | NTIA Policy and Cybersecurity Coordination Act | Related to tracked bill |  | Hickenlooper (D-CO) | H.R.1766 | pending |
-| [S.3355](https://www.congress.gov/bill/119th-congress/senate-bill/3355) | National Strategy for Combating Scams Act of 2025 | Related to tracked bill |  | Gillibrand (D-NY) | H.R.6425 | pending |
 | [S.3847](https://www.congress.gov/bill/119th-congress/senate-bill/3847) | Stop Corporate Inversions Act of 2026 | Related to tracked bill |  | Durbin (D-IL) | S.4825 | pending |
 | [S.4351](https://www.congress.gov/bill/119th-congress/senate-bill/4351) | Energy Consumer Protection Act of 2026 | Related to tracked bill |  | Cortez Masto (D-NV) | H.R.7977 | pending |
-| [S.4821](https://www.congress.gov/bill/119th-congress/senate-bill/4821) | STOP Scams Against Seniors Act | Related to tracked bill |  | Moody (R-FL) | H.R.6426 | pending |
-| [S.4840](https://www.congress.gov/bill/119th-congress/senate-bill/4840) | Export Control Enforcement and Enhancement Act | Related to tracked bill | Semiconductors & export controls | Blackburn (R-TN) | H.R.8169 | pending |
-| [S.5028](https://www.congress.gov/bill/119th-congress/senate-bill/5028) | Ratepayer Protection Act | Related to tracked bill | Data centers & compute; Energy & grid | Husted (R-OH) | H.R.9340 | pending |
-| [S.5333](https://www.congress.gov/bill/119th-congress/senate-bill/5333) | Advancing American Wi-Fi Against Foreign Adversaries Act | Related to tracked bill |  | Rosen (D-NV) | H.R.9151 | pending |
-| [S.5400](https://www.congress.gov/bill/119th-congress/senate-bill/5400) | STRIDE Act | Related to tracked bill | Semiconductors & export controls | Curtis (R-UT) | H.R.6058 | pending |
 | [H.R.169](https://www.congress.gov/bill/119th-congress/house-bill/169) | Prevent Family Fire Act of 2025 | Broader policy scope | Privacy & data governance | Levin (D-CA) |  | pending |
 | [H.R.185](https://www.congress.gov/bill/119th-congress/house-bill/185) | Responsible Legislating Act | Broader policy scope | Semiconductors & export controls | McGovern (D-MA) |  | pending |
 | [H.R.310](https://www.congress.gov/bill/119th-congress/house-bill/310) | Restoring Energy Market Freedom Act | Broader policy scope | Semiconductors & export controls | Perry (R-PA) |  | pending |
@@ -299,7 +269,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.6290](https://www.congress.gov/bill/119th-congress/house-bill/6290) | Safe Social Media Act | Broader policy scope | Algorithms & platforms | Bentz (R-OR) |  | pending |
 | [H.R.6291](https://www.congress.gov/bill/119th-congress/house-bill/6291) | Children and Teens’ Online Privacy Protection Act | Broader policy scope | Privacy & data governance; Algorithms & platforms | Walberg (R-MI) |  | pending |
 | [H.R.6351](https://www.congress.gov/bill/119th-congress/house-bill/6351) | Advancing Regional Quantum Hubs Act | Broader policy scope | Quantum technology | Gillen (D-NY) |  | pending |
-| [H.R.6484](https://www.congress.gov/bill/119th-congress/house-bill/6484) | Kids Online Safety Act | Broader policy scope | Algorithms & platforms | Bilirakis (R-FL) |  | pending |
 | [H.R.6734](https://www.congress.gov/bill/119th-congress/house-bill/6734) | Auto Data Privacy and Autonomy Act | Broader policy scope | Privacy & data governance | Burlison (R-MO) |  | pending |
 | [H.R.7110](https://www.congress.gov/bill/119th-congress/house-bill/7110) | Eliminating Bias in Algorithmic Systems Act of 2026 | Broader policy scope | Algorithms & platforms | Lee (D-PA) |  | pending |
 | [H.R.7124](https://www.congress.gov/bill/119th-congress/house-bill/7124) | Realigning Mobile Phone Biometrics for American Privacy Protection Act | Broader policy scope | Privacy & data governance | Thompson (D-MS) |  | pending |
@@ -425,7 +394,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [S.5552](https://www.congress.gov/bill/119th-congress/senate-bill/5552) | Motion Picture, Television, and Entertainment Revitalization Act | Broader policy scope | Algorithms & platforms | Scott (R-SC) |  | pending |
 | [S.5590](https://www.congress.gov/bill/119th-congress/senate-bill/5590) | Electric Grid Supply Chain Security Act | Broader policy scope | Energy & grid | Banks (R-IN) |  | pending |
 | [S.5594](https://www.congress.gov/bill/119th-congress/senate-bill/5594) | Data Protection Act of 2026 | Broader policy scope | Privacy & data governance | Gillibrand (D-NY) |  | pending |
-| [S.5640](https://www.congress.gov/bill/119th-congress/senate-bill/5640) | Data Center Transparency Act of 2026 | Broader policy scope | Data centers & compute | Blunt Rochester (D-DE) |  | pending |
 | [S.5645](https://www.congress.gov/bill/119th-congress/senate-bill/5645) | Data Center Community Empowerment Act of 2026 | Broader policy scope | Data centers & compute | Curtis (R-UT) |  | pending |
 | [S.5653](https://www.congress.gov/bill/119th-congress/senate-bill/5653) | Bipartisan American Affordability and Jobs Act of 2026 | Broader policy scope | Data centers & compute; Energy & grid | Capito (R-WV) |  | pending |
 | [S.5658](https://www.congress.gov/bill/119th-congress/senate-bill/5658) | A bill to prohibit the construction of data centers on Federal land, and for other purposes. | Broader policy scope | Data centers & compute | Wyden (D-OR) |  | pending |

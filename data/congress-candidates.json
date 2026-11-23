@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T03:32:07.022Z",
+  "generatedAt": "2026-11-23T03:58:35.552Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -14,8 +14,8 @@
     ],
     "billCount": 16945,
     "summaryVersions": 5444,
-    "trackedBills": 170,
-    "relatedBillChecks": 170,
+    "trackedBills": 202,
+    "relatedBillChecks": 202,
     "fields": [
       "display title",
       "available CRS summary versions",
@@ -53,7 +53,7 @@
       "pattern": "\\b(?:data privacy|consumer privacy|personal data|data protection|data brokers?|biometric|privacy protections?)\\b"
     }
   ],
-  "candidateCount": 421,
+  "candidateCount": 389,
   "candidates": [
     {
       "id": "H.R.1",
@@ -1127,68 +1127,6 @@
       "policyArea": "Agriculture and Food"
     },
     {
-      "id": "H.R.2794",
-      "title": "NO FAKES Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "summary",
-          "term": "digital replicas",
-          "excerpt": "ll creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness. Specifically, the bill gives each individual or right hol",
-          "versionDate": "2026-07-22T20:51:01Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "ce; Digital media; Federal preemption; Intellectual property; Internet, web applications, social media; Music; Photography and imaging; Sound recording"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.8915",
-          "relationship": "Related bill"
-        },
-        {
-          "id": "S.1367",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Nurture Originals, Foster Art, and Keep Entertainment Safe Act of 2025 or the NO FAKES Act of 2025 This bill creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness. Specifically, the bill gives each individual or right holder the right to authorize the use of the individual's voice or visual likeness (1) in a digital replica, or (2) for a product or service requiring authorization to avoid liability under the bill. This property right is not assignable during the individual’s lifetime but is licensable and does not expire upon the death of the individual. Generally, any individual or entity that engages in specified prohibited activities (e.g., distributing a digital replica without authorization) shall be liable in a civil action and subject to related penalties. The bill exempts specified uses from liability, such as categories of conduct likely to involve protected speech under the First Amendment (e.g., news reporting, sports broadcasts, and satire). The bill establishes a notice-and-takedown process for unauthorized digital replicas. The bill establishes penalties related to false or deceptive notice. The bill expressly preempts state laws related to digital replicas except for causes of action under state statutes or common law in existence as of January 2, 2025.",
-      "summaryDate": "2026-07-22T20:51:01Z",
-      "areas": [
-        "AI & automation",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-04-09",
-      "sponsor": "Salazar (R-FL)",
-      "latestAction": {
-        "date": "2025-04-09",
-        "text": "Referred to the House Committee on the Judiciary."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2794",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Administrative remedies",
-        "Art, artists, authorship",
-        "Civil actions and liability",
-        "Computers and information technology",
-        "Department of Commerce",
-        "Digital media",
-        "Federal preemption",
-        "Intellectual property",
-        "Internet, web applications, social media",
-        "Music",
-        "Photography and imaging",
-        "Sound recording"
-      ],
-      "policyArea": "Commerce"
-    },
-    {
       "id": "H.R.3029",
       "title": "To amend the Research and Development, Competition, and Innovation Act to support nucleic acid screening, and for other purposes.",
       "chamber": "House",
@@ -2207,37 +2145,6 @@
       "policyArea": "Commerce"
     },
     {
-      "id": "H.R.5885",
-      "title": "GAIN AI Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "GAIN AI Act of 2025"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-10-31",
-      "sponsor": "Moolenaar (R-MI)",
-      "latestAction": {
-        "date": "2025-10-31",
-        "text": "Referred to the House Committee on Foreign Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5885",
-      "subjects": [],
-      "policyArea": "Foreign Trade and International Finance"
-    },
-    {
       "id": "H.R.6077",
       "title": "HEAL-AI Act",
       "chamber": "House",
@@ -2735,46 +2642,6 @@
         "Government studies and investigations",
         "Telephone and wireless communication"
       ],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "H.R.7434",
-      "title": "AI Grand Challenges Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "AI Grand Challenges Act of 2026"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.8516",
-          "relationship": "Related bill"
-        },
-        {
-          "id": "S.3809",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-02-09",
-      "sponsor": "Lieu (D-CA)",
-      "latestAction": {
-        "date": "2026-02-09",
-        "text": "Referred to the House Committee on Science, Space, and Technology."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7434",
-      "subjects": [],
       "policyArea": "Science, Technology, Communications"
     },
     {
@@ -3842,49 +3709,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/9427",
       "subjects": [],
       "policyArea": "Labor and Employment"
-    },
-    {
-      "id": "H.R.9442",
-      "title": "Artificial Intelligence Data Center Moratorium Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "Artificial Intelligence",
-          "excerpt": "Artificial Intelligence Data Center Moratorium Act"
-        },
-        {
-          "area": "Data centers & compute",
-          "field": "title",
-          "term": "Data Center",
-          "excerpt": "Artificial Intelligence Data Center Moratorium Act"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.4214",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation",
-        "Data centers & compute"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-24",
-      "sponsor": "Ocasio-Cortez (D-NY)",
-      "latestAction": {
-        "date": "2026-06-24",
-        "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9442",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
     },
     {
       "id": "H.R.9501",
@@ -5198,66 +5022,6 @@
       "policyArea": "Immigration"
     },
     {
-      "id": "S.146",
-      "title": "TAKE IT DOWN Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "summary",
-          "term": "Deepfakes",
-          "excerpt": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act or the TAKE IT DOWN Act This bill generally prohibits the nonconsensual online publication of intimate visual depictions of individuals, both",
-          "versionDate": "2025-04-24T16:56:38Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "summary",
-          "term": "social media",
-          "excerpt": "uals, both authentic and computer-generated, and requires certain online platforms (e.g., social media platforms) to promptly remove such depictions upon receiving notice of their existence. Specifically, the act prohibits the online publication of intimate visual depic",
-          "versionDate": "2026-06-16T14:19:53Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "rogation; Digital media; Fraud offenses and financial crimes; Internet, web applications, social media; Pornography; Sex offenses"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.633",
-          "relationship": "Contained in public law"
-        }
-      ],
-      "summary": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act or the TAKE IT DOWN Act This act generally prohibits the nonconsensual online publication of intimate visual depictions of individuals, both authentic and computer-generated, and requires certain online platforms (e.g., social media platforms) to promptly remove such depictions upon receiving notice of their existence. Specifically, the act prohibits the online publication of intimate visual depictions of an adult subject where publication is intended to cause or does cause harm to the subject, and where the depiction was published without the subject’s consent or, in the case of an authentic depiction, was created or obtained under circumstances where the adult had a reasonable expectation of privacy; or a minor subject where publication is intended to abuse or harass the minor or to arouse or gratify the sexual desire of any person. Violators are subject to mandatory restitution and criminal penalties, including prison, a fine, or both. Threats to publish intimate visual depictions of a subject are similarly prohibited and subject to criminal penalties. Separately, covered platforms must establish a process through which subjects of intimate visual depictions may notify the platform of the existence of, and request removal of, an intimate visual depiction including the subject that was published without the subject’s consent. Covered platforms must remove such depictions within 48 hours of notification. Under the act, covered platforms are defined as public websites, online services, or applications that primarily provide a forum for user-generated content.",
-      "summaryDate": "2026-06-16T14:19:53Z",
-      "areas": [
-        "AI & automation",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-01-16",
-      "sponsor": "Cruz (R-TX)",
-      "latestAction": {
-        "date": "2025-05-19",
-        "text": "Became Public Law No: 119-12."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/146",
-      "subjects": [
-        "Child safety and welfare",
-        "Crimes against children",
-        "Criminal investigation, prosecution, interrogation",
-        "Digital media",
-        "Fraud offenses and financial crimes",
-        "Internet, web applications, social media",
-        "Pornography",
-        "Sex offenses"
-      ],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
       "id": "S.168",
       "title": "Energy for America’s Economic Future Act",
       "chamber": "Senate",
@@ -5789,46 +5553,6 @@
       "policyArea": "Government Operations and Politics"
     },
     {
-      "id": "S.1792",
-      "title": "AI Whistleblower Protection Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "AI Whistleblower Protection Act"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.3460",
-          "relationship": "Identical bill"
-        },
-        {
-          "id": "H.R.8516",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-05-15",
-      "sponsor": "Grassley (R-IA)",
-      "latestAction": {
-        "date": "2025-05-15",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1792",
-      "subjects": [],
-      "policyArea": "Labor and Employment"
-    },
-    {
       "id": "S.1816",
       "title": "Improving Seniors’ Timely Access to Care Act of 2025",
       "chamber": "Senate",
@@ -5875,59 +5599,6 @@
         "Medicare"
       ],
       "policyArea": "Health"
-    },
-    {
-      "id": "S.1833",
-      "title": "Leadership in CET Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "summary",
-          "term": "artificial intelligence",
-          "excerpt": "patent examination process for patents involving critical or emerging technologies (i.e., artificial intelligence, semiconductor design, or quantum information science). The USPTO must report to Congress on the impact and effectiveness of the pilot program.",
-          "versionDate": "2025-08-15T14:47:56Z"
-        },
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "semiconductor",
-          "excerpt": "s for patents involving critical or emerging technologies (i.e., artificial intelligence, semiconductor design, or quantum information science). The USPTO must report to Congress on the impact and effectiveness of the pilot program.",
-          "versionDate": "2025-08-15T14:47:56Z"
-        },
-        {
-          "area": "Quantum technology",
-          "field": "summary",
-          "term": "quantum",
-          "excerpt": "ritical or emerging technologies (i.e., artificial intelligence, semiconductor design, or quantum information science). The USPTO must report to Congress on the impact and effectiveness of the pilot program.",
-          "versionDate": "2025-08-15T14:47:56Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.3539",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "Leadership in Critical and Emerging Technologies Act or the Leadership in CET Act This bill directs the U.S. Patent and Trademark Office (USPTO) to establish and carry out a pilot program to expedite the patent examination process for patents involving critical or emerging technologies (i.e., artificial intelligence, semiconductor design, or quantum information science). The USPTO must report to Congress on the impact and effectiveness of the pilot program.",
-      "summaryDate": "2025-08-15T14:47:56Z",
-      "areas": [
-        "AI & automation",
-        "Semiconductors & export controls",
-        "Quantum technology"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-05-21",
-      "sponsor": "Blackburn (R-TN)",
-      "latestAction": {
-        "date": "2025-05-21",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1833",
-      "subjects": [],
-      "policyArea": "Commerce"
     },
     {
       "id": "S.2177",
@@ -6224,42 +5895,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3063",
       "subjects": [],
       "policyArea": "Education"
-    },
-    {
-      "id": "S.3108",
-      "title": "AI-Related Job Impacts Clarity Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "AI-Related Job Impacts Clarity Act"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.9352",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-11-05",
-      "sponsor": "Hawley (R-MO)",
-      "latestAction": {
-        "date": "2025-11-05",
-        "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3108",
-      "subjects": [],
-      "policyArea": "Labor and Employment"
     },
     {
       "id": "S.3202",
@@ -6915,150 +6550,6 @@
       "policyArea": "Foreign Trade and International Finance"
     },
     {
-      "id": "S.4441",
-      "title": "CREATE AI Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "CREATE AI Act"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-04-29",
-      "sponsor": "Young (R-IN)",
-      "latestAction": {
-        "date": "2026-04-29",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4441",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "S.4456",
-      "title": "AI OVERWATCH Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "AI",
-          "excerpt": "AI OVERWATCH Act"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-04-30",
-      "sponsor": "Banks (R-IN)",
-      "latestAction": {
-        "date": "2026-04-30",
-        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4456",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Advanced technology and technological innovations",
-        "Asia",
-        "Caribbean area",
-        "China",
-        "Computers and information technology",
-        "Congressional oversight",
-        "Cuba",
-        "Department of Commerce",
-        "Europe",
-        "Iran",
-        "Latin America",
-        "Legislative rules and procedure",
-        "Licensing and registrations",
-        "Middle East",
-        "North Korea",
-        "Russia",
-        "Trade restrictions",
-        "Venezuela"
-      ],
-      "policyArea": "Foreign Trade and International Finance"
-    },
-    {
-      "id": "S.4591",
-      "title": "NO FAKES Act of 2026",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "summary",
-          "term": "digital replicas",
-          "excerpt": "ll creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness. Specifically, the bill gives each individual or right hol",
-          "versionDate": "2026-07-02T21:29:58Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "ce; Digital media; Federal preemption; Intellectual property; Internet, web applications, social media; Music; Photography and imaging; Sound recording"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.8915",
-          "relationship": "Identical bill"
-        },
-        {
-          "id": "S.1367",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Nurture Originals, Foster Art, and Keep Entertainment Safe Act of 2026 or the NO FAKES Act of 2026 This bill creates a federal intellectual property right to protect individuals from unauthorized digital replicas (e.g., digital content made using generative artificial intelligence) of their voice and visual likeness. Specifically, the bill gives each individual or right holder the right to authorize (1) the use of a digital replica embodying the individual's voice or visual likeness, or (2) the use of the individual's voice or visual likeness for a product or service requiring authorization to avoid liability under the bill. This property right is not assignable during the individual’s lifetime but is licensable and does not expire upon the death of the individual. Generally, any individual or entity that engages in specified prohibited activities (e.g., distributing a digital replica without authorization) shall be liable in a civil action and subject to related penalties. The bill exempts specified uses from liability, such as categories of conduct likely to involve protected speech under the First Amendment (e.g., news reporting, sports broadcasts, and satire). The bill establishes (1) a notice-and-takedown process for unauthorized digital replicas; and (2) a counter-notification process, which allows an individual to contest the removal of a digital replica. The bill establishes penalties related to false or deceptive notice or counter-notice. The bill expressly preempts state laws related to digital replicas except for causes of action under state statutes or common law in existence as of January 2, 2025.",
-      "summaryDate": "2026-07-02T21:29:58Z",
-      "areas": [
-        "AI & automation",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-05-20",
-      "sponsor": "Coons (D-DE)",
-      "latestAction": {
-        "date": "2026-06-24",
-        "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 446."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4591",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Administrative remedies",
-        "Art, artists, authorship",
-        "Civil actions and liability",
-        "Computers and information technology",
-        "Department of Commerce",
-        "Digital media",
-        "Federal preemption",
-        "Intellectual property",
-        "Internet, web applications, social media",
-        "Music",
-        "Photography and imaging",
-        "Sound recording"
-      ],
-      "policyArea": "Commerce"
-    },
-    {
       "id": "S.4627",
       "title": "FARM AI Act of 2026",
       "chamber": "Senate",
@@ -7212,42 +6703,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4743",
       "subjects": [],
       "policyArea": "Finance and Financial Sector"
-    },
-    {
-      "id": "S.4762",
-      "title": "Generative AI Terrorism Risk Assessment Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "AI & automation",
-          "field": "title",
-          "term": "Generative",
-          "excerpt": "Generative AI Terrorism Risk Assessment Act"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.1736",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "AI & automation"
-      ],
-      "reviewGroup": "Direct AI reference",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-11",
-      "sponsor": "Scott (R-FL)",
-      "latestAction": {
-        "date": "2026-06-11",
-        "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4762",
-      "subjects": [],
-      "policyArea": "Government Operations and Politics"
     },
     {
       "id": "S.4774",
@@ -7839,52 +7294,6 @@
       "policyArea": ""
     },
     {
-      "id": "H.R.1623",
-      "title": "SCREEN Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "logy; Consumer affairs; Data collection, sharing, protection; Internet, web applications, social media; Mental health; Pornography; Sex and reproductive health"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.737",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "Shielding Children's Retinas from Egregious Exposure on the Net Act or the SCREEN Act This bill establishes age-verification requirements for commercial interactive computer services (e.g., websites) that make available content that is harmful to minors (e.g., content that appeals to the prurient interest in nudity or sex, is obscene, or is child pornography). Specifically, the bill requires such services to adopt and utilize technology verification measures to ensure that (1) users of the service are not minors, and (2) minors are prevented from accessing any content on the service that is harmful to minors. Additionally, such services must (1) use the technology to verify a user's age; (2) publish the verification process that the service uses; and (3) subject users' Internet Protocol (IP) addresses, including known virtual proxy network (VPN) IP addresses, to the technology verification measures, unless the service determines a user is not located within the United States. Covered services also must implement data security measures to protect information about individuals collected through the verification process. The Federal Trade Commission must conduct regular audits of such services, issue guidance, and otherwise enforce the requirements of this bill.",
-      "summaryDate": "2025-09-11T18:52:07Z",
-      "areas": [
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-02-26",
-      "sponsor": "Miller (R-IL)",
-      "latestAction": {
-        "date": "2025-12-11",
-        "text": "Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by Voice Vote."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/1623",
-      "subjects": [
-        "Child safety and welfare",
-        "Computer security and identity theft",
-        "Computers and information technology",
-        "Consumer affairs",
-        "Data collection, sharing, protection",
-        "Internet, web applications, social media",
-        "Mental health",
-        "Pornography",
-        "Sex and reproductive health"
-      ],
-      "policyArea": "Commerce"
-    },
-    {
       "id": "H.R.1768",
       "title": "Lower Costs for Everyday Americans Act",
       "chamber": "House",
@@ -7899,6 +7308,10 @@
       "relatedTo": [
         {
           "id": "H.R.633",
+          "relationship": "Related bill"
+        },
+        {
+          "id": "S.146",
           "relationship": "Related bill"
         }
       ],
@@ -8140,42 +7553,6 @@
       "policyArea": "Science, Technology, Communications"
     },
     {
-      "id": "H.R.5712",
-      "title": "Quantum LEAP Act of 2025",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Quantum technology",
-          "field": "title",
-          "term": "Quantum",
-          "excerpt": "Quantum LEAP Act of 2025"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.1746",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Quantum technology"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-10-08",
-      "sponsor": "Fleischmann (R-TN)",
-      "latestAction": {
-        "date": "2025-10-08",
-        "text": "Referred to the House Committee on Science, Space, and Technology."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5712",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
       "id": "H.R.6289",
       "title": "Promoting a Safe Internet for Minors Act",
       "chamber": "House",
@@ -8216,64 +7593,6 @@
         "Public-private cooperation"
       ],
       "policyArea": "Commerce"
-    },
-    {
-      "id": "H.R.6322",
-      "title": "Stop Stealing our Chips Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "Chips",
-          "excerpt": "Stop Stealing our Chips Act"
-        },
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "Chips",
-          "excerpt": "Stop Stealing our Chips Act This bill creates a whistleblower incentive program and establishes whistleblower protections for individuals who provide information to the Department of Commerce's Bure",
-          "versionDate": "2026-02-27T17:53:03Z"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": " Government information and archives; Government trust funds; Internet, web applications, social media; Right of privacy; Trade restrictions"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.1473",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Stop Stealing our Chips Act This bill creates a whistleblower incentive program and establishes whistleblower protections for individuals who provide information to the Department of Commerce's Bureau of Industry and Security (BIS) related to violations of U.S. export control laws. Currently, BIS administers and enforces controls on the export of dual-use goods (e.g., items with both civilian and military uses) and certain military parts and components. These export controls are implemented primarily under the Export Control Reform Act of 2018 (ECRA) through the Export Administration Regulations. Under the bill, BIS must establish a whistleblower incentive program to reward individuals who voluntarily report original information that results in BIS (1) imposing fines under ECRA on persons that violate, attempt to violate, conspire to violate, or cause a violation of ECRA or any related regulation, order, license, or authorization; or (2) requiring the forfeiture of property that results in net proceeds. Additionally, BIS must establish a secure online portal for whistleblowers to report violations of ECRA. The bill outlines requirements for BIS to review, investigate, and provide status updates related to these reports. The bill requires BIS to pay an award to certain whistleblowers who voluntarily reported original information that led to the imposition of a fine under ECRA. The bill establishes the Export Compliance Accountability Fund for paying these awards and funding related activities. The bill also sets forth whistleblower protections by (1) prohibiting employers from impeding communication or retaliating against individuals who act as whistleblowers, and (2) establishing confidentiality requirements.",
-      "summaryDate": "2026-02-27T17:53:03Z",
-      "areas": [
-        "Semiconductors & export controls",
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-11-28",
-      "sponsor": "Kean (R-NJ)",
-      "latestAction": {
-        "date": "2026-04-22",
-        "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 1."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6322",
-      "subjects": [
-        "Computers and information technology",
-        "Employment discrimination and employee rights",
-        "Government information and archives",
-        "Government trust funds",
-        "Internet, web applications, social media",
-        "Right of privacy",
-        "Trade restrictions"
-      ],
-      "policyArea": "Foreign Trade and International Finance"
     },
     {
       "id": "H.R.6437",
@@ -8371,135 +7690,6 @@
       "policyArea": "Government Operations and Politics"
     },
     {
-      "id": "H.R.7218",
-      "title": "CHAT Act",
-      "chamber": "House",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "S.2714",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-01-22",
-      "sponsor": "Lawler (R-NY)",
-      "latestAction": {
-        "date": "2026-01-22",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7218",
-      "subjects": [],
-      "policyArea": "Commerce"
-    },
-    {
-      "id": "H.R.7399",
-      "title": "Kids Off Social Media Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Algorithms & platforms",
-          "field": "title",
-          "term": "Social Media",
-          "excerpt": "Kids Off Social Media Act"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "summary",
-          "term": "Social Media",
-          "excerpt": "Kids Off Social Media Act This bill limits children’s access to social media platforms and requires both platforms and schools to implement certain restrictions on children’s social media u",
-          "versionDate": "2026-04-22T12:40:51Z"
-        },
-        {
-          "area": "Privacy & data governance",
-          "field": "summary",
-          "term": "personal data",
-          "excerpt": "te or maintain accounts. Platforms must delete existing accounts held by children and any personal data collected from child users. Platforms are also generally prohibited from using automated systems to suggest or promote content based on personal data collected from u",
-          "versionDate": "2026-04-22T12:40:51Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.278",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "Kids Off Social Media Act This bill limits children’s access to social media platforms and requires both platforms and schools to implement certain restrictions on children’s social media usage. Specifically, the bill prohibits social media platforms from knowingly allowing children under the age of 13 to create or maintain accounts. Platforms must delete existing accounts held by children and any personal data collected from child users. Platforms are also generally prohibited from using automated systems to suggest or promote content based on personal data collected from users under the age of 17. The bill directs the Federal Trade Commission to enforce these provisions. States may also bring civil actions against platforms whose violations of these provisions have adversely affected their residents. Further, as a condition of receiving discounted telecommunications service under the Schools and Libraries Universal Service Support (E-Rate) program, schools must enforce policies preventing the use of E-Rate-supported services, networks, and devices to access social media, and must use blocking or filtering technology to prevent such access. Schools that do not make a good faith effort to comply and correct known violations are required to reimburse any E-Rate support they received for the applicable period. Schools must also submit copies of their internet safety policies to the Federal Communications Commission for publication. Under the bill, social media platforms are defined as public-facing sites that function primarily as forums for user-generated content. Some categories of online platforms are explicitly excluded, including sites that provide primarily videoconferencing, emailing, or educational services.",
-      "summaryDate": "2026-04-22T12:40:51Z",
-      "areas": [
-        "Algorithms & platforms",
-        "Privacy & data governance"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-02-05",
-      "sponsor": "Luna (R-FL)",
-      "latestAction": {
-        "date": "2026-02-05",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7399",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "H.R.7433",
-      "title": "Kids Off Social Media Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Algorithms & platforms",
-          "field": "title",
-          "term": "Social Media",
-          "excerpt": "Kids Off Social Media Act"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "summary",
-          "term": "Social Media",
-          "excerpt": "Kids Off Social Media Act This bill limits children’s access to social media platforms and requires both platforms and schools to implement certain restrictions on children’s social media u",
-          "versionDate": "2026-05-28T18:36:15Z"
-        },
-        {
-          "area": "Privacy & data governance",
-          "field": "summary",
-          "term": "personal data",
-          "excerpt": "te or maintain accounts. Platforms must delete existing accounts held by children and any personal data collected from child users. Platforms are also generally prohibited from using automated systems to suggest or promote content based on personal data collected from u",
-          "versionDate": "2026-05-28T18:36:15Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.278",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Kids Off Social Media Act This bill limits children’s access to social media platforms and requires both platforms and schools to implement certain restrictions on children’s social media usage. Specifically, the bill prohibits social media platforms from knowingly allowing children under the age of 13 to create or maintain accounts. Platforms must delete existing accounts held by children and any personal data collected from child users. Platforms are also generally prohibited from using automated systems to suggest or promote content based on personal data collected from users under the age of 17. The bill directs the Federal Trade Commission to enforce these provisions. States may also bring civil actions against platforms whose violations of these provisions have adversely affected their residents. Further, as a condition of receiving discounted telecommunications service under the Schools and Libraries Universal Service Support (E-Rate) program, schools must enforce policies preventing the use of E-Rate-supported services, networks, and devices to access social media, and must use blocking or filtering technology to prevent such access. Schools that do not make a good faith effort to comply and correct known violations are required to reimburse any E-Rate support they received for the applicable period. Schools must also submit copies of their internet safety policies to the Federal Communications Commission for publication. Under the bill, social media platforms are defined as public-facing sites that function primarily as forums for user-generated content. Some categories of online platforms are explicitly excluded, including sites that provide primarily videoconferencing, emailing, or educational services.",
-      "summaryDate": "2026-05-28T18:36:15Z",
-      "areas": [
-        "Algorithms & platforms",
-        "Privacy & data governance"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-02-09",
-      "sponsor": "Luna (R-FL)",
-      "latestAction": {
-        "date": "2026-02-09",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7433",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
       "id": "H.R.7493",
       "title": "Stop Corporate Inversions Act of 2026",
       "chamber": "House",
@@ -8527,33 +7717,6 @@
       "policyArea": "Taxation"
     },
     {
-      "id": "H.R.8241",
-      "title": "Power for the People Act of 2026",
-      "chamber": "House",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "S.3682",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-04-09",
-      "sponsor": "Tonko (D-NY)",
-      "latestAction": {
-        "date": "2026-04-09",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8241",
-      "subjects": [],
-      "policyArea": "Energy"
-    },
-    {
       "id": "H.R.8423",
       "title": "Energy Consumer Protection Act of 2026",
       "chamber": "House",
@@ -8579,96 +7742,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/8423",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "H.R.8623",
-      "title": "GUARD Act",
-      "chamber": "House",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "S.3062",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-04-30",
-      "sponsor": "Moore (R-UT)",
-      "latestAction": {
-        "date": "2026-04-30",
-        "text": "Referred to the Committee on the Judiciary, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8623",
-      "subjects": [],
-      "policyArea": "Crime and Law Enforcement"
-    },
-    {
-      "id": "H.R.9155",
-      "title": "CONSENT Act",
-      "chamber": "House",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "S.4695",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-04",
-      "sponsor": "McClellan (D-VA)",
-      "latestAction": {
-        "date": "2026-06-04",
-        "text": "Referred to the House Committee on the Judiciary."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9155",
-      "subjects": [],
-      "policyArea": "Crime and Law Enforcement"
-    },
-    {
-      "id": "H.R.9825",
-      "title": "Data Center Water and Energy Transparency Act of 2026",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Data centers & compute",
-          "field": "title",
-          "term": "Data Center",
-          "excerpt": "Data Center Water and Energy Transparency Act of 2026"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "S.4213",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Data centers & compute"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-22",
-      "sponsor": "Underwood (D-IL)",
-      "latestAction": {
-        "date": "2026-07-22",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9825",
-      "subjects": [],
-      "policyArea": "Environmental Protection"
     },
     {
       "id": "H.R.10322",
@@ -8705,87 +7778,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/10322",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "H.R.11015",
-      "title": "PHD Talent Act of 2026",
-      "chamber": "House",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "S.5187",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-11-12",
-      "sponsor": "Fong (R-CA)",
-      "latestAction": {
-        "date": "2026-11-12",
-        "text": "Referred to the House Committee on Education and Workforce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11015",
-      "subjects": [],
-      "policyArea": "Education"
-    },
-    {
-      "id": "S.2049",
-      "title": "NTIA Policy and Cybersecurity Coordination Act",
-      "chamber": "Senate",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "H.R.1766",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-06-12",
-      "sponsor": "Hickenlooper (D-CO)",
-      "latestAction": {
-        "date": "2025-06-12",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2049",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "S.3355",
-      "title": "National Strategy for Combating Scams Act of 2025",
-      "chamber": "Senate",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "H.R.6425",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-04",
-      "sponsor": "Gillibrand (D-NY)",
-      "latestAction": {
-        "date": "2025-12-04",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3355",
-      "subjects": [],
-      "policyArea": "Commerce"
     },
     {
       "id": "S.3847",
@@ -8840,185 +7832,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4351",
       "subjects": [],
       "policyArea": "Energy"
-    },
-    {
-      "id": "S.4821",
-      "title": "STOP Scams Against Seniors Act",
-      "chamber": "Senate",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "H.R.6426",
-          "relationship": "Identical bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-17",
-      "sponsor": "Moody (R-FL)",
-      "latestAction": {
-        "date": "2026-06-17",
-        "text": "Read twice and referred to the Committee on the Judiciary."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4821",
-      "subjects": [],
-      "policyArea": "Crime and Law Enforcement"
-    },
-    {
-      "id": "S.4840",
-      "title": "Export Control Enforcement and Enhancement Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "title",
-          "term": "Export Control",
-          "excerpt": "Export Control Enforcement and Enhancement Act"
-        },
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "Export Control",
-          "excerpt": "Export Control Enforcement and Enhancement Act This bill allows for expedited consideration of modifications to the Entity List. (The Entity List is managed by the Department of Co",
-          "versionDate": "2026-07-28T13:48:39Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.8169",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Export Control Enforcement and Enhancement Act This bill allows for expedited consideration of modifications to the Entity List. (The Entity List is managed by the Department of Commerce's Bureau of Industry and Security. The list identifies the names of persons who are involved, or have the potential to be involved, in activities contrary to U.S. national security or foreign policy interests.) Specifically, the bill allows any member of the End-User Review Committee to submit proposals directly to the full committee requesting a vote for additions to, removals from, or other modifications with respect to the Entity List. Generally, within 30 days of receiving a proposal, the committee must vote to approve or disapprove the proposal. Generally, the bill establishes a presumption of denial for a license application to export, reexport, or in-country transfer controlled items that involves a foreign person added to the Entity List under the authorities provided by this bill.",
-      "summaryDate": "2026-07-28T13:48:39Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-06-18",
-      "sponsor": "Blackburn (R-TN)",
-      "latestAction": {
-        "date": "2026-06-18",
-        "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4840",
-      "subjects": [],
-      "policyArea": "Foreign Trade and International Finance"
-    },
-    {
-      "id": "S.5028",
-      "title": "Ratepayer Protection Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Data centers & compute",
-          "field": "summary",
-          "term": "data centers",
-          "excerpt": "ted systems pertaining to data storage and computational applications and services (e.g., data centers) that have a peak electric demand of 100 megawatts or more at a single site or campus. Specifically, the bill requires states to consider implementing a federal standa",
-          "versionDate": "2026-09-24T21:27:20Z"
-        },
-        {
-          "area": "Energy & grid",
-          "field": "summary",
-          "term": "large-load customers",
-          "excerpt": "regulators and nonregulated utilities to consider implementing a standard to hold certain large-load customers responsible for the costs associated with any generation, transmission, or distribution upgrade of electric service necessary to serve such customers. A large-",
-          "versionDate": "2026-09-24T21:27:20Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.9340",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Ratepayer Protection Act The bill requires state utility regulators and nonregulated utilities to consider implementing a standard to hold certain large-load customers responsible for the costs associated with any generation, transmission, or distribution upgrade of electric service necessary to serve such customers. A large-load customer means a non-residential electric consumer that enters, or requests to enter, an agreement concerning the sale of electric energy primarily to operate information technology infrastructure and related systems pertaining to data storage and computational applications and services (e.g., data centers) that have a peak electric demand of 100 megawatts or more at a single site or campus. Specifically, the bill requires states to consider implementing a federal standard for large-load customers. The standard must require rates charged by electric utilities for providing electric service to a large-load customer to be designed to recover from the large-load customer the full, incremental cost of any generation, transmission, or distribution upgrade necessary to serve such customer. This rate must include the costs that would be incurred if the large-load customer terminates an agreement with the electric utility pertaining to the sale of electric energy or otherwise ceases the purchase of energy from the electric utility. Under the standard, an electric utility must require the large-load customer to provide to the utility financial assurances or contributions to cover the cost of any generation, transmission, or distribution upgrade that is necessary to serve the load of a large-load customer before the utility makes any generation, transmission, or distribution upgrade.",
-      "summaryDate": "2026-09-24T21:27:20Z",
-      "areas": [
-        "Data centers & compute",
-        "Energy & grid"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-07-16",
-      "sponsor": "Husted (R-OH)",
-      "latestAction": {
-        "date": "2026-07-16",
-        "text": "Read twice and referred to the Committee on Energy and Natural Resources."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5028",
-      "subjects": [],
-      "policyArea": "Energy"
-    },
-    {
-      "id": "S.5333",
-      "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
-      "chamber": "Senate",
-      "evidence": [],
-      "relatedTo": [
-        {
-          "id": "H.R.9151",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-08-06",
-      "sponsor": "Rosen (D-NV)",
-      "latestAction": {
-        "date": "2026-08-06",
-        "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5333",
-      "subjects": [],
-      "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "S.5400",
-      "title": "STRIDE Act",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Semiconductors & export controls",
-          "field": "summary",
-          "term": "Semiconductor",
-          "excerpt": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement Act or the STRIDE Act This bill requires the Department of State to coordinate with the governments of other",
-          "versionDate": "2026-10-21T13:06:16Z"
-        }
-      ],
-      "relatedTo": [
-        {
-          "id": "H.R.6058",
-          "relationship": "Related bill"
-        }
-      ],
-      "summary": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement Act or the STRIDE Act This bill requires the Department of State to coordinate with the governments of other countries to prevent the Chinese Communist Party and other foreign adversaries from acquiring critical semiconductor technologies. Specifically, the State Department must coordinate actions with governments of countries (partner countries) that maintain significant capabilities in semiconductor technology research, design, manufacturing, materials, equipment, or equipment subsystems and components. Among other coordination objectives, the State Department must seek to achieve (1) alignment of export control policies regarding semiconductor technology manufacturing equipment and the critical subcomponents needed to produce such equipment; and (2) expanded restrictions on semiconductor technology design tools, intellectual property transfers, equipment servicing, and technical assistance that could enable semiconductor technology development capabilities in North Korea, China, Russia, or Iran. The State Department must regularly assess the extent to which partner countries are implementing measures consist with U.S. policy described by the bill. If the State Department determines a partner country is not sufficiently implementing security measures, then the State Department must take specified actions, such as requesting that the Department of Commerce convene a meeting of the Export Administration Review Board (EARB) to identify and execute a plan of action. Further, the State Department must provide recommendations to the EARB to apply foreign direct product rule restrictions to semiconductor technology produced in the partner country that incorporates U.S.-origin technology, software, or equipment. Finally, the State Department must report to Congress every 90 days.",
-      "summaryDate": "2026-10-21T13:06:16Z",
-      "areas": [
-        "Semiconductors & export controls"
-      ],
-      "reviewGroup": "Related to tracked bill",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-09-15",
-      "sponsor": "Curtis (R-UT)",
-      "latestAction": {
-        "date": "2026-09-15",
-        "text": "Read twice and referred to the Committee on Foreign Relations."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5400",
-      "subjects": [],
-      "policyArea": "Foreign Trade and International Finance"
     },
     {
       "id": "H.R.169",
@@ -11690,56 +10503,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/6351",
       "subjects": [],
       "policyArea": "Science, Technology, Communications"
-    },
-    {
-      "id": "H.R.6484",
-      "title": "Kids Online Safety Act",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Algorithms & platforms",
-          "field": "title",
-          "term": "Online Safety",
-          "excerpt": "Kids Online Safety Act"
-        },
-        {
-          "area": "Algorithms & platforms",
-          "field": "subject",
-          "term": "social media",
-          "excerpt": "technology; Consumer affairs; Federal Trade Commission (FTC); Internet, web applications, social media; Marketing and advertising; Right of privacy; State and local government operations; Telephone and wireless communication"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Algorithms & platforms"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2025-12-05",
-      "sponsor": "Bilirakis (R-FL)",
-      "latestAction": {
-        "date": "2025-12-11",
-        "text": "Forwarded by Subcommittee to Full Committee in the Nature of a Substitute (Amended) by the Yeas and Nays: 13 - 10."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6484",
-      "subjects": [
-        "Administrative law and regulatory procedures",
-        "Child safety and welfare",
-        "Civil actions and liability",
-        "Computer security and identity theft",
-        "Computers and information technology",
-        "Consumer affairs",
-        "Federal Trade Commission (FTC)",
-        "Internet, web applications, social media",
-        "Marketing and advertising",
-        "Right of privacy",
-        "State and local government operations",
-        "Telephone and wireless communication"
-      ],
-      "policyArea": "Commerce"
     },
     {
       "id": "H.R.6734",
@@ -16079,37 +14842,6 @@
       "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5594",
       "subjects": [],
       "policyArea": "Commerce"
-    },
-    {
-      "id": "S.5640",
-      "title": "Data Center Transparency Act of 2026",
-      "chamber": "Senate",
-      "evidence": [
-        {
-          "area": "Data centers & compute",
-          "field": "title",
-          "term": "Data Center",
-          "excerpt": "Data Center Transparency Act of 2026"
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Data centers & compute"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-09-30",
-      "sponsor": "Blunt Rochester (D-DE)",
-      "latestAction": {
-        "date": "2026-09-30",
-        "text": "Read twice and referred to the Committee on Environment and Public Works."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5640",
-      "subjects": [],
-      "policyArea": "Environmental Protection"
     },
     {
       "id": "S.5645",

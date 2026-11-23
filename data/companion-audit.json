@@ -1,0 +1,368 @@
+{
+  "checkedAt": "2026-11-23T03:58:17.938Z",
+  "added": [
+    "H.R.2794",
+    "H.R.5885",
+    "H.R.7434",
+    "H.R.9442",
+    "S.146",
+    "S.1792",
+    "S.1833",
+    "S.3108",
+    "S.4441",
+    "S.4456",
+    "S.4591",
+    "S.4762",
+    "H.R.1623",
+    "H.R.5712",
+    "H.R.6322",
+    "H.R.7218",
+    "H.R.7399",
+    "H.R.7433",
+    "H.R.8241",
+    "H.R.8623",
+    "H.R.9155",
+    "H.R.9825",
+    "H.R.11015",
+    "S.2049",
+    "S.3355",
+    "S.4821",
+    "S.4840",
+    "S.5028",
+    "S.5333",
+    "S.5400",
+    "H.R.6484",
+    "S.5640"
+  ],
+  "links": [
+    {
+      "ids": [
+        "H.R.3539",
+        "S.1833"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.1736",
+        "S.4762"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.1766",
+        "S.2049"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.1734",
+        "S.2117"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.3434",
+        "S.1775"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.8915",
+        "S.4591"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.8915",
+        "S.1367"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.3460",
+        "S.1792"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.3220",
+        "S.1344"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.3562",
+        "S.1837"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.3447",
+        "S.1705"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.4801",
+        "S.2528"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.5511",
+        "S.2164"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.6621",
+        "S.3319"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.633",
+        "S.146"
+      ],
+      "relationship": "Contained in public law"
+    },
+    {
+      "ids": [
+        "H.R.5584",
+        "S.4414"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.5272",
+        "S.1213"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.9352",
+        "S.3108"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.7151",
+        "S.1699"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.9340",
+        "S.5028"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.6425",
+        "S.3355"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.6426",
+        "S.4821"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.6058",
+        "S.5400"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.8169",
+        "S.4840"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.9151",
+        "S.5333"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.9914",
+        "S.5105"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.5712",
+        "S.1746"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.2794",
+        "S.1367"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.6322",
+        "S.1473"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.7218",
+        "S.2714"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.7434",
+        "S.3809"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.8623",
+        "S.3062"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.8241",
+        "S.3682"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.9825",
+        "S.4213"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.9155",
+        "S.4695"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.9442",
+        "S.4214"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.7433",
+        "S.278"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.7399",
+        "S.278"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.11015",
+        "S.5187"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.1623",
+        "S.737"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.2794",
+        "S.4591"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.5885",
+        "S.3150"
+      ],
+      "relationship": "Reviewed companion"
+    },
+    {
+      "ids": [
+        "H.R.2385",
+        "S.4441"
+      ],
+      "relationship": "Reviewed companion"
+    },
+    {
+      "ids": [
+        "H.R.6875",
+        "S.4456"
+      ],
+      "relationship": "Reviewed companion"
+    },
+    {
+      "ids": [
+        "H.R.6484",
+        "S.1748"
+      ],
+      "relationship": "Reviewed companion"
+    },
+    {
+      "ids": [
+        "H.R.6984",
+        "S.5640"
+      ],
+      "relationship": "Reviewed companion"
+    }
+  ],
+  "warnings": [
+    {
+      "id": "H.R.3633",
+      "expected": 4,
+      "received": 3
+    }
+  ]
+}
