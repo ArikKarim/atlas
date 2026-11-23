@@ -16,8 +16,8 @@ test('official identity requires matching congress, type, number, and a known ti
 test('overlay updates facts and preserves all curated research, including zero cosponsors',()=>{
  const record=officialRecord(source,official,[],[{text:'<p>A &amp; B</p>',updateDate:now}],now);
  const [merged]=applyCongressData([source],{schemaVersion:1,records:{[source.id]:{...record,primary:'Incorrect',engagement:'Incorrect',summary:'Incorrect'}}});
- for(const field of ['primary','secondary','engagement','summary','title'])assert.equal(merged[field],source[field]);
- assert.equal(merged.cosponsorCount,'0');assert.equal(merged.cosponsors,'');assert.equal(merged.sponsor,'New (R-CA)');assert.equal(merged.introduced,'2026-02-01');assert.equal(record.officialSummary,'A & B');
+ for(const field of ['primary','secondary','engagement','summary'])assert.equal(merged[field],source[field]);
+ assert.equal(merged.title,official.title);assert.equal(merged.originalTitle,source.title);assert.equal(merged.cosponsorCount,'0');assert.equal(merged.cosponsors,'');assert.equal(merged.sponsor,'New (R-CA)');assert.equal(merged.introduced,'2026-02-01');assert.equal(record.officialSummary,'A & B');
  assert.equal(applyCongressData([source],{schemaVersion:1,records:{[source.id]:{...record,sourceTitle:'Different bill'}}})[0],source);
  assert.equal(applyCongressData([source],null)[0],source);
 });
@@ -51,4 +51,21 @@ test('failed refreshes retain previous verified facts without advancing their ve
  const {snapshot,report}=await buildSnapshot([source,second],{apiKey:'test-only-key',previous:{records:{[source.id]:previousRecord}},fetchImpl,sleep:async()=>{},now:future});
  assert.equal(snapshot.records[source.id].verifiedAt,now);assert.equal(snapshot.refreshedCount,1);assert.equal(report.review[0].message,'Congress.gov request could not be completed');
  await assert.rejects(buildSnapshot([source],{apiKey:'test-only-key',fetchImpl:async()=>({status:404}),now:future}),/Existing snapshot was not changed/);
+});
+
+test('reviewed title aliases remain bound to the source title and official identity',()=>{
+ const bill={...official,title:'EXAMPLE Act'},approval={sourceTitle:source.title,officialTitle:bill.title,congress:119,type:'hr',number:10};
+ assert.ok(identityMatches(source,bill,[],{[source.id]:approval}));
+ for(const change of [{sourceTitle:'Other'},{officialTitle:'Other'},{congress:118},{number:11},{type:'s'}])assert.equal(identityMatches(source,bill,[],{[source.id]:{...approval,...change}}),false);
+ assert.equal(identityMatches(source,{...bill,number:11},[],{[source.id]:approval}),false);
+});
+
+test('published tracker and Trends use a complete, identity-matched official snapshot',async()=>{
+ const {readFile}=await import('node:fs/promises'),{normalize,filterBills,csv}=await import('../public/model.js'),{summarize,leadSponsorRankings}=await import('../public/charts.js');
+ const source=normalize(JSON.parse(await readFile(new URL('../public/bills.json',import.meta.url),'utf8'))),snapshot=JSON.parse(await readFile(new URL('../public/congress-data.json',import.meta.url),'utf8')),bills=applyCongressData(source,snapshot);
+ assert.equal(bills.length,170);assert.equal(snapshot.verifiedCount,170);assert.equal(snapshot.reviewCount,0);assert.equal(bills.filter(b=>b.chamber==='House').length,94);
+ for(const b of bills){const r=snapshot.records[b.id];assert.equal(r.status,'verified',b.id);assert.equal(r.sourceTitle,source.find(s=>s.id===b.id).title,b.id);assert.equal(b.title,r.officialTitle,b.id);assert.equal(b.introduced,r.introduced,b.id);assert.equal(b.sponsor,r.sponsor,b.id);assert.equal(Number(b.cosponsorCount),r.cosponsorCount,b.id);assert.equal(b.action,r.action,b.id);assert.ok(b.url.endsWith('/'+billIdentity(b.id).number),b.id);assert.ok(filterBills(bills,{q:b.originalTitle}).some(x=>x.id===b.id));}
+ const totals=summarize(bills);assert.equal(totals.months.reduce((n,m)=>n+m.total,0),170);assert.equal(totals.cosponsorBands.reduce((n,m)=>n+m.total,0),170);assert.equal(totals.topics.reduce((n,m)=>n+m.total,0),170);assert.deepEqual(totals.engagement,{endorsed:24,engaged:13,unrecorded:133});
+ const rankings=leadSponsorRankings(bills);for(const chamber of ['House','Senate'])assert.equal(rankings[chamber].reduce((n,r)=>n+r.count,0),bills.filter(b=>b.chamber===chamber).length);
+ const corrected=bills.find(b=>b.id==='S.1699');assert.ok(!bills.some(b=>b.id==='S.4596'));assert.equal(corrected.sponsor,'Young (R-IN)');assert.equal(corrected.introduced,'2025-05-08');assert.ok(csv([corrected]).includes(corrected.title));assert.equal(bills.find(b=>b.id==='H.R.7985').title,'CHATBOT Act');
 });

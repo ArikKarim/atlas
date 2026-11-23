@@ -1,0 +1,904 @@
+{
+  "schemaVersion": 1,
+  "records": {
+    "H.R.633": {
+      "congress": 119,
+      "type": "hr",
+      "number": 633,
+      "sourceTitle": "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes On Websites and Networks (The TAKE IT DOWN) Act",
+      "officialTitle": "TAKE IT DOWN Act",
+      "officialTitles": [
+        "TAKE IT DOWN Act",
+        "Tools to Address Known Exploitation by Immobilizing Technological Deepfakes On Websites and Networks Act",
+        "To require covered platforms to remove nonconsensual intimate visual depictions, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/633",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.2683": {
+      "congress": 119,
+      "type": "hr",
+      "number": 2683,
+      "sourceTitle": "Remote Access Security (RASA) Act",
+      "officialTitle": "Remote Access Security Act",
+      "officialTitles": [
+        "Remote Access Security Act",
+        "To provide for control of remote access of items under the Export Control Reform Act of 2018."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2683",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.2770": {
+      "congress": 119,
+      "type": "hr",
+      "number": 2770,
+      "sourceTitle": "Transformational AI to Modernize the Economy (TAME) against Extreme Weather Act",
+      "officialTitle": "TAME Extreme Weather and Wildfires Act",
+      "officialTitles": [
+        "TAME Extreme Weather and Wildfires Act",
+        "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather and Wildfires Act",
+        "To direct the use of artificial intelligence by National Oceanic and Atmospheric Administration to adapt to extreme weather, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2770",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.4920": {
+      "congress": 119,
+      "type": "hr",
+      "number": 4920,
+      "sourceTitle": "Bureau of Industry and Security (BIS) IT Modernization Act",
+      "officialTitle": "BIS IT Modernization Act",
+      "officialTitles": [
+        "BIS IT Modernization Act",
+        "Bureau of Industry and Security Information Technology Modernization Act",
+        "To require modernization of information technology systems and applications of the Bureau of Industry and Security of the Department of Commerce."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/4920",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.5351": {
+      "congress": 119,
+      "type": "hr",
+      "number": 5351,
+      "sourceTitle": "National Security Foundation (NSF) AI Education Act of 2025",
+      "officialTitle": "NSF AI Education Act of 2025",
+      "officialTitles": [
+        "NSF AI Education Act of 2025",
+        "To support National Science Foundation education and professional development relating to artificial intelligence, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5351",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.5360": {
+      "congress": 119,
+      "type": "hr",
+      "number": 5360,
+      "sourceTitle": "AI Warnings And Resources for Education (AWARE) Act",
+      "officialTitle": "AWARE Act",
+      "officialTitles": [
+        "AWARE Act",
+        "AI Warnings And Resources for Education Act",
+        "To direct the Federal Trade Commission to develop and make available to the public educational resources for parents, educators, and minors with respect to the safe and responsible use of AI chatbots by minors, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5360",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.5388": {
+      "congress": 119,
+      "type": "hr",
+      "number": 5388,
+      "sourceTitle": "American AI Leadership and Uniformity Act",
+      "officialTitle": "American Artificial Intelligence Leadership and Uniformity Act",
+      "officialTitles": [
+        "American Artificial Intelligence Leadership and Uniformity Act",
+        "To provide a national framework to sustain American leadership in artificial intelligence, to require an actionable Federal plan aligned to that policy, and to establish a temporary moratorium preempting certain State laws that restrict artificial intelligence models and systems engaged in interstate commerce."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5388",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.5584": {
+      "congress": 119,
+      "type": "hr",
+      "number": 5584,
+      "sourceTitle": "Literacy in Future Technologies Artificial Intelligence (LIFT) Act",
+      "officialTitle": "LIFT AI Act",
+      "officialTitles": [
+        "LIFT AI Act",
+        "Literacy in Future Technologies Artificial Intelligence Act",
+        "To improve educational efforts related to artificial intelligence literacy at the K through 12 level, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5584",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.5900": {
+      "congress": 119,
+      "type": "hr",
+      "number": 5900,
+      "sourceTitle": "Stopping Cross-border Attacks and Manipulation (SCAM) Act",
+      "officialTitle": "SCAM Act",
+      "officialTitles": [
+        "SCAM Act",
+        "Stopping Cross-border Attacks and Manipulation Act",
+        "To direct the Department of Defense to establish a joint task force to investigate transnational cybercrimes, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/5900",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6058": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6058,
+      "sourceTitle": "Semiconductor Technology Resilience, Integrity, and Defense Enhancement (STRIDE) Act",
+      "officialTitle": "STRIDE Act",
+      "officialTitles": [
+        "STRIDE Act",
+        "Semiconductor Technology Resilience, Integrity, and Defense Enhancement Act",
+        "To provide for multilateral semiconductor technology supply chain coordination, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6058",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6426": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6426,
+      "sourceTitle": "Strengthening Task force on Oppose Predatory (STOP) Scams Against Seniors Act",
+      "officialTitle": "STOP Scams Against Seniors Act",
+      "officialTitles": [
+        "STOP Scams Against Seniors Act",
+        "Strengthening Task forces to Oppose Predatory Scams Against Seniors Act",
+        "To amend the Omnibus Crime Control and Safe Streets Act of 1968 to authorize the use of funds under the Edward Byrne Memorial Justice Assistance Grant Program to establish elder justice task forces, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6426",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6461": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6461,
+      "sourceTitle": "Resources for Evaluating and Documenting (READ) AI Models Act",
+      "officialTitle": "READ AI Models Act",
+      "officialTitles": [
+        "READ AI Models Act",
+        "Resources for Evaluating and Documenting AI Models",
+        "To direct the National Institute of Standards and Technology to develop best practices and technical guidance on artificial intelligence model documentation, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6461",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6571": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6571,
+      "sourceTitle": "Responsible and Ethical AI Labeling (REAL) Act",
+      "officialTitle": "REAL Act",
+      "officialTitles": [
+        "REAL Act",
+        "To require disclosure of the use of content by Federal officials that is created or manipulated using generative artificial intelligence in their publications, and for other purposes.",
+        "Responsible and Ethical AI Labeling Act"
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6571",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6875": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6875,
+      "sourceTitle": "Artificial Intelligence Oversight of Verified Exports and Restrictions on Weaponizable Advanced Technology to Covered High-Risk Actors (AI OVERWATCH) Act",
+      "officialTitle": "AI OVERWATCH Act",
+      "officialTitles": [
+        "AI OVERWATCH Act",
+        "To require the Under Secretary of Commerce for Industry and Security to require a license for the export, reexport, or in-country transfer of certain integrated circuits, and for other purposes.",
+        "Artificial Intelligence Oversight of Verified Exports and Restrictions on Weaponizable Advanced Technology to Covered High-Risk Actors Act"
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6875",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.6879": {
+      "congress": 119,
+      "type": "hr",
+      "number": 6879,
+      "sourceTitle": "Restoring Export and Security Trade Restrictions for Integrated Circuit Technologies (RESTRICT) Act",
+      "officialTitle": "RESTRICT Act",
+      "officialTitles": [
+        "RESTRICT Act",
+        "Restoring Export and Security Trade Restrictions for Integrated Circuit Technologies Act",
+        "To prohibit sales of the most advanced artificial intelligence chips to countries of concern and facilitate the safe and efficient transfer of chips to approved United States persons abroad."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/6879",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.7003": {
+      "congress": 119,
+      "type": "hr",
+      "number": 7003,
+      "sourceTitle": "Bureau of Industry and Security - Strategic Talent Recruitment to Enhance National Guardrails for Technological Handling (BIS STRENGTH Act)",
+      "officialTitle": "BIS STRENGTH Act",
+      "officialTitles": [
+        "BIS STRENGTH Act",
+        "BIS Strategic Talent Recruitment to Enhance National Guardrails for Technological Handling Act",
+        "To authorize the Under Secretary of Commerce for Industry and Security to appoint certain personnel in order to attract highly qualified experts, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7003",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.7215": {
+      "congress": 119,
+      "type": "hr",
+      "number": 7215,
+      "sourceTitle": "Stop Schemes, Cyberfraud, Abuse, Manipulation, and Swindles (SCAMS) Act",
+      "officialTitle": "Stop SCAMS Act",
+      "officialTitles": [
+        "Stop SCAMS Act",
+        "Stop Schemes, Cyberfraud, Abuse, Manipulation, and Swindles Act",
+        "To require the Director of the Federal Bureau of Investigation, the Bureau of Consumer Financial Protection, and the Federal Trade Commission to undertake a governmentwide effort to counter scams, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7215",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.7757": {
+      "congress": 119,
+      "type": "hr",
+      "number": 7757,
+      "sourceTitle": "Kids Internet and Digital Safety Act (KIDS) Act",
+      "officialTitle": "KIDS Act",
+      "officialTitles": [
+        "KIDS Act",
+        "SCREEN Act",
+        "Shielding Children’s Retinas from Egregious Exposure on the Net Act",
+        "Safeguarding Adolescents From Exploitative BOTs Act",
+        "SAFE BOTs Act",
+        "Kids Online Safety Act",
+        "Stop Profiling Youth and Kids Act",
+        "SPY Kids Act",
+        "Kids Internet Safety Partnership Act",
+        "Safe Social Media Act",
+        "No Fentanyl on Social Media Act",
+        "Assessing Safety Tools for Parents and Minors Act",
+        "Promoting a Safe Internet for Minors Act",
+        "AI Warnings And Resources for Education Act",
+        "AWARE Act",
+        "Kids Internet and Digital Safety Act",
+        "To protect children and teens online, empower parents and strengthen families, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7757",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.7801": {
+      "congress": 119,
+      "type": "hr",
+      "number": 7801,
+      "sourceTitle": "Cloud Labs to Advance Biotechnology (LAB) Act of 2026",
+      "officialTitle": "Cloud LAB Act of 2026",
+      "officialTitles": [
+        "Cloud LAB Act of 2026",
+        "To require the Director of the National Science Foundation to carry out a cloud laboratory network program, and for other purposes.",
+        "Cloud Labs to Advance Biotechnology Act of 2026"
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7801",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.7985": {
+      "congress": 119,
+      "type": "hr",
+      "number": 7985,
+      "sourceTitle": "Children's Health, Advancement, Trust, Boundaries, and Oversight in Technology (CHATBOT) Act",
+      "officialTitle": "CHATBOT Act",
+      "officialTitles": [
+        "CHATBOT Act",
+        "Curbing Harmful AI Tools By Offering Transparency Act",
+        "To prohibit the marketing, advertising, or provision of professional services without the appropriate licenses, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/7985",
+      "reason": "Correct House CHATBOT title; source expansion referred to the Senate bill. Sponsor and policy summary match the House bill."
+    },
+    "H.R.8170": {
+      "congress": 119,
+      "type": "hr",
+      "number": 8170,
+      "sourceTitle": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act",
+      "officialTitle": "MATCH Act",
+      "officialTitles": [
+        "MATCH Act",
+        "Multilateral Alignment of Technology Controls on Hardware Act",
+        "To provide for export restrictions on certain semiconductor manufacturing equipment and components therefor, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8170",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.8413": {
+      "congress": 119,
+      "type": "hr",
+      "number": 8413,
+      "sourceTitle": "Securing and Establishing Consumer Uniform Rights and Enforcement over Data (SECURE DATA) Act",
+      "officialTitle": "SECURE Data Act",
+      "officialTitles": [
+        "SECURE Data Act",
+        "To establish a national framework for consumer privacy rights and the protection of personal data, and for other purposes.",
+        "Securing and Establishing Consumer Uniform Rights and Enforcement over Data Act"
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8413",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.8462": {
+      "congress": 119,
+      "type": "hr",
+      "number": 8462,
+      "sourceTitle": "National Quantum Initaitive Reauthorization Act",
+      "officialTitle": "National Quantum Initiative Reauthorization Act",
+      "officialTitles": [
+        "National Quantum Initiative Reauthorization Act",
+        "To reauthorize the National Quantum Initiative Act, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8462",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.8819": {
+      "congress": 119,
+      "type": "hr",
+      "number": 8819,
+      "sourceTitle": "Federal AI Risk Management Act of 2026",
+      "officialTitle": "Federal Artificial Intelligence Risk Management Act of 2026",
+      "officialTitles": [
+        "Federal Artificial Intelligence Risk Management Act of 2026",
+        "To require Federal agencies to use the Artificial Intelligence Risk Management Framework developed by the National Institute of Standards and Technology with respect to the use of artificial intelligence."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/8819",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.9326": {
+      "congress": 119,
+      "type": "hr",
+      "number": 9326,
+      "sourceTitle": "Utilize Standards for All (USA) Act",
+      "officialTitle": "USA Act",
+      "officialTitles": [
+        "USA Act",
+        "Utilize Standards for All Act",
+        "To promote United States leadership in technical standards by directing the National Institute of Standards and Technology and the Department of State to take certain actions to encourage and enable United States participation in developing standards and specifications for artificial intelligence and other critical and emerging technologies, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9326",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.9381": {
+      "congress": 119,
+      "type": "hr",
+      "number": 9381,
+      "sourceTitle": "AI Workforce Assessment and Research Enhancement (AWARE) Act",
+      "officialTitle": "AWARE Act",
+      "officialTitles": [
+        "AWARE Act",
+        "AI Workforce Assessment and Research Enhancement Act",
+        "To direct the Bureau of Labor Statistics to report on the usage of artificial intelligence in the workplace."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9381",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.9914": {
+      "congress": 119,
+      "type": "hr",
+      "number": 9914,
+      "sourceTitle": "Collaboration on Adversarial Threats and Security Risks (CATS) Act",
+      "officialTitle": "Collaboration on Adversarial Threats and Security Risks Act",
+      "officialTitles": [
+        "Collaboration on Adversarial Threats and Security Risks Act",
+        "To establish the applicability of antitrust laws to the sharing of artificial intelligence frontier model risks, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9914",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "H.R.9925": {
+      "congress": 119,
+      "type": "hr",
+      "number": 9925,
+      "sourceTitle": "Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting (FRONTIER) Act",
+      "officialTitle": "FRONTIER Act",
+      "officialTitles": [
+        "FRONTIER Act",
+        "Frontier Risk Oversight, National Transparency, Independent Evaluation, and Reporting Act",
+        "To provide for Federal oversight of the development and deployment of frontier artificial intelligence in interstate and foreign commerce, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/9925",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.278": {
+      "congress": 119,
+      "type": "s",
+      "number": 278,
+      "sourceTitle": "Kids Off Social Media (KOSMA) Act",
+      "officialTitle": "Kids Off Social Media Act",
+      "officialTitles": [
+        "Kids Off Social Media Act",
+        "Eyes on the Board Act of 2025",
+        "A bill to prohibit users who are under age 13 from accessing social media platforms, to prohibit the use of personalized recommendation systems on individuals under age 17, and limit the use of social media in schools."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/278",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.737": {
+      "congress": 119,
+      "type": "s",
+      "number": 737,
+      "sourceTitle": "Shielding Children's Retinas from Egregious Exposure on the Net (SCREEN) Act",
+      "officialTitle": "SCREEN Act",
+      "officialTitles": [
+        "SCREEN Act",
+        "Shielding Children's Retinas from Egregious Exposure on the Net Act",
+        "A bill to require certain interactive computer services to adopt and operate technology verification measures to ensure that users of the platform are not minors, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/737",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.1290": {
+      "congress": 119,
+      "type": "s",
+      "number": 1290,
+      "sourceTitle": "AI & Critical Technology Workforce Framework Act of 2025",
+      "officialTitle": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+      "officialTitles": [
+        "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+        "A bill to expand the functions of the National Institute of Standards and Technology to include workforce frameworks for critical and emerging technologies, to require the Director of the National Institute of Standards and Technology to develop an artificial intelligence workforce framework, and periodically review and update the NICE Workforce Framework for Cybersecurity, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1290",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.1378": {
+      "congress": 119,
+      "type": "s",
+      "number": 1378,
+      "sourceTitle": "Transformational AI to Modernize the Economy (TAME) against Extreme Weather Act",
+      "officialTitle": "TAME Extreme Weather and Wildfires Act",
+      "officialTitles": [
+        "TAME Extreme Weather and Wildfires Act",
+        "Transformational Artificial intelligence to Modernize the Economy against Extreme Weather and Wildfires Act",
+        "A bill to enhance the use by the National Oceanic and Atmospheric Administration of artificial intelligence for weather forecasting, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1378",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.1633": {
+      "congress": 119,
+      "type": "s",
+      "number": 1633,
+      "sourceTitle": "Testing and Evaluation Systems for Trusted (TEST) AI Act of 2025",
+      "officialTitle": "TEST AI Act of 2025",
+      "officialTitles": [
+        "TEST AI Act of 2025",
+        "Testing and Evaluation Systems for Trusted Artificial Intelligence Act of 2025",
+        "A bill to require the Director of the National Institute of Standards and Technology to establish a pilot program that uses testbeds to develop measurement standards for the evaluation of artificial intelligence systems, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1633",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.1746": {
+      "congress": 119,
+      "type": "s",
+      "number": 1746,
+      "sourceTitle": "Quantum Leadership in Emerging Applications and Policy (LEAP) Act of 2025",
+      "officialTitle": "Quantum LEAP Act of 2025",
+      "officialTitles": [
+        "Quantum LEAP Act of 2025",
+        "Quantum Leadership in Emerging Applications and Policy Act of 2025",
+        "A bill to establish the Commission on American Quantum Information Science Dominance, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1746",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.2081": {
+      "congress": 119,
+      "type": "s",
+      "number": 2081,
+      "sourceTitle": "Responsible Innovation and Safe Expertise (RISE) Act of 2025",
+      "officialTitle": "RISE Act of 2025",
+      "officialTitles": [
+        "RISE Act of 2025",
+        "Responsible Innovation and Safe Expertise Act of 2025",
+        "A bill to establish immunity from civil liability for certain artificial intelligence developers, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2081",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.2381": {
+      "congress": 119,
+      "type": "s",
+      "number": 2381,
+      "sourceTitle": "Preventing Recurring Online Abuse of Children Through Intentional Vetting (PROACTIV) of Artificial Intelligence Data Act",
+      "officialTitle": "PROACTIV Artificial Intelligence Data Act of 2025",
+      "officialTitles": [
+        "PROACTIV Artificial Intelligence Data Act of 2025",
+        "Preventing Recurring Online Abuse of Children Through Intentional Vetting of Artificial Intelligence Data Act of 2025",
+        "A bill to require the Director of the National Institute of Standards and Technology to develop a framework for detecting, removing, and reporting child pornography in datasets used to train artificial intelligence systems, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2381",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.2714": {
+      "congress": 119,
+      "type": "s",
+      "number": 2714,
+      "sourceTitle": "Children Harmed by AI Technology (CHAT) Act",
+      "officialTitle": "CHAT Act",
+      "officialTitles": [
+        "CHAT Act",
+        "Children Harmed by AI Technology Act",
+        "A bill to require artificial intelligence chatbots to implement age verification measures and establish certain protections for minor users, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2714",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.2750": {
+      "congress": 119,
+      "type": "s",
+      "number": 2750,
+      "sourceTitle": "Strenthening Artifical Intelligence Normalization and Diffussion By Oversight and Experimentation (SANDBOX) Act",
+      "officialTitle": "SANDBOX Act",
+      "officialTitles": [
+        "SANDBOX Act",
+        "Strengthening Artificial intelligence Normalization and Diffusion By Oversight and eXperimentation Act",
+        "A bill to require the Director of the Office of Science and Technology Policy to establish a Federal regulatory sandbox program for artificial intelligence, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2750",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.2938": {
+      "congress": 119,
+      "type": "s",
+      "number": 2938,
+      "sourceTitle": "AI Risk Evaluation Act of 2025",
+      "officialTitle": "Artificial Intelligence Risk Evaluation Act of 2025",
+      "officialTitles": [
+        "Artificial Intelligence Risk Evaluation Act of 2025",
+        "A bill to require the Secretary of Energy to establish the Advanced Artificial Intelligence Evaluation Program, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/2938",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3062": {
+      "congress": 119,
+      "type": "s",
+      "number": 3062,
+      "sourceTitle": "The Guidelines for User Age-Verification and Responsible Dialogue (GUARD) Act of 2026",
+      "officialTitle": "GUARD Act",
+      "officialTitles": [
+        "GUARD Act",
+        "Guidelines for User Age-verification and Responsible Dialogue Act of 2026",
+        "Guidelines for User Age-verification and Responsible Dialogue Act of 2025",
+        "A bill to require artificial intelligence chatbots to implement age verification measures and make certain disclosures, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3062",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3150": {
+      "congress": 119,
+      "type": "s",
+      "number": 3150,
+      "sourceTitle": "Guaranteeing Access and Innovation for National Artificial Intelligence (GAIN AI) Act of 2025",
+      "officialTitle": "GAIN AI Act of 2025",
+      "officialTitles": [
+        "GAIN AI Act of 2025",
+        "Guaranteeing Access and Innovation for National Artificial Intelligence Act of 2025",
+        "A bill to require entities seeking a license to export advanced artificial intelligence chips to countries of concern to certify that United States persons have priority in acquiring those chips."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3150",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3519": {
+      "congress": 119,
+      "type": "s",
+      "number": 3519,
+      "sourceTitle": "Remote Access Security (RASA) Act",
+      "officialTitle": "Remote Access Security Act",
+      "officialTitles": [
+        "Remote Access Security Act",
+        "A bill to amend the Export Control Reform Act of 2018 to provide for control of remote access to items, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3519",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3813": {
+      "congress": 119,
+      "type": "s",
+      "number": 3813,
+      "sourceTitle": "Copyright Labeling and Ethical AI Reporting (CLEAR) Act",
+      "officialTitle": "CLEAR Act",
+      "officialTitles": [
+        "CLEAR Act",
+        "Copyright Labeling and Ethical AI Reporting Act",
+        "A bill to require a notice be submitted to the Register of Copyrights with respect to copyrighted works used in building generative artificial intelligence models, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3813",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3952": {
+      "congress": 119,
+      "type": "s",
+      "number": 3952,
+      "sourceTitle": "Future of AI Innovation Act",
+      "officialTitle": "Future of Artificial Intelligence Innovation Act of 2026",
+      "officialTitles": [
+        "Future of Artificial Intelligence Innovation Act of 2026",
+        "A bill to establish artificial intelligence standards, metrics, and evaluation tools, to support artificial intelligence research, development, and capacity building activities, to promote innovation in the artificial intelligence industry by ensuring companies of all sizes can succeed and thrive, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3952",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.3957": {
+      "congress": 119,
+      "type": "s",
+      "number": 3957,
+      "sourceTitle": "National Security Foundation (NSF) AI Education Act of 2025",
+      "officialTitle": "NSF AI Education Act of 2026",
+      "officialTitles": [
+        "NSF AI Education Act of 2026",
+        "A bill to support National Science Foundation education and professional development relating to artificial intelligence."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/3957",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4214": {
+      "congress": 119,
+      "type": "s",
+      "number": 4214,
+      "sourceTitle": "AI Data Center Moratorium Act",
+      "officialTitle": "Artificial Intelligence Data Center Moratorium Act",
+      "officialTitles": [
+        "Artificial Intelligence Data Center Moratorium Act",
+        "A bill to impose a moratorium on the construction of new data centers until legislation is enacted that safeguards the public from the dangers of artificial intelligence."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4214",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4407": {
+      "congress": 119,
+      "type": "s",
+      "number": 4407,
+      "sourceTitle": "Children's Health, Advancement, Trust, Boundaries, and Oversight in Technology (CHATBOT) Act",
+      "officialTitle": "CHATBOT Act",
+      "officialTitles": [
+        "CHATBOT Act",
+        "Children’s Health, Advancement, Trust, Boundaries, and Oversight in Technology Act",
+        "A bill to require the creation of family accounts for children to be able to use artificial intelligence chatbots, to require verifiable parental consent for teens using artificial intelligence chatbots, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4407",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4414": {
+      "congress": 119,
+      "type": "s",
+      "number": 4414,
+      "sourceTitle": "Literacy in Future Technologies Artificial Intelligence (LIFT) Act",
+      "officialTitle": "LIFT AI Act",
+      "officialTitles": [
+        "LIFT AI Act",
+        "Literacy in Future Technologies Artificial Intelligence Act",
+        "A bill to improve educational efforts related to artificial intelligence literacy at the elementary school and secondary school level, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4414",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4695": {
+      "congress": 119,
+      "type": "s",
+      "number": 4695,
+      "sourceTitle": "Curbing Online Non-consensual Sexually Explicit Nudity Transfers (CONSENT) Act",
+      "officialTitle": "CONSENT Act",
+      "officialTitles": [
+        "CONSENT Act",
+        "Curbing Online Non-consensual Sexually Explicit Nudity Transfers Act",
+        "A bill to establish a private right of action against a person who transmits unsolicited intimate visual depictions."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4695",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4749": {
+      "congress": 119,
+      "type": "s",
+      "number": 4749,
+      "sourceTitle": "Justice Against Weaponized Bureaucratic Overreach to Networked Expression Act (JAWBONE) Act",
+      "officialTitle": "JAWBONE Act",
+      "officialTitles": [
+        "JAWBONE Act",
+        "Justice Against Weaponized Bureaucratic Overreach to Networked Expression Act",
+        "A bill to amend the Communications Act of 1934 to create a Federal cause of action to address jawboning, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4749",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4825": {
+      "congress": 119,
+      "type": "s",
+      "number": 4825,
+      "sourceTitle": "American AI Sovereign Wealth Fund Act",
+      "officialTitle": "American A.I. Sovereign Wealth Fund Act",
+      "officialTitles": [
+        "American A.I. Sovereign Wealth Fund Act",
+        "A bill to amend the Internal Revenue Code of 1986 to impose an excise tax on systemically important AI activity, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4825",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.4855": {
+      "congress": 119,
+      "type": "s",
+      "number": 4855,
+      "sourceTitle": "Safeguarding AI Features to Ensure Kids’ Informed Digital Safety (SAFE KIDS) Act",
+      "officialTitle": "SAFE KIDS Act",
+      "officialTitles": [
+        "SAFE KIDS Act",
+        "Safeguarding AI Features to Ensure Kids' Informed Digital Safety Act",
+        "A bill to require providers of certain artificial intelligence systems to implement child safety by design, parental settings, and independent audits, to prohibit child targeted advertising and the sale or sharing of children's personal information, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4855",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5051": {
+      "congress": 119,
+      "type": "s",
+      "number": 5051,
+      "sourceTitle": "The Artificial Intelligence Access, Gatekeeper Exchange and Nondiscriminatory Transfer (AI AGENT) Act",
+      "officialTitle": "AI AGENT Act of 2026",
+      "officialTitles": [
+        "AI AGENT Act of 2026",
+        "Artificial Intelligence Access, Gatekeeper Exchange, and Nondiscriminatory Transfer Act of 2026",
+        "A bill to promote competition and reduce consumer switching costs in the provision of online services, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5051",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5057": {
+      "congress": 119,
+      "type": "s",
+      "number": 5057,
+      "sourceTitle": "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence  (SAFE AI) Act",
+      "officialTitle": "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence Act of 2026",
+      "officialTitles": [
+        "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence Act of 2026",
+        "A bill to prohibit the use of certain artificial intelligence models across the Federal Government, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5057",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5061": {
+      "congress": 119,
+      "type": "s",
+      "number": 5061,
+      "sourceTitle": "Secure AI Development Act",
+      "officialTitle": "Secure A.I. Development Act of 2026",
+      "officialTitles": [
+        "Secure A.I. Development Act of 2026",
+        "Secure Artificial Intelligence Development Act of 2026",
+        "A bill to improve the tracking and processing of security and safety incidents and risks associated with artificial intelligence, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5090": {
+      "congress": 119,
+      "type": "s",
+      "number": 5090,
+      "sourceTitle": "Digital Age Assurance (DAAA) Act",
+      "officialTitle": "Digital Age Assurance Act of 2026",
+      "officialTitles": [
+        "Digital Age Assurance Act of 2026",
+        "A bill to require operating system providers to require users to indicate their age and developers of applications, covered internet website operators, and browser providers to request a signal from operating system providers that indicates a user's age, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5090",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5105": {
+      "congress": 119,
+      "type": "s",
+      "number": 5105,
+      "sourceTitle": "Collaboration on Adversarial Threats and Securities Risks (CATS) Act",
+      "officialTitle": "Collaboration on Adversarial Threats and Security Risks Act",
+      "officialTitles": [
+        "Collaboration on Adversarial Threats and Security Risks Act",
+        "A bill to establish the applicability of antitrust laws to the sharing of artificial intelligence frontier model risks, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5105",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5187": {
+      "congress": 119,
+      "type": "s",
+      "number": 5187,
+      "sourceTitle": "Promoting High-Skilled Doctorial (PHD) Talent Act",
+      "officialTitle": "PHD Talent Act of 2026",
+      "officialTitles": [
+        "PHD Talent Act of 2026",
+        "Promoting High-skilled Doctoral Talent Act of 2026",
+        "A bill to require the Secretary of Energy to establish a program to strengthen the domestic science and engineering workforce through partnerships among institutions of higher education, National Laboratories, other Federal science agencies, and industry to support accelerated doctoral programs, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5187",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5358": {
+      "congress": 119,
+      "type": "s",
+      "number": 5358,
+      "sourceTitle": "Financial Artificial Intelligence Risk Reduction (FAIRR) Act",
+      "officialTitle": "FAIRR Act",
+      "officialTitles": [
+        "FAIRR Act",
+        "Financial Artificial Intelligence Risk Reduction Act",
+        "A bill to amend the Financial Stability Act of 2010 to provide the Financial Stability Oversight Council with duties regarding artificial intelligence in the financial sector, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5358",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    },
+    "S.5648": {
+      "congress": 119,
+      "type": "s",
+      "number": 5648,
+      "sourceTitle": "Transparent Automated Governance (TAG) Act",
+      "officialTitle": "TAG Act",
+      "officialTitles": [
+        "TAG Act",
+        "Transparent Automated Governance Act",
+        "A bill to direct agencies to be transparent when using automated and augmented systems to interact with the public or make critical decisions, and for other purposes."
+      ],
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "url": "https://www.congress.gov/bill/119th-congress/senate-bill/5648",
+      "reason": "Reviewed source title, official and alternate titles, sponsor, and policy description; acronym, wording, or transcription difference."
+    }
+  }
+}

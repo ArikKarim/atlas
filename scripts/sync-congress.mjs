@@ -5,9 +5,10 @@ const project=new URL('../',import.meta.url),apiRoot='https://api.congress.gov/v
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 export function billIdentity(id){const m=/^(H\.R\.|S\.)([1-9]\d*)$/.exec(id);if(!m)throw Error('Unsupported bill identifier');return {congress:119,type:m[1]==='H.R.'?'hr':'s',number:Number(m[2])};}
 export function normalizedTitle(title){return String(title).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/\b(?:the|of|20\d{2})\b/g,' ').replace(/[^a-z0-9]+/g,' ').trim().replace(/\s+/g,' ');}
-export function identityMatches(source,bill,titles=[]){
- const id=billIdentity(source.id),expected=normalizedTitle(source.title);
- return Number(bill.congress)===id.congress&&String(bill.type).toLowerCase()===id.type&&Number(bill.number)===id.number&&expected.length>5&&[bill.title,...titles.map(t=>t.title)].some(title=>normalizedTitle(title)===expected);
+export function identityMatches(source,bill,titles=[],identities={}){
+ const id=billIdentity(source.id),expected=normalizedTitle(source.title),knownTitles=[bill.title,...titles.map(t=>t.title)],approved=identities[source.id];
+ const reviewed=approved?.sourceTitle===source.title&&approved.congress===id.congress&&approved.type===id.type&&approved.number===id.number&&knownTitles.some(title=>normalizedTitle(title)===normalizedTitle(approved.officialTitle));
+ return Number(bill.congress)===id.congress&&String(bill.type).toLowerCase()===id.type&&Number(bill.number)===id.number&&expected.length>5&&(knownTitles.some(title=>normalizedTitle(title)===expected)||reviewed===true);
 }
 function plainText(html){return String(html||'').replace(/<\/(?:p|li|div)>/gi,'\n').replace(/<[^>]*>/g,'').replace(/&#(x[0-9a-f]+|[0-9]+);/gi,(match,n)=>{const code=n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n);return code>0&&code<=0x10ffff?String.fromCodePoint(code):match;}).replace(/&(?:amp|lt|gt|quot|apos|nbsp);/g,x=>({'&amp;':'&','&lt;':'<','&gt;':'>','&quot;':'"','&apos;':"'",'&nbsp;':' '}[x])).replace(/\n\s*\n/g,'\n\n').trim();}
 function person(p){return p.lastName&&p.party&&p.state?`${p.lastName} (${p.party}-${p.state})`:String(p.fullName||'');}
@@ -46,14 +47,14 @@ export function congressClient(apiKey,{fetchImpl=fetch,sleep=pause}={}){
  }if(next)throw Error('API pagination limit exceeded');return all;}
  return {request,collection};
 }
-export async function buildSnapshot(rows,{apiKey,previous={records:{}},fetchImpl=fetch,sleep=pause,now=new Date().toISOString(),onProgress=()=>{}}={}){
+export async function buildSnapshot(rows,{apiKey,previous={records:{}},identities={},fetchImpl=fetch,sleep=pause,now=new Date().toISOString(),onProgress=()=>{}}={}){
  const client=congressClient(apiKey,{fetchImpl,sleep}),unique=normalize(rows),records={},review=[];
  for(const [index,source] of unique.entries()){
   try{
    const identity=billIdentity(source.id),path=`bill/119/${identity.type}/${identity.number}`,response=await client.request(path);
    if(!response?.bill){review.push({id:source.id,status:'not-found',sourceTitle:source.title});continue;}
    const bill=response.bill,titles=normalizedTitle(bill.title)===normalizedTitle(source.title)?[]:await client.collection(path+'/titles','titles');
-   if(!identityMatches(source,bill,titles)){review.push({id:source.id,status:'identity-review',sourceTitle:source.title,congressTitle:bill.title});continue;}
+   if(!identityMatches(source,bill,titles,identities)){review.push({id:source.id,status:'identity-review',sourceTitle:source.title,congressTitle:bill.title});continue;}
    const cosponsors=await client.collection(path+'/cosponsors','cosponsors'),summaries=await client.collection(path+'/summaries','summaries');
    records[source.id]=officialRecord(source,bill,cosponsors,summaries,now);
   }catch(error){
@@ -70,7 +71,8 @@ async function atomicJson(url,data){const tmp=new URL(url.href+'.tmp');await wri
 export async function syncCongress(options={}){
  const rows=JSON.parse(await readFile(new URL('public/bills.json',project),'utf8'));
  let previous;try{previous=JSON.parse(await readFile(new URL('public/congress-data.json',project),'utf8'));}catch{previous={records:{}};}
- const result=await buildSnapshot(rows,{...options,previous});
+ let identities={};try{identities=JSON.parse(await readFile(new URL('data/congress-identities.json',project),'utf8')).records||{};}catch(error){if(error.code!=='ENOENT')throw Error('Invalid Congress.gov identity review file');}
+ const result=await buildSnapshot(rows,{...options,previous,identities});
  await mkdir(new URL('data/',project),{recursive:true});
  await atomicJson(new URL('data/congress-sync-report.json',project),result.report);
  await atomicJson(new URL('public/congress-data.json',project),result.snapshot);

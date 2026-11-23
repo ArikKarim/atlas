@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "corrections": [
+    {
+      "reviewedAt": "2026-11-23T03:08:34.098Z",
+      "previous": {
+        "id": "S.4596",
+        "title": "Artificial Intelligence Public Awareness and Education Campaign Act",
+        "chamber": "Senate",
+        "primary": "Education, Workforce & Literacy",
+        "secondary": "",
+        "sponsor": "Bennet (D-CO)",
+        "cosponsors": "N/A",
+        "cosponsorCount": "0",
+        "introduced": "2026-05-20",
+        "action": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs on 5/20/26. ",
+        "summary": "Strengthens hiring and screening standards for immigration enforcement officers and to strengthen uniform, identification, and professional conduct standards for such officers.",
+        "engagement": "Endorsed.",
+        "sourceSheet": "Senate",
+        "sourceRow": 8,
+        "url": "https://www.congress.gov/bill/119th-congress/senate-bill/4596"
+      },
+      "correctedId": "S.1699",
+      "reason": "S.4596 was the AI public-awareness bill number in the 118th Congress. In the 119th Congress the intended AI bill is S.1699; S.4596 is an unrelated immigration bill.",
+      "evidence": [
+        "https://www.congress.gov/119/bills/s1699/BILLS-119s1699is.pdf",
+        "https://www.congress.gov/118/bills/s4596/BILLS-118s4596is.pdf"
+      ]
+    }
+  ]
+}

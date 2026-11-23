@@ -1,9 +1,9 @@
-import {applyCongressData} from './congress.js?v=congress-1';
+import {applyCongressData} from './congress.js?v=official-titles-1';
 import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=monthly-clean-1';
 import {addChartActions} from './chart-actions.js?v=monthly-clean-1';
 import {engagementUrl,engagementDescription,engagementContext} from './engagement.js';
 import {summarize,leadSponsorRankings} from './charts.js';
-import {normalize,filterBills,topicCounts,csv} from './model.js';
+import {normalize,filterBills,topicCounts,csv} from './model.js?v=official-titles-1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let raw=[],bills=[],page=1,filters={q:'',chamber:'',topic:'',engagement:''};
 const main=$('main'),dialog=$('#detail');

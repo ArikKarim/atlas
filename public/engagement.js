@@ -18,7 +18,7 @@ export const engagementMaterials = {
   "H.R.6633": "https://www.siia.net/siia-endorses-high-capacity-grid-act/",
   "H.R.7757": "https://www.siia.net/siia-statement-on-passage-of-kids-internet-and-digital-safety-kids-act/",
   "S.1837": "https://www.siia.net/policies/siia-commends-senate-passing-the-defiance-act/",
-  "S.4596": "https://www.siia.net/policies/siia-supports-the-artificial-intelligence-public-awareness-and-education-campaign-act/",
+  "S.1699": "https://www.siia.net/policies/siia-supports-the-artificial-intelligence-public-awareness-and-education-campaign-act/",
   "S.1705": "https://www.siia.net/the-chip-security-act-is-the-wrong-approach-to-preventing-chip-diversion/",
   "S.1367": "https://www.siia.net/policies/siia-statement-on-no-fakes/",
   "S.1337": "https://www.siia.net/wp-content/uploads/2025/05/SIIA-Letter-to-House-Cyber-Subcom-051525.pdf",
@@ -40,6 +40,7 @@ engagementMaterials['H.R.2683']='https://lda.gov/filings/public/filing/ac082771-
 engagementMaterials['H.R.9925']='https://lda.gov/filings/public/filing/ac082771-05ae-4460-85b7-e2130233bb8d/print/';
 engagementMaterials['S.3957']='https://www.siia.net/siia-supports-key-ai-innovation-education-and-security-bills-before-house-science-committee-markup/';
 const materialNotes={
+ 'S.1699':"SIIA's public statement supports the AI public-awareness proposal, originally introduced in the 118th Congress and reintroduced as S.1699 in the 119th.",
  'H.R.2683':"SIIA's public Q3 2026 lobbying disclosure names the Remote Access Security Act.",
  'H.R.9925':"SIIA's public Q3 2026 lobbying disclosure names the FRONTIER Act.",
  'S.3957':"This SIIA statement supports the NSF AI Education legislation in the House committee package, including the House companion H.R.5351."

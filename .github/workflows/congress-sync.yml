@@ -5,6 +5,7 @@ on:
     paths:
       - scripts/sync-congress.mjs
       - public/bills.json
+      - data/congress-identities.json
       - .github/workflows/congress-sync.yml
   schedule:
     - cron: '23 11 * * *'
