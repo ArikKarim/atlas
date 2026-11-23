@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T03:58:17.938Z",
+  "checkedAt": "2026-11-23T22:43:09.979Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -44,13 +44,6 @@
     },
     {
       "ids": [
-        "H.R.1736",
-        "S.4762"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.1766",
         "S.2049"
       ],
@@ -58,8 +51,8 @@
     },
     {
       "ids": [
-        "H.R.1734",
-        "S.2117"
+        "H.R.1736",
+        "S.4762"
       ],
       "relationship": "Related bill"
     },
@@ -69,6 +62,13 @@
         "S.1775"
       ],
       "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.1734",
+        "S.2117"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -114,17 +114,17 @@
     },
     {
       "ids": [
-        "H.R.4801",
-        "S.2528"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
         "H.R.5511",
         "S.2164"
       ],
       "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.4801",
+        "S.2528"
+      ],
+      "relationship": "Identical bill"
     },
     {
       "ids": [
@@ -226,15 +226,15 @@
     },
     {
       "ids": [
-        "H.R.2794",
-        "S.1367"
+        "H.R.6322",
+        "S.1473"
       ],
       "relationship": "Related bill"
     },
     {
       "ids": [
-        "H.R.6322",
-        "S.1473"
+        "H.R.2794",
+        "S.1367"
       ],
       "relationship": "Related bill"
     },
@@ -247,17 +247,17 @@
     },
     {
       "ids": [
-        "H.R.7434",
-        "S.3809"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
         "H.R.8623",
         "S.3062"
       ],
       "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.7434",
+        "S.3809"
+      ],
+      "relationship": "Identical bill"
     },
     {
       "ids": [
@@ -275,15 +275,15 @@
     },
     {
       "ids": [
-        "H.R.9155",
-        "S.4695"
+        "H.R.9442",
+        "S.4214"
       ],
       "relationship": "Identical bill"
     },
     {
       "ids": [
-        "H.R.9442",
-        "S.4214"
+        "H.R.9155",
+        "S.4695"
       ],
       "relationship": "Identical bill"
     },

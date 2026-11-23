@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T03:58:35.552Z",
+  "generatedAt": "2026-11-23T22:46:12.911Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -13,7 +13,7 @@
       }
     ],
     "billCount": 16945,
-    "summaryVersions": 5444,
+    "summaryVersions": 5448,
     "trackedBills": 202,
     "relatedBillChecks": 202,
     "fields": [
