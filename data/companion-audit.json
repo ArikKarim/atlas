@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T02:21:23.103Z",
+  "checkedAt": "2026-11-24T02:39:06.021Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -121,10 +121,10 @@
     },
     {
       "ids": [
-        "H.R.633",
-        "S.146"
+        "H.R.5511",
+        "S.2164"
       ],
-      "relationship": "Contained in public law"
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -135,10 +135,10 @@
     },
     {
       "ids": [
-        "H.R.5511",
-        "S.2164"
+        "H.R.633",
+        "S.146"
       ],
-      "relationship": "Related bill"
+      "relationship": "Contained in public law"
     },
     {
       "ids": [
@@ -247,13 +247,6 @@
     },
     {
       "ids": [
-        "H.R.8623",
-        "S.3062"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.7434",
         "S.3809"
       ],
@@ -268,6 +261,13 @@
     },
     {
       "ids": [
+        "H.R.8623",
+        "S.3062"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
         "H.R.9825",
         "S.4213"
       ],
@@ -275,15 +275,15 @@
     },
     {
       "ids": [
-        "H.R.9442",
-        "S.4214"
+        "H.R.9155",
+        "S.4695"
       ],
       "relationship": "Identical bill"
     },
     {
       "ids": [
-        "H.R.9155",
-        "S.4695"
+        "H.R.9442",
+        "S.4214"
       ],
       "relationship": "Identical bill"
     },
