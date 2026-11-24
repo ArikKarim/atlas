@@ -91,6 +91,7 @@ function wirePlotLinks(panel,spec){
  panel.querySelector('.sponsor-bars')?.setAttribute('role','group');
  const attach=(node,selection,label,keyboard=true)=>{if(!node)return;node.dataset.explore=JSON.stringify(selection);node.classList.add('explore-target');node.title='View matching bills in Tracker';if(keyboard){node.tabIndex=0;node.setAttribute('role','link');node.setAttribute('aria-label',(node.getAttribute('aria-label')||label)+'. View matching bills in Tracker');}};
  if(spec.id==='monthly-introductions'){
+  panel.querySelector('.monthly-chart')?.setAttribute('role','group');
   panel.querySelectorAll('.monthly-chart g').forEach((node,i)=>{const row=spec.rows[i];attach(node,{...base,month:row.label},row.label);node.querySelectorAll('rect').forEach((rect,j)=>attach(rect,{month:row.label,chamber:j===0?'House':'Senate'},row.label,false));});return;
  }
  const selector=spec.id==='engagement-by-area'?'.engagement-topic-row':spec.id==='siia-engagement'?'.status-row':spec.id.endsWith('-sponsors')?'.sponsor-row':'.topic-row';
@@ -154,3 +155,4 @@ try{
  const [source,official,review,activity,lifecycle]=await Promise.all([load('bills.json'),load('congress-data.json').catch(()=>({})),load('research.json').catch(()=>({})),load('official-changes.json').catch(()=>({})),load('lifecycle.json').catch(()=>({}))]);
  raw=source;snapshot=official;research=review;officialChanges=activity;bills=decorateBills(applyCongressData(normalize(raw),snapshot),lifecycle);familyData=companionStats(bills).families;restore();
 }catch(error){console.error('Atlas initialization failed',error);main.innerHTML='<div class="notice">The tracker data could not be loaded. Refresh this page to try again.</div>';}
+
