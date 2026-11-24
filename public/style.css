@@ -77,3 +77,6 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 .access-card button{width:100%;min-height:44px;border:1px solid var(--ink);border-radius:3px;background:var(--ink);color:var(--bg);font-size:16px;font-weight:600}
 .access-card button:hover{opacity:.86}
 .access-card .access-credit{margin:28px 0 0;font-size:13px}
+
+/* Login places focus on the content, preserving keyboard focus on controls. */
+#main:focus{outline:none}

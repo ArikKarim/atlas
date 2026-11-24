@@ -176,8 +176,8 @@
     {
       "id": "S.4762",
       "title": "Generative AI Terrorism Risk Assessment Act",
-      "primary": "Government & Public-Sector AI",
-      "secondary": "Frontier AI Safety & Security",
+      "primary": "National Security & Defense",
+      "secondary": "Government & Public-Sector AI",
       "summary": "Requires the Secretary of Homeland Security to conduct annual assessments on terrorism threats to the United States posed by terrorist organizations utilizing generative artificial intelligence applications.",
       "engagement": "",
       "counterparts": [
@@ -432,7 +432,7 @@
     {
       "id": "S.5333",
       "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
-      "primary": "Semiconductors & Advanced Tech",
+      "primary": "Telecommunications & Connectivity",
       "secondary": "Standards, Testing & Research",
       "summary": "Requires the Secretary of Commerce, acting through the Assistant Secretary of Commerce for Communications and Information, to develop a plan for how the United States will advance and advocate for Wi-Fi and other unlicensed technologies, and for other purposes.",
       "engagement": "",

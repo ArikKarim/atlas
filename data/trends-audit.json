@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T18:30:08.788Z",
+  "checkedAt": "2026-11-24T02:18:22.274Z",
   "officialSnapshotCheckedAt": "2026-11-23T03:58:18.135Z",
   "billCount": 202,
   "originalBillCount": 170,
@@ -366,10 +366,10 @@
               ]
             },
             {
-              "label": "Government & Public-Sector AI",
+              "label": "Transparency & Accountability",
               "values": [
-                4,
-                6
+                8,
+                2
               ]
             }
           ]
@@ -663,8 +663,8 @@
                 1,
                 0
               ],
-              "denominator": 5,
-              "display": "1 / 5 (20%)"
+              "denominator": 4,
+              "display": "1 / 4 (25%)"
             },
             {
               "label": "Frontier AI Safety & Security",
@@ -672,8 +672,8 @@
                 0,
                 1
               ],
-              "denominator": 7,
-              "display": "1 / 7 (14%)"
+              "denominator": 5,
+              "display": "1 / 5 (20%)"
             },
             {
               "label": "Quantum Technology",
@@ -1188,7 +1188,7 @@
               ]
             },
             {
-              "label": "Frontier AI Safety & Security",
+              "label": "Quantum Technology",
               "values": [
                 5,
                 0
@@ -1400,8 +1400,8 @@
                 0,
                 1
               ],
-              "denominator": 5,
-              "display": "1 / 5 (20%)"
+              "denominator": 3,
+              "display": "1 / 3 (33%)"
             },
             {
               "label": "Sector-Specific AI",
@@ -1883,13 +1883,6 @@
               ]
             },
             {
-              "label": "Government & Public-Sector AI",
-              "values": [
-                0,
-                6
-              ]
-            },
-            {
               "label": "AI Economy, Competition & Innovation",
               "values": [
                 0,
@@ -1898,6 +1891,13 @@
             },
             {
               "label": "Cybersecurity",
+              "values": [
+                0,
+                5
+              ]
+            },
+            {
+              "label": "Government & Public-Sector AI",
               "values": [
                 0,
                 5
@@ -2013,13 +2013,6 @@
               ]
             },
             {
-              "label": "AI Regulation & Governance + Transparency & Accountability",
-              "values": [
-                0,
-                3
-              ]
-            },
-            {
               "label": "Data Centers, Energy & Infrastructure + Transparency & Accountability",
               "values": [
                 0,
@@ -2031,6 +2024,13 @@
               "values": [
                 0,
                 3
+              ]
+            },
+            {
+              "label": "AI Regulation & Governance + Sector-Specific AI",
+              "values": [
+                0,
+                2
               ]
             }
           ]
@@ -2091,8 +2091,8 @@
                 1,
                 0
               ],
-              "denominator": 4,
-              "display": "1 / 4 (25%)"
+              "denominator": 3,
+              "display": "1 / 3 (33%)"
             },
             {
               "label": "Cybersecurity",

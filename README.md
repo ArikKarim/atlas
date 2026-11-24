@@ -34,6 +34,10 @@ I started with the spreadsheet I maintained during my fellowship. The imported d
 
 I keep the original tracker as my research dataset. Atlas supplements it with official Congress.gov titles, dates, sponsors, cosponsors, and legislative actions. Bill details show my research summary. Public SIIA materials are linked for 42 of the 44 bills with recorded engagement. Companion bills receive their own engagement labels only when there is bill-specific evidence.
 
+## Focus areas
+
+I reviewed all 202 bills and corrected 11 primary or secondary assignments. I classify bills by what their provisions address, rather than by a title keyword or the agency involved. The taxonomy now distinguishes national security, wireless connectivity, digital-asset regulation, and online speech from the existing AI categories. [Focus-area definitions and review notes](docs/FOCUS-AREAS.md) explain the decisions; the full record-by-record audit is in `data/focus-area-review.json`.
+
 ## Working on the code
 
 The interface and data are in `public/`. `model.js` handles filtering and normalization, `charts.js` calculates the chart data, and `chart-export.js` and `chart-actions.js` handle exports and sharing. `server.mjs` runs the local server.

@@ -1,0 +1,2640 @@
+{
+  "reviewedAt": "2026-11-24T02:17:59.002Z",
+  "billCount": 202,
+  "method": "Reviewed the primary and secondary assignments for all tracked bills against their official titles and maintained research summaries; consulted available saved CRS summaries and checked official bill text for ambiguous cases. Focus areas are editorial classifications, not Congress.gov policy-area labels.",
+  "rules": [
+    "Primary focus reflects the main policy subject; secondary focus identifies one distinct, material additional subject.",
+    "A federal agency appearing in a bill does not by itself establish a government-AI-adoption focus.",
+    "Frontier AI is reserved for advanced/state-of-the-art-model risks, not all AI national-security legislation.",
+    "Companions receive consistent assignments when their relevant provisions match.",
+    "An adjacent digital-policy bill remains labeled by its actual subject; classification does not decide tracker inclusion."
+  ],
+  "definitions": {
+    "AI Economy, Competition & Innovation": "Competition, market access, commercial innovation, investment, and economic incentives related to AI or the broader digital economy.",
+    "AI Regulation & Governance": "Cross-sector AI regulatory frameworks, liability, preemption, regulatory sandboxes, and public oversight or ethical governance.",
+    "Children & Youth": "Protections, age assurance, parental controls, and AI or online services specifically directed at minors.",
+    "Cybersecurity": "Security of systems, networks, AI agents and models; incident reporting, cyber workforce and cyber resilience.",
+    "Data Centers, Energy & Infrastructure": "Data-center development, electricity and water demand, utility rates, grid capacity, and associated physical infrastructure.",
+    "Digital Assets & Financial Regulation": "Digital-asset market structure, financial oversight of digital commodities, and central-bank digital-currency restrictions.",
+    "Education, Workforce & Literacy": "AI literacy, education, training, employment, worker protections and workforce capacity, including relevant public-sector hiring.",
+    "Fraud & Scams": "Consumer or financial deception, scam prevention, cybercrime schemes and related enforcement.",
+    "Frontier AI Safety & Security": "Evaluation, control, security or systemic-risk governance of advanced or state-of-the-art AI systems; not every use of AI by an adversary.",
+    "Government & Public-Sector AI": "Public-sector AI adoption, procurement, agency AI operations, and AI-specific federal administrative requirements.",
+    "Intellectual Property": "Patents, copyright, digital-replica rights, training-data rights and protection of proprietary model capabilities.",
+    "National Security & Defense": "AI or emerging-technology threats involving terrorism, foreign adversaries, defense applications, intelligence and national-security coordination.",
+    "Online Speech & Platform Governance": "Government coercion of speech intermediaries, platform editorial independence and content-governance rules, including AI speech providers.",
+    "Privacy & Data Governance": "Personal-data rights, data handling and consent, data security, public-data stewardship and interoperability.",
+    "Quantum Technology": "Quantum research, commercialization, government deployment, coordination and migration to post-quantum cryptography.",
+    "Sector-Specific AI": "AI applications or oversight in a defined industry such as financial services, health, weather or laboratory science.",
+    "Semiconductors & Advanced Tech": "Semiconductor hardware, manufacturing, supply chains and other explicitly covered critical/emerging hardware technologies; wireless-spectrum policy has its own category.",
+    "Standards, Testing & Research": "Technical standards, evaluation methods, research resources, testbeds and scientific research programs.",
+    "Synthetic Media & Content": "Digital replicas, deepfakes, intimate visual depictions, provenance, labeling and other AI-related content protections; some bills also cover authentic content.",
+    "Telecommunications & Connectivity": "Wireless connectivity, spectrum, Wi-Fi policy and international communications-technology coordination.",
+    "Trade & Export Controls": "Export restrictions, licensing, international technology controls and related trade-policy enforcement or protections.",
+    "Transparency & Accountability": "Disclosure, reporting, audits, impact assessments, explainability, whistleblowing and mechanisms for holding AI actors accountable."
+  },
+  "changes": [
+    {
+      "id": "H.R.1736",
+      "before": {
+        "primary": "Government & Public-Sector AI",
+        "secondary": "Frontier AI Safety & Security"
+      },
+      "after": {
+        "primary": "National Security & Defense",
+        "secondary": "Government & Public-Sector AI"
+      },
+      "reason": "DHS terrorism-threat assessments cover generative AI broadly, without a frontier-model capability threshold.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr1736ih/html/BILLS-119hr1736ih.htm"
+      ]
+    },
+    {
+      "id": "H.R.7058",
+      "before": {
+        "primary": "Frontier AI Safety & Security",
+        "secondary": ""
+      },
+      "after": {
+        "primary": "National Security & Defense",
+        "secondary": ""
+      },
+      "reason": "The bill directs foreign-adversary risk assessments and diplomacy covering malicious generative-AI uses; it does not target only frontier models.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr7058ih/html/BILLS-119hr7058ih.htm"
+      ]
+    },
+    {
+      "id": "H.R.8283",
+      "before": {
+        "primary": "Frontier AI Safety & Security",
+        "secondary": "Intellectual Property"
+      },
+      "after": {
+        "primary": "National Security & Defense",
+        "secondary": "Intellectual Property"
+      },
+      "reason": "The bill deters foreign-adversary extraction of proprietary closed-source AI capabilities, including models without a frontier-model threshold.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr8283ih/html/BILLS-119hr8283ih.htm"
+      ]
+    },
+    {
+      "id": "H.R.3633",
+      "before": {
+        "primary": "N/A",
+        "secondary": ""
+      },
+      "after": {
+        "primary": "Digital Assets & Financial Regulation",
+        "secondary": ""
+      },
+      "reason": "Replaces N/A: the bill establishes digital-commodity market regulation and CBDC restrictions; it is retained as a broader digital-policy bill, not relabeled as AI regulation.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr3633rs/html/BILLS-119hr3633rs.htm"
+      ]
+    },
+    {
+      "id": "H.R.9151",
+      "before": {
+        "primary": "Semiconductors & Advanced Tech",
+        "secondary": "Standards, Testing & Research"
+      },
+      "after": {
+        "primary": "Telecommunications & Connectivity",
+        "secondary": "Standards, Testing & Research"
+      },
+      "reason": "The operative requirements concern Wi-Fi, unlicensed spectrum, and international spectrum coordination, rather than semiconductor manufacturing.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr9151ih/html/BILLS-119hr9151ih.htm"
+      ]
+    },
+    {
+      "id": "S.1331",
+      "before": {
+        "primary": "Quantum Technology",
+        "secondary": ""
+      },
+      "after": {
+        "primary": "Quantum Technology",
+        "secondary": "National Security & Defense"
+      },
+      "reason": "Adds the explicit defense/national-security mission of the proposed DoD quantum office as a secondary focus.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s1331is/html/BILLS-119s1331is.htm"
+      ]
+    },
+    {
+      "id": "S.1346",
+      "before": {
+        "primary": "Quantum Technology",
+        "secondary": ""
+      },
+      "after": {
+        "primary": "Quantum Technology",
+        "secondary": "National Security & Defense"
+      },
+      "reason": "Adds the explicit defense mission of accelerating operational adoption of quantum technology by DoD.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s1346is/html/BILLS-119s1346is.htm"
+      ]
+    },
+    {
+      "id": "S.5061",
+      "before": {
+        "primary": "Cybersecurity",
+        "secondary": "Transparency & Accountability"
+      },
+      "after": {
+        "primary": "Cybersecurity",
+        "secondary": "Frontier AI Safety & Security"
+      },
+      "reason": "Keeps cybersecurity primary and replaces the generic disclosure tag with the substantive frontier-model pre-release testing and risk-board provisions in section 3.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s5061is/html/BILLS-119s5061is.htm"
+      ]
+    },
+    {
+      "id": "S.4749",
+      "before": {
+        "primary": "AI Regulation & Governance",
+        "secondary": "Transparency & Accountability"
+      },
+      "after": {
+        "primary": "Online Speech & Platform Governance",
+        "secondary": "Transparency & Accountability"
+      },
+      "reason": "The cause of action addresses government coercion of speech intermediaries, including AI speech providers; this is more specific than general AI regulation.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s4749is/html/BILLS-119s4749is.htm"
+      ]
+    },
+    {
+      "id": "S.4762",
+      "before": {
+        "primary": "Government & Public-Sector AI",
+        "secondary": "Frontier AI Safety & Security"
+      },
+      "after": {
+        "primary": "National Security & Defense",
+        "secondary": "Government & Public-Sector AI"
+      },
+      "reason": "The counterpart also requires terrorism-threat assessments for generative AI generally, rather than frontier-specific safeguards.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s4762is/html/BILLS-119s4762is.htm"
+      ]
+    },
+    {
+      "id": "S.5333",
+      "before": {
+        "primary": "Semiconductors & Advanced Tech",
+        "secondary": "Standards, Testing & Research"
+      },
+      "after": {
+        "primary": "Telecommunications & Connectivity",
+        "secondary": "Standards, Testing & Research"
+      },
+      "reason": "The Senate counterpart likewise concerns Wi-Fi, unlicensed spectrum, and international spectrum coordination.",
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/BILLS-119s5333is/html/BILLS-119s5333is.htm"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "id": "H.R.1000",
+      "title": "Cyber PIVOTT Act",
+      "primary": "Cybersecurity",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1000"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3539",
+      "title": "Leadership in CET Act",
+      "primary": "Intellectual Property",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3539"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1495",
+      "title": "Digital Economy Cybersecurity Advisory Act of 2025",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1495"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.2152",
+      "title": "AI PLAN Act",
+      "primary": "Fraud & Scams",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/2152"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.2770",
+      "title": "TAME Extreme Weather and Wildfires Act",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/2770"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1770",
+      "title": "Consumer Safety Technology Act",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1770"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1736",
+      "title": "Generative AI Terrorism Risk Assessment Act",
+      "primary": "National Security & Defense",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1736",
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr1736ih/html/BILLS-119hr1736ih.htm"
+      ],
+      "reason": "DHS terrorism-threat assessments cover generative AI broadly, without a frontier-model capability threshold."
+    },
+    {
+      "id": "H.R.1766",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1766"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1694",
+      "title": "AI Accountability Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1694"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1283",
+      "title": "Protecting Our Children in an AI World Act of 2025",
+      "primary": "Children & Youth",
+      "secondary": "Synthetic Media & Content",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1283"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3434",
+      "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3434"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.1734",
+      "title": "Preventing Deep Fake Scams Act",
+      "primary": "Fraud & Scams",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1734"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8915",
+      "title": "NO FAKES Act of 2026",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8915"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3026",
+      "title": "Protecting America’s Cybersecurity Act",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3026"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3460",
+      "title": "AI Whistleblower Protection Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Frontier AI Safety & Security",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3460"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3220",
+      "title": "Quantum Sandbox for Near-Term Applications Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3220"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3259",
+      "title": "Post Quantum Cybersecurity Standards Act",
+      "primary": "Quantum Technology",
+      "secondary": "Cybersecurity",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3259"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.2385",
+      "title": "CREATE AI Act of 2025",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/2385"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3210",
+      "title": "Artificial Intelligence Literacy and Inclusion Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3210"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3447",
+      "title": "Chip Security Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3447"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3562",
+      "title": "DEFIANCE Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3562"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3775",
+      "title": "AI Training Extension Act of 2025",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3775"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.4801",
+      "title": "Unleashing AI Innovation in Financial Services Act",
+      "primary": "Sector-Specific AI",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/4801"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5511",
+      "title": "Algorithmic Accountability Act of 2025",
+      "primary": "Transparency & Accountability",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5511"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6621",
+      "title": "Workforce of the Future Act of 2025",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6621"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8516",
+      "title": "American Leadership in AI Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8516"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.633",
+      "title": "TAKE IT DOWN Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/633"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5360",
+      "title": "AWARE Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5360"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5388",
+      "title": "American Artificial Intelligence Leadership and Uniformity Act",
+      "primary": "AI Regulation & Governance",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5388"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8413",
+      "title": "SECURE Data Act",
+      "primary": "Privacy & Data Governance",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8413"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5584",
+      "title": "LIFT AI Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Children & Youth",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5584"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5351",
+      "title": "NSF AI Education Act of 2025",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5351"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9334",
+      "title": "Workforce for AI Trust Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9334"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6461",
+      "title": "READ AI Models Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6461"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8893",
+      "title": "Protecting Consumers from Deceptive AI Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8893"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5272",
+      "title": "Protect Elections from Deceptive AI Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5272"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6529",
+      "title": "Protecting Families from AI Data Center Energy Costs Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6529"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8033",
+      "title": "No Harm Data Centers Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8033"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6984",
+      "title": "Data Center Transparency Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6984"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9372",
+      "title": "Data Infrastructure Energy Measurement and Standards Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9372"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9341",
+      "title": "AI-Ready Federal Data Guidelines Act",
+      "primary": "Privacy & Data Governance",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9341"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9333",
+      "title": "AI Flaw Reporting and Security Enhancement Act",
+      "primary": "Cybersecurity",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9333"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8037",
+      "title": "Protect American AI Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8037"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6633",
+      "title": "High-Capacity Grid Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6633"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7757",
+      "title": "KIDS Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7757"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9352",
+      "title": "AI-Related Job Impacts Clarity Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9352"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9326",
+      "title": "USA Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9326"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9381",
+      "title": "AWARE Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9381"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9477",
+      "title": "AI Incident Reporting Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Frontier AI Safety & Security",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9477"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7058",
+      "title": "Foreign Adversary AI Risk Assessment and Diplomacy Act",
+      "primary": "National Security & Defense",
+      "secondary": "",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7058",
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr7058ih/html/BILLS-119hr7058ih.htm"
+      ],
+      "reason": "The bill directs foreign-adversary risk assessments and diplomacy covering malicious generative-AI uses; it does not target only frontier models."
+    },
+    {
+      "id": "H.R.8819",
+      "title": "Federal Artificial Intelligence Risk Management Act of 2026",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8819"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6571",
+      "title": "REAL Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6571"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9439",
+      "title": "Voluntary Consumer AI Disclosure Pilot Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9439"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7977",
+      "title": "Energy Bills Relief Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7977"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7064",
+      "title": "AI in Health Care Efficiency and Study Act",
+      "primary": "Sector-Specific AI",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7064"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8094",
+      "title": "AI Foundation Model Transparency Act of 2026",
+      "primary": "Transparency & Accountability",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8094"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7801",
+      "title": "Cloud LAB Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7801"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7151",
+      "title": "Artificial Intelligence Public Awareness and Education Campaign Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7151"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7985",
+      "title": "CHATBOT Act",
+      "primary": "Sector-Specific AI",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7985"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9917",
+      "title": "AI Kill Switch Act",
+      "primary": "Frontier AI Safety & Security",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9917"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9915",
+      "title": "Stealth Bot Prohibition Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9915"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7305",
+      "title": "Energy Threat Analysis Center Act of 2026",
+      "primary": "Cybersecurity",
+      "secondary": "Data Centers, Energy & Infrastructure",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7305"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9335",
+      "title": "Advanced Transmission Technology to Reduce Rates Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9335"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9339",
+      "title": "Affordable Innovation for the Grid Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9339"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9340",
+      "title": "Ratepayer Protection Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9340"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6425",
+      "title": "National Strategy for Combating Scams Act of 2025",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6425"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5967",
+      "title": "Strategic Task Force on Scam Prevention Act",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5967"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6426",
+      "title": "STOP Scams Against Seniors Act",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6426"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5900",
+      "title": "SCAM Act",
+      "primary": "Fraud & Scams",
+      "secondary": "Cybersecurity",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5900"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7215",
+      "title": "Stop SCAMS Act",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7215"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9578",
+      "title": "Spot the Fakes Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9578"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8170",
+      "title": "MATCH Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8170"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6879",
+      "title": "RESTRICT Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6879"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6875",
+      "title": "AI OVERWATCH Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6875"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6996",
+      "title": "Full AI Stack Export Promotion Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6996"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.4920",
+      "title": "BIS IT Modernization Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/4920"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.4505",
+      "title": "Export Controls Enforcement Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/4505"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7003",
+      "title": "BIS STRENGTH Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7003"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8287",
+      "title": "Semiconductor Controls Effectiveness Act of 2026",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8287"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8285",
+      "title": "Protecting American Competition Act of 2026",
+      "primary": "Trade & Export Controls",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8285"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6058",
+      "title": "STRIDE Act",
+      "primary": "Semiconductors & Advanced Tech",
+      "secondary": "Trade & Export Controls",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6058"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.4278",
+      "title": "Protect U.S. Companies from Foreign Regulatory Taxation Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/4278"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8283",
+      "title": "Deterring American AI Model Theft Act of 2026",
+      "primary": "National Security & Defense",
+      "secondary": "Intellectual Property",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8283",
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr8283ih/html/BILLS-119hr8283ih.htm"
+      ],
+      "reason": "The bill deters foreign-adversary extraction of proprietary closed-source AI capabilities, including models without a frontier-model threshold."
+    },
+    {
+      "id": "H.R.8169",
+      "title": "Export Control Enforcement and Enhancement Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8169"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.2683",
+      "title": "Remote Access Security Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/2683"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.3633",
+      "title": "Digital Asset Market Clarity Act",
+      "primary": "Digital Assets & Financial Regulation",
+      "secondary": "",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/3633",
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr3633rs/html/BILLS-119hr3633rs.htm"
+      ],
+      "reason": "Replaces N/A: the bill establishes digital-commodity market regulation and CBDC restrictions; it is retained as a broader digital-policy bill, not relabeled as AI regulation."
+    },
+    {
+      "id": "H.R.9151",
+      "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
+      "primary": "Telecommunications & Connectivity",
+      "secondary": "Standards, Testing & Research",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9151",
+        "https://www.govinfo.gov/content/pkg/BILLS-119hr9151ih/html/BILLS-119hr9151ih.htm"
+      ],
+      "reason": "The operative requirements concern Wi-Fi, unlicensed spectrum, and international spectrum coordination, rather than semiconductor manufacturing."
+    },
+    {
+      "id": "H.R.9546",
+      "title": "Cloud Security Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9546"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9925",
+      "title": "FRONTIER Act",
+      "primary": "Frontier AI Safety & Security",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9925"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9914",
+      "title": "Collaboration on Adversarial Threats and Security Risks Act",
+      "primary": "Frontier AI Safety & Security",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9914"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8462",
+      "title": "National Quantum Initiative Reauthorization Act",
+      "primary": "Quantum Technology",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8462"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9646",
+      "title": "Quantum-Enhanced Critical Minerals Mapping Act of 2026",
+      "primary": "Quantum Technology",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9646"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.10362",
+      "title": "Stop Rogue AI Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "Cybersecurity",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/10362"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.10873",
+      "title": "AI Cyber Defense Act",
+      "primary": "Cybersecurity",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/10873"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2117",
+      "title": "Preventing Deep Fake Scams Act",
+      "primary": "Fraud & Scams",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2117"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2081",
+      "title": "RISE Act of 2025",
+      "primary": "AI Regulation & Governance",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2081"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1875",
+      "title": "Streamlining Federal Cybersecurity Regulations Act of 2025",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1875"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1837",
+      "title": "DEFIANCE Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1837"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1775",
+      "title": "Protecting AI and Cloud Competition in Defense Act of 2025",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1775"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1746",
+      "title": "Quantum LEAP Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1746"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1699",
+      "title": "Artificial Intelligence Public Awareness and Education Campaign Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1699"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1705",
+      "title": "Chip Security Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1705"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1638",
+      "title": "Protection Against Foreign Adversarial Artificial Intelligence Act of 2025",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1638"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1473",
+      "title": "Stop Stealing our Chips Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1473"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1367",
+      "title": "NO FAKES Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1367"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1397",
+      "title": "International Quantum Research Exchange Act",
+      "primary": "Quantum Technology",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1397"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1343",
+      "title": "Advancing Quantum Manufacturing Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1343"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1378",
+      "title": "TAME Extreme Weather and Wildfires Act",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1378"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1337",
+      "title": "Cybersecurity Information Sharing Extension Act",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1337"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1344",
+      "title": "Quantum Sandbox for Near-Term Applications Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1344"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1331",
+      "title": "Quantum National Security Coordination and Competition Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "National Security & Defense",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1331",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s1331is/html/BILLS-119s1331is.htm"
+      ],
+      "reason": "Adds the explicit defense/national-security mission of the proposed DoD quantum office as a secondary focus."
+    },
+    {
+      "id": "S.1346",
+      "title": "Defense Quantum Acceleration Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "National Security & Defense",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1346",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s1346is/html/BILLS-119s1346is.htm"
+      ],
+      "reason": "Adds the explicit defense mission of accelerating operational adoption of quantum technology by DoD."
+    },
+    {
+      "id": "S.1290",
+      "title": "Artificial Intelligence and Critical Technology Workforce Framework Act of 2025",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1290"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1269",
+      "title": "Promoting United States Leadership in Standards Act of 2025",
+      "primary": "Standards, Testing & Research",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1269"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1213",
+      "title": "Protect Elections from Deceptive AI Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1213"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.579",
+      "title": "Department of Energy Quantum Leadership Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/579"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.438",
+      "title": "Cyber PIVOTT Act of 2025",
+      "primary": "Cybersecurity",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/438"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.321",
+      "title": "Decoupling America's Artificial Intelligence Capabilities from China Act of 2025",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/321"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.232",
+      "title": "Preventing Algorithmic Collusion Act of 2025",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/232"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2153",
+      "title": "Open App Markets Act",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2153"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2367",
+      "title": "AI Accountability and Personal Data Protection Act",
+      "primary": "Privacy & Data Governance",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2367"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2381",
+      "title": "PROACTIV Artificial Intelligence Data Act of 2025",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2381"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2528",
+      "title": "Unleashing AI Innovation in Financial Services Act",
+      "primary": "Sector-Specific AI",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2528"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2615",
+      "title": "VET Artificial Intelligence Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2615"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2750",
+      "title": "SANDBOX Act",
+      "primary": "AI Regulation & Governance",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2750"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2714",
+      "title": "CHAT Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2714"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2164",
+      "title": "Algorithmic Accountability Act of 2025",
+      "primary": "Transparency & Accountability",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2164"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3319",
+      "title": "Workforce of the Future Act of 2025",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3319"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4407",
+      "title": "CHATBOT Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4407"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3062",
+      "title": "GUARD Act",
+      "primary": "Children & Youth",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3062"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3809",
+      "title": "AI Grand Challenges Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3809"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4414",
+      "title": "LIFT AI Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Children & Youth",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4414"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3957",
+      "title": "NSF AI Education Act of 2026",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3957"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3682",
+      "title": "Power for the People Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3682"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1633",
+      "title": "TEST AI Act of 2025",
+      "primary": "Standards, Testing & Research",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1633"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3952",
+      "title": "Future of Artificial Intelligence Innovation Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3952"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4213",
+      "title": "Data Center Water and Energy Transparency Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4213"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4855",
+      "title": "SAFE KIDS Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4855"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4825",
+      "title": "American A.I. Sovereign Wealth Fund Act",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4825"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4833",
+      "title": "No Robot Bosses Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4833"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4695",
+      "title": "CONSENT Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4695"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4214",
+      "title": "Artificial Intelligence Data Center Moratorium Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4214"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2938",
+      "title": "Artificial Intelligence Risk Evaluation Act of 2025",
+      "primary": "Frontier AI Safety & Security",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2938"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3813",
+      "title": "CLEAR Act",
+      "primary": "Intellectual Property",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3813"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4915",
+      "title": "AI Labeling Act of 2026",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4915"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1396",
+      "title": "Content Origin Protection and Integrity from Edited and Deepfaked Media Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1396"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4656",
+      "title": "Secure and Accountable Military AI Act of 2026",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4656"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4991",
+      "title": "Homestake AI Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "Sector-Specific AI",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4991"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5054",
+      "title": "Data Center Tax Accountability and Disclosure Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5054"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5051",
+      "title": "AI AGENT Act of 2026",
+      "primary": "AI Economy, Competition & Innovation",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5051"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5061",
+      "title": "Secure A.I. Development Act of 2026",
+      "primary": "Cybersecurity",
+      "secondary": "Frontier AI Safety & Security",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5061",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s5061is/html/BILLS-119s5061is.htm"
+      ],
+      "reason": "Keeps cybersecurity primary and replaces the generic disclosure tag with the substantive frontier-model pre-release testing and risk-board provisions in section 3."
+    },
+    {
+      "id": "S.5057",
+      "title": "Safeguarding Against Fabricated Exploitation Through Artificial Intelligence Act of 2026",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Synthetic Media & Content",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5057"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5055",
+      "title": "National Workforce Transition Fund Act of 2026",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5055"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5358",
+      "title": "FAIRR Act",
+      "primary": "Sector-Specific AI",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5358"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5130",
+      "title": "Human Dignity and Emerging Technologies Act",
+      "primary": "AI Regulation & Governance",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5130"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.278",
+      "title": "Kids Off Social Media Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/278"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5090",
+      "title": "Digital Age Assurance Act of 2026",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5090"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5105",
+      "title": "Collaboration on Adversarial Threats and Security Risks Act",
+      "primary": "Frontier AI Safety & Security",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5105"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5187",
+      "title": "PHD Talent Act of 2026",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5187"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5171",
+      "title": "Children's Artificial Intelligence Toy Safety Act of 2026",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5171"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4199",
+      "title": "Youth AI Privacy Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4199"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1748",
+      "title": "Kids Online Safety Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1748"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.737",
+      "title": "SCREEN Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/737"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4749",
+      "title": "JAWBONE Act",
+      "primary": "Online Speech & Platform Governance",
+      "secondary": "Transparency & Accountability",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4749",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s4749is/html/BILLS-119s4749is.htm"
+      ],
+      "reason": "The cause of action addresses government coercion of speech intermediaries, including AI speech providers; this is more specific than general AI regulation."
+    },
+    {
+      "id": "S.5648",
+      "title": "TAG Act",
+      "primary": "Government & Public-Sector AI",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5648"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3150",
+      "title": "GAIN AI Act of 2025",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3150"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4281",
+      "title": "Multilateral Alignment of Technology Controls on Hardware (MATCH) Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4281"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3519",
+      "title": "Remote Access Security Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3519"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3597",
+      "title": "National Quantum Initiative Reauthorization Act of 2026",
+      "primary": "Quantum Technology",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3597"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2558",
+      "title": "The National Quantum Cybersecurity Migration Strategy Act of 2025.",
+      "primary": "Quantum Technology",
+      "secondary": "Cybersecurity",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2558"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.2794",
+      "title": "NO FAKES Act of 2025",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/2794"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5885",
+      "title": "GAIN AI Act of 2025",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5885"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7434",
+      "title": "AI Grand Challenges Act of 2026",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7434"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9442",
+      "title": "Artificial Intelligence Data Center Moratorium Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "AI Regulation & Governance",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9442"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.146",
+      "title": "TAKE IT DOWN Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/146"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1792",
+      "title": "AI Whistleblower Protection Act",
+      "primary": "Transparency & Accountability",
+      "secondary": "Frontier AI Safety & Security",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1792"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.1833",
+      "title": "Leadership in CET Act",
+      "primary": "Intellectual Property",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/1833"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3108",
+      "title": "AI-Related Job Impacts Clarity Act",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3108"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4441",
+      "title": "CREATE AI Act",
+      "primary": "Standards, Testing & Research",
+      "secondary": "AI Economy, Competition & Innovation",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4441"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4456",
+      "title": "AI OVERWATCH Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4456"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4591",
+      "title": "NO FAKES Act of 2026",
+      "primary": "Synthetic Media & Content",
+      "secondary": "Intellectual Property",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4591"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4762",
+      "title": "Generative AI Terrorism Risk Assessment Act",
+      "primary": "National Security & Defense",
+      "secondary": "Government & Public-Sector AI",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4762",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s4762is/html/BILLS-119s4762is.htm"
+      ],
+      "reason": "The counterpart also requires terrorism-threat assessments for generative AI generally, rather than frontier-specific safeguards."
+    },
+    {
+      "id": "H.R.1623",
+      "title": "SCREEN Act",
+      "primary": "Children & Youth",
+      "secondary": "Privacy & Data Governance",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/1623"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.5712",
+      "title": "Quantum LEAP Act of 2025",
+      "primary": "Quantum Technology",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/5712"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6322",
+      "title": "Stop Stealing our Chips Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "Semiconductors & Advanced Tech",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6322"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7218",
+      "title": "CHAT Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7218"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7399",
+      "title": "Kids Off Social Media Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7399"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.7433",
+      "title": "Kids Off Social Media Act",
+      "primary": "Children & Youth",
+      "secondary": "Education, Workforce & Literacy",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/7433"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8241",
+      "title": "Power for the People Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8241"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.8623",
+      "title": "GUARD Act",
+      "primary": "Children & Youth",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/8623"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9155",
+      "title": "CONSENT Act",
+      "primary": "Synthetic Media & Content",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9155"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.9825",
+      "title": "Data Center Water and Energy Transparency Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/9825"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.11015",
+      "title": "PHD Talent Act of 2026",
+      "primary": "Education, Workforce & Literacy",
+      "secondary": "Standards, Testing & Research",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/11015"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.2049",
+      "title": "NTIA Policy and Cybersecurity Coordination Act",
+      "primary": "Cybersecurity",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/2049"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.3355",
+      "title": "National Strategy for Combating Scams Act of 2025",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/3355"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4821",
+      "title": "STOP Scams Against Seniors Act",
+      "primary": "Fraud & Scams",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4821"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.4840",
+      "title": "Export Control Enforcement and Enhancement Act",
+      "primary": "Trade & Export Controls",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/4840"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5028",
+      "title": "Ratepayer Protection Act",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5028"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5333",
+      "title": "Advancing American Wi-Fi Against Foreign Adversaries Act",
+      "primary": "Telecommunications & Connectivity",
+      "secondary": "Standards, Testing & Research",
+      "decision": "updated",
+      "basis": "Official bill text, title and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5333",
+        "https://www.govinfo.gov/content/pkg/BILLS-119s5333is/html/BILLS-119s5333is.htm"
+      ],
+      "reason": "The Senate counterpart likewise concerns Wi-Fi, unlicensed spectrum, and international spectrum coordination."
+    },
+    {
+      "id": "S.5400",
+      "title": "STRIDE Act",
+      "primary": "Semiconductors & Advanced Tech",
+      "secondary": "Trade & Export Controls",
+      "decision": "retained",
+      "basis": "Official title, saved CRS summary and research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5400"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "H.R.6484",
+      "title": "Kids Online Safety Act",
+      "primary": "Children & Youth",
+      "secondary": "",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/house-bill/6484"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    },
+    {
+      "id": "S.5640",
+      "title": "Data Center Transparency Act of 2026",
+      "primary": "Data Centers, Energy & Infrastructure",
+      "secondary": "Transparency & Accountability",
+      "decision": "retained",
+      "basis": "Official title and maintained research summary",
+      "sources": [
+        "https://www.congress.gov/bill/119th-congress/senate-bill/5640"
+      ],
+      "reason": "The recorded policy subject and mechanism fit the stated focus-area definitions."
+    }
+  ]
+}

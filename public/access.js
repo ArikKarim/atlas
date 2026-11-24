@@ -6,10 +6,12 @@ const field=document.getElementById('access-password');
 const error=document.getElementById('access-error');
 const button=form.querySelector('button');
 async function openAtlas(){
-  await import('./app.js?v=secure-trends-1');
+  await import('./app.js?v=focus-review-1');
   document.getElementById('atlas-app').hidden=false;
   document.getElementById('password-gate').remove();
-  document.getElementById('tracker-tab').focus({preventScroll:true});
+  const content=document.getElementById('main');
+  content.setAttribute('tabindex','-1');
+  content.focus({preventScroll:true});
 }
 form.addEventListener('submit',async event=>{
   event.preventDefault();button.disabled=true;error.textContent='';
