@@ -8,7 +8,11 @@ The **Tracker** has 202 bills, sorted by bill number by default. You can search 
 
 The **Trends** tab looks at introductions over time, policy focus areas, lead sponsors, cosponsors, sponsor party, and SIIA engagement. You can switch between chambers and expand exact counts. Two companion charts show coverage across the House and Senate and the time between the first introduction in each chamber. Bill details link to tracked companions. The SIIA engagement card also has an expandable list of endorsed and engaged bills, with links to bill details and public SIIA materials. Each chart has a Share button for PNG, SVG, CSV, or a link to that chart.
 
-There's a light/dark toggle, and image exports follow the selected appearance. You can also export filtered bill results as CSV.
+Light mode uses a warm cream palette, with a dark-mode toggle. Image exports follow the selected appearance. I can filter by legislative stage or recent activity, sort by last action, and share an exact Tracker view, including its filters and page. Chart bars open the corresponding bill results and provide a return to the chart.
+
+The Companion families view compares every tracked version side by side, keeping each bill’s status, dates, sponsors, and engagement separate. CSV exports from that view include all tracked versions of the matching families.
+
+The **Methodology** tab explains scope, sources, category definitions, companion counting, engagement labels, and the steps needed to replicate the work. Its **Research history** page distinguishes editorial decisions from official-data updates. I record classification reviews and summary maintenance separately; an official refresh doesn’t imply that the research has been reviewed again.
 
 ## Access
 
@@ -40,7 +44,7 @@ I reviewed all 202 bills and corrected 11 primary or secondary assignments. I cl
 
 ## Working on the code
 
-The interface and data are in `public/`. `model.js` handles filtering and normalization, `charts.js` calculates the chart data, and `chart-export.js` and `chart-actions.js` handle exports and sharing. `server.mjs` runs the local server.
+The interface and data are in `public/`. `model.js` handles filtering and normalization, `charts.js` calculates the chart data, and `chart-export.js` and `chart-actions.js` handle exports and sharing. `tracker-view.js` handles Tracker and family views, `explore.js` handles reproducible filters and legislative stages, and `methodology.js` renders the research pages. `server.mjs` runs the local server.
 
 Run the checks with:
 
@@ -83,3 +87,9 @@ To regenerate the queue locally, set `CONGRESS_GOV_API_KEY` and run `npm run dis
 I use Congress.gov’s related-bill records to identify House–Senate counterparts, checking matching official titles and substantive purpose. A generic related-bill link alone does not make two proposals companions. Reviewed additions are recorded in `data/companion-additions.json`, and `data/companion-audit.json` lists the relationships used by the site. The daily workflow fills these approved additions with official sponsors, cosponsors, introduction dates, and actions, then refreshes the full tracker.
 
 Companion coverage counts each tracked bill once. Introduction-gap charts group connected companions into bill families and compare the earliest House introduction with the earliest Senate introduction, counting each family once. This avoids counting multiple House versions as separate cross-chamber gaps. Exact dates and family members are available below the chart.
+
+## Legislative stages and change history
+
+The action-history workflow retrieves every official action for each of the 202 tracked bills. Stages are derived from the actions on that bill: introduction/referral, committee activity, House passage, Senate passage, passage in both chambers, or enactment. A motion to pass a bill is not passage, and an enacted companion does not make another version enacted. The stage shown is the furthest milestone reached; the full latest action remains in Details.
+
+Action histories refresh daily at 11:53 UTC and when the action-sync code changes. The API key stays in the existing repository secret. `public/lifecycle.json` contains the histories. The main Congress.gov sync records substantive changes to official facts in `public/official-changes.json`, excluding refresh timestamps. `public/research.json` records editorial review dates, category definitions, and research events. Twenty summaries were cleaned to keep companion numbers and procedural facts in their structured fields.

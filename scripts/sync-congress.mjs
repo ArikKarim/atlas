@@ -1,6 +1,7 @@
 import {normalize} from '../public/model.js';
 import {readFile,writeFile,mkdir,rename} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
+import {recordOfficialChanges} from './official-history.mjs';
 const project=new URL('../',import.meta.url),apiRoot='https://api.congress.gov/v3/';
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 export function billIdentity(id){const m=/^(H\.R\.|S\.)([1-9]\d*)$/.exec(id);if(!m)throw Error('Unsupported bill identifier');return {congress:119,type:m[1]==='H.R.'?'hr':'s',number:Number(m[2])};}
@@ -73,6 +74,8 @@ export async function syncCongress(options={}){
  let previous;try{previous=JSON.parse(await readFile(new URL('public/congress-data.json',project),'utf8'));}catch{previous={records:{}};}
  let identities={};try{identities=JSON.parse(await readFile(new URL('data/congress-identities.json',project),'utf8')).records||{};}catch(error){if(error.code!=='ENOENT')throw Error('Invalid Congress.gov identity review file');}
  const result=await buildSnapshot(rows,{...options,previous,identities});
+ let history;try{history=JSON.parse(await readFile(new URL('public/official-changes.json',project),'utf8'));}catch{history={schemaVersion:1,events:[]};}
+ await atomicJson(new URL('public/official-changes.json',project),recordOfficialChanges(previous,result.snapshot,history));
  await mkdir(new URL('data/',project),{recursive:true});
  await atomicJson(new URL('data/congress-sync-report.json',project),result.report);
  await atomicJson(new URL('public/congress-data.json',project),result.snapshot);

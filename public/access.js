@@ -6,7 +6,7 @@ const field=document.getElementById('access-password');
 const error=document.getElementById('access-error');
 const button=form.querySelector('button');
 async function openAtlas(){
-  await import('./app.js?v=focus-review-1');
+  await import('./app.js?v=atlas-next-1');
   document.getElementById('atlas-app').hidden=false;
   document.getElementById('password-gate').remove();
   const content=document.getElementById('main');

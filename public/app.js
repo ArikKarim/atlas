@@ -1,14 +1,17 @@
+import {renderTracker} from './tracker-view.js?v=atlas-next-1';
+import {routeState,trackerHash,decorateBills} from './explore.js?v=atlas-next-1';
+import {methodologyPage,historyPage,reviewedDate} from './methodology.js?v=atlas-next-1';
 import {companionStats} from './companions.js';
-import {applyCongressData} from './congress.js?v=official-titles-1';
-import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=companions-1';
-import {addChartActions} from './chart-actions.js?v=companions-1';
-import {engagementUrl,engagementDescription,engagementContext} from './engagement.js?v=companions-1';
+import {applyCongressData} from './congress.js?v=atlas-next-1';
+import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=atlas-next-1';
+import {addChartActions} from './chart-actions.js?v=atlas-next-1';
+import {engagementUrl,engagementDescription,engagementContext} from './engagement.js?v=atlas-next-1';
 import {summarize,leadSponsorRankings} from './charts.js';
-import {normalize,filterBills,topicCounts,csv} from './model.js?v=official-titles-1';
+import {normalize,filterBills,topicCounts,csv} from './model.js?v=atlas-next-1';
 const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let raw=[],bills=[],page=1,filters={q:'',chamber:'',topic:'',engagement:''};
 const main=$('main'),dialog=$('#detail');
-let chartsChamber='',requestedChart='';
+let chartsChamber='',requestedChart='',snapshot={},research={},officialChanges={},familyData=[];
 const date=s=>s?new Date(s+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}):'Not recorded';
 const badge=b=>{if(!b.engagement)return '<span class="sub">No engagement recorded</span>';const label=esc(b.engagement.replace(/\.$/,'')),style=b.engagement.toLowerCase()==='endorsed.'?'green':'amber',url=engagementUrl(b);return url?'<a class="tag '+style+'" href="'+esc(url)+'" target="_blank" rel="noopener noreferrer" aria-label="'+label+': public SIIA material for '+esc(b.id)+' (opens in a new tab)" title="'+esc(engagementDescription(b))+'">'+label+'</a>':'<span class="tag '+style+'" title="Public SIIA material has not been linked for this bill">'+label+'</span>';};
 function show(html){$('#dialog-body').innerHTML=html;dialog.showModal();}
@@ -22,22 +25,10 @@ setTheme(savedTheme==='dark'||savedTheme==='light'?savedTheme:preference.matches
 $('#theme-toggle').onclick=()=>{savedTheme=document.documentElement.dataset.theme==='dark'?'light':'dark';setTheme(savedTheme);try{localStorage.setItem('atlas-theme',savedTheme)}catch{}};
 preference.addEventListener('change',e=>{if(!savedTheme)setTheme(e.matches?'dark':'light')});
 
-function tracker(){main.innerHTML=
- '<section class="page-heading"><div><h1>119th Congress AI bills</h1><p>2025–2026 · '+bills.length+' bills · '+bills.filter(b=>b.chamber==='House').length+' House · '+bills.filter(b=>b.chamber==='Senate').length+' Senate</p></div></section>'+
- '<form class="toolbar" id="filters"><label class="search-field">Search bills<input id="search" type="search" placeholder="Bill number, title, sponsor or text" value="'+esc(filters.q)+'"></label>'+
- '<label>Chamber<select id="chamber" aria-label="Chamber"><option value="">All chambers</option>'+['House','Senate'].map(x=>'<option '+(filters.chamber===x?'selected':'')+'>'+x+'</option>').join('')+'</select></label>'+
- '<label>Focus area<select id="topic" aria-label="Focus area"><option value="">All focus areas</option>'+[...new Set(bills.flatMap(b=>[b.primary,b.secondary]).filter(Boolean))].sort().map(x=>'<option '+(filters.topic===x?'selected':'')+'>'+esc(x)+'</option>').join('')+'</select></label>'+
- '<label>SIIA engagement<select id="engagement" aria-label="SIIA engagement"><option value="">All records</option><option value="recorded">Engagement recorded</option><option value="endorsed">Endorsed</option><option value="engaged">Engaged, not endorsed</option></select></label>'+
- '<label>Sort by<select id="sort" aria-label="Sort by"><option value="bill-number">Bill number</option><option value="cosponsors">Cosponsors: most first</option><option value="newest">Introduction date: newest to oldest</option><option value="oldest">Introduction date: oldest to newest</option><option value="title">Title: A–Z</option></select></label></form><div id="results"></div>';
- $('#engagement').value=filters.engagement;$('#sort').value=filters.sort||'bill-number';$('#filters').onsubmit=e=>e.preventDefault();$('#search').oninput=e=>{filters.q=e.target.value;page=1;results()};for(const id of ['chamber','topic','engagement','sort'])$('#'+id).onchange=e=>{filters[id]=e.target.value;page=1;results()};results();}
+function tracker(){renderTracker({main,bills,families:familyData,filters,page,badge,onState:(next,p)=>{filters={...next};page=p;},onChart:(chamber,chart)=>navigateChart(chamber,chart),onBill:billDetail});}
+function navigateChart(chamber,chart){chartsChamber=chamber;requestedChart=chart;showView('charts',{chamber,chart},true);}
 
-function results(){const rows=filterBills(bills,filters);if(!filters.sort||filters.sort==='bill-number')rows.sort((a,b)=>a.id.localeCompare(b.id,'en',{numeric:true}));if(filters.sort==='newest')rows.sort((a,b)=>b.introduced.localeCompare(a.introduced));if(filters.sort==='oldest')rows.sort((a,b)=>a.introduced.localeCompare(b.introduced));if(filters.sort==='title')rows.sort((a,b)=>a.title.localeCompare(b.title));if(filters.sort==='cosponsors')rows.sort((a,b)=>Number(b.cosponsorCount)-Number(a.cosponsorCount));const size=filters.size==='all'?Math.max(1,rows.length):Number(filters.size||25),pages=Math.max(1,Math.ceil(rows.length/size));page=Math.min(page,pages);const start=(page-1)*size,active=filters.q||filters.chamber||filters.topic||filters.engagement;
- $('#results').innerHTML='<div class="result-line"><span role="status" aria-live="polite"><strong>'+rows.length+'</strong> '+(active?(rows.length===1?'matching bill':'matching bills'):(rows.length===1?'bill':'bills'))+(rows.length?' · Showing '+(start+1)+'–'+Math.min(page*size,rows.length):'')+'</span><div><button class="plain" id="reset" '+(!active?'disabled':'')+'>Clear filters</button><button class="plain" id="export" '+(!rows.length?'disabled':'')+'>Export CSV'+(active?' ('+rows.length+')':'')+'</button></div></div>'+
- '<div class="table-wrap" tabindex="0" role="region" aria-label="Bill results, scroll horizontally for more columns"><table><thead><tr><th scope="col">Bill</th><th scope="col">Title</th><th scope="col">Focus area</th><th scope="col">Lead sponsors</th><th scope="col">Latest action</th><th scope="col">SIIA engagement</th></tr></thead><tbody>'+rows.slice(start,start+size).map(b=>'<tr><td class="id-cell"><button class="bill-number" data-bill="'+esc(b.id)+'">'+esc(b.id)+'</button><span class="sub">'+b.chamber+'</span></td><td class="title-cell"><button class="bill-title" data-bill="'+esc(b.id)+'">'+esc(b.title)+'</button><span class="sub">Introduced '+date(b.introduced)+' · '+esc(b.cosponsorCount)+' '+(Number(b.cosponsorCount)===1?'cosponsor':'cosponsors')+'</span></td><td class="topic-cell">'+esc(b.primary)+(b.secondary?'<div class="sub">'+esc(b.secondary)+'</div>':'')+'</td><td class="sponsor-cell">'+esc(b.sponsor)+'</td><td class="action-cell"><span class="action-text">'+(esc(b.action)||'Not recorded')+'</span><button class="detail-link" data-bill="'+esc(b.id)+'" aria-label="Details for '+esc(b.id)+'">Details</button></td><td class="engagement-cell">'+badge(b)+'</td></tr>').join('')+'</tbody></table>'+(!rows.length?'<div class="empty">No bills match these filters. Change your search or clear the filters.</div>':'')+'</div>'+
- '<div class="pager"><label>Rows per page <select id="page-size" aria-label="Rows per page"><option value="25">25</option><option value="50">50</option><option value="all">All</option></select></label><div role="group" aria-label="Pagination"><button type="button" class="plain page-arrow" id="first" aria-label="First page" title="First page" '+(page===1?'disabled':'')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m11 17-5-5 5-5m7 10-5-5 5-5"/></svg></button><button type="button" class="plain page-arrow" id="prev" aria-label="Previous page" title="Previous page" '+(page===1?'disabled':'')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m15 18-6-6 6-6"/></svg></button><span class="page-position" tabindex="-1" aria-live="polite" aria-atomic="true">Page '+page+' of '+pages+'</span><button type="button" class="plain page-arrow" id="next" aria-label="Next page" title="Next page" '+(page===pages?'disabled':'')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m9 18 6-6-6-6"/></svg></button><button type="button" class="plain page-arrow" id="last" aria-label="Last page" title="Last page" '+(page===pages?'disabled':'')+'><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m6 17 5-5-5-5m7 10 5-5-5-5"/></svg></button></div></div>';
- $('#page-size').value=String(filters.size||25);$('#page-size').onchange=e=>{filters.size=e.target.value;page=1;results()};const navigate=(target,id)=>{page=Math.max(1,Math.min(pages,target));results();$('.table-wrap').scrollTop=0;const control=$('#'+id);(control.disabled?$('.page-position'):control).focus({preventScroll:true});};$('#first').onclick=()=>navigate(1,'first');$('#prev').onclick=()=>navigate(page-1,'prev');$('#next').onclick=()=>navigate(page+1,'next');$('#last').onclick=()=>navigate(pages,'last');$('#reset').onclick=()=>{filters={q:'',chamber:'',topic:'',engagement:'',sort:filters.sort,size:filters.size};page=1;tracker()};$('#export').onclick=()=>download('atlas-119th-congress.csv',csv(rows),'text/csv;charset=utf-8');}
-
-function billDetail(id){const b=bills.find(x=>x.id===id);if(!b)return;show(`<span class="eyebrow">119th Congress · ${b.chamber}</span><h2>${esc(b.title)}</h2><p><span class="bill-id">${esc(b.id)}</span> &nbsp; ${badge(b)}</p>${engagementContext(b)?`<p class="small-note">${esc(engagementContext(b))}</p>`:''}<dl><dt>Primary focus</dt><dd>${esc(b.primary)}</dd><dt>Secondary focus</dt><dd>${esc(b.secondary)||'Not recorded'}</dd><dt>Lead sponsors</dt><dd>${esc(b.sponsor)}</dd><dt>Cosponsors (${esc(b.cosponsorCount)})</dt><dd>${esc(b.cosponsors)||(Number(b.cosponsorCount)===0?'None':'Not recorded')}</dd><dt>Introduction date</dt><dd>${date(b.introduced)}</dd>${b.congressData?`<dt>Congress.gov checked</dt><dd>${new Date(b.congressData.verifiedAt).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</dd>`:''}</dl>${b.companions?.length?`<h3>Companion bills</h3><p>${b.companions.map(c=>`<button class="bill-number" data-bill="${esc(c.id)}">${esc(c.id)}</button>`).join(' · ')}</p>`:''}<h3>Latest recorded action</h3><p>${esc(b.action)||'Not recorded'}</p><h3>Summary</h3><p>${esc(b.summary)||'Not recorded'}</p><p><a class="textlink" href="${esc(b.url)}" target="_blank" rel="noopener noreferrer">View on Congress.gov</a></p>`);}
+function billDetail(id){const b=bills.find(x=>x.id===id);if(!b)return;show(`<span class="eyebrow">119th Congress · ${b.chamber}</span><h2>${esc(b.title)}</h2><p><span class="bill-id">${esc(b.id)}</span> &nbsp; ${badge(b)}</p>${engagementContext(b)?`<p class="small-note">${esc(engagementContext(b))}</p>`:''}<dl><dt>Status</dt><dd>${esc(b.stage)}</dd><dt>Last action date</dt><dd>${date(b.lastActionDate)}</dd><dt>Primary focus</dt><dd>${esc(b.primary)}</dd><dt>Secondary focus</dt><dd>${esc(b.secondary)||'Not recorded'}</dd><dt>Lead sponsors</dt><dd>${esc(b.sponsor)}</dd><dt>Cosponsors (${esc(b.cosponsorCount)})</dt><dd>${esc(b.cosponsors)||(Number(b.cosponsorCount)===0?'None':'Not recorded')}</dd><dt>Introduction date</dt><dd>${date(b.introduced)}</dd>${b.congressData?`<dt>Congress.gov checked</dt><dd>${new Date(b.congressData.verifiedAt).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})}</dd>`:''}</dl>${b.companions?.length?`<h3>Companion bills</h3><p>${b.companions.map(c=>`<button class="bill-number" data-bill="${esc(c.id)}">${esc(c.id)}</button>`).join(' · ')}</p>`:''}<h3>Latest recorded action</h3><p>${esc(b.action)||'Not recorded'}</p><h3>Summary</h3><p>${esc(b.summary)||'Not recorded'}</p><details class="bill-research"><summary>Sources and research reviews</summary><dl><dt>Focus-area review</dt><dd>${reviewedDate(research.focusReviewedAt)}</dd>${research.summaryReviewedAt?.[b.id]?`<dt>Summary maintenance</dt><dd>${reviewedDate(research.summaryReviewedAt[b.id])}</dd>`:''}<dt>Classification</dt><dd>Editorial research</dd><dt>Official facts</dt><dd>Congress.gov</dd></dl><p>${esc(research.definitions?.[b.primary]||'')}</p>${research.events?.find(e=>e.kind==='Classification')?.changes?.find(c=>c.id===b.id)?`<p>${esc(research.events.find(e=>e.kind==='Classification').changes.find(c=>c.id===b.id).reason)}</p>`:''}<button class="text-button" data-view-link="history">View research history</button></details>${b.actionHistory?.length?`<details><summary>Official action history (${b.actionHistory.length})</summary><ol class="action-history">${[...b.actionHistory].reverse().map(a=>`<li><time>${date(a.date)}</time><p>${esc(a.text)}</p></li>`).join('')}</ol></details>`:''}<p><a class="textlink" href="${esc(b.url)}" target="_blank" rel="noopener noreferrer">View on Congress.gov</a></p>`);}
 function download(name,value,type){const url=URL.createObjectURL(new Blob([value],{type}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function legend(){if(chartsChamber)return '<span class="chart-key"><i class="'+chartsChamber.toLowerCase()+'-swatch"></i>'+chartsChamber+'</span>';return '<span class="chart-key"><i class="house-swatch"></i>House</span><span class="chart-key"><i class="senate-swatch"></i>Senate</span>';}
 function monthlyChart(months){
@@ -85,7 +76,7 @@ function organizeCharts(data){
   const footer=panel.querySelector('.sponsor-scale,.chart-values');if(footer)panel.insertBefore(plot,footer);else panel.append(plot);
   const sponsorScale=panel.querySelector('.sponsor-scale');if(sponsorScale)plot.append(sponsorScale);
   const title=panel.querySelector('.chart-heading h2').textContent;
-  const spec=specs.find(s=>s.title===title);if(spec)addChartActions(panel,spec,chartsChamber);
+  const spec=specs.find(s=>s.title===title);if(spec){addChartActions(panel,spec,chartsChamber);wirePlotLinks(panel,spec);}
   const cardFooter=document.createElement('div');cardFooter.className='chart-footer';
   const values=panel.querySelector('.chart-values'),actions=panel.querySelector('.chart-actions');
   if(actions)panel.querySelector('.chart-heading').append(actions);if(values){cardFooter.append(values);panel.append(cardFooter);}
@@ -94,6 +85,32 @@ function organizeCharts(data){
  }
  const original=main.querySelector('.chart-layout'),patterns=main.querySelector('.pattern-grid');original.before(dashboard);original.remove();patterns.remove();
 }
+
+function wirePlotLinks(panel,spec){
+ const base=chartsChamber?{chamber:chartsChamber}:{};
+ panel.querySelector('.sponsor-bars')?.setAttribute('role','group');
+ const attach=(node,selection,label,keyboard=true)=>{if(!node)return;node.dataset.explore=JSON.stringify(selection);node.classList.add('explore-target');node.title='View matching bills in Tracker';if(keyboard){node.tabIndex=0;node.setAttribute('role','link');node.setAttribute('aria-label',(node.getAttribute('aria-label')||label)+'. View matching bills in Tracker');}};
+ if(spec.id==='monthly-introductions'){
+  panel.querySelectorAll('.monthly-chart g').forEach((node,i)=>{const row=spec.rows[i];attach(node,{...base,month:row.label},row.label);node.querySelectorAll('rect').forEach((rect,j)=>attach(rect,{month:row.label,chamber:j===0?'House':'Senate'},row.label,false));});return;
+ }
+ const selector=spec.id==='engagement-by-area'?'.engagement-topic-row':spec.id==='siia-engagement'?'.status-row':spec.id.endsWith('-sponsors')?'.sponsor-row':'.topic-row';
+ panel.querySelectorAll(selector).forEach((node,i)=>{const row=spec.rows[i];if(!row)return;let selection={...base};
+  if(spec.id==='focus-areas')selection={...base,topic:row.label,primaryOnly:'1'};
+  else if(spec.id==='policy-overlap')selection={...base,pair:JSON.stringify(row.label.split(' + '))};
+  else if(spec.id==='engagement-by-area')selection={...base,topic:row.label,primaryOnly:'1',engagement:'recorded'};
+  else if(spec.id==='cosponsor-distribution')selection={...base,band:row.label.replace(' cosponsors','')};
+  else if(spec.id==='siia-engagement')selection={...base,engagement:i===0?'endorsed':i===1?'engaged':'unrecorded'};
+  else if(spec.id.endsWith('-sponsors'))selection={chamber:spec.scope,sponsor:row.label};
+  else if(spec.id==='sponsor-party')selection={...base,party:['D','R','I','other'][i]};
+  else if(spec.id==='companion-coverage')selection={...base,companion:i===0?'yes':'no'};
+  else if(spec.id==='companion-gaps')selection={view:'families',gap:row.label};
+  else return;
+  attach(node,selection,row.label);
+  if(['focus-areas','policy-overlap','cosponsor-distribution','sponsor-party','companion-coverage'].includes(spec.id))node.querySelectorAll('.stacked-bar>span').forEach((segment,j)=>attach(segment,{...selection,chamber:j===0?'House':'Senate'},row.label,false));
+  if(spec.id==='engagement-by-area')node.querySelectorAll('.engagement-stack>span').forEach((segment,j)=>attach(segment,{...selection,engagement:j===0?'endorsed':'engaged'},row.label,false));
+ });
+}
+
 function engagementDetails(rows){
  const groups=[{label:'Endorsed',style:'green',match:b=>b.engagement.toLowerCase()==='endorsed.'},{label:'Engaged, not endorsed',style:'amber',match:b=>b.engagement.toLowerCase().startsWith('engaged,')}].map(group=>({...group,bills:rows.filter(group.match).sort((a,b)=>a.id.localeCompare(b.id,undefined,{numeric:true}))}));
  const count=groups.reduce((n,g)=>n+g.bills.length,0);
@@ -113,13 +130,27 @@ function charts(){
  organizeCharts(data);
  $('#chart-chamber').value=chartsChamber;$('#chart-chamber').onchange=e=>{chartsChamber=e.target.value;history.replaceState(null,'',patternsHash(chartsChamber));charts()};
 }
-function showView(view,state){const chartView=view==='charts';if(state){chartsChamber=state.chamber;requestedChart=state.chart;}document.querySelectorAll('[data-view]').forEach(button=>{const selected=button.dataset.view===view;button.setAttribute('aria-selected',String(selected));button.tabIndex=selected?0:-1;});main.setAttribute('aria-labelledby',chartView?'charts-tab':'tracker-tab');history.replaceState(null,'',chartView?patternsHash(chartsChamber,requestedChart):'#tracker');if(chartView){charts();if(requestedChart){const target=document.getElementById(requestedChart);if(target&&target.classList.contains('chart-panel'))requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));requestedChart='';}}else tracker();}
-
-document.querySelectorAll('[data-view]').forEach(button=>{button.onclick=()=>showView(button.dataset.view);button.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const next=e.key==='Home'?'tracker':e.key==='End'?'charts':button.dataset.view==='tracker'?'charts':'tracker';showView(next);$('#'+next+'-tab').focus();}};});
-window.addEventListener('hashchange',()=>{const state=readPatternsHash(location.hash);showView(state.view,state)});
-document.addEventListener('click',e=>{const b=e.target.closest('[data-bill]');if(b)billDetail(b.dataset.bill)});
-
-try{const response=await fetch(new URL('./bills.json',import.meta.url),{cache:'no-cache'});if(!response.ok)throw Error('Source unavailable');raw=await response.json();let snapshot;try{const apiResponse=await fetch(new URL('./congress-data.json',import.meta.url),{cache:'no-cache'});if(apiResponse.ok)snapshot=await apiResponse.json();}catch{}bills=applyCongressData(normalize(raw),snapshot);showView(readPatternsHash(location.hash).view,readPatternsHash(location.hash))}catch{main.innerHTML='<div class="notice">The tracker data could not be loaded. Restart Atlas and refresh this page.</div>'}
-
-
-
+function showView(view,state,push=false){
+ if(state){if(view==='tracker'){filters={...(state.filters||{})};page=state.page||1;}else if(view==='charts'){chartsChamber=state.chamber||'';requestedChart=state.chart||'';}}
+ const selectedView=view==='history'?'methodology':view;
+ document.querySelectorAll('[data-view]').forEach(button=>{const selected=button.dataset.view===selectedView;button.setAttribute('aria-selected',String(selected));button.tabIndex=selected?0:-1;});
+ main.setAttribute('aria-labelledby',view==='charts'?'charts-tab':selectedView==='methodology'?'methodology-tab':'tracker-tab');
+ const hash=view==='charts'?patternsHash(chartsChamber,requestedChart):view==='tracker'?trackerHash(filters,page):'#'+view+(state?.section?'?section='+state.section:'');
+ if(location.hash!==hash)history[push?'pushState':'replaceState'](null,'',hash);
+ if(view==='charts'){charts();if(requestedChart){const target=document.getElementById(requestedChart);if(target)requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));requestedChart='';}}
+ else if(view==='methodology'){main.innerHTML=methodologyPage({bills,snapshot,research,families:familyData});if(state?.section)requestAnimationFrame(()=>document.getElementById('methodology-section-'+state.section)?.scrollIntoView({block:'start'}));}
+ else if(view==='history')main.innerHTML=historyPage(research,snapshot,officialChanges);
+ else tracker();
+ if(view!=='charts'||!state?.chart)window.scrollTo({top:0});
+}
+for(const button of document.querySelectorAll('[data-view]')){button.onclick=()=>showView(button.dataset.view,null,true);button.onkeydown=e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const tabs=[...document.querySelectorAll('[data-view]')],i=tabs.indexOf(button),next=e.key==='Home'?tabs[0]:e.key==='End'?tabs.at(-1):tabs[(i+(e.key==='ArrowRight'?1:-1)+tabs.length)%tabs.length];showView(next.dataset.view,null,true);next.focus();}};}
+const restore=()=>{const state=routeState(location.hash);showView(state.view,state);};
+window.addEventListener('hashchange',restore);window.addEventListener('popstate',restore);
+function openTrackerSelection(selection,chart){filters={...selection,returnChart:chart,returnChamber:chartsChamber};page=1;showView('tracker',null,true);main.setAttribute('tabindex','-1');main.focus({preventScroll:true});}
+document.addEventListener('click',e=>{const bill=e.target.closest('[data-bill]');if(bill){billDetail(bill.dataset.bill);return;}const nav=e.target.closest('[data-view-link]');if(nav){dialog.close();showView(nav.dataset.viewLink,null,true);return;}const section=e.target.closest('[data-section]');if(section){e.preventDefault();document.getElementById(section.dataset.section)?.scrollIntoView({block:'start',behavior:'smooth'});history.replaceState(null,'','#methodology?section='+section.dataset.section.split('-').at(-1));return;}const plot=e.target.closest('[data-explore]');if(plot){let selection;try{selection=JSON.parse(plot.dataset.explore)}catch{return;}openTrackerSelection(selection,plot.closest('.chart-panel').id);}});
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('[data-explore]')){e.preventDefault();e.target.click();}});
+try{
+ const load=async name=>{const r=await fetch(new URL('./'+name,import.meta.url),{cache:'no-cache'});if(!r.ok)throw Error(name);return r.json();};
+ const [source,official,review,activity,lifecycle]=await Promise.all([load('bills.json'),load('congress-data.json').catch(()=>({})),load('research.json').catch(()=>({})),load('official-changes.json').catch(()=>({})),load('lifecycle.json').catch(()=>({}))]);
+ raw=source;snapshot=official;research=review;officialChanges=activity;bills=decorateBills(applyCongressData(normalize(raw),snapshot),lifecycle);familyData=companionStats(bills).families;restore();
+}catch(error){console.error('Atlas initialization failed',error);main.innerHTML='<div class="notice">The tracker data could not be loaded. Refresh this page to try again.</div>';}

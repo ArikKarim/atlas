@@ -25,7 +25,7 @@ export function chartSpecs(bills,chamber=''){
 const xml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
 function wrap(text,limit=40){const words=String(text).split(/\s+/),lines=[];let line='';for(const word of words){if(line&&line.length+word.length+1>limit){lines.push(line);line=word;}else line+=(line?' ':'')+word;}if(line)lines.push(line);return lines.length?lines:[''];}
 export function chartSvg(spec,theme='light'){
- const dark=theme==='dark',background=dark?'#181a1d':'#ffffff',axisColor=dark?'#343940':'#e3e6e9',textColor=dark?'#e4e6e9':'#20252b',muted=dark?'#abb1b9':'#616a74';
+ const dark=theme==='dark',background=dark?'#181a1d':'#fbf9f3',axisColor=dark?'#343940':'#ded8cc',textColor=dark?'#e4e6e9':'#292b2b',muted=dark?'#abb1b9':'#62665f';
  const colors=dark?{'#3974ad':'#7ba7d2','#a765a5':'#c79cc6','#64748b':'#9baabd'}:{};
  const color=value=>colors[value]||value;
  spec={...spec,series:spec.series.map(s=>({...s,color:color(s.color)})),rows:spec.rows.map(r=>({...r,color:r.color?color(r.color):undefined}))};

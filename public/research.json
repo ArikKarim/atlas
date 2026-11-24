@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "focusReviewedAt": "2026-11-24T02:17:59.002Z",
+  "definitions": {
+    "AI Economy, Competition & Innovation": "Competition, market access, commercial innovation, investment, and economic incentives related to AI or the broader digital economy.",
+    "AI Regulation & Governance": "Cross-sector AI regulatory frameworks, liability, preemption, regulatory sandboxes, and public oversight or ethical governance.",
+    "Children & Youth": "Protections, age assurance, parental controls, and AI or online services specifically directed at minors.",
+    "Cybersecurity": "Security of systems, networks, AI agents and models; incident reporting, cyber workforce and cyber resilience.",
+    "Data Centers, Energy & Infrastructure": "Data-center development, electricity and water demand, utility rates, grid capacity, and associated physical infrastructure.",
+    "Digital Assets & Financial Regulation": "Digital-asset market structure, financial oversight of digital commodities, and central-bank digital-currency restrictions.",
+    "Education, Workforce & Literacy": "AI literacy, education, training, employment, worker protections and workforce capacity, including relevant public-sector hiring.",
+    "Fraud & Scams": "Consumer or financial deception, scam prevention, cybercrime schemes and related enforcement.",
+    "Frontier AI Safety & Security": "Evaluation, control, security or systemic-risk governance of advanced or state-of-the-art AI systems; not every use of AI by an adversary.",
+    "Government & Public-Sector AI": "Public-sector AI adoption, procurement, agency AI operations, and AI-specific federal administrative requirements.",
+    "Intellectual Property": "Patents, copyright, digital-replica rights, training-data rights and protection of proprietary model capabilities.",
+    "National Security & Defense": "AI or emerging-technology threats involving terrorism, foreign adversaries, defense applications, intelligence and national-security coordination.",
+    "Online Speech & Platform Governance": "Government coercion of speech intermediaries, platform editorial independence and content-governance rules, including AI speech providers.",
+    "Privacy & Data Governance": "Personal-data rights, data handling and consent, data security, public-data stewardship and interoperability.",
+    "Quantum Technology": "Quantum research, commercialization, government deployment, coordination and migration to post-quantum cryptography.",
+    "Sector-Specific AI": "AI applications or oversight in a defined industry such as financial services, health, weather or laboratory science.",
+    "Semiconductors & Advanced Tech": "Semiconductor hardware, manufacturing, supply chains and other explicitly covered critical/emerging hardware technologies; wireless-spectrum policy has its own category.",
+    "Standards, Testing & Research": "Technical standards, evaluation methods, research resources, testbeds and scientific research programs.",
+    "Synthetic Media & Content": "Digital replicas, deepfakes, intimate visual depictions, provenance, labeling and other AI-related content protections; some bills also cover authentic content.",
+    "Telecommunications & Connectivity": "Wireless connectivity, spectrum, Wi-Fi policy and international communications-technology coordination.",
+    "Trade & Export Controls": "Export restrictions, licensing, international technology controls and related trade-policy enforcement or protections.",
+    "Transparency & Accountability": "Disclosure, reporting, audits, impact assessments, explainability, whistleblowing and mechanisms for holding AI actors accountable."
+  },
+  "summaryReviewedAt": {
+    "H.R.1000": "2026-11-24T02:27:37.020Z",
+    "H.R.2770": "2026-11-24T02:27:37.020Z",
+    "H.R.8915": "2026-11-24T02:27:37.020Z",
+    "H.R.3220": "2026-11-24T02:27:37.020Z",
+    "H.R.3447": "2026-11-24T02:27:37.020Z",
+    "H.R.3562": "2026-11-24T02:27:37.020Z",
+    "H.R.4801": "2026-11-24T02:27:37.020Z",
+    "H.R.5511 ": "2026-11-24T02:27:37.020Z",
+    "H.R.6621": "2026-11-24T02:27:37.020Z",
+    "H.R.633": "2026-11-24T02:27:37.020Z",
+    "H.R.5360": "2026-11-24T02:27:37.020Z",
+    "H.R.8285": "2026-11-24T02:27:37.020Z",
+    "H.R.4505": "2026-11-24T02:27:37.020Z",
+    "S.1837": "2026-11-24T02:27:37.020Z",
+    "S.1705": "2026-11-24T02:27:37.020Z",
+    "S.1367": "2026-11-24T02:27:37.020Z",
+    "S.1378": "2026-11-24T02:27:37.020Z",
+    "S.1344": "2026-11-24T02:27:37.020Z",
+    "S.438": "2026-11-24T02:27:37.020Z",
+    "S.2528": "2026-11-24T02:27:37.020Z"
+  },
+  "events": [
+    {
+      "date": "2026-11-23T03:52:21.369Z",
+      "kind": "Scope and companions",
+      "title": "32 reviewed companions added",
+      "description": "Added reviewed House–Senate counterparts to the original 170-bill tracker, bringing it to 202 bills.",
+      "changes": [
+        {
+          "id": "H.R.2794",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.5885",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.7434",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.9442",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.146",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.1792",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.1833",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.3108",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4441",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4456",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4591",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4762",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.1623",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.5712",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.6322",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.7218",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.7399",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.7433",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.8241",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.8623",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.9155",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.9825",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.11015",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.2049",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.3355",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4821",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.4840",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.5028",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.5333",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.5400",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "H.R.6484",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        },
+        {
+          "id": "S.5640",
+          "reason": "Added a reviewed counterpart with official facts, a research summary and focus areas."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24T02:17:59.002Z",
+      "kind": "Classification",
+      "title": "Focus areas reviewed across 202 bills",
+      "description": "Updated 11 primary or secondary assignments and documented definitions for 22 focus areas.",
+      "changes": [
+        {
+          "id": "H.R.1736",
+          "before": {
+            "primary": "Government & Public-Sector AI",
+            "secondary": "Frontier AI Safety & Security"
+          },
+          "after": {
+            "primary": "National Security & Defense",
+            "secondary": "Government & Public-Sector AI"
+          },
+          "reason": "DHS terrorism-threat assessments cover generative AI broadly, without a frontier-model capability threshold.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr1736ih/html/BILLS-119hr1736ih.htm"
+          ]
+        },
+        {
+          "id": "H.R.7058",
+          "before": {
+            "primary": "Frontier AI Safety & Security",
+            "secondary": ""
+          },
+          "after": {
+            "primary": "National Security & Defense",
+            "secondary": ""
+          },
+          "reason": "The bill directs foreign-adversary risk assessments and diplomacy covering malicious generative-AI uses; it does not target only frontier models.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr7058ih/html/BILLS-119hr7058ih.htm"
+          ]
+        },
+        {
+          "id": "H.R.8283",
+          "before": {
+            "primary": "Frontier AI Safety & Security",
+            "secondary": "Intellectual Property"
+          },
+          "after": {
+            "primary": "National Security & Defense",
+            "secondary": "Intellectual Property"
+          },
+          "reason": "The bill deters foreign-adversary extraction of proprietary closed-source AI capabilities, including models without a frontier-model threshold.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr8283ih/html/BILLS-119hr8283ih.htm"
+          ]
+        },
+        {
+          "id": "H.R.3633",
+          "before": {
+            "primary": "N/A",
+            "secondary": ""
+          },
+          "after": {
+            "primary": "Digital Assets & Financial Regulation",
+            "secondary": ""
+          },
+          "reason": "Replaces N/A: the bill establishes digital-commodity market regulation and CBDC restrictions; it is retained as a broader digital-policy bill, not relabeled as AI regulation.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr3633rs/html/BILLS-119hr3633rs.htm"
+          ]
+        },
+        {
+          "id": "H.R.9151",
+          "before": {
+            "primary": "Semiconductors & Advanced Tech",
+            "secondary": "Standards, Testing & Research"
+          },
+          "after": {
+            "primary": "Telecommunications & Connectivity",
+            "secondary": "Standards, Testing & Research"
+          },
+          "reason": "The operative requirements concern Wi-Fi, unlicensed spectrum, and international spectrum coordination, rather than semiconductor manufacturing.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr9151ih/html/BILLS-119hr9151ih.htm"
+          ]
+        },
+        {
+          "id": "S.1331",
+          "before": {
+            "primary": "Quantum Technology",
+            "secondary": ""
+          },
+          "after": {
+            "primary": "Quantum Technology",
+            "secondary": "National Security & Defense"
+          },
+          "reason": "Adds the explicit defense/national-security mission of the proposed DoD quantum office as a secondary focus.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s1331is/html/BILLS-119s1331is.htm"
+          ]
+        },
+        {
+          "id": "S.1346",
+          "before": {
+            "primary": "Quantum Technology",
+            "secondary": ""
+          },
+          "after": {
+            "primary": "Quantum Technology",
+            "secondary": "National Security & Defense"
+          },
+          "reason": "Adds the explicit defense mission of accelerating operational adoption of quantum technology by DoD.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s1346is/html/BILLS-119s1346is.htm"
+          ]
+        },
+        {
+          "id": "S.5061",
+          "before": {
+            "primary": "Cybersecurity",
+            "secondary": "Transparency & Accountability"
+          },
+          "after": {
+            "primary": "Cybersecurity",
+            "secondary": "Frontier AI Safety & Security"
+          },
+          "reason": "Keeps cybersecurity primary and replaces the generic disclosure tag with the substantive frontier-model pre-release testing and risk-board provisions in section 3.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s5061is/html/BILLS-119s5061is.htm"
+          ]
+        },
+        {
+          "id": "S.4749",
+          "before": {
+            "primary": "AI Regulation & Governance",
+            "secondary": "Transparency & Accountability"
+          },
+          "after": {
+            "primary": "Online Speech & Platform Governance",
+            "secondary": "Transparency & Accountability"
+          },
+          "reason": "The cause of action addresses government coercion of speech intermediaries, including AI speech providers; this is more specific than general AI regulation.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s4749is/html/BILLS-119s4749is.htm"
+          ]
+        },
+        {
+          "id": "S.4762",
+          "before": {
+            "primary": "Government & Public-Sector AI",
+            "secondary": "Frontier AI Safety & Security"
+          },
+          "after": {
+            "primary": "National Security & Defense",
+            "secondary": "Government & Public-Sector AI"
+          },
+          "reason": "The counterpart also requires terrorism-threat assessments for generative AI generally, rather than frontier-specific safeguards.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s4762is/html/BILLS-119s4762is.htm"
+          ]
+        },
+        {
+          "id": "S.5333",
+          "before": {
+            "primary": "Semiconductors & Advanced Tech",
+            "secondary": "Standards, Testing & Research"
+          },
+          "after": {
+            "primary": "Telecommunications & Connectivity",
+            "secondary": "Standards, Testing & Research"
+          },
+          "reason": "The Senate counterpart likewise concerns Wi-Fi, unlicensed spectrum, and international spectrum coordination.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s5333is/html/BILLS-119s5333is.htm"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24T02:27:37.020Z",
+      "kind": "Summary maintenance",
+      "title": "Separated summaries from procedural facts",
+      "description": "Removed companion-number references and procedural claims from 20 summaries. Structured companion links and Congress.gov actions carry those facts.",
+      "changes": [
+        {
+          "id": "H.R.1000",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.2770",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.8915",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.3220",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.3447",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.3562",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.4801",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.5511 ",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.6621",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.633",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.5360",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.8285",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "H.R.4505",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.1837",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.1705",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.1367",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.1378",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.1344",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.438",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        },
+        {
+          "id": "S.2528",
+          "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        }
+      ]
+    }
+  ]
+}
