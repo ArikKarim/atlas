@@ -12,7 +12,7 @@ Light mode uses a warm cream palette, with a dark-mode toggle. Image exports fol
 
 The Companion families view compares every tracked version side by side, keeping each bill’s status, dates, sponsors, and engagement separate. CSV exports from that view include all tracked versions of the matching families.
 
-The **Methodology** tab explains scope, sources, category definitions, companion counting, engagement labels, and the steps needed to replicate the work. Its **Research history** page distinguishes editorial decisions from official-data updates. I record classification reviews and summary maintenance separately; an official refresh doesn’t imply that the research has been reviewed again.
+The **Methodology** tab explains scope, sources, category definitions, companion counting, and SIIA engagement labels. Its **Research history** page distinguishes editorial decisions from official-data updates. I record classification reviews and summary maintenance separately; an official refresh doesn’t imply that the research has been reviewed again.
 
 ## Access
 
@@ -93,3 +93,4 @@ Companion coverage counts each tracked bill once. Introduction-gap charts group 
 The action-history workflow retrieves every official action for each of the 202 tracked bills. Stages are derived from the actions on that bill: introduction/referral, committee activity, House passage, Senate passage, passage in both chambers, or enactment. A motion to pass a bill is not passage, and an enacted companion does not make another version enacted. The stage shown is the furthest milestone reached; the full latest action remains in Details.
 
 Action histories refresh daily at 11:53 UTC and when the action-sync code changes. The API key stays in the existing repository secret. `public/lifecycle.json` contains the histories. The main Congress.gov sync records substantive changes to official facts in `public/official-changes.json`, excluding refresh timestamps. `public/research.json` records editorial review dates, category definitions, and research events. Twenty summaries were cleaned to keep companion numbers and procedural facts in their structured fields.
+

@@ -1,6 +1,6 @@
 import {renderTracker} from './tracker-view.js?v=atlas-next-1';
 import {routeState,trackerHash,decorateBills} from './explore.js?v=atlas-next-1';
-import {methodologyPage,historyPage,reviewedDate} from './methodology.js?v=atlas-next-1';
+import {methodologyPage,historyPage,reviewedDate} from './methodology.js?v=methodology-2';
 import {companionStats} from './companions.js';
 import {applyCongressData} from './congress.js?v=atlas-next-1';
 import {chartSpecs,patternsHash,readPatternsHash} from './chart-export.js?v=atlas-next-1';

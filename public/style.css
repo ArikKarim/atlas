@@ -80,6 +80,23 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 
 /* Login places focus on the content, preserving keyboard focus on controls. */
 #main:focus{outline:none}
+.method-page{max-width:900px;padding:30px 0 48px}
+.method-hero{padding-bottom:26px;border-bottom:1px solid var(--line)}
+.method-hero h1{font-size:28px;font-weight:600;letter-spacing:-.5px;line-height:1.25;margin:0 0 18px}
+.method-lead{font-size:18px;line-height:1.7;margin:0 0 14px;max-width:720px}
+.method-scope{font-size:15px;line-height:1.75;color:var(--muted);max-width:730px;margin:0}
+.method-block{padding:27px 0;border-bottom:1px solid var(--line);scroll-margin-top:24px}
+.method-block h2,.method-review-link h2{font-size:19px;font-weight:600;letter-spacing:-.2px;line-height:1.4;margin:0 0 17px}
+.method-source-grid,.method-explainer-grid,.method-engagement-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}
+.method-source{padding:19px 20px;border:1px solid var(--line);background:var(--surface);border-radius:3px;display:flex;flex-direction:column;align-items:flex-start}
+.method-page h3{font-size:15px;font-weight:650;line-height:1.5;margin:0 0 9px}.method-source h3 a{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--line)}
+.method-source p,.method-explainer-grid p,.method-engagement-grid p{font-size:15px;line-height:1.75;margin:0 0 12px}
+.method-updated{font-size:12px;line-height:1.6;color:var(--muted);margin-top:auto;padding-top:4px}
+.method-definitions{margin:16px 0 0;border-top:1px solid var(--line);padding-top:16px;font-size:14px}.method-definitions summary{display:list-item;color:var(--accent);width:fit-content}
+.method-definition-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;margin-top:12px}.method-definition-grid>div{padding:16px 0;border-bottom:1px solid var(--line)}.method-definition-grid p{margin:0;font-size:14px;line-height:1.75;color:var(--muted)}
+.method-engagement-grid p{margin:12px 0 0}.method-evidence{font-size:14px;line-height:1.75;color:var(--muted);margin:20px 0 0;max-width:800px}
+.method-review-link{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:24px 0 0}.method-review-link h2{margin:0 0 5px;font-size:16px}.method-review-link p{margin:0;font-size:14px;color:var(--muted)}.method-review-link .plain{padding:8px 14px;font-size:14px}
+@media(max-width:650px){.method-page{padding-top:24px}.method-hero h1{font-size:25px}.method-lead{font-size:17px}.method-source-grid,.method-explainer-grid,.method-engagement-grid,.method-definition-grid{grid-template-columns:1fr;gap:20px}.method-source{padding:17px}.method-block{padding:23px 0}.method-review-link{align-items:flex-start}.method-review-link p{line-height:1.6}.method-definition-grid{gap:0}}
 
 /* Reading pages, richer exploration and companion comparisons. */
 .expanded-toolbar{grid-template-columns:minmax(230px,1.6fr) repeat(3,minmax(150px,1fr))}
