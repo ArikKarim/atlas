@@ -119,3 +119,30 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 
 
 .table-wrap td.empty{position:static;border-right:0;padding:40px 20px;text-align:center}
+
+/* Shared dropdown treatment, with a native fallback for older browsers. */
+select{cursor:pointer;border-radius:3px;line-height:1.4;padding:7px 34px 7px 11px;background-position:right 11px center;transition:border-color .15s,box-shadow .15s}
+select:hover:not(:disabled){border-color:var(--muted)}
+select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+select:disabled{cursor:default;opacity:.55}
+select option{font:inherit;color:var(--ink);background:var(--surface)}
+.pager select{width:76px;height:36px;padding:7px 30px 7px 11px;background-position:right 9px center}
+@supports (appearance:base-select){
+ select,select::picker(select){appearance:base-select}
+ select{background-image:none;display:flex;align-items:center;justify-content:space-between;gap:12px;padding-right:11px}
+ .pager select{padding-right:9px}
+ select::picker-icon{content:'';width:14px;height:14px;flex-shrink:0;color:var(--muted);background:currentColor;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='m4 6 4 4 4-4' fill='none' stroke='black' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;transition:transform .15s}
+ select:open::picker-icon{transform:rotate(180deg)}
+ select::picker(select){font:14px/1.45 'Segoe UI',system-ui,-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:5px;box-shadow:0 8px 24px #0002;margin-block:5px;max-height:min(360px,60vh);overflow-y:auto;overscroll-behavior:contain}
+ select option{display:flex;align-items:center;gap:16px;min-height:36px;padding:8px 10px;border-radius:2px;cursor:pointer;outline-offset:-2px}
+ select option:hover,select option:focus-visible{background:var(--soft);color:var(--ink)}
+ select option:checked{background:var(--soft);font-weight:600}
+ select option::checkmark{order:1;margin-left:auto;color:var(--accent);font-size:14px}
+}
+/* Center the history and let short updates share a row on wider screens. */
+.changelog-heading,.changelog{max-width:1280px;margin-inline:auto}
+.changelog-day{grid-template-columns:150px minmax(0,1fr);gap:36px;padding-block:28px}
+.changelog-day ul{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 36px;align-items:start}
+.changelog-day p{max-width:65ch}
+@media(max-width:1000px){.changelog-day{grid-template-columns:1fr;gap:18px}.changelog-day ul{gap:25px 30px}}
+@media(max-width:700px){.changelog-day ul{grid-template-columns:1fr;gap:23px}.changelog-day{padding-block:23px}}
