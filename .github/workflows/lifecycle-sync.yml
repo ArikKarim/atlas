@@ -1,0 +1,38 @@
+name: Sync Atlas action histories
+on:
+  push:
+    branches: [main]
+    paths: [scripts/sync-lifecycle.mjs, public/explore.js, .github/workflows/lifecycle-sync.yml]
+  workflow_dispatch:
+  schedule:
+    - cron: '53 11 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: atlas-action-histories
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Refresh complete official action histories
+        run: node scripts/sync-lifecycle.mjs
+        env:
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
+      - name: Save action histories
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/lifecycle.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh official Atlas action histories'
+            git pull --rebase origin main
+            git push
+          fi
