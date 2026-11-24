@@ -1,5 +1,5 @@
-import {renderTracker} from './tracker-view.js?v=atlas-next-1';
-import {routeState,trackerHash,decorateBills} from './explore.js?v=changelog-1';
+import {renderTracker} from './tracker-view.js?v=table-fit-1';
+import {routeState,trackerHash,decorateBills} from './explore.js?v=table-fit-1';
 import {changelogPage,reviewedDate} from './changelog.js?v=1';
 import {companionStats} from './companions.js';
 import {applyCongressData} from './congress.js?v=atlas-next-1';

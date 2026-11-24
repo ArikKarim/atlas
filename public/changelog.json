@@ -2,11 +2,36 @@
   {
     "date": "2026-11-24",
     "title": "Changelog added",
-    "description": "Replaced Methodology with a simple record of site and research updates."
+    "description": "Added a dated record of major site and research updates, including earlier milestones."
+  },
+  {
+    "date": "2026-11-24",
+    "title": "Filtered tables refined",
+    "description": "Short result lists now fit their content, and empty searches show a clear message within the table."
   },
   {
     "date": "2026-11-23",
     "title": "Tracker and Trends expanded",
     "description": "Added status and activity filters, companion comparisons, shareable views, and clickable charts. Introduced a cream light theme."
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Atlas launched",
+    "description": "Turned the SIIA AI policy spreadsheet into a searchable 119th Congress bill tracker, with filters, bill details, and links to public SIIA engagement materials."
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Trends and chart sharing introduced",
+    "description": "Added charts covering policy focus areas, introductions, sponsors, and SIIA engagement. Charts can be shared by link or exported as PNG, SVG, or CSV in light or dark mode."
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Congress.gov connected",
+    "description": "Matched the original 170 bills to official records and added daily refreshes of titles, sponsors, cosponsors, introduction dates, and latest actions. Kept research summaries and SIIA engagement separate from official updates."
+  },
+  {
+    "date": "2026-11-22",
+    "title": "Candidate review introduced",
+    "description": "Expanded discovery to include related topics such as data centers, algorithms, and semiconductors. New candidates enter a separate review queue before being added to the Tracker."
   }
 ]

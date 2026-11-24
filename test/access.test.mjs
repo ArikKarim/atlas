@@ -23,7 +23,7 @@ test('valid signed sessions unlock data, reject tampering, expire and revoke on 
  let time=Date.now();await fixture({now:()=>time,sessionSeconds:60},async({root,login})=>{
   const success=await login();assert.equal(success.status,303);assert.equal(success.headers.get('location'),'/#trends');const setCookie=success.headers.get('set-cookie');assert.match(setCookie,/HttpOnly/);assert.match(setCookie,/SameSite=Strict/);const cookie=setCookie.split(';')[0],headers={Cookie:cookie};
   assert.equal((await fetch(root+'/bills.json',{headers})).status,200);
-  const app=await(await fetch(root+'/',{headers})).text();assert.match(app,/app\.js\?v=changelog-1/);assert.ok(!app.includes('password-gate'));assert.ok(!app.includes('./access.js'));assert.match(app,/<script nonce=/);
+  const app=await(await fetch(root+'/',{headers})).text();assert.match(app,/app\.js\?v=table-fit-1/);assert.ok(!app.includes('password-gate'));assert.ok(!app.includes('./access.js'));assert.match(app,/<script nonce=/);
   assert.equal((await fetch(root+'/access.js',{headers})).status,404);
   assert.equal((await fetch(root+'/bills.json',{headers:{Cookie:cookie.slice(0,-1)+(cookie.endsWith('x')?'y':'x')}})).status,401);
   assert.equal((await fetch(root+'/auth/logout',{method:'POST',headers,redirect:'manual'})).status,303);
