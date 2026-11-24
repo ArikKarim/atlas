@@ -88,7 +88,7 @@ export function createSecureServer({password=process.env.ATLAS_PASSWORD,sessionS
    let data=await readFile(target);
    if(name==='/index.html'){
     // The secure response has no client-side password verifier or hidden app.
-    let html=data.toString().replace(/<section id="password-gate"[\s\S]*?<\/section>/,'').replace('<div id="atlas-app" hidden>','<div id="atlas-app">').replace(/<script type="module" src="\.\/access\.js[^\"]*"><\/script>/,'<script type="module" src="./app.js?v=methodology-2"></script><script type="module" src="./auth-session.js"></script>');
+    let html=data.toString().replace(/<section id="password-gate"[\s\S]*?<\/section>/,'').replace('<div id="atlas-app" hidden>','<div id="atlas-app">').replace(/<script type="module" src="\.\/access\.js[^\"]*"><\/script>/,'<script type="module" src="./app.js?v=changelog-1"></script><script type="module" src="./auth-session.js"></script>');
     html=html.replace(/<script(?=[ >])/g,`<script nonce="${escape(nonce)}"`);data=Buffer.from(html);
    }
    return send(200,data,types[path.extname(target)]||'application/octet-stream');

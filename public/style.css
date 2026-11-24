@@ -80,6 +80,7 @@ a.tag{text-decoration:none}a.tag:hover{text-decoration:underline;text-underline-
 
 /* Login places focus on the content, preserving keyboard focus on controls. */
 #main:focus{outline:none}
+.changelog-heading{max-width:830px;padding-top:30px;padding-bottom:20px}.changelog{max-width:830px;padding-bottom:40px}.changelog-day{display:grid;grid-template-columns:160px minmax(0,1fr);gap:28px;padding:25px 0;border-top:1px solid var(--line)}.changelog-day h2{font-size:14px;line-height:1.6;font-weight:500;color:var(--muted);margin:2px 0 0}.changelog-day ul{list-style:none;padding:0;margin:0;display:grid;gap:23px}.changelog-day h3{font-size:16px;line-height:1.5;font-weight:600;margin:0 0 6px}.changelog-day p{font-size:15px;line-height:1.75;margin:0;color:var(--muted)}.changelog-refresh{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:18px;margin:0}@media(max-width:650px){.changelog-day{grid-template-columns:1fr;gap:13px;padding:22px 0}.changelog-day ul{gap:22px}}
 .method-page{max-width:900px;padding:30px 0 48px}
 .method-hero{padding-bottom:26px;border-bottom:1px solid var(--line)}
 .method-hero h1{font-size:28px;font-weight:600;letter-spacing:-.5px;line-height:1.25;margin:0 0 18px}

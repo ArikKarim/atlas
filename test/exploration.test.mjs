@@ -35,7 +35,7 @@ test('Tracker links round-trip combined filters, sorting, page size and family v
  const filters={q:'AI & energy',chamber:'House',topic:'Data Centers, Energy & Infrastructure',engagement:'endorsed',status:'Committee action',recent:'90',sort:'activity',size:'50',view:'families',gap:'1–7 days',returnChart:'companion-gaps'};
  const state=routeState(trackerHash(filters,2));assert.deepEqual(state,{view:'tracker',filters,page:2});
  assert.equal(routeState('#tracker?page=-4&chamber=invalid&size=9000&sort=evil').page,1);assert.deepEqual(routeState('#tracker?chamber=invalid&size=9000&sort=evil').filters,{});
- assert.equal(routeState('#methodology').view,'methodology');assert.equal(routeState('#history').view,'history');assert.equal(routeState('#patterns?chamber=House&chart=focus-areas').view,'charts');
+ assert.equal(routeState('#methodology').view,'changelog');assert.equal(routeState('#history').view,'changelog');assert.equal(routeState('#patterns?chamber=House&chart=focus-areas').view,'charts');
 });
 
 test('chart selections reproduce primary-focus, paired-focus, chamber and engagement counts',async()=>{

@@ -12,7 +12,7 @@ Light mode uses a warm cream palette, with a dark-mode toggle. Image exports fol
 
 The Companion families view compares every tracked version side by side, keeping each bill’s status, dates, sponsors, and engagement separate. CSV exports from that view include all tracked versions of the matching families.
 
-The **Methodology** tab explains scope, sources, category definitions, companion counting, and SIIA engagement labels. Its **Research history** page distinguishes editorial decisions from official-data updates. I record classification reviews and summary maintenance separately; an official refresh doesn’t imply that the research has been reviewed again.
+The **Changelog** tab keeps a short, dated record of site improvements, research reviews, companion additions, and substantive official-data updates.
 
 ## Access
 
@@ -44,7 +44,7 @@ I reviewed all 202 bills and corrected 11 primary or secondary assignments. I cl
 
 ## Working on the code
 
-The interface and data are in `public/`. `model.js` handles filtering and normalization, `charts.js` calculates the chart data, and `chart-export.js` and `chart-actions.js` handle exports and sharing. `tracker-view.js` handles Tracker and family views, `explore.js` handles reproducible filters and legislative stages, and `methodology.js` renders the research pages. `server.mjs` runs the local server.
+The interface and data are in `public/`. `model.js` handles filtering and normalization, `charts.js` calculates the chart data, and `chart-export.js` and `chart-actions.js` handle exports and sharing. `tracker-view.js` handles Tracker and family views, `explore.js` handles reproducible filters and legislative stages, and `changelog.js` renders the dated updates. `server.mjs` runs the local server.
 
 Run the checks with:
 
