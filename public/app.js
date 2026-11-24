@@ -89,7 +89,7 @@ function organizeCharts(data){
 function wirePlotLinks(panel,spec){
  const base=chartsChamber?{chamber:chartsChamber}:{};
  panel.querySelector('.sponsor-bars')?.setAttribute('role','group');
- const attach=(node,selection,label,keyboard=true)=>{if(!node)return;node.dataset.explore=JSON.stringify(selection);node.classList.add('explore-target');node.title='View matching bills in Tracker';if(keyboard){node.tabIndex=0;node.setAttribute('role','link');node.setAttribute('aria-label',(node.getAttribute('aria-label')||label)+'. View matching bills in Tracker');}};
+ const attach=(node,selection,label,keyboard=true)=>{if(!node)return;const tag=node.tagName.toLowerCase();if((tag==='rect'&&Number(node.getAttribute('height'))<=0)||(tag==='span'&&node.style.width&&Number.parseFloat(node.style.width)<=0))return;node.dataset.explore=JSON.stringify(selection);node.classList.add('explore-target');node.title='View matching bills in Tracker';if(keyboard){node.tabIndex=0;node.setAttribute('role','link');node.setAttribute('aria-label',(node.getAttribute('aria-label')||label)+'. View matching bills in Tracker');}};
  if(spec.id==='monthly-introductions'){
   panel.querySelector('.monthly-chart')?.setAttribute('role','group');
   panel.querySelectorAll('.monthly-chart g').forEach((node,i)=>{const row=spec.rows[i];attach(node,{...base,month:row.label},row.label);node.querySelectorAll('rect').forEach((rect,j)=>attach(rect,{month:row.label,chamber:j===0?'House':'Senate'},row.label,false));});return;

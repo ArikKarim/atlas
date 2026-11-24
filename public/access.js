@@ -6,7 +6,7 @@ const field=document.getElementById('access-password');
 const error=document.getElementById('access-error');
 const button=form.querySelector('button');
 async function openAtlas(){
-  await import('./app.js?v=atlas-next-2');
+  await import('./app.js?v=accuracy-1');
   document.getElementById('atlas-app').hidden=false;
   document.getElementById('password-gate').remove();
   const content=document.getElementById('main');
@@ -28,4 +28,5 @@ form.addEventListener('submit',async event=>{
 field.addEventListener('input',()=>{field.removeAttribute('aria-invalid');error.textContent=''});
 let remembered=false;try{remembered=sessionStorage.getItem(key)===digest}catch{}
 if(remembered)openAtlas().catch(()=>{error.textContent='Atlas could not open. Please refresh and try again.'});
+
 

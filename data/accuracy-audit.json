@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-24T02:50:36.103Z",
+  "officialSnapshotAt": "2026-11-24T02:39:06.153Z",
+  "actionHistorySnapshotAt": "2026-11-24T02:39:01.169Z",
+  "billCount": 202,
+  "House": 110,
+  "Senate": 92,
+  "charts": 12,
+  "chartSelectionsVerified": 484,
+  "chartSelectionFailures": [],
+  "staleActionHistories": [],
+  "automatedTestsPassed": 45,
+  "companionBills": 87,
+  "companionFamilies": 42,
+  "engagement": {
+    "endorsed": 25,
+    "engagedNotEndorsed": 19,
+    "noEngagementRecorded": 158
+  }
+}

@@ -26,6 +26,11 @@ test('all 202 bills have complete action histories and companions keep their ind
  assert.equal(matchingBills(bills,{status:'Enacted'}).length,1);
 });
 
+test('displayed passage and enactment stages agree with official milestone action codes',async()=>{
+ const lifecycle=await read('public/lifecycle.json'),bills=decorateBills(applyCongressData(normalize(await read('public/bills.json')),await read('public/congress-data.json')),lifecycle);
+ for(const bill of bills){const actions=lifecycle.records[bill.id].actions,house=actions.some(a=>a.code==='8000'),senate=actions.some(a=>a.code==='17000'),enacted=actions.some(a=>a.type==='BecameLaw');const expected=enacted?'Enacted':house&&senate?'Passed both chambers':house?'Passed House':senate?'Passed Senate':null;if(expected)assert.equal(bill.stage,expected,bill.id);}
+});
+
 test('Tracker links round-trip combined filters, sorting, page size and family view',()=>{
  const filters={q:'AI & energy',chamber:'House',topic:'Data Centers, Energy & Infrastructure',engagement:'endorsed',status:'Committee action',recent:'90',sort:'activity',size:'50',view:'families',gap:'1–7 days',returnChart:'companion-gaps'};
  const state=routeState(trackerHash(filters,2));assert.deepEqual(state,{view:'tracker',filters,page:2});

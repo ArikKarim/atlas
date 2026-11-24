@@ -88,7 +88,7 @@ export function createSecureServer({password=process.env.ATLAS_PASSWORD,sessionS
    let data=await readFile(target);
    if(name==='/index.html'){
     // The secure response has no client-side password verifier or hidden app.
-    let html=data.toString().replace(/<section id="password-gate"[\s\S]*?<\/section>/,'').replace('<div id="atlas-app" hidden>','<div id="atlas-app">').replace(/<script type="module" src="\.\/access\.js[^\"]*"><\/script>/,'<script type="module" src="./app.js?v=atlas-next-2"></script><script type="module" src="./auth-session.js"></script>');
+    let html=data.toString().replace(/<section id="password-gate"[\s\S]*?<\/section>/,'').replace('<div id="atlas-app" hidden>','<div id="atlas-app">').replace(/<script type="module" src="\.\/access\.js[^\"]*"><\/script>/,'<script type="module" src="./app.js?v=accuracy-1"></script><script type="module" src="./auth-session.js"></script>');
     html=html.replace(/<script(?=[ >])/g,`<script nonce="${escape(nonce)}"`);data=Buffer.from(html);
    }
    return send(200,data,types[path.extname(target)]||'application/octet-stream');
@@ -100,4 +100,5 @@ if(process.argv[1]===fileURLToPath(import.meta.url)){
  if(!process.env.ATLAS_PASSWORD){console.error('Set ATLAS_PASSWORD in the server environment before starting Atlas.');process.exitCode=1;}
  else createSecureServer().listen(Number(process.env.PORT||4323),process.env.HOST||'127.0.0.1',()=>console.log('Protected Atlas server listening on port '+(process.env.PORT||4323)));
 }
+
 
