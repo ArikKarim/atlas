@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "focusReviewedAt": "2026-11-24T02:17:59.002Z",
+  "focusReviewedAt": "2026-11-24T21:06:37.865Z",
   "definitions": {
     "AI Economy, Competition & Innovation": "Competition, market access, commercial innovation, investment, and economic incentives related to AI or the broader digital economy.",
     "AI Regulation & Governance": "Cross-sector AI regulatory frameworks, liability, preemption, regulatory sandboxes, and public oversight or ethical governance.",
@@ -442,6 +442,135 @@
         {
           "id": "S.2528",
           "reason": "Removed companion identifiers or procedural claims from the summary; those facts remain in the structured companion and official-action fields."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-24T21:06:37.865Z",
+      "kind": "Classification",
+      "title": "Focus areas checked against official bill text",
+      "description": "Reviewed all 202 bills against official text and refined eight classifications, including matching companion bills. Updated the affected Trends charts.",
+      "changes": [
+        {
+          "id": "H.R.6058",
+          "before": {
+            "primary": "Semiconductors & Advanced Tech",
+            "secondary": "Trade & Export Controls"
+          },
+          "after": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Semiconductors & Advanced Tech"
+          },
+          "reason": "The STRIDE Act directs international alignment of semiconductor export restrictions and enforcement, including foreign direct product controls. Trade controls are the main policy mechanism; semiconductor technology is the subject.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr6058ih/html/BILLS-119hr6058ih.htm"
+          ]
+        },
+        {
+          "id": "S.5400",
+          "before": {
+            "primary": "Semiconductors & Advanced Tech",
+            "secondary": "Trade & Export Controls"
+          },
+          "after": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Semiconductors & Advanced Tech"
+          },
+          "reason": "The STRIDE Act directs international alignment of semiconductor export restrictions and enforcement, including foreign direct product controls. Trade controls are the main policy mechanism; semiconductor technology is the subject.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s5400is/html/BILLS-119s5400is.htm"
+          ]
+        },
+        {
+          "id": "H.R.9914",
+          "before": {
+            "primary": "Frontier AI Safety & Security",
+            "secondary": "AI Economy, Competition & Innovation"
+          },
+          "after": {
+            "primary": "AI Economy, Competition & Innovation",
+            "secondary": "Frontier AI Safety & Security"
+          },
+          "reason": "The operative provision creates an antitrust exemption for collaboration and information sharing on AI security risks. Competition law is the main mechanism; frontier-model security remains a material secondary subject.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr9914ih/html/BILLS-119hr9914ih.htm"
+          ]
+        },
+        {
+          "id": "S.5105",
+          "before": {
+            "primary": "Frontier AI Safety & Security",
+            "secondary": "AI Economy, Competition & Innovation"
+          },
+          "after": {
+            "primary": "AI Economy, Competition & Innovation",
+            "secondary": "Frontier AI Safety & Security"
+          },
+          "reason": "The operative provision creates an antitrust exemption for collaboration and information sharing on AI security risks. Competition law is the main mechanism; frontier-model security remains a material secondary subject.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s5105is/html/BILLS-119s5105is.htm"
+          ]
+        },
+        {
+          "id": "H.R.6322",
+          "before": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Semiconductors & Advanced Tech"
+          },
+          "after": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Transparency & Accountability"
+          },
+          "reason": "The whistleblower reporting, incentive, and anti-retaliation provisions apply to violations of export-control law generally, rather than only semiconductor exports. The secondary focus captures this accountability mechanism.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119hr6322ih/html/BILLS-119hr6322ih.htm"
+          ]
+        },
+        {
+          "id": "S.1473",
+          "before": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Semiconductors & Advanced Tech"
+          },
+          "after": {
+            "primary": "Trade & Export Controls",
+            "secondary": "Transparency & Accountability"
+          },
+          "reason": "The whistleblower reporting, incentive, and anti-retaliation provisions apply to violations of export-control law generally, rather than only semiconductor exports. The secondary focus captures this accountability mechanism.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s1473es/html/BILLS-119s1473es.htm",
+            "https://www.govinfo.gov/content/pkg/BILLS-119s1473is/html/BILLS-119s1473is.htm"
+          ]
+        },
+        {
+          "id": "S.1638",
+          "before": {
+            "primary": "Government & Public-Sector AI",
+            "secondary": "Privacy & Data Governance"
+          },
+          "after": {
+            "primary": "Government & Public-Sector AI",
+            "secondary": "National Security & Defense"
+          },
+          "reason": "The bill restricts DeepSeek use in federal contracts and requires a report on national-security threats from foreign-adversary AI platforms. It does not establish personal-data rights or a privacy-governance framework.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s1638is/html/BILLS-119s1638is.htm"
+          ]
+        },
+        {
+          "id": "S.4656",
+          "before": {
+            "primary": "Government & Public-Sector AI",
+            "secondary": "Transparency & Accountability"
+          },
+          "after": {
+            "primary": "National Security & Defense",
+            "secondary": "Government & Public-Sector AI"
+          },
+          "reason": "The bill regulates high-consequence military AI, autonomous weapons, nuclear-use restrictions, and Department of Defense oversight and procurement. Military AI is the main subject; federal AI operations remain secondary.",
+          "sources": [
+            "https://www.govinfo.gov/content/pkg/BILLS-119s4656is/html/BILLS-119s4656is.htm"
+          ]
         }
       ]
     }

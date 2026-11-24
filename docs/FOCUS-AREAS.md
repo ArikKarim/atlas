@@ -1,28 +1,21 @@
 # Focus-area review
 
-I reviewed all 202 bill classifications and updated 11 records. The assignments are editorial categories, distinct from Congress.gov’s policy areas.
+Reviewed all 202 tracked bills on November 24, 2026, using official bill texts and available CRS summaries. Updated eight classifications.
 
-- Primary focus reflects the main policy subject; secondary focus identifies one distinct, material additional subject.
-- A federal agency appearing in a bill does not by itself establish a government-AI-adoption focus.
-- Frontier AI is reserved for advanced/state-of-the-art-model risks, not all AI national-security legislation.
-- Companions receive consistent assignments when their relevant provisions match.
-- An adjacent digital-policy bill remains labeled by its actual subject; classification does not decide tracker inclusion.
+Primary focus reflects the bill’s main policy subject or mechanism. Secondary focus captures one distinct, material subject. Companion versions retain consistent labels where their relevant provisions match.
 
 ## Changes
 
 | Bill | Primary focus | Secondary focus | Reason |
 | --- | --- | --- | --- |
-| [H.R.1736](https://www.govinfo.gov/content/pkg/BILLS-119hr1736ih/html/BILLS-119hr1736ih.htm) | National Security & Defense | Government & Public-Sector AI | DHS terrorism-threat assessments cover generative AI broadly, without a frontier-model capability threshold. |
-| [H.R.7058](https://www.govinfo.gov/content/pkg/BILLS-119hr7058ih/html/BILLS-119hr7058ih.htm) | National Security & Defense | — | The bill directs foreign-adversary risk assessments and diplomacy covering malicious generative-AI uses; it does not target only frontier models. |
-| [H.R.8283](https://www.govinfo.gov/content/pkg/BILLS-119hr8283ih/html/BILLS-119hr8283ih.htm) | National Security & Defense | Intellectual Property | The bill deters foreign-adversary extraction of proprietary closed-source AI capabilities, including models without a frontier-model threshold. |
-| [H.R.3633](https://www.govinfo.gov/content/pkg/BILLS-119hr3633rs/html/BILLS-119hr3633rs.htm) | Digital Assets & Financial Regulation | — | Replaces N/A: the bill establishes digital-commodity market regulation and CBDC restrictions; it is retained as a broader digital-policy bill, not relabeled as AI regulation. |
-| [H.R.9151](https://www.govinfo.gov/content/pkg/BILLS-119hr9151ih/html/BILLS-119hr9151ih.htm) | Telecommunications & Connectivity | Standards, Testing & Research | The operative requirements concern Wi-Fi, unlicensed spectrum, and international spectrum coordination, rather than semiconductor manufacturing. |
-| [S.1331](https://www.govinfo.gov/content/pkg/BILLS-119s1331is/html/BILLS-119s1331is.htm) | Quantum Technology | National Security & Defense | Adds the explicit defense/national-security mission of the proposed DoD quantum office as a secondary focus. |
-| [S.1346](https://www.govinfo.gov/content/pkg/BILLS-119s1346is/html/BILLS-119s1346is.htm) | Quantum Technology | National Security & Defense | Adds the explicit defense mission of accelerating operational adoption of quantum technology by DoD. |
-| [S.5061](https://www.govinfo.gov/content/pkg/BILLS-119s5061is/html/BILLS-119s5061is.htm) | Cybersecurity | Frontier AI Safety & Security | Keeps cybersecurity primary and replaces the generic disclosure tag with the substantive frontier-model pre-release testing and risk-board provisions in section 3. |
-| [S.4749](https://www.govinfo.gov/content/pkg/BILLS-119s4749is/html/BILLS-119s4749is.htm) | Online Speech & Platform Governance | Transparency & Accountability | The cause of action addresses government coercion of speech intermediaries, including AI speech providers; this is more specific than general AI regulation. |
-| [S.4762](https://www.govinfo.gov/content/pkg/BILLS-119s4762is/html/BILLS-119s4762is.htm) | National Security & Defense | Government & Public-Sector AI | The counterpart also requires terrorism-threat assessments for generative AI generally, rather than frontier-specific safeguards. |
-| [S.5333](https://www.govinfo.gov/content/pkg/BILLS-119s5333is/html/BILLS-119s5333is.htm) | Telecommunications & Connectivity | Standards, Testing & Research | The Senate counterpart likewise concerns Wi-Fi, unlicensed spectrum, and international spectrum coordination. |
+| [H.R.6058](https://www.govinfo.gov/content/pkg/BILLS-119hr6058ih/html/BILLS-119hr6058ih.htm) | Trade & Export Controls | Semiconductors & Advanced Tech | The STRIDE Act directs international alignment of semiconductor export restrictions and enforcement, including foreign direct product controls. Trade controls are the main policy mechanism; semiconductor technology is the subject. |
+| [S.5400](https://www.govinfo.gov/content/pkg/BILLS-119s5400is/html/BILLS-119s5400is.htm) | Trade & Export Controls | Semiconductors & Advanced Tech | The STRIDE Act directs international alignment of semiconductor export restrictions and enforcement, including foreign direct product controls. Trade controls are the main policy mechanism; semiconductor technology is the subject. |
+| [H.R.9914](https://www.govinfo.gov/content/pkg/BILLS-119hr9914ih/html/BILLS-119hr9914ih.htm) | AI Economy, Competition & Innovation | Frontier AI Safety & Security | The operative provision creates an antitrust exemption for collaboration and information sharing on AI security risks. Competition law is the main mechanism; frontier-model security remains a material secondary subject. |
+| [S.5105](https://www.govinfo.gov/content/pkg/BILLS-119s5105is/html/BILLS-119s5105is.htm) | AI Economy, Competition & Innovation | Frontier AI Safety & Security | The operative provision creates an antitrust exemption for collaboration and information sharing on AI security risks. Competition law is the main mechanism; frontier-model security remains a material secondary subject. |
+| [H.R.6322](https://www.govinfo.gov/content/pkg/BILLS-119hr6322ih/html/BILLS-119hr6322ih.htm) | Trade & Export Controls | Transparency & Accountability | The whistleblower reporting, incentive, and anti-retaliation provisions apply to violations of export-control law generally, rather than only semiconductor exports. The secondary focus captures this accountability mechanism. |
+| [S.1473](https://www.govinfo.gov/content/pkg/BILLS-119s1473es/html/BILLS-119s1473es.htm) | Trade & Export Controls | Transparency & Accountability | The whistleblower reporting, incentive, and anti-retaliation provisions apply to violations of export-control law generally, rather than only semiconductor exports. The secondary focus captures this accountability mechanism. |
+| [S.1638](https://www.govinfo.gov/content/pkg/BILLS-119s1638is/html/BILLS-119s1638is.htm) | Government & Public-Sector AI | National Security & Defense | The bill restricts DeepSeek use in federal contracts and requires a report on national-security threats from foreign-adversary AI platforms. It does not establish personal-data rights or a privacy-governance framework. |
+| [S.4656](https://www.govinfo.gov/content/pkg/BILLS-119s4656is/html/BILLS-119s4656is.htm) | National Security & Defense | Government & Public-Sector AI | The bill regulates high-consequence military AI, autonomous weapons, nuclear-use restrictions, and Department of Defense oversight and procurement. Military AI is the main subject; federal AI operations remain secondary. |
 
 ## Category definitions
 
@@ -70,4 +63,4 @@ I reviewed all 202 bill classifications and updated 11 records. The assignments 
 
 **Transparency & Accountability:** Disclosure, reporting, audits, impact assessments, explainability, whistleblowing and mechanisms for holding AI actors accountable.
 
-The complete record-by-record review, including retained labels and source basis, is saved in `data/focus-area-review.json`. No bills were added or removed.
+The full record-by-record review, with official sources and operative section headings, is in data/focus-area-review.json. Earlier review decisions remain in the research history.
