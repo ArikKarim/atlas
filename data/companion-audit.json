@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T02:39:06.021Z",
+  "checkedAt": "2026-11-24T21:09:57.745Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -44,13 +44,6 @@
     },
     {
       "ids": [
-        "H.R.1736",
-        "S.4762"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.1766",
         "S.2049"
       ],
@@ -58,15 +51,8 @@
     },
     {
       "ids": [
-        "H.R.3434",
-        "S.1775"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
-        "H.R.1734",
-        "S.2117"
+        "H.R.1736",
+        "S.4762"
       ],
       "relationship": "Related bill"
     },
@@ -81,6 +67,20 @@
       "ids": [
         "H.R.8915",
         "S.1367"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.3434",
+        "S.1775"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.1734",
+        "S.2117"
       ],
       "relationship": "Related bill"
     },
@@ -247,6 +247,13 @@
     },
     {
       "ids": [
+        "H.R.8623",
+        "S.3062"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
         "H.R.7434",
         "S.3809"
       ],
@@ -256,13 +263,6 @@
       "ids": [
         "H.R.8241",
         "S.3682"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
-        "H.R.8623",
-        "S.3062"
       ],
       "relationship": "Related bill"
     },

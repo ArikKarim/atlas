@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T02:39:55.370Z",
+  "generatedAt": "2026-11-24T21:12:37.343Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -13,7 +13,7 @@
       }
     ],
     "billCount": 16945,
-    "summaryVersions": 5448,
+    "summaryVersions": 5453,
     "trackedBills": 202,
     "relatedBillChecks": 202,
     "fields": [
@@ -4934,14 +4934,14 @@
     },
     {
       "id": "H.R.11076",
-      "title": "To amend the Homeland Security Act of 2002 to require the Director of the Cybersecurity and Infrastructure Security Agency to lead cybersecurity efforts relating to the secure adoption, discovery, identification, authorization, monitoring, accountability, and risk management of artificial intelligence agents operating on executive agency information systems, and for other purposes.",
+      "title": "AI INSIGHT Act",
       "chamber": "House",
       "evidence": [
         {
           "area": "AI & automation",
           "field": "title",
-          "term": "artificial intelligence",
-          "excerpt": "covery, identification, authorization, monitoring, accountability, and risk management of artificial intelligence agents operating on executive agency information systems, and for other purposes."
+          "term": "AI",
+          "excerpt": "AI INSIGHT Act"
         }
       ],
       "relatedTo": [],
@@ -5063,11 +5063,18 @@
           "field": "title",
           "term": "Artificial Intelligence",
           "excerpt": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats"
+        },
+        {
+          "area": "AI & automation",
+          "field": "summary",
+          "term": "Artificial Intelligence",
+          "excerpt": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats This bill requires the Department of Health and Human Services to develop a strategy for public health preparedness and response and biodefense that",
+          "versionDate": "2026-11-24T20:20:06Z"
         }
       ],
       "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
+      "summary": "Strategy for Public Health Preparedness and Response to Artificial Intelligence Threats This bill requires the Department of Health and Human Services to develop a strategy for public health preparedness and response and biodefense that addresses the risks to national health security posed by the misuse of artificial intelligence, such as biological weapons and viruses and bacteria that are resistant to treatment.",
+      "summaryDate": "2026-11-24T20:20:06Z",
       "areas": [
         "AI & automation"
       ],
@@ -12112,7 +12119,7 @@
       },
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/10563",
       "subjects": [],
-      "policyArea": "Armed Forces and National Security"
+      "policyArea": "Government Operations and Politics"
     },
     {
       "id": "H.R.10570",
@@ -12458,14 +12465,14 @@
     },
     {
       "id": "H.R.11064",
-      "title": "To require the Secretary of Energy to establish a Data Center Community Assistance Program, and for other purposes.",
+      "title": "Data Center Community Empowerment Act of 2026",
       "chamber": "House",
       "evidence": [
         {
           "area": "Data centers & compute",
           "field": "title",
           "term": "Data Center",
-          "excerpt": "To require the Secretary of Energy to establish a Data Center Community Assistance Program, and for other purposes."
+          "excerpt": "Data Center Community Empowerment Act of 2026"
         }
       ],
       "relatedTo": [],
@@ -13825,14 +13832,14 @@
     },
     {
       "id": "S.3301",
-      "title": "Chip EQUIP Act",
+      "title": "Chip Equipment Quality, Usefulness, and Integrity Protection Act of 2026",
       "chamber": "Senate",
       "evidence": [
         {
           "area": "Semiconductors & export controls",
           "field": "title",
           "term": "Chip",
-          "excerpt": "Chip EQUIP Act"
+          "excerpt": "Chip Equipment Quality, Usefulness, and Integrity Protection Act of 2026"
         },
         {
           "area": "Semiconductors & export controls",
