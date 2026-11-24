@@ -94,3 +94,9 @@ The action-history workflow retrieves every official action for each of the 202 
 
 Action histories refresh daily at 11:53 UTC and when the action-sync code changes. The API key stays in the existing repository secret. `public/lifecycle.json` contains the histories. The main Congress.gov sync records substantive changes to official facts in `public/official-changes.json`, excluding refresh timestamps. `public/research.json` records editorial review dates, category definitions, and research events. Twenty summaries were cleaned to keep companion numbers and procedural facts in their structured fields.
 
+
+## Code organization
+
+The browser entry point coordinates navigation and data loading. Tracker, Trends, bill details, Changelog, and theme behavior live in separate modules. Charts on the page and exported charts share one set of data specifications. Shared formatting, CSV protection, file downloads, sort options, and engagement classification each have one implementation.
+
+Run `npm run build` to prepare `dist/` for GitHub Pages. The build automatically versions the entire JavaScript and CSS dependency graph from its contents; source imports do not need manual cache-version edits. `npm start` continues to serve the source locally, and `npm run start:secure` retains the prepared server-protected deployment.

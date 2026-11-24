@@ -11,7 +11,8 @@
     "review:candidates": "node scripts/review-candidates.mjs",
     "start:secure": "node secure-server.mjs",
     "audit:trends": "node scripts/audit-trends.mjs",
-    "sync:actions": "node scripts/sync-lifecycle.mjs"
+    "sync:actions": "node scripts/sync-lifecycle.mjs",
+    "build": "node scripts/build.mjs"
   },
   "engines": {
     "node": ">=24"

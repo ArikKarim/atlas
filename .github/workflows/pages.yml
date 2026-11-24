@@ -22,12 +22,14 @@ jobs:
           ref: main
       - uses: actions/setup-node@v4
         with:
-          node-version: '24'
+          node-version: "24"
       - name: Run checks
         run: npm test
+      - name: Build versioned static assets
+        run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: public
+          path: dist
           name: atlas-pages-${{ github.run_id }}-${{ github.run_attempt }}
   deploy:
     needs: build
