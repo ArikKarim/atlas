@@ -221,7 +221,7 @@ tr:last-child td {
   border-bottom: 0;
 }
 
-tbody tr:hover td {
+.table-wrap tbody tr:hover td {
   background: var(--hover);
 }
 
@@ -2984,9 +2984,12 @@ footer #changelog-link[aria-current="page"] {
   min-width: 0;
   font-size: 16px;
   line-height: 1.7;
-  display: grid;
-  align-content: start;
-  gap: 14px;
+}
+.docs-content > .reference-section {
+  margin-bottom: 38px;
+}
+.docs-content > .reference-section:last-child {
+  margin-bottom: 0;
 }
 .reference-section {
   min-width: 0;
@@ -3126,6 +3129,10 @@ footer #changelog-link[aria-current="page"] {
 .reference-table tbody tr:hover {
   background: transparent;
 }
+.reference-table th,
+.reference-table td {
+  transition: none;
+}
 .reference-table .tag {
   font-weight: 500;
 }
@@ -3135,6 +3142,47 @@ footer #changelog-link[aria-current="page"] {
 .docs-subsection > h3 {
   margin-bottom: 14px;
 }
+.docs-disclosure {
+  margin: 24px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--surface);
+  padding: 0 18px;
+}
+.docs-disclosure > summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 16px 0;
+  cursor: pointer;
+  color: var(--ink);
+  list-style: none;
+}
+.docs-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+.docs-disclosure > summary::marker {
+  content: "";
+}
+.docs-disclosure > summary h3 {
+  margin: 0;
+}
+.docs-disclosure > summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+.docs-definition-chevron {
+  flex-shrink: 0;
+  color: var(--muted);
+}
+.docs-disclosure[open] .docs-definition-chevron {
+  transform: rotate(180deg);
+}
+.docs-definitions .reference-table-wrap {
+  margin-top: 0;
+}
+
 .docs-example {
   padding: 18px;
   border-radius: 4px;
@@ -3250,4 +3298,8 @@ footer #changelog-link[aria-current="page"] {
   .changelog-day ul {
     grid-template-columns: 1fr;
   }
+}
+
+.docs-disclosure > p:last-child {
+  margin-bottom: 18px;
 }

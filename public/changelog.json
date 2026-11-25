@@ -2,7 +2,7 @@
   {
     "date": "2026-11-24",
     "title": "Documentation reorganized",
-    "description": "Added an Atlas overview, explained API updates and Codex-assisted maintenance, and introduced section navigation that follows reading progress. Docs uses numbered questions, reference tables, and an article layout consistent with Changelog."
+    "description": "Added an Atlas overview, explained API updates and Codex-assisted maintenance, and introduced section navigation that follows reading progress. Numbered article sections pair with cards, tables, and collapsible reference details."
   },
   {
     "date": "2026-11-24",
