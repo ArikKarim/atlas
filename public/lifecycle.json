@@ -1,70 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-25T00:35:00.522Z",
+  "checkedAt": "2026-11-25T00:45:41.143Z",
   "trackedCount": 202,
   "records": {
-    "H.R.3539": {
-      "id": "H.R.3539",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-21",
-      "actions": [
-        {
-          "date": "2025-05-21",
-          "text": "Referred to the House Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-05-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-05-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.1495": {
-      "id": "H.R.1495",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-02-21",
-      "actions": [
-        {
-          "date": "2025-02-21",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-02-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-02-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.1000": {
       "id": "H.R.1000",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-09-08",
       "actions": [
         {
@@ -132,10 +74,161 @@
         }
       ]
     },
+    "H.R.3539": {
+      "id": "H.R.3539",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-21",
+      "actions": [
+        {
+          "date": "2025-05-21",
+          "text": "Referred to the House Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-05-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-05-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.1495": {
+      "id": "H.R.1495",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-02-21",
+      "actions": [
+        {
+          "date": "2025-02-21",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-02-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-02-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.2770": {
+      "id": "H.R.2770",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-04-09",
+      "actions": [
+        {
+          "date": "2025-04-09",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-04-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-04-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.2152": {
+      "id": "H.R.2152",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-24",
+      "actions": [
+        {
+          "date": "2025-03-14",
+          "text": "Referred to the House Committee on Financial Services.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-03-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-03-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-05-13",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-05-13",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Placed on the Union Calendar, Calendar No. 615.",
+          "type": "Calendars",
+          "code": "H12410",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-708.",
+          "type": "Committee",
+          "code": "H12200",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-708.",
+          "type": "Committee",
+          "code": "5000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.1770": {
       "id": "H.R.1770",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-15",
       "actions": [
         {
@@ -259,103 +352,130 @@
         }
       ]
     },
-    "H.R.2152": {
-      "id": "H.R.2152",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-24",
+    "H.R.1766": {
+      "id": "H.R.1766",
+      "stage": "Passed House",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-07-15",
       "actions": [
         {
-          "date": "2025-03-14",
-          "text": "Referred to the House Committee on Financial Services.",
+          "date": "2025-03-03",
+          "text": "Referred to the House Committee on Energy and Commerce.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2025-03-14",
+          "date": "2025-03-03",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2025-03-14",
+          "date": "2025-03-03",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-05-13",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 52 - 0.",
+          "date": "2025-03-04",
+          "text": "Ordered to be Reported by Voice Vote.",
           "type": "Committee",
           "code": "H19000",
           "source": "House committee actions"
         },
         {
-          "date": "2026-05-13",
+          "date": "2025-03-04",
           "text": "Committee Consideration and Mark-up Session Held",
           "type": "Committee",
           "code": "H15001",
           "source": "House committee actions"
         },
         {
-          "date": "2026-06-24",
-          "text": "Placed on the Union Calendar, Calendar No. 615.",
+          "date": "2025-06-30",
+          "text": "Placed on the Union Calendar, Calendar No. 141.",
           "type": "Calendars",
           "code": "H12410",
           "source": "House floor actions"
         },
         {
-          "date": "2026-06-24",
-          "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-708.",
+          "date": "2025-06-30",
+          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-175.",
           "type": "Committee",
           "code": "H12200",
           "source": "House floor actions"
         },
         {
-          "date": "2026-06-24",
-          "text": "Reported (Amended) by the Committee on Financial Services. H. Rept. 119-708.",
+          "date": "2025-06-30",
+          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-175.",
           "type": "Committee",
           "code": "5000",
           "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.2770": {
-      "id": "H.R.2770",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-04-09",
-      "actions": [
+        },
         {
-          "date": "2025-04-09",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
+          "date": "2025-07-14",
+          "text": "Motion to reconsider laid on the table Agreed to without objection.",
+          "type": "Floor",
+          "code": "H38310",
           "source": "House floor actions"
         },
         {
-          "date": "2025-04-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
+          "date": "2025-07-14",
+          "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3214)",
+          "type": "Floor",
+          "code": "H37300",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-07-14",
+          "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.",
+          "type": "Floor",
+          "code": "8000",
           "source": "Library of Congress"
         },
         {
-          "date": "2025-04-09",
-          "text": "Introduced in House",
+          "date": "2025-07-14",
+          "text": "DEBATE - The House resumed debate on H.R. 1766.",
+          "type": "Floor",
+          "code": "H8D000",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-07-14",
+          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1766.",
+          "type": "Floor",
+          "code": "H8D000",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-07-14",
+          "text": "Considered under suspension of the rules. (consideration: CR H3214-3215)",
+          "type": "Floor",
+          "code": "H30000",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-07-14",
+          "text": "Mr. Latta moved to suspend the rules and pass the bill.",
+          "type": "Floor",
+          "code": "H30300",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-07-15",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
           "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
+          "code": "",
+          "source": "Senate"
         }
       ]
     },
     "H.R.1694": {
       "id": "H.R.1694",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-02-27",
       "actions": [
         {
@@ -384,7 +504,7 @@
     "H.R.1736": {
       "id": "H.R.1736",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-11-20",
       "actions": [
         {
@@ -522,130 +642,10 @@
         }
       ]
     },
-    "H.R.1766": {
-      "id": "H.R.1766",
-      "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-07-15",
-      "actions": [
-        {
-          "date": "2025-03-03",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-03-03",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-03-03",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-03-04",
-          "text": "Ordered to be Reported by Voice Vote.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-03-04",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-06-30",
-          "text": "Placed on the Union Calendar, Calendar No. 141.",
-          "type": "Calendars",
-          "code": "H12410",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-06-30",
-          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-175.",
-          "type": "Committee",
-          "code": "H12200",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-06-30",
-          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-175.",
-          "type": "Committee",
-          "code": "5000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "Motion to reconsider laid on the table Agreed to without objection.",
-          "type": "Floor",
-          "code": "H38310",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "On motion to suspend the rules and pass the bill Agreed to by voice vote. (text: CR H3214)",
-          "type": "Floor",
-          "code": "H37300",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill Agreed to by voice vote.",
-          "type": "Floor",
-          "code": "8000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "DEBATE - The House resumed debate on H.R. 1766.",
-          "type": "Floor",
-          "code": "H8D000",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 1766.",
-          "type": "Floor",
-          "code": "H8D000",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "Considered under suspension of the rules. (consideration: CR H3214-3215)",
-          "type": "Floor",
-          "code": "H30000",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-14",
-          "text": "Mr. Latta moved to suspend the rules and pass the bill.",
-          "type": "Floor",
-          "code": "H30300",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-07-15",
-          "text": "Received in the Senate and Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        }
-      ]
-    },
     "H.R.1283": {
       "id": "H.R.1283",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-02-13",
       "actions": [
         {
@@ -671,10 +671,39 @@
         }
       ]
     },
+    "H.R.1734": {
+      "id": "H.R.1734",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-02-27",
+      "actions": [
+        {
+          "date": "2025-02-27",
+          "text": "Referred to the House Committee on Financial Services.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-02-27",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-02-27",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.3434": {
       "id": "H.R.3434",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-15",
       "actions": [
         {
@@ -703,7 +732,7 @@
     "H.R.8915": {
       "id": "H.R.8915",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-05-20",
       "actions": [
         {
@@ -729,39 +758,10 @@
         }
       ]
     },
-    "H.R.1734": {
-      "id": "H.R.1734",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-02-27",
-      "actions": [
-        {
-          "date": "2025-02-27",
-          "text": "Referred to the House Committee on Financial Services.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-02-27",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-02-27",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.3026": {
       "id": "H.R.3026",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-24",
       "actions": [
         {
@@ -811,7 +811,7 @@
     "H.R.3460": {
       "id": "H.R.3460",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-15",
       "actions": [
         {
@@ -840,7 +840,7 @@
     "H.R.3220": {
       "id": "H.R.3220",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-06",
       "actions": [
         {
@@ -866,53 +866,10 @@
         }
       ]
     },
-    "H.R.3259": {
-      "id": "H.R.3259",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-06-11",
-      "actions": [
-        {
-          "date": "2025-05-07",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-05-07",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-05-07",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-06-11",
-          "text": "Ordered to be Reported by the Yeas and Nays: 35 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-06-11",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
     "H.R.2385": {
       "id": "H.R.2385",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
@@ -952,10 +909,82 @@
         }
       ]
     },
+    "H.R.3259": {
+      "id": "H.R.3259",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-06-11",
+      "actions": [
+        {
+          "date": "2025-05-07",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-05-07",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-05-07",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-06-11",
+          "text": "Ordered to be Reported by the Yeas and Nays: 35 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2025-06-11",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.3562": {
+      "id": "H.R.3562",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-21",
+      "actions": [
+        {
+          "date": "2025-05-21",
+          "text": "Referred to the House Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-05-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-05-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.3210": {
       "id": "H.R.3210",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-06",
       "actions": [
         {
@@ -1005,7 +1034,7 @@
     "H.R.3447": {
       "id": "H.R.3447",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-26",
       "actions": [
         {
@@ -1048,7 +1077,7 @@
     "H.R.3775": {
       "id": "H.R.3775",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-05",
       "actions": [
         {
@@ -1074,39 +1103,10 @@
         }
       ]
     },
-    "H.R.3562": {
-      "id": "H.R.3562",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-21",
-      "actions": [
-        {
-          "date": "2025-05-21",
-          "text": "Referred to the House Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-05-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-05-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.5511": {
       "id": "H.R.5511",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-09-19",
       "actions": [
         {
@@ -1135,7 +1135,7 @@
     "H.R.4801": {
       "id": "H.R.4801",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-24",
       "actions": [
         {
@@ -1199,7 +1199,7 @@
     "H.R.6621": {
       "id": "H.R.6621",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-11",
       "actions": [
         {
@@ -1232,10 +1232,74 @@
         }
       ]
     },
+    "H.R.633": {
+      "id": "H.R.633",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-04-28",
+      "actions": [
+        {
+          "date": "2025-01-22",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-01-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-01-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-04-08",
+          "text": "Ordered to be Reported by the Yeas and Nays: 49 - 1.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2025-04-08",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2025-04-28",
+          "text": "Placed on the Union Calendar, Calendar No. 59.",
+          "type": "Calendars",
+          "code": "H12410",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-04-28",
+          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-82.",
+          "type": "Committee",
+          "code": "H12200",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-04-28",
+          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-82.",
+          "type": "Committee",
+          "code": "5000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.8516": {
       "id": "H.R.8516",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-27",
       "actions": [
         {
@@ -1303,74 +1367,10 @@
         }
       ]
     },
-    "H.R.633": {
-      "id": "H.R.633",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-04-28",
-      "actions": [
-        {
-          "date": "2025-01-22",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-01-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-01-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-04-08",
-          "text": "Ordered to be Reported by the Yeas and Nays: 49 - 1.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-04-08",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-04-28",
-          "text": "Placed on the Union Calendar, Calendar No. 59.",
-          "type": "Calendars",
-          "code": "H12410",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-04-28",
-          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-82.",
-          "type": "Committee",
-          "code": "H12200",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-04-28",
-          "text": "Reported by the Committee on Energy and Commerce. H. Rept. 119-82.",
-          "type": "Committee",
-          "code": "5000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.5360": {
       "id": "H.R.5360",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-11",
       "actions": [
         {
@@ -1417,89 +1417,10 @@
         }
       ]
     },
-    "H.R.8413": {
-      "id": "H.R.8413",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-21",
-      "actions": [
-        {
-          "date": "2026-04-21",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-04-21",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-04-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-21",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.5584": {
-      "id": "H.R.5584",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-25",
-      "actions": [
-        {
-          "date": "2025-09-26",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-09-26",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-09-26",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 34 - 1.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
     "H.R.5388": {
       "id": "H.R.5388",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-19",
       "actions": [
         {
@@ -1616,10 +1537,53 @@
         }
       ]
     },
+    "H.R.5584": {
+      "id": "H.R.5584",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-25",
+      "actions": [
+        {
+          "date": "2025-09-26",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-09-26",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-09-26",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 34 - 1.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
     "H.R.5351": {
       "id": "H.R.5351",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
@@ -1659,28 +1623,28 @@
         }
       ]
     },
-    "H.R.6461": {
-      "id": "H.R.6461",
+    "H.R.9334": {
+      "id": "H.R.9334",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
-          "date": "2025-12-04",
+          "date": "2026-06-18",
           "text": "Referred to the House Committee on Science, Space, and Technology.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2025-12-04",
+          "date": "2026-06-18",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2025-12-04",
+          "date": "2026-06-18",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
@@ -1702,28 +1666,28 @@
         }
       ]
     },
-    "H.R.9334": {
-      "id": "H.R.9334",
+    "H.R.6461": {
+      "id": "H.R.6461",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
-          "date": "2026-06-18",
+          "date": "2025-12-04",
           "text": "Referred to the House Committee on Science, Space, and Technology.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2026-06-18",
+          "date": "2025-12-04",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-06-18",
+          "date": "2025-12-04",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
@@ -1748,7 +1712,7 @@
     "H.R.8893": {
       "id": "H.R.8893",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
@@ -1788,81 +1752,10 @@
         }
       ]
     },
-    "H.R.6529": {
-      "id": "H.R.6529",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-21",
-      "actions": [
-        {
-          "date": "2025-12-09",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-09",
-          "text": "Referred to the Subcommittee on Energy.",
-          "type": "Committee",
-          "code": "H11000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-12-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-12-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
-          "type": "Committee",
-          "code": "H23000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Subcommittee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H22000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-20",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Ordered to be Reported by the Yeas and Nays: 44 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
     "H.R.5272": {
       "id": "H.R.5272",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-09-10",
       "actions": [
         {
@@ -1888,10 +1781,68 @@
         }
       ]
     },
+    "H.R.8033": {
+      "id": "H.R.8033",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-03-20",
+      "actions": [
+        {
+          "date": "2026-03-20",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-03-20",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-03-20",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.6984": {
+      "id": "H.R.6984",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-01-08",
+      "actions": [
+        {
+          "date": "2026-01-08",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-01-08",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-01-08",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.9372": {
       "id": "H.R.9372",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
@@ -1938,111 +1889,10 @@
         }
       ]
     },
-    "H.R.8033": {
-      "id": "H.R.8033",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-03-20",
-      "actions": [
-        {
-          "date": "2026-03-20",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-03-20",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-03-20",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.6984": {
-      "id": "H.R.6984",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-01-08",
-      "actions": [
-        {
-          "date": "2026-01-08",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-01-08",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-01-08",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.9333": {
-      "id": "H.R.9333",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-25",
-      "actions": [
-        {
-          "date": "2026-06-18",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 35 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
     "H.R.9341": {
       "id": "H.R.9341",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-25",
       "actions": [
         {
@@ -2082,10 +1932,53 @@
         }
       ]
     },
+    "H.R.9333": {
+      "id": "H.R.9333",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-25",
+      "actions": [
+        {
+          "date": "2026-06-18",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 35 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
     "H.R.8037": {
       "id": "H.R.8037",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-24",
       "actions": [
         {
@@ -2118,39 +2011,10 @@
         }
       ]
     },
-    "H.R.9352": {
-      "id": "H.R.9352",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-18",
-      "actions": [
-        {
-          "date": "2026-06-18",
-          "text": "Referred to the House Committee on Education and Workforce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.6633": {
       "id": "H.R.6633",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-16",
       "actions": [
         {
@@ -2288,247 +2152,10 @@
         }
       ]
     },
-    "H.R.9381": {
-      "id": "H.R.9381",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-11-18",
-      "actions": [
-        {
-          "date": "2026-06-22",
-          "text": "Referred to the House Committee on Education and Workforce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 19 - 14.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-11-18",
-          "text": "Placed on the Union Calendar, Calendar No. 782.",
-          "type": "Calendars",
-          "code": "H12410",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-11-18",
-          "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-887.",
-          "type": "Committee",
-          "code": "H12200",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-11-18",
-          "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-887.",
-          "type": "Committee",
-          "code": "5000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.9326": {
-      "id": "H.R.9326",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-21",
-      "actions": [
-        {
-          "date": "2026-06-15",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-15",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-15",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.9477": {
-      "id": "H.R.9477",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-25",
-      "actions": [
-        {
-          "date": "2026-06-25",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-25",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.7058": {
-      "id": "H.R.7058",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-03-26",
-      "actions": [
-        {
-          "date": "2026-01-14",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-01-14",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-01-14",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-03-26",
-          "text": "Ordered to be Reported by the Yeas and Nays: 45 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-03-26",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.8819": {
-      "id": "H.R.8819",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-05-14",
-      "actions": [
-        {
-          "date": "2026-05-14",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-05-14",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-05-14",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.6571": {
-      "id": "H.R.6571",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-10",
-      "actions": [
-        {
-          "date": "2025-12-10",
-          "text": "Referred to the House Committee on Oversight and Government Reform.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-10",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-12-10",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.7757": {
       "id": "H.R.7757",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-13",
       "actions": [
         {
@@ -2624,10 +2251,305 @@
         }
       ]
     },
+    "H.R.9352": {
+      "id": "H.R.9352",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-18",
+      "actions": [
+        {
+          "date": "2026-06-18",
+          "text": "Referred to the House Committee on Education and Workforce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.9326": {
+      "id": "H.R.9326",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-21",
+      "actions": [
+        {
+          "date": "2026-06-15",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-15",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-15",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-07-21",
+          "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by Voice Vote.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-07-21",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.9381": {
+      "id": "H.R.9381",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-11-18",
+      "actions": [
+        {
+          "date": "2026-06-22",
+          "text": "Referred to the House Committee on Education and Workforce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 19 - 14.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-11-18",
+          "text": "Placed on the Union Calendar, Calendar No. 782.",
+          "type": "Calendars",
+          "code": "H12410",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-11-18",
+          "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-887.",
+          "type": "Committee",
+          "code": "H12200",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-11-18",
+          "text": "Reported (Amended) by the Committee on Education and Workforce. H. Rept. 119-887.",
+          "type": "Committee",
+          "code": "5000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.9477": {
+      "id": "H.R.9477",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-25",
+      "actions": [
+        {
+          "date": "2026-06-25",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-25",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.7058": {
+      "id": "H.R.7058",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-03-26",
+      "actions": [
+        {
+          "date": "2026-01-14",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-01-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-01-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-03-26",
+          "text": "Ordered to be Reported by the Yeas and Nays: 45 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-03-26",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.8819": {
+      "id": "H.R.8819",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-05-14",
+      "actions": [
+        {
+          "date": "2026-05-14",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-05-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-05-14",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.6571": {
+      "id": "H.R.6571",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-10",
+      "actions": [
+        {
+          "date": "2025-12-10",
+          "text": "Referred to the House Committee on Oversight and Government Reform.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-10",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-12-10",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.9439": {
+      "id": "H.R.9439",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-24",
+      "actions": [
+        {
+          "date": "2026-06-24",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.7977": {
       "id": "H.R.7977",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-18",
       "actions": [
         {
@@ -2709,39 +2631,10 @@
         }
       ]
     },
-    "H.R.9439": {
-      "id": "H.R.9439",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-24",
-      "actions": [
-        {
-          "date": "2026-06-24",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.7064": {
       "id": "H.R.7064",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-14",
       "actions": [
         {
@@ -2770,7 +2663,7 @@
     "H.R.8094": {
       "id": "H.R.8094",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-26",
       "actions": [
         {
@@ -2799,7 +2692,7 @@
     "H.R.7801": {
       "id": "H.R.7801",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-04",
       "actions": [
         {
@@ -2828,7 +2721,7 @@
     "H.R.7151": {
       "id": "H.R.7151",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-20",
       "actions": [
         {
@@ -2854,10 +2747,39 @@
         }
       ]
     },
+    "H.R.7985": {
+      "id": "H.R.7985",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-03-18",
+      "actions": [
+        {
+          "date": "2026-03-18",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-03-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-03-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.9917": {
       "id": "H.R.9917",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-24",
       "actions": [
         {
@@ -2890,28 +2812,28 @@
         }
       ]
     },
-    "H.R.7985": {
-      "id": "H.R.7985",
+    "H.R.9915": {
+      "id": "H.R.9915",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-03-18",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-23",
       "actions": [
         {
-          "date": "2026-03-18",
+          "date": "2026-07-23",
           "text": "Referred to the House Committee on Energy and Commerce.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2026-03-18",
+          "date": "2026-07-23",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-03-18",
+          "date": "2026-07-23",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
@@ -2919,130 +2841,117 @@
         }
       ]
     },
-    "H.R.7305": {
-      "id": "H.R.7305",
-      "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-13",
+    "H.R.8413": {
+      "id": "H.R.8413",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-21",
       "actions": [
         {
-          "date": "2026-02-02",
+          "date": "2026-04-21",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-21",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.9335": {
+      "id": "H.R.9335",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-21",
+      "actions": [
+        {
+          "date": "2026-06-18",
           "text": "Referred to the Subcommittee on Energy.",
           "type": "Committee",
           "code": "H11000",
           "source": "House committee actions"
         },
         {
-          "date": "2026-02-02",
+          "date": "2026-06-18",
           "text": "Referred to the House Committee on Energy and Commerce.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2026-02-02",
+          "date": "2026-06-18",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-02-02",
+          "date": "2026-06-18",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-02-04",
-          "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+          "date": "2026-06-24",
+          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
           "type": "Committee",
           "code": "H23000",
           "source": "House committee actions"
         },
         {
-          "date": "2026-02-04",
+          "date": "2026-06-24",
           "text": "Subcommittee Consideration and Mark-up Session Held",
           "type": "Committee",
           "code": "H22000",
           "source": "House committee actions"
         },
         {
-          "date": "2026-05-12",
-          "text": "Placed on the Union Calendar, Calendar No. 563.",
-          "type": "Calendars",
-          "code": "H12410",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-05-12",
-          "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-646.",
+          "date": "2026-07-20",
+          "text": "Committee Consideration and Mark-up Session Held",
           "type": "Committee",
-          "code": "H12200",
-          "source": "House floor actions"
+          "code": "H15001",
+          "source": "House committee actions"
         },
         {
-          "date": "2026-05-12",
-          "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-646.",
+          "date": "2026-07-21",
+          "text": "Ordered to be Reported by the Yeas and Nays: 39 - 10.",
           "type": "Committee",
-          "code": "5000",
-          "source": "Library of Congress"
+          "code": "H19000",
+          "source": "House committee actions"
         },
         {
-          "date": "2026-06-29",
-          "text": "Motion to reconsider laid on the table Agreed to without objection.",
-          "type": "Floor",
-          "code": "H38310",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-29",
-          "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4300-4301)",
-          "type": "Floor",
-          "code": "H37300",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-29",
-          "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4300-4301)",
-          "type": "Floor",
-          "code": "8000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-29",
-          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7305.",
-          "type": "Floor",
-          "code": "H8D000",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-29",
-          "text": "Considered under suspension of the rules. (consideration: CR H4300-4302)",
-          "type": "Floor",
-          "code": "H30000",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-29",
-          "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
-          "type": "Floor",
-          "code": "H30300",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-07-13",
-          "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
+          "date": "2026-07-21",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
         }
       ]
     },
     "H.R.9339": {
       "id": "H.R.9339",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-16",
       "actions": [
         {
@@ -3180,253 +3089,10 @@
         }
       ]
     },
-    "H.R.9915": {
-      "id": "H.R.9915",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-23",
-      "actions": [
-        {
-          "date": "2026-07-23",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-07-23",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-07-23",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.9335": {
-      "id": "H.R.9335",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-21",
-      "actions": [
-        {
-          "date": "2026-06-18",
-          "text": "Referred to the Subcommittee on Energy.",
-          "type": "Committee",
-          "code": "H11000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-18",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
-          "type": "Committee",
-          "code": "H23000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Subcommittee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H22000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-20",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Ordered to be Reported by the Yeas and Nays: 39 - 10.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.6425": {
-      "id": "H.R.6425",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-04",
-      "actions": [
-        {
-          "date": "2025-12-04",
-          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "H.R.5967": {
-      "id": "H.R.5967",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-09-16",
-      "actions": [
-        {
-          "date": "2025-11-07",
-          "text": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
-          "type": "Committee",
-          "code": "H11000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2025-11-07",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-11-07",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-11-07",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-11-07",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-09-01",
-          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
-          "type": "Committee",
-          "code": "H23000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-09-01",
-          "text": "Subcommittee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H22000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-09-16",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 36 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-09-16",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.6426": {
-      "id": "H.R.6426",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-04",
-      "actions": [
-        {
-          "date": "2025-12-04",
-          "text": "Referred to the House Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-12-04",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.9340": {
       "id": "H.R.9340",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-30",
       "actions": [
         {
@@ -3634,10 +3300,153 @@
         }
       ]
     },
+    "H.R.6425": {
+      "id": "H.R.6425",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-04",
+      "actions": [
+        {
+          "date": "2025-12-04",
+          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Referred to the Committee on the Judiciary, and in addition to the Committees on Energy and Commerce, and Financial Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.5967": {
+      "id": "H.R.5967",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-09-16",
+      "actions": [
+        {
+          "date": "2025-11-07",
+          "text": "Referred to the Subcommittee on Commerce, Manufacturing, and Trade.",
+          "type": "Committee",
+          "code": "H11000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2025-11-07",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-11-07",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-11-07",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-11-07",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-09-01",
+          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
+          "type": "Committee",
+          "code": "H23000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-09-01",
+          "text": "Subcommittee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H22000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-09-16",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 36 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-09-16",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.6426": {
+      "id": "H.R.6426",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-04",
+      "actions": [
+        {
+          "date": "2025-12-04",
+          "text": "Referred to the House Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-12-04",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.5900": {
       "id": "H.R.5900",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-10-31",
       "actions": [
         {
@@ -3663,82 +3472,10 @@
         }
       ]
     },
-    "H.R.8170": {
-      "id": "H.R.8170",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-22",
-      "actions": [
-        {
-          "date": "2026-04-02",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-04-02",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-02",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 36 - 8.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.9578": {
-      "id": "H.R.9578",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-02",
-      "actions": [
-        {
-          "date": "2026-07-02",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-07-02",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-07-02",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.7215": {
       "id": "H.R.7215",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-22",
       "actions": [
         {
@@ -3778,10 +3515,111 @@
         }
       ]
     },
+    "H.R.9578": {
+      "id": "H.R.9578",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-02",
+      "actions": [
+        {
+          "date": "2026-07-02",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-07-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-07-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.8170": {
+      "id": "H.R.8170",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-22",
+      "actions": [
+        {
+          "date": "2026-04-02",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-04-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 36 - 8.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.6879": {
+      "id": "H.R.6879",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-18",
+      "actions": [
+        {
+          "date": "2025-12-18",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-12-18",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.6875": {
       "id": "H.R.6875",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-21",
       "actions": [
         {
@@ -3821,39 +3659,53 @@
         }
       ]
     },
-    "H.R.6879": {
-      "id": "H.R.6879",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-18",
+    "H.R.6996": {
+      "id": "H.R.6996",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-22",
       "actions": [
         {
-          "date": "2025-12-18",
+          "date": "2026-01-09",
           "text": "Referred to the House Committee on Foreign Affairs.",
           "type": "IntroReferral",
           "code": "H11100",
           "source": "House floor actions"
         },
         {
-          "date": "2025-12-18",
+          "date": "2026-01-09",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2025-12-18",
+          "date": "2026-01-09",
           "text": "Introduced in House",
           "type": "IntroReferral",
           "code": "1000",
           "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 37 - 7.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
         }
       ]
     },
     "H.R.4920": {
       "id": "H.R.4920",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -3896,7 +3748,7 @@
     "H.R.4505": {
       "id": "H.R.4505",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -3939,7 +3791,7 @@
     "H.R.7003": {
       "id": "H.R.7003",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -3986,96 +3838,10 @@
         }
       ]
     },
-    "H.R.6996": {
-      "id": "H.R.6996",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-22",
-      "actions": [
-        {
-          "date": "2026-01-09",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-01-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-01-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 37 - 7.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.6058": {
-      "id": "H.R.6058",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-22",
-      "actions": [
-        {
-          "date": "2025-11-17",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-11-17",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-11-17",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
     "H.R.8287": {
       "id": "H.R.8287",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -4115,10 +3881,81 @@
         }
       ]
     },
+    "H.R.6529": {
+      "id": "H.R.6529",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-21",
+      "actions": [
+        {
+          "date": "2025-12-09",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-12-09",
+          "text": "Referred to the Subcommittee on Energy.",
+          "type": "Committee",
+          "code": "H11000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2025-12-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-12-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Forwarded by Subcommittee to Full Committee (Amended) by Voice Vote.",
+          "type": "Committee",
+          "code": "H23000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Subcommittee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H22000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-07-20",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-07-21",
+          "text": "Ordered to be Reported by the Yeas and Nays: 44 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-07-21",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
     "H.R.8285": {
       "id": "H.R.8285",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -4158,10 +3995,96 @@
         }
       ]
     },
+    "H.R.6058": {
+      "id": "H.R.6058",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-22",
+      "actions": [
+        {
+          "date": "2025-11-17",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-11-17",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-11-17",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 44 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
+    "H.R.8283": {
+      "id": "H.R.8283",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-22",
+      "actions": [
+        {
+          "date": "2026-04-15",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-04-15",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-15",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
     "H.R.4278": {
       "id": "H.R.4278",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-02",
       "actions": [
         {
@@ -4187,10 +4110,53 @@
         }
       ]
     },
+    "H.R.8169": {
+      "id": "H.R.8169",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-22",
+      "actions": [
+        {
+          "date": "2026-03-30",
+          "text": "Referred to the House Committee on Foreign Affairs.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-03-30",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-03-30",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 44 - 0.",
+          "type": "Committee",
+          "code": "H19000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-04-22",
+          "text": "Committee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H15001",
+          "source": "House committee actions"
+        }
+      ]
+    },
     "H.R.2683": {
       "id": "H.R.2683",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-13",
       "actions": [
         {
@@ -4296,7 +4262,7 @@
     "H.R.3633": {
       "id": "H.R.3633",
       "stage": "Passed House",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-15",
       "actions": [
         {
@@ -4525,125 +4491,10 @@
         }
       ]
     },
-    "H.R.8283": {
-      "id": "H.R.8283",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-22",
-      "actions": [
-        {
-          "date": "2026-04-15",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-04-15",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-15",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Ordered to be Reported (Amended) by the Yeas and Nays: 43 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.8169": {
-      "id": "H.R.8169",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-22",
-      "actions": [
-        {
-          "date": "2026-03-30",
-          "text": "Referred to the House Committee on Foreign Affairs.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-03-30",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-03-30",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 44 - 0.",
-          "type": "Committee",
-          "code": "H19000",
-          "source": "House committee actions"
-        },
-        {
-          "date": "2026-04-22",
-          "text": "Committee Consideration and Mark-up Session Held",
-          "type": "Committee",
-          "code": "H15001",
-          "source": "House committee actions"
-        }
-      ]
-    },
-    "H.R.9546": {
-      "id": "H.R.9546",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-30",
-      "actions": [
-        {
-          "date": "2026-06-30",
-          "text": "Referred to the House Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-30",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-30",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.9151": {
       "id": "H.R.9151",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-04",
       "actions": [
         {
@@ -4676,10 +4527,159 @@
         }
       ]
     },
+    "H.R.9546": {
+      "id": "H.R.9546",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-30",
+      "actions": [
+        {
+          "date": "2026-06-30",
+          "text": "Referred to the House Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-30",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-30",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "H.R.7305": {
+      "id": "H.R.7305",
+      "stage": "Passed House",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-13",
+      "actions": [
+        {
+          "date": "2026-02-02",
+          "text": "Referred to the Subcommittee on Energy.",
+          "type": "Committee",
+          "code": "H11000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-02-02",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-02-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-02-02",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-02-04",
+          "text": "Forwarded by Subcommittee to Full Committee by Voice Vote.",
+          "type": "Committee",
+          "code": "H23000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-02-04",
+          "text": "Subcommittee Consideration and Mark-up Session Held",
+          "type": "Committee",
+          "code": "H22000",
+          "source": "House committee actions"
+        },
+        {
+          "date": "2026-05-12",
+          "text": "Placed on the Union Calendar, Calendar No. 563.",
+          "type": "Calendars",
+          "code": "H12410",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-05-12",
+          "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-646.",
+          "type": "Committee",
+          "code": "H12200",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-05-12",
+          "text": "Reported (Amended) by the Committee on Energy and Commerce. H. Rept. 119-646.",
+          "type": "Committee",
+          "code": "5000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "Motion to reconsider laid on the table Agreed to without objection.",
+          "type": "Floor",
+          "code": "H38310",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4300-4301)",
+          "type": "Floor",
+          "code": "H37300",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "Passed/agreed to in House: On motion to suspend the rules and pass the bill, as amended Agreed to by voice vote. (text: CR H4300-4301)",
+          "type": "Floor",
+          "code": "8000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "DEBATE - The House proceeded with forty minutes of debate on H.R. 7305.",
+          "type": "Floor",
+          "code": "H8D000",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "Considered under suspension of the rules. (consideration: CR H4300-4302)",
+          "type": "Floor",
+          "code": "H30000",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-29",
+          "text": "Mr. Guthrie moved to suspend the rules and pass the bill, as amended.",
+          "type": "Floor",
+          "code": "H30300",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-07-13",
+          "text": "Received in the Senate and Read twice and referred to the Committee on Energy and Natural Resources.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        }
+      ]
+    },
     "H.R.9925": {
       "id": "H.R.9925",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-23",
       "actions": [
         {
@@ -4715,7 +4715,7 @@
     "H.R.9914": {
       "id": "H.R.9914",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-23",
       "actions": [
         {
@@ -4744,7 +4744,7 @@
     "H.R.8462": {
       "id": "H.R.8462",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-29",
       "actions": [
         {
@@ -4787,7 +4787,7 @@
     "H.R.9646": {
       "id": "H.R.9646",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-21",
       "actions": [
         {
@@ -4827,61 +4827,10 @@
         }
       ]
     },
-    "H.R.10873": {
-      "id": "H.R.10873",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-10-22",
-      "actions": [
-        {
-          "date": "2026-10-22",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-10-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.2117": {
-      "id": "S.2117",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-06-18",
-      "actions": [
-        {
-          "date": "2025-06-18",
-          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-06-18",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.10362": {
       "id": "H.R.10362",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-14",
       "actions": [
         {
@@ -4914,10 +4863,105 @@
         }
       ]
     },
+    "H.R.10873": {
+      "id": "H.R.10873",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-10-22",
+      "actions": [
+        {
+          "date": "2026-10-22",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-10-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.2117": {
+      "id": "S.2117",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-06-18",
+      "actions": [
+        {
+          "date": "2025-06-18",
+          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-06-18",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.2081": {
+      "id": "S.2081",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-06-12",
+      "actions": [
+        {
+          "date": "2025-06-12",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-06-12",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.1875": {
+      "id": "S.1875",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-22",
+      "actions": [
+        {
+          "date": "2025-05-22",
+          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-22",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1837": {
       "id": "S.1837",
       "stage": "Passed Senate",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-13",
       "actions": [
         {
@@ -4985,54 +5029,10 @@
         }
       ]
     },
-    "S.2081": {
-      "id": "S.2081",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-06-12",
-      "actions": [
-        {
-          "date": "2025-06-12",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-06-12",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.1875": {
-      "id": "S.1875",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-22",
-      "actions": [
-        {
-          "date": "2025-05-22",
-          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-05-22",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.1775": {
       "id": "S.1775",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-15",
       "actions": [
         {
@@ -5051,54 +5051,10 @@
         }
       ]
     },
-    "S.1705": {
-      "id": "S.1705",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-08",
-      "actions": [
-        {
-          "date": "2025-05-08",
-          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-05-08",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.1699": {
-      "id": "S.1699",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-08",
-      "actions": [
-        {
-          "date": "2025-05-08",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-05-08",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.1746": {
       "id": "S.1746",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-13",
       "actions": [
         {
@@ -5117,10 +5073,54 @@
         }
       ]
     },
+    "S.1699": {
+      "id": "S.1699",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-08",
+      "actions": [
+        {
+          "date": "2025-05-08",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-08",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.1705": {
+      "id": "S.1705",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-08",
+      "actions": [
+        {
+          "date": "2025-05-08",
+          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-08",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1638": {
       "id": "S.1638",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-07",
       "actions": [
         {
@@ -5139,54 +5139,10 @@
         }
       ]
     },
-    "S.1367": {
-      "id": "S.1367",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-04-09",
-      "actions": [
-        {
-          "date": "2025-04-09",
-          "text": "Read twice and referred to the Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-04-09",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.1343": {
-      "id": "S.1343",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-04-08",
-      "actions": [
-        {
-          "date": "2025-04-08",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-04-08",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.1473": {
       "id": "S.1473",
       "stage": "Passed Senate",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-05-21",
       "actions": [
         {
@@ -5261,10 +5217,32 @@
         }
       ]
     },
+    "S.1367": {
+      "id": "S.1367",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-04-09",
+      "actions": [
+        {
+          "date": "2025-04-09",
+          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-04-09",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1397": {
       "id": "S.1397",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-18",
       "actions": [
         {
@@ -5311,10 +5289,32 @@
         }
       ]
     },
+    "S.1343": {
+      "id": "S.1343",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-04-08",
+      "actions": [
+        {
+          "date": "2025-04-08",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-04-08",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1378": {
       "id": "S.1378",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-10-21",
       "actions": [
         {
@@ -5364,7 +5364,7 @@
     "S.1337": {
       "id": "S.1337",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-08",
       "actions": [
         {
@@ -5386,7 +5386,7 @@
     "S.1344": {
       "id": "S.1344",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-08",
       "actions": [
         {
@@ -5408,7 +5408,7 @@
     "S.1331": {
       "id": "S.1331",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-08",
       "actions": [
         {
@@ -5430,7 +5430,7 @@
     "S.1346": {
       "id": "S.1346",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-08",
       "actions": [
         {
@@ -5452,7 +5452,7 @@
     "S.1290": {
       "id": "S.1290",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-03",
       "actions": [
         {
@@ -5471,10 +5471,32 @@
         }
       ]
     },
+    "S.1213": {
+      "id": "S.1213",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-03-31",
+      "actions": [
+        {
+          "date": "2025-03-31",
+          "text": "Read twice and referred to the Committee on Rules and Administration.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-03-31",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1269": {
       "id": "S.1269",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-19",
       "actions": [
         {
@@ -5500,54 +5522,10 @@
         }
       ]
     },
-    "S.1213": {
-      "id": "S.1213",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-03-31",
-      "actions": [
-        {
-          "date": "2025-03-31",
-          "text": "Read twice and referred to the Committee on Rules and Administration.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-03-31",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.438": {
-      "id": "S.438",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-02-05",
-      "actions": [
-        {
-          "date": "2025-02-05",
-          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-02-05",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.579": {
       "id": "S.579",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-02-13",
       "actions": [
         {
@@ -5569,7 +5547,7 @@
     "S.321": {
       "id": "S.321",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-01-29",
       "actions": [
         {
@@ -5588,10 +5566,32 @@
         }
       ]
     },
+    "S.438": {
+      "id": "S.438",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-02-05",
+      "actions": [
+        {
+          "date": "2025-02-05",
+          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-02-05",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.232": {
       "id": "S.232",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-01-23",
       "actions": [
         {
@@ -5613,7 +5613,7 @@
     "S.2153": {
       "id": "S.2153",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-24",
       "actions": [
         {
@@ -5635,7 +5635,7 @@
     "S.2367": {
       "id": "S.2367",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-21",
       "actions": [
         {
@@ -5657,7 +5657,7 @@
     "S.2381": {
       "id": "S.2381",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-22",
       "actions": [
         {
@@ -5679,7 +5679,7 @@
     "S.2528": {
       "id": "S.2528",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-29",
       "actions": [
         {
@@ -5701,7 +5701,7 @@
     "S.2615": {
       "id": "S.2615",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-07-31",
       "actions": [
         {
@@ -5723,7 +5723,7 @@
     "S.2750": {
       "id": "S.2750",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-09-10",
       "actions": [
         {
@@ -5745,7 +5745,7 @@
     "S.2714": {
       "id": "S.2714",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-09-04",
       "actions": [
         {
@@ -5767,7 +5767,7 @@
     "S.2164": {
       "id": "S.2164",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-25",
       "actions": [
         {
@@ -5786,10 +5786,61 @@
         }
       ]
     },
+    "S.3319": {
+      "id": "S.3319",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-03",
+      "actions": [
+        {
+          "date": "2025-12-03",
+          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-12-03",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.4407": {
+      "id": "S.4407",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-08-05",
+      "actions": [
+        {
+          "date": "2026-04-28",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-04-28",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-08-05",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        }
+      ]
+    },
     "S.3062": {
       "id": "S.3062",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-05-11",
       "actions": [
         {
@@ -5836,83 +5887,10 @@
         }
       ]
     },
-    "S.3319": {
-      "id": "S.3319",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-03",
-      "actions": [
-        {
-          "date": "2025-12-03",
-          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-12-03",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.4407": {
-      "id": "S.4407",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-08-05",
-      "actions": [
-        {
-          "date": "2026-04-28",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-04-28",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-08-05",
-          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        }
-      ]
-    },
-    "S.4414": {
-      "id": "S.4414",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-28",
-      "actions": [
-        {
-          "date": "2026-04-28",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-04-28",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.3809": {
       "id": "S.3809",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-02-09",
       "actions": [
         {
@@ -5934,7 +5912,7 @@
     "S.3957": {
       "id": "S.3957",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-02",
       "actions": [
         {
@@ -5953,43 +5931,21 @@
         }
       ]
     },
-    "S.1633": {
-      "id": "S.1633",
+    "S.4414": {
+      "id": "S.4414",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-07",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-28",
       "actions": [
         {
-          "date": "2025-05-07",
+          "date": "2026-04-28",
           "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
           "type": "IntroReferral",
           "code": "",
           "source": "Senate"
         },
         {
-          "date": "2025-05-07",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.3682": {
-      "id": "S.3682",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-01-15",
-      "actions": [
-        {
-          "date": "2026-01-15",
-          "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-01-15",
+          "date": "2026-04-28",
           "text": "Introduced in Senate",
           "type": "IntroReferral",
           "code": "10000",
@@ -6000,7 +5956,7 @@
     "S.3952": {
       "id": "S.3952",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-19",
       "actions": [
         {
@@ -6026,10 +5982,54 @@
         }
       ]
     },
+    "S.3682": {
+      "id": "S.3682",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-01-15",
+      "actions": [
+        {
+          "date": "2026-01-15",
+          "text": "Read twice and referred to the Committee on Energy and Natural Resources.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-01-15",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.1633": {
+      "id": "S.1633",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-07",
+      "actions": [
+        {
+          "date": "2025-05-07",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-07",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.4213": {
       "id": "S.4213",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-03-25",
       "actions": [
         {
@@ -6048,32 +6048,10 @@
         }
       ]
     },
-    "S.4855": {
-      "id": "S.4855",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-23",
-      "actions": [
-        {
-          "date": "2026-06-23",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-06-23",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.4825": {
       "id": "S.4825",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-18",
       "actions": [
         {
@@ -6092,32 +6070,10 @@
         }
       ]
     },
-    "S.4214": {
-      "id": "S.4214",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-03-25",
-      "actions": [
-        {
-          "date": "2026-03-25",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-03-25",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.4833": {
       "id": "S.4833",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-18",
       "actions": [
         {
@@ -6139,7 +6095,7 @@
     "S.4695": {
       "id": "S.4695",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-08",
       "actions": [
         {
@@ -6158,10 +6114,32 @@
         }
       ]
     },
+    "S.4214": {
+      "id": "S.4214",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-03-25",
+      "actions": [
+        {
+          "date": "2026-03-25",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-03-25",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.2938": {
       "id": "S.2938",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-30",
       "actions": [
         {
@@ -6187,21 +6165,21 @@
         }
       ]
     },
-    "S.3813": {
-      "id": "S.3813",
+    "S.4855": {
+      "id": "S.4855",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-02-10",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-23",
       "actions": [
         {
-          "date": "2026-02-10",
-          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "date": "2026-06-23",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
           "type": "IntroReferral",
           "code": "",
           "source": "Senate"
         },
         {
-          "date": "2026-02-10",
+          "date": "2026-06-23",
           "text": "Introduced in Senate",
           "type": "IntroReferral",
           "code": "10000",
@@ -6212,7 +6190,7 @@
     "S.4915": {
       "id": "S.4915",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-24",
       "actions": [
         {
@@ -6231,10 +6209,32 @@
         }
       ]
     },
+    "S.3813": {
+      "id": "S.3813",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-02-10",
+      "actions": [
+        {
+          "date": "2026-02-10",
+          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-02-10",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.1396": {
       "id": "S.1396",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-09",
       "actions": [
         {
@@ -6256,7 +6256,7 @@
     "S.4656": {
       "id": "S.4656",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-02",
       "actions": [
         {
@@ -6278,7 +6278,7 @@
     "S.4991": {
       "id": "S.4991",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-15",
       "actions": [
         {
@@ -6300,7 +6300,7 @@
     "S.5054": {
       "id": "S.5054",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-21",
       "actions": [
         {
@@ -6322,7 +6322,7 @@
     "S.5051": {
       "id": "S.5051",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-21",
       "actions": [
         {
@@ -6344,7 +6344,7 @@
     "S.5061": {
       "id": "S.5061",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-21",
       "actions": [
         {
@@ -6366,7 +6366,7 @@
     "S.5057": {
       "id": "S.5057",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-21",
       "actions": [
         {
@@ -6385,32 +6385,10 @@
         }
       ]
     },
-    "S.5055": {
-      "id": "S.5055",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-21",
-      "actions": [
-        {
-          "date": "2026-07-21",
-          "text": "Read twice and referred to the Committee on Finance.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-07-21",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.5358": {
       "id": "S.5358",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-08-06",
       "actions": [
         {
@@ -6429,10 +6407,54 @@
         }
       ]
     },
+    "S.5055": {
+      "id": "S.5055",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-21",
+      "actions": [
+        {
+          "date": "2026-07-21",
+          "text": "Read twice and referred to the Committee on Finance.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-07-21",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.5130": {
+      "id": "S.5130",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-23",
+      "actions": [
+        {
+          "date": "2026-07-23",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-07-23",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.278": {
       "id": "S.278",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-30",
       "actions": [
         {
@@ -6479,32 +6501,10 @@
         }
       ]
     },
-    "S.5130": {
-      "id": "S.5130",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-23",
-      "actions": [
-        {
-          "date": "2026-07-23",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-07-23",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.5090": {
       "id": "S.5090",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-22",
       "actions": [
         {
@@ -6526,7 +6526,7 @@
     "S.5105": {
       "id": "S.5105",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-23",
       "actions": [
         {
@@ -6548,7 +6548,7 @@
     "S.5187": {
       "id": "S.5187",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-30",
       "actions": [
         {
@@ -6567,10 +6567,68 @@
         }
       ]
     },
+    "S.5171": {
+      "id": "S.5171",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-08-05",
+      "actions": [
+        {
+          "date": "2026-07-29",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-07-29",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-08-05",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        }
+      ]
+    },
+    "S.4199": {
+      "id": "S.4199",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-08-05",
+      "actions": [
+        {
+          "date": "2026-03-25",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-03-25",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-08-05",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        }
+      ]
+    },
     "S.1748": {
       "id": "S.1748",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-08-05",
       "actions": [
         {
@@ -6596,68 +6654,32 @@
         }
       ]
     },
-    "S.4199": {
-      "id": "S.4199",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-08-05",
+    "S.737": {
+      "id": "S.737",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-02-26",
       "actions": [
         {
-          "date": "2026-03-25",
+          "date": "2025-02-26",
           "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
           "type": "IntroReferral",
           "code": "",
           "source": "Senate"
         },
         {
-          "date": "2026-03-25",
+          "date": "2025-02-26",
           "text": "Introduced in Senate",
           "type": "IntroReferral",
           "code": "10000",
           "source": "Library of Congress"
-        },
-        {
-          "date": "2026-08-05",
-          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        }
-      ]
-    },
-    "S.5171": {
-      "id": "S.5171",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-08-05",
-      "actions": [
-        {
-          "date": "2026-07-29",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-07-29",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-08-05",
-          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
         }
       ]
     },
     "S.4749": {
       "id": "S.4749",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-16",
       "actions": [
         {
@@ -6683,32 +6705,10 @@
         }
       ]
     },
-    "S.737": {
-      "id": "S.737",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-02-26",
-      "actions": [
-        {
-          "date": "2025-02-26",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-02-26",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.5648": {
       "id": "S.5648",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-30",
       "actions": [
         {
@@ -6727,32 +6727,10 @@
         }
       ]
     },
-    "S.3519": {
-      "id": "S.3519",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-12-17",
-      "actions": [
-        {
-          "date": "2025-12-17",
-          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-12-17",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.3150": {
       "id": "S.3150",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-11-06",
       "actions": [
         {
@@ -6771,60 +6749,10 @@
         }
       ]
     },
-    "S.3597": {
-      "id": "S.3597",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-11-16",
-      "actions": [
-        {
-          "date": "2026-01-08",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-01-08",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-14",
-          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-11-16",
-          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 718.",
-          "type": "Calendars",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-11-16",
-          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-162.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-11-16",
-          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-162.",
-          "type": "Committee",
-          "code": "14000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.4281": {
       "id": "S.4281",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-13",
       "actions": [
         {
@@ -6843,10 +6771,54 @@
         }
       ]
     },
+    "S.3519": {
+      "id": "S.3519",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-12-17",
+      "actions": [
+        {
+          "date": "2025-12-17",
+          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-12-17",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.2558": {
+      "id": "S.2558",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-07-30",
+      "actions": [
+        {
+          "date": "2025-07-30",
+          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-07-30",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.2794": {
       "id": "H.R.2794",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-04-09",
       "actions": [
         {
@@ -6872,32 +6844,10 @@
         }
       ]
     },
-    "S.2558": {
-      "id": "S.2558",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-07-30",
-      "actions": [
-        {
-          "date": "2025-07-30",
-          "text": "Read twice and referred to the Committee on Homeland Security and Governmental Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-07-30",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.5885": {
       "id": "H.R.5885",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-10-31",
       "actions": [
         {
@@ -6923,46 +6873,10 @@
         }
       ]
     },
-    "H.R.9442": {
-      "id": "H.R.9442",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-06-24",
-      "actions": [
-        {
-          "date": "2026-06-24",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.7434": {
       "id": "H.R.7434",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-02-09",
       "actions": [
         {
@@ -6988,162 +6902,38 @@
         }
       ]
     },
-    "S.1792": {
-      "id": "S.1792",
+    "H.R.9442": {
+      "id": "H.R.9442",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-15",
-      "actions": [
-        {
-          "date": "2025-05-15",
-          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-05-15",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.1833": {
-      "id": "S.1833",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-05-21",
-      "actions": [
-        {
-          "date": "2025-05-21",
-          "text": "Read twice and referred to the Committee on the Judiciary.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-05-21",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.3108": {
-      "id": "S.3108",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-11-05",
-      "actions": [
-        {
-          "date": "2025-11-05",
-          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2025-11-05",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.4441": {
-      "id": "S.4441",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-29",
-      "actions": [
-        {
-          "date": "2026-04-29",
-          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-04-29",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.4456": {
-      "id": "S.4456",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-30",
-      "actions": [
-        {
-          "date": "2026-04-30",
-          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-04-30",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
-    "S.4591": {
-      "id": "S.4591",
-      "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-24",
       "actions": [
         {
-          "date": "2026-05-20",
-          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "date": "2026-06-24",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
           "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
+          "code": "H11100",
+          "source": "House floor actions"
         },
         {
-          "date": "2026-05-20",
-          "text": "Introduced in Senate",
+          "date": "2026-06-24",
+          "text": "Referred to the Committee on Energy and Commerce, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.",
           "type": "IntroReferral",
-          "code": "10000",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
           "source": "Library of Congress"
         },
         {
-          "date": "2026-06-18",
-          "text": "Committee on the Judiciary. Ordered to be reported with an amendment in the nature of a substitute favorably.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        },
-        {
           "date": "2026-06-24",
-          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 446.",
-          "type": "Calendars",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Committee on the Judiciary. Reported by Senator Grassley with an amendment in the nature of a substitute. Without written report.",
-          "type": "Committee",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-06-24",
-          "text": "Committee on the Judiciary. Reported by Senator Grassley with an amendment in the nature of a substitute. Without written report.",
-          "type": "Committee",
-          "code": "14000",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
           "source": "Library of Congress"
         }
       ]
@@ -7151,7 +6941,7 @@
     "S.146": {
       "id": "S.146",
       "stage": "Enacted",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-05-19",
       "actions": [
         {
@@ -7317,10 +7107,170 @@
         }
       ]
     },
+    "S.1792": {
+      "id": "S.1792",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-15",
+      "actions": [
+        {
+          "date": "2025-05-15",
+          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-15",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.1833": {
+      "id": "S.1833",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-05-21",
+      "actions": [
+        {
+          "date": "2025-05-21",
+          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-05-21",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.3108": {
+      "id": "S.3108",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-11-05",
+      "actions": [
+        {
+          "date": "2025-11-05",
+          "text": "Read twice and referred to the Committee on Health, Education, Labor, and Pensions.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2025-11-05",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.4441": {
+      "id": "S.4441",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-29",
+      "actions": [
+        {
+          "date": "2026-04-29",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-04-29",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.4456": {
+      "id": "S.4456",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-30",
+      "actions": [
+        {
+          "date": "2026-04-30",
+          "text": "Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-04-30",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.4591": {
+      "id": "S.4591",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-06-24",
+      "actions": [
+        {
+          "date": "2026-05-20",
+          "text": "Read twice and referred to the Committee on the Judiciary.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-05-20",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-06-18",
+          "text": "Committee on the Judiciary. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 446.",
+          "type": "Calendars",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Committee on the Judiciary. Reported by Senator Grassley with an amendment in the nature of a substitute. Without written report.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-06-24",
+          "text": "Committee on the Judiciary. Reported by Senator Grassley with an amendment in the nature of a substitute. Without written report.",
+          "type": "Committee",
+          "code": "14000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "S.4762": {
       "id": "S.4762",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-11",
       "actions": [
         {
@@ -7342,7 +7292,7 @@
     "H.R.1623": {
       "id": "H.R.1623",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-11",
       "actions": [
         {
@@ -7389,10 +7339,39 @@
         }
       ]
     },
+    "H.R.5712": {
+      "id": "H.R.5712",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2025-10-08",
+      "actions": [
+        {
+          "date": "2025-10-08",
+          "text": "Referred to the House Committee on Science, Space, and Technology.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2025-10-08",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2025-10-08",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.6322": {
       "id": "H.R.6322",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-22",
       "actions": [
         {
@@ -7432,39 +7411,10 @@
         }
       ]
     },
-    "H.R.5712": {
-      "id": "H.R.5712",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2025-10-08",
-      "actions": [
-        {
-          "date": "2025-10-08",
-          "text": "Referred to the House Committee on Science, Space, and Technology.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2025-10-08",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2025-10-08",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.7218": {
       "id": "H.R.7218",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-01-22",
       "actions": [
         {
@@ -7493,7 +7443,7 @@
     "H.R.7399": {
       "id": "H.R.7399",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-02-05",
       "actions": [
         {
@@ -7522,7 +7472,7 @@
     "H.R.7433": {
       "id": "H.R.7433",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-02-09",
       "actions": [
         {
@@ -7548,10 +7498,39 @@
         }
       ]
     },
+    "H.R.8241": {
+      "id": "H.R.8241",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-04-09",
+      "actions": [
+        {
+          "date": "2026-04-09",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-04-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-09",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.8623": {
       "id": "H.R.8623",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-04-30",
       "actions": [
         {
@@ -7584,39 +7563,10 @@
         }
       ]
     },
-    "H.R.8241": {
-      "id": "H.R.8241",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-04-09",
-      "actions": [
-        {
-          "date": "2026-04-09",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-04-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-04-09",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "H.R.9155": {
       "id": "H.R.9155",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-04",
       "actions": [
         {
@@ -7642,10 +7592,39 @@
         }
       ]
     },
+    "H.R.9825": {
+      "id": "H.R.9825",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-07-22",
+      "actions": [
+        {
+          "date": "2026-07-22",
+          "text": "Referred to the House Committee on Energy and Commerce.",
+          "type": "IntroReferral",
+          "code": "H11100",
+          "source": "House floor actions"
+        },
+        {
+          "date": "2026-07-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "Intro-H",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-07-22",
+          "text": "Introduced in House",
+          "type": "IntroReferral",
+          "code": "1000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.11015": {
       "id": "H.R.11015",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-11-12",
       "actions": [
         {
@@ -7674,7 +7653,7 @@
     "S.2049": {
       "id": "S.2049",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-06-12",
       "actions": [
         {
@@ -7693,39 +7672,10 @@
         }
       ]
     },
-    "H.R.9825": {
-      "id": "H.R.9825",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-07-22",
-      "actions": [
-        {
-          "date": "2026-07-22",
-          "text": "Referred to the House Committee on Energy and Commerce.",
-          "type": "IntroReferral",
-          "code": "H11100",
-          "source": "House floor actions"
-        },
-        {
-          "date": "2026-07-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "Intro-H",
-          "source": "Library of Congress"
-        },
-        {
-          "date": "2026-07-22",
-          "text": "Introduced in House",
-          "type": "IntroReferral",
-          "code": "1000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.3355": {
       "id": "S.3355",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-04",
       "actions": [
         {
@@ -7747,7 +7697,7 @@
     "S.4821": {
       "id": "S.4821",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-17",
       "actions": [
         {
@@ -7769,7 +7719,7 @@
     "S.4840": {
       "id": "S.4840",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-06-18",
       "actions": [
         {
@@ -7791,7 +7741,7 @@
     "S.5028": {
       "id": "S.5028",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-07-16",
       "actions": [
         {
@@ -7813,7 +7763,7 @@
     "S.5333": {
       "id": "S.5333",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-08-06",
       "actions": [
         {
@@ -7832,10 +7782,32 @@
         }
       ]
     },
+    "S.5400": {
+      "id": "S.5400",
+      "stage": "Introduced",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-09-15",
+      "actions": [
+        {
+          "date": "2026-09-15",
+          "text": "Read twice and referred to the Committee on Foreign Relations.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-09-15",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
     "H.R.6484": {
       "id": "H.R.6484",
       "stage": "Committee action",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2025-12-11",
       "actions": [
         {
@@ -7882,32 +7854,10 @@
         }
       ]
     },
-    "S.5400": {
-      "id": "S.5400",
-      "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
-      "latestActionDate": "2026-09-15",
-      "actions": [
-        {
-          "date": "2026-09-15",
-          "text": "Read twice and referred to the Committee on Foreign Relations.",
-          "type": "IntroReferral",
-          "code": "",
-          "source": "Senate"
-        },
-        {
-          "date": "2026-09-15",
-          "text": "Introduced in Senate",
-          "type": "IntroReferral",
-          "code": "10000",
-          "source": "Library of Congress"
-        }
-      ]
-    },
     "S.5640": {
       "id": "S.5640",
       "stage": "Introduced",
-      "checkedAt": "2026-11-25T00:35:00.522Z",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
       "latestActionDate": "2026-09-30",
       "actions": [
         {
@@ -7922,6 +7872,56 @@
           "text": "Introduced in Senate",
           "type": "IntroReferral",
           "code": "10000",
+          "source": "Library of Congress"
+        }
+      ]
+    },
+    "S.3597": {
+      "id": "S.3597",
+      "stage": "Committee action",
+      "checkedAt": "2026-11-25T00:45:41.143Z",
+      "latestActionDate": "2026-11-16",
+      "actions": [
+        {
+          "date": "2026-01-08",
+          "text": "Read twice and referred to the Committee on Commerce, Science, and Transportation.",
+          "type": "IntroReferral",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-01-08",
+          "text": "Introduced in Senate",
+          "type": "IntroReferral",
+          "code": "10000",
+          "source": "Library of Congress"
+        },
+        {
+          "date": "2026-04-14",
+          "text": "Committee on Commerce, Science, and Transportation. Ordered to be reported with an amendment in the nature of a substitute favorably.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-11-16",
+          "text": "Placed on Senate Legislative Calendar under General Orders. Calendar No. 718.",
+          "type": "Calendars",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-11-16",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-162.",
+          "type": "Committee",
+          "code": "",
+          "source": "Senate"
+        },
+        {
+          "date": "2026-11-16",
+          "text": "Committee on Commerce, Science, and Transportation. Reported by Senator Cruz with an amendment in the nature of a substitute. With written report No. 119-162.",
+          "type": "Committee",
+          "code": "14000",
           "source": "Library of Congress"
         }
       ]
