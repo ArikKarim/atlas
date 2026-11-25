@@ -1,6 +1,6 @@
 # Atlas candidate review
 
-Generated 2026-11-25T00:38:40.461Z. 389 candidates; 202 tracked bills remain unchanged.
+Generated 2026-11-25T20:37:03.203Z. 388 candidates; 202 tracked bills remain unchanged.
 
 Open `candidate-review.html` for filters, evidence, and Include / Exclude / Defer decisions. Export your decisions and import them with `npm run review:candidates -- --import path/to/decisions.json`. Included candidates still require an explicit reviewed change to the Tracker.
 
@@ -130,7 +130,7 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.10841](https://www.congress.gov/bill/119th-congress/house-bill/10841) | Securing Elections From AI Deception Act | Direct AI reference | AI & automation | Brown (D-OH) |  | pending |
 | [H.R.10981](https://www.congress.gov/bill/119th-congress/house-bill/10981) | American AI Security Act | Direct AI reference | AI & automation | Gottheimer (D-NJ) |  | pending |
 | [H.R.11046](https://www.congress.gov/bill/119th-congress/house-bill/11046) | To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency the National Cyber and AI Investigations Board to investigate significant cyber incidents, cyber incidents involving terrorism, and cyber incidents involving artificial intelligence, to determine root causes and develop recommendations to prevent similar incidents and address terrorism threats to the United States, including threats relating to the malicious use of information systems or artificial intelligence by covered foreign adversaries, including terrorist organizations, and for other purposes. | Direct AI reference | AI & automation | Luttrell (R-TX) |  | pending |
-| [H.R.11055](https://www.congress.gov/bill/119th-congress/house-bill/11055) | To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency a pilot program to be known as the "BRIDGE AI Mission Program" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for other purposes. | Direct AI reference | AI & automation | Fong (R-CA) |  | pending |
+| [H.R.11055](https://www.congress.gov/bill/119th-congress/house-bill/11055) | BRIDGE AI Act | Direct AI reference | AI & automation | Fong (R-CA) |  | pending |
 | [H.R.11076](https://www.congress.gov/bill/119th-congress/house-bill/11076) | AI INSIGHT Act | Direct AI reference | AI & automation | Van Epps (R-TN) |  | pending |
 | [S.2](https://www.congress.gov/bill/119th-congress/senate-bill/2) | Secure America Act | Direct AI reference | AI & automation; Algorithms & platforms; Privacy & data governance | Graham (R-SC) |  | pending |
 | [S.168](https://www.congress.gov/bill/119th-congress/senate-bill/168) | Energy for America’s Economic Future Act | Direct AI reference | AI & automation | Schmitt (R-MO) |  | pending |
@@ -329,7 +329,6 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.10989](https://www.congress.gov/bill/119th-congress/house-bill/10989) | Smart Transmission Line Placement Act | Broader policy scope | Energy & grid | Vindman (D-VA) |  | pending |
 | [H.R.11002](https://www.congress.gov/bill/119th-congress/house-bill/11002) | Protecting Our Public Lands from Data Centers Act of 2026 | Broader policy scope | Data centers & compute | Dexter (D-OR) |  | pending |
 | [H.R.11064](https://www.congress.gov/bill/119th-congress/house-bill/11064) | Data Center Community Empowerment Act of 2026 | Broader policy scope | Data centers & compute | Liccardo (D-CA) |  | pending |
-| [H.R.11100](https://www.congress.gov/bill/119th-congress/house-bill/11100) | To establish prohibitions on certain entities with respect to data centers, data center services, and cloud services, and for other purposes. | Broader policy scope | Data centers & compute | Harrigan (R-NC) |  | pending |
 | [H.R.11122](https://www.congress.gov/bill/119th-congress/house-bill/11122) | To direct the Secretary of Energy to develop and maintain a website containing information regarding data centers and LEED certifications, and for other purposes. | Broader policy scope | Data centers & compute | Soto (D-FL) |  | pending |
 | [S.66](https://www.congress.gov/bill/119th-congress/senate-bill/66) | Transparency in Bureaucratic Communications Act | Broader policy scope | Algorithms & platforms | Schmitt (R-MO) |  | pending |
 | [S.69](https://www.congress.gov/bill/119th-congress/senate-bill/69) | COLLUDE Act | Broader policy scope | Algorithms & platforms | Schmitt (R-MO) |  | pending |

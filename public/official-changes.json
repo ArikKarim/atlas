@@ -1,5 +1,56 @@
 {
   "schemaVersion": 1,
   "baselineAt": "2026-11-24T02:27:37.020Z",
-  "events": []
+  "events": [
+    {
+      "date": "2026-11-25T20:31:37.691Z",
+      "changes": [
+        {
+          "id": "H.R.3562",
+          "fields": [
+            "cosponsors",
+            "cosponsorCount"
+          ],
+          "before": {
+            "cosponsors": "Lee (R-FL); Cammack (R-FL); Deluzio (D-PA); Dingell (D-MI); Lawler (R-NY); Lieu (D-CA); Mace (R-SC); Miller (R-OH); Raskin (D-MD); Pettersen (D-CO); Van Drew (R-NJ); Velázquez (D-NY); Fitzpatrick (R-PA); Tenney (R-NY); Crockett (D-TX); Malliotakis (R-NY); Gottheimer (D-NJ); Edwards (R-NC); Correa (D-CA); Carey (R-OH); Harder (D-CA); Gooden (R-TX); Grijalva (D-AZ); Luna (R-FL); Ansari (D-AZ); Kean (R-NJ); Tlaib (D-MI); Evans (D-PA); McBride (D-DE); Moran (R-TX); Moskowitz (D-FL); Houchin (R-IN); Landsman (D-OH); Bost (R-IL); Norton (D-DC); De La Cruz (R-TX); Costa (D-CA); Letlow (R-LA); Khanna (D-CA); Timmons (R-SC); Auchincloss (D-MA); Buchanan (R-FL); Davis (D-NC); Miller-Meeks (R-IA); Watson Coleman (D-NJ); Wagner (R-MO); Titus (D-NV); Bresnahan (R-PA); Panetta (D-CA); LaLota (R-NY); Foushee (D-NC); Steube (R-FL); Dean (D-PA); Garbarino (R-NY); Suozzi (D-NY); Moore (R-UT); Ross (D-NC); Salazar (R-FL); Meng (D-NY); Fuller (R-GA); McGarvey (D-KY); Baird (R-IN); Omar (D-MN); Joyce (R-OH); DelBene (D-WA); Balint (D-VT); Turner (R-OH); Miller (R-WV); Subramanyam (D-VA); Sykes (D-OH); Moolenaar (R-MI); Elfreth (D-MD); Carter (R-GA); Wilson (R-SC); Dexter (D-OR)",
+            "cosponsorCount": 75
+          },
+          "after": {
+            "cosponsors": "Lee (R-FL); Cammack (R-FL); Deluzio (D-PA); Dingell (D-MI); Lawler (R-NY); Lieu (D-CA); Mace (R-SC); Miller (R-OH); Raskin (D-MD); Pettersen (D-CO); Van Drew (R-NJ); Velázquez (D-NY); Fitzpatrick (R-PA); Tenney (R-NY); Crockett (D-TX); Malliotakis (R-NY); Gottheimer (D-NJ); Edwards (R-NC); Correa (D-CA); Carey (R-OH); Harder (D-CA); Gooden (R-TX); Grijalva (D-AZ); Luna (R-FL); Ansari (D-AZ); Kean (R-NJ); Tlaib (D-MI); Evans (D-PA); McBride (D-DE); Moran (R-TX); Moskowitz (D-FL); Houchin (R-IN); Landsman (D-OH); Bost (R-IL); Norton (D-DC); De La Cruz (R-TX); Costa (D-CA); Letlow (R-LA); Khanna (D-CA); Timmons (R-SC); Auchincloss (D-MA); Buchanan (R-FL); Davis (D-NC); Miller-Meeks (R-IA); Watson Coleman (D-NJ); Wagner (R-MO); Titus (D-NV); Bresnahan (R-PA); Panetta (D-CA); LaLota (R-NY); Foushee (D-NC); Steube (R-FL); Dean (D-PA); Garbarino (R-NY); Suozzi (D-NY); Moore (R-UT); Ross (D-NC); Salazar (R-FL); Meng (D-NY); Fuller (R-GA); McGarvey (D-KY); Baird (R-IN); Omar (D-MN); Joyce (R-OH); DelBene (D-WA); Balint (D-VT); Turner (R-OH); Miller (R-WV); Subramanyam (D-VA); Sykes (D-OH); Moolenaar (R-MI); Elfreth (D-MD); Carter (R-GA); Wilson (R-SC); Dexter (D-OR); Fry (R-SC); Soto (D-FL)",
+            "cosponsorCount": 77
+          }
+        },
+        {
+          "id": "H.R.9914",
+          "fields": [
+            "cosponsors",
+            "cosponsorCount"
+          ],
+          "before": {
+            "cosponsors": "Whitesides (D-CA); Obernolte (R-CA); Lieu (D-CA); Issa (R-CA); Moran (R-TX); Harrigan (R-NC); Miller-Meeks (R-IA); Trahan (D-MA); Krishnamoorthi (D-IL); Jacobs (D-CA); Tokuda (D-HI); Cline (R-VA); Veasey (D-TX); Moulton (D-MA); Hunt (R-TX); Foster (D-IL); Carter (R-GA); Weber (R-TX); Houlahan (D-PA); Correa (D-CA); Liccardo (D-CA); Huizenga (R-MI); Crockett (D-TX); Sherman (D-CA); McClain Delaney (D-MD)",
+            "cosponsorCount": 25
+          },
+          "after": {
+            "cosponsors": "Whitesides (D-CA); Obernolte (R-CA); Lieu (D-CA); Issa (R-CA); Moran (R-TX); Harrigan (R-NC); Miller-Meeks (R-IA); Trahan (D-MA); Krishnamoorthi (D-IL); Jacobs (D-CA); Tokuda (D-HI); Cline (R-VA); Veasey (D-TX); Moulton (D-MA); Hunt (R-TX); Foster (D-IL); Carter (R-GA); Weber (R-TX); Houlahan (D-PA); Correa (D-CA); Liccardo (D-CA); Huizenga (R-MI); Crockett (D-TX); Sherman (D-CA); McClain Delaney (D-MD); Landsman (D-OH)",
+            "cosponsorCount": 26
+          }
+        },
+        {
+          "id": "H.R.8241",
+          "fields": [
+            "cosponsors",
+            "cosponsorCount"
+          ],
+          "before": {
+            "cosponsors": "Castor (D-FL); Cohen (D-TN); Elfreth (D-MD); Dexter (D-OR); Foushee (D-NC); Garamendi (D-CA); Goldman (D-NY); Lynch (D-MA); Norton (D-DC); Ivey (D-MD); McClain Delaney (D-MD); McClellan (D-VA); Mfume (D-MD); Olszewski (D-MD); Schakowsky (D-IL); Quigley (D-IL); McCollum (D-MN); Latimer (D-NY); Escobar (D-TX); DeSaulnier (D-CA); Balint (D-VT); Pingree (D-ME); Levin (D-CA); Underwood (D-IL); McDonald Rivet (D-MI); Pettersen (D-CO); Dean (D-PA)",
+            "cosponsorCount": 27
+          },
+          "after": {
+            "cosponsors": "Castor (D-FL); Cohen (D-TN); Elfreth (D-MD); Dexter (D-OR); Foushee (D-NC); Garamendi (D-CA); Goldman (D-NY); Lynch (D-MA); Norton (D-DC); Ivey (D-MD); McClain Delaney (D-MD); McClellan (D-VA); Mfume (D-MD); Olszewski (D-MD); Schakowsky (D-IL); Quigley (D-IL); McCollum (D-MN); Latimer (D-NY); Escobar (D-TX); DeSaulnier (D-CA); Balint (D-VT); Pingree (D-ME); Levin (D-CA); Underwood (D-IL); McDonald Rivet (D-MI); Pettersen (D-CO); Dean (D-PA); Hoyle (D-OR)",
+            "cosponsorCount": 28
+          }
+        }
+      ]
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T00:35:17.951Z",
+  "checkedAt": "2026-11-25T20:31:37.484Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -58,6 +58,27 @@
     },
     {
       "ids": [
+        "H.R.3434",
+        "S.1775"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.1734",
+        "S.2117"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.3460",
+        "S.1792"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
         "H.R.8915",
         "S.4591"
       ],
@@ -69,27 +90,6 @@
         "S.1367"
       ],
       "relationship": "Related bill"
-    },
-    {
-      "ids": [
-        "H.R.1734",
-        "S.2117"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
-        "H.R.3434",
-        "S.1775"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
-        "H.R.3460",
-        "S.1792"
-      ],
-      "relationship": "Identical bill"
     },
     {
       "ids": [
@@ -114,13 +114,6 @@
     },
     {
       "ids": [
-        "H.R.5511",
-        "S.2164"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.4801",
         "S.2528"
       ],
@@ -128,10 +121,10 @@
     },
     {
       "ids": [
-        "H.R.633",
-        "S.146"
+        "H.R.5511",
+        "S.2164"
       ],
-      "relationship": "Contained in public law"
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -139,6 +132,13 @@
         "S.3319"
       ],
       "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.633",
+        "S.146"
+      ],
+      "relationship": "Contained in public law"
     },
     {
       "ids": [
@@ -219,15 +219,15 @@
     },
     {
       "ids": [
-        "H.R.5712",
-        "S.1746"
+        "H.R.6322",
+        "S.1473"
       ],
       "relationship": "Related bill"
     },
     {
       "ids": [
-        "H.R.6322",
-        "S.1473"
+        "H.R.5712",
+        "S.1746"
       ],
       "relationship": "Related bill"
     },
@@ -261,17 +261,17 @@
     },
     {
       "ids": [
-        "H.R.8241",
-        "S.3682"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.9825",
         "S.4213"
       ],
       "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.8241",
+        "S.3682"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [

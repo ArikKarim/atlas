@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T00:38:40.461Z",
+  "generatedAt": "2026-11-25T20:37:03.203Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -12,8 +12,8 @@
         "message": "API supplied fewer related bills than its count, without another page."
       }
     ],
-    "billCount": 16945,
-    "summaryVersions": 5459,
+    "billCount": 16968,
+    "summaryVersions": 5467,
     "trackedBills": 202,
     "relatedBillChecks": 202,
     "fields": [
@@ -53,7 +53,7 @@
       "pattern": "\\b(?:data privacy|consumer privacy|personal data|data protection|data brokers?|biometric|privacy protections?)\\b"
     }
   ],
-  "candidateCount": 389,
+  "candidateCount": 388,
   "candidates": [
     {
       "id": "H.R.1",
@@ -4903,14 +4903,14 @@
     },
     {
       "id": "H.R.11055",
-      "title": "To amend the Homeland Security Act of 2002 to establish within the Cybersecurity and Infrastructure Security Agency a pilot program to be known as the \"BRIDGE AI Mission Program\" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for other purposes.",
+      "title": "BRIDGE AI Act",
       "chamber": "House",
       "evidence": [
         {
           "area": "AI & automation",
           "field": "title",
           "term": "AI",
-          "excerpt": "bersecurity and Infrastructure Security Agency a pilot program to be known as the \"BRIDGE AI Mission Program\" to recruit and manage artificial intelligence and emerging technology professionals on a temporary basis to support the core mission of the Agency, and for othe"
+          "excerpt": "BRIDGE AI Act"
         }
       ],
       "relatedTo": [],
@@ -12491,37 +12491,6 @@
         "text": "Referred to the House Committee on Energy and Commerce."
       },
       "url": "https://www.congress.gov/bill/119th-congress/house-bill/11064",
-      "subjects": [],
-      "policyArea": ""
-    },
-    {
-      "id": "H.R.11100",
-      "title": "To establish prohibitions on certain entities with respect to data centers, data center services, and cloud services, and for other purposes.",
-      "chamber": "House",
-      "evidence": [
-        {
-          "area": "Data centers & compute",
-          "field": "title",
-          "term": "data centers",
-          "excerpt": "To establish prohibitions on certain entities with respect to data centers, data center services, and cloud services, and for other purposes."
-        }
-      ],
-      "relatedTo": [],
-      "summary": "",
-      "summaryDate": null,
-      "areas": [
-        "Data centers & compute"
-      ],
-      "reviewGroup": "Broader policy scope",
-      "decision": "pending",
-      "note": "",
-      "introduced": "2026-11-19",
-      "sponsor": "Harrigan (R-NC)",
-      "latestAction": {
-        "date": "2026-11-19",
-        "text": "Referred to the House Committee on Energy and Commerce."
-      },
-      "url": "https://www.congress.gov/bill/119th-congress/house-bill/11100",
       "subjects": [],
       "policyArea": ""
     },
