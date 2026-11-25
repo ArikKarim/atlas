@@ -27,7 +27,7 @@ export function docsPage({ research = {} } = {}) {
     `<p>Engagement labels describe documented SIIA activity on a particular bill. They are separate from the bill’s scope, focus areas, and legislative status.</p><div class="reference-table-wrap" role="region" aria-label="SIIA engagement labels" tabindex="0"><table class="reference-table"><thead><tr><th scope="col">Label</th><th scope="col">Meaning</th></tr></thead><tbody><tr><th scope="row"><span class="tag green">Endorsed</span></th><td>SIIA has expressly supported the bill, its passage, or its enactment in a letter, statement, or other documented policy material.</td></tr><tr><th scope="row"><span class="tag amber">Engaged, not endorsed</span></th><td>SIIA has engaged on the bill without established support for it as a whole. Activity can include analysis, recommendations, proposed changes, criticism, or opposition. This label does not imply support.</td></tr></tbody></table></div><p><strong>No engagement recorded</strong> means no verified engagement record is available in Atlas’s sources. Labels link to public SIIA material when available and are checked separately for each bill version.</p>`,
     `<div class="reference-table-wrap" role="region" aria-label="Sources and counting" tabindex="0"><table class="reference-table"><thead><tr><th scope="col">Topic</th><th scope="col">Source or rule</th></tr></thead><tbody><tr><th scope="row">Official sources</th><td>Congress.gov supplies legislative facts and action histories. GovInfo provides official bill text. SIIA materials support engagement labels.</td></tr><tr><th scope="row">Bill counts</th><td>Each House or Senate bill counts once. Companion charts group related versions; each version retains its own sponsor, status, and engagement record.</td></tr><tr><th scope="row">Focus-area counts</th><td>The Trends focus-area chart uses primary labels. Tracker filters can match either primary or secondary labels. A primary–secondary pair counts once per bill.</td></tr><tr><th scope="row">Charts and exports</th><td>Trends uses the published dataset or selected chamber. Shared charts and exported files use the same underlying counts.</td></tr><tr><th scope="row">Discovery coverage</th><td>Candidate discovery searches titles, available CRS summaries, and related-bill links. It does not search every bill’s full text, so the review queue is not a definitive count of all AI legislation.</td></tr></tbody></table></div><p class="docs-sources"><a href="https://www.congress.gov/" target="_blank" rel="noopener noreferrer">Congress.gov</a><a href="https://www.govinfo.gov/" target="_blank" rel="noopener noreferrer">GovInfo</a><a href="https://www.siia.net/" target="_blank" rel="noopener noreferrer">SIIA</a></p>`,
   ];
-  return `<section class="page-heading docs-heading"><h1>Documentation</h1></section><div class="docs-layout"><nav class="docs-nav" aria-label="Documentation sections"><span class="docs-nav-label">Questions</span><div class="docs-nav-list">${docsSections.map(([id, title], index) => `<a href="#docs?section=${id}" data-doc-link="${id}"><span class="docs-question-number">${index + 1}.</span><span>${esc(title)}</span></a>`).join("")}</div></nav><article class="docs-content" aria-label="Atlas documentation">${docsSections.map(([id, title], index) => referenceSection({ id: "docs-" + id, title: index + 1 + ". " + title, body: bodies[index], attributes: 'data-doc-section="' + id + '"', className: "docs-question" })).join("")}</article></div>`;
+  return `<section class="page-heading docs-heading"><h1>Documentation</h1></section><div class="docs-layout"><nav class="docs-nav" aria-label="Documentation sections"><span class="docs-nav-label">Sections</span><div class="docs-nav-list">${docsSections.map(([id, title], index) => `<a href="#docs?section=${id}" data-doc-link="${id}"><span class="docs-question-number">${index + 1}.</span><span>${esc(title)}</span></a>`).join("")}</div></nav><article class="docs-content" aria-label="Atlas documentation">${docsSections.map(([id, title], index) => referenceSection({ id: "docs-" + id, title: index + 1 + ". " + title, body: bodies[index], attributes: 'data-doc-section="' + id + '"', className: "docs-question" })).join("")}</article></div>`;
 }
 
 export function activeSectionId(positions, offset = 96, atBottom = false) {
@@ -68,13 +68,18 @@ export function mountDocs(root, initialSection) {
   };
   const update = () => {
     frame = null;
+    // Track the reading area, rather than waiting for a heading to reach the top edge.
+    const readingLine = Math.max(
+      Math.min(220, window.innerHeight * 0.28),
+      window.innerWidth <= 760 ? nav.getBoundingClientRect().bottom + 24 : 96,
+    );
     activate(
       activeSectionId(
         sections.map((section) => ({
           id: section.dataset.docSection,
           top: section.getBoundingClientRect().top,
         })),
-        window.innerWidth <= 760 ? 130 : 96,
+        readingLine,
         window.scrollY + window.innerHeight >=
           document.documentElement.scrollHeight - 4,
       ),
@@ -109,7 +114,9 @@ export function mountDocs(root, initialSection) {
   window.addEventListener("scroll", schedule, { passive: true });
   window.addEventListener("resize", schedule);
   const observer = new ResizeObserver(schedule);
-  observer.observe(root.querySelector(".docs-content"));
+  for (const section of sections) observer.observe(section);
+  // Toggle does not bubble; capture it so every disclosure triggers a fresh measurement.
+  root.addEventListener("toggle", schedule, true);
   if (initialSection) {
     const target = root.querySelector("#docs-" + initialSection);
     if (target) {
@@ -121,6 +128,7 @@ export function mountDocs(root, initialSection) {
     nav.removeEventListener("click", click);
     window.removeEventListener("scroll", schedule);
     window.removeEventListener("resize", schedule);
+    root.removeEventListener("toggle", schedule, true);
     observer.disconnect();
     if (frame !== null) cancelAnimationFrame(frame);
   };

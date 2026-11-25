@@ -89,3 +89,39 @@ test("Docs is a main tab and Changelog stays in the footer", async () => {
   assert.ok(!nav.includes('data-view="changelog"'));
   assert.ok(footer.includes('href="#changelog"'));
 });
+
+test("reading focus changes when the next heading enters the reading area or disclosure heights change", () => {
+  const readingLine = 200;
+  assert.equal(
+    activeSectionId(
+      [
+        { id: "scope", top: -300 },
+        { id: "focus", top: 150 },
+      ],
+      readingLine,
+    ),
+    "focus",
+  );
+  // Expanding a preceding disclosure moves the following section below the reading area.
+  assert.equal(
+    activeSectionId(
+      [
+        { id: "scope", top: -300 },
+        { id: "focus", top: 500 },
+      ],
+      readingLine,
+    ),
+    "scope",
+  );
+  // Collapsing it restores the next section without requiring another scroll event.
+  assert.equal(
+    activeSectionId(
+      [
+        { id: "scope", top: -300 },
+        { id: "focus", top: 150 },
+      ],
+      readingLine,
+    ),
+    "focus",
+  );
+});

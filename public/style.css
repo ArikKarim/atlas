@@ -2945,7 +2945,7 @@ footer #changelog-link[aria-current="page"] {
 }
 .docs-nav-label {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   text-transform: uppercase;
   letter-spacing: 1.1px;
@@ -2955,16 +2955,17 @@ footer #changelog-link[aria-current="page"] {
 }
 .docs-nav-list {
   display: grid;
-  gap: 4px;
+  gap: 12px;
 }
 .docs-nav a {
   display: flex;
   gap: 9px;
-  padding: 10px 12px;
-  border-radius: 4px;
+  padding: 3px 0 3px 14px;
+  border-left: 2px solid var(--line);
+  border-radius: 0;
   color: var(--muted);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5;
 }
 .docs-question-number {
@@ -2972,11 +2973,10 @@ footer #changelog-link[aria-current="page"] {
   font-variant-numeric: tabular-nums;
 }
 .docs-nav a:hover {
-  background: var(--soft);
   color: var(--ink);
 }
 .docs-nav a[aria-current="location"] {
-  background: var(--soft);
+  border-left-color: var(--ink);
   color: var(--ink);
   font-weight: 600;
 }
@@ -3008,11 +3008,7 @@ footer #changelog-link[aria-current="page"] {
   color: var(--ink);
 }
 .docs-question > h2 {
-  position: sticky;
-  top: 0;
-  z-index: 3;
   padding: 10px 0 14px;
-  background: var(--bg);
 }
 .docs-nav a:focus-visible {
   outline: 2px solid var(--accent);
@@ -3082,7 +3078,7 @@ footer #changelog-link[aria-current="page"] {
 .reference-table-wrap {
   overflow-x: auto;
   border: 1px solid var(--line);
-  border-radius: 4px;
+  border-radius: 0;
   margin: 20px 0;
 }
 .reference-table {
@@ -3263,6 +3259,8 @@ footer #changelog-link[aria-current="page"] {
     gap: 4px;
   }
   .docs-nav a {
+    border-left: 0;
+    border-bottom: 2px solid var(--line);
     flex-shrink: 0;
     white-space: nowrap;
     padding: 9px 10px;
@@ -3277,8 +3275,10 @@ footer #changelog-link[aria-current="page"] {
     margin-bottom: 36px;
     scroll-margin-top: 72px;
   }
+  .docs-nav a[aria-current="location"] {
+    border-bottom-color: var(--ink);
+  }
   .docs-question > h2 {
-    top: 58px;
     font-size: 21px;
   }
   .reference-section > h2 {
