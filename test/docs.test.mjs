@@ -38,7 +38,7 @@ test("candidate review and Docs use the same scope criteria and checklist", () =
       assert.ok(page.includes(escapeHtml(step)));
   assert.ok(
     docs.indexOf("Focus areas are topic labels") <
-      docs.indexOf("How labels are assigned"),
+      docs.indexOf("4.1. How are labels assigned?"),
   );
   assert.ok(
     !/\b(?:I|my|we|our)\b|spreadsheet|fellowship/i.test(
