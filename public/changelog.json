@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-24",
+    "title": "Documentation reorganized",
+    "description": "Added an Atlas overview, explained API updates and Codex-assisted maintenance, and introduced section navigation that follows reading progress."
+  },
+  {
+    "date": "2026-11-24",
     "title": "Methodology and review criteria added",
     "description": "Defined inclusion criteria, focus-area assignment, SIIA engagement, and counting rules. Candidate review now shows the same scope checklist. Moved Changelog to the footer."
   },
@@ -22,7 +27,7 @@
   {
     "date": "2026-11-22",
     "title": "Atlas launched",
-    "description": "Turned the SIIA AI policy spreadsheet into a searchable 119th Congress bill tracker, with filters, bill details, and links to public SIIA engagement materials."
+    "description": "Launched a searchable 119th Congress bill tracker, with filters, bill details, and links to public SIIA engagement materials."
   },
   {
     "date": "2026-11-22",

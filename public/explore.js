@@ -129,11 +129,18 @@ export function routeState(hash) {
     p = new URLSearchParams(query);
   if (["changelog", "history"].includes(view))
     return { view: "changelog", filters: {}, page: 1 };
-  if (view === "methodology") {
+  if (["docs", "documentation", "methodology"].includes(view)) {
     const section = p.get("section");
     return {
-      view: "methodology",
-      ...(["scope", "focus", "engagement", "data"].includes(section)
+      view: "docs",
+      ...([
+        "overview",
+        "updates",
+        "scope",
+        "focus",
+        "engagement",
+        "data",
+      ].includes(section)
         ? { section }
         : {}),
     };

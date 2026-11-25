@@ -2,7 +2,8 @@ import { engagementKind } from "./model.js";
 import { renderTracker } from "./tracker-view.js";
 import { routeState, trackerHash } from "./explore.js";
 import { changelogPage } from "./changelog.js";
-import { methodologyPage } from "./methodology.js";
+import { docsPage, mountDocs } from "./docs.js";
+let disposeDocs = () => {};
 import { companionStats } from "./companions.js";
 import { patternsHash } from "./chart-export.js";
 import { engagementUrl, engagementDescription } from "./engagement.js";
@@ -98,6 +99,8 @@ function charts() {
   });
 }
 function showView(view, state, push = false) {
+  disposeDocs();
+  disposeDocs = () => {};
   if (state) {
     if (view === "tracker") {
       filters = { ...(state.filters || {}) };
@@ -126,8 +129,8 @@ function showView(view, state, push = false) {
       ? "charts-tab"
       : view === "changelog"
         ? "changelog-title"
-        : view === "methodology"
-          ? "methodology-tab"
+        : view === "docs"
+          ? "docs-tab"
           : "tracker-tab",
   );
   const hash =
@@ -146,14 +149,10 @@ function showView(view, state, push = false) {
         requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
       requestedChart = "";
     }
-  } else if (view === "methodology") {
-    main.innerHTML = methodologyPage({ research });
-    if (state?.section)
-      requestAnimationFrame(() =>
-        document
-          .getElementById("method-" + state.section)
-          ?.scrollIntoView({ block: "start" }),
-      );
+  } else if (view === "docs") {
+    main.innerHTML = docsPage({ research });
+    if (!state?.section) window.scrollTo({ top: 0 });
+    disposeDocs = mountDocs(main, state?.section);
   } else if (view === "changelog")
     main.innerHTML = changelogPage({
       research,
@@ -162,7 +161,11 @@ function showView(view, state, push = false) {
       releases,
     });
   else tracker();
-  if (!state?.section && (view !== "charts" || !state?.chart))
+  if (
+    view !== "docs" &&
+    !state?.section &&
+    (view !== "charts" || !state?.chart)
+  )
     window.scrollTo({ top: 0 });
 }
 for (const button of document.querySelectorAll("[data-view]")) {

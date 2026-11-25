@@ -3028,191 +3028,325 @@ footer #changelog-link[aria-current="page"] {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-.methodology-heading,
-.methodology-layout {
+
+.docs-heading,
+.docs-layout {
   max-width: 1180px;
   margin-inline: auto;
 }
-.methodology-heading {
+.docs-heading {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
 }
-.methodology-heading p {
+.docs-heading p {
   font-size: 16px;
   line-height: 1.7;
-  max-width: 75ch;
-  margin-top: 10px;
+  margin-top: 8px;
 }
-.methodology-layout {
+.docs-layout {
   display: grid;
-  grid-template-columns: 160px minmax(0, 1fr);
-  gap: 52px;
-  padding-bottom: 42px;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 48px;
+  padding-bottom: 38px;
 }
-.methodology-nav {
+.docs-nav {
   position: sticky;
-  top: 24px;
+  top: 28px;
   align-self: start;
-  display: grid;
-  gap: 15px;
-  font-size: 14px;
-  padding-top: 4px;
+  min-width: 0;
 }
-.methodology-nav a {
+.docs-nav-label {
+  display: block;
+  font-size: 12px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  font-weight: 600;
+  margin: 0 0 18px;
+  color: var(--muted);
+}
+.docs-nav-list {
+  display: grid;
+  position: relative;
+}
+.docs-nav a {
+  display: block;
+  border-left: 2px solid var(--line);
+  padding: 10px 0 10px 16px;
   color: var(--muted);
   text-decoration: none;
+  font-size: 14px;
+  line-height: 1.5;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
 }
-.methodology-nav a:hover,
-.methodology-nav a:focus-visible {
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
+.docs-nav a:hover {
+  color: var(--ink);
 }
-.methodology-content {
+.docs-nav a[aria-current="location"] {
+  color: var(--ink);
+  border-color: var(--ink);
+  font-weight: 600;
+}
+.docs-content {
   min-width: 0;
   font-size: 16px;
   line-height: 1.75;
 }
-.methodology-content section {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+.docs-content section {
+  padding: 0 0 32px;
+  margin-bottom: 24px;
   border-bottom: 1px solid var(--line);
-  scroll-margin-top: 28px;
+  scroll-margin-top: 20px;
 }
-.methodology-content section:last-child {
-  margin-bottom: 0;
+.docs-content section:last-child {
   border-bottom: 0;
+  margin-bottom: 0;
 }
-.methodology-content h2 {
-  font-size: 22px;
-  line-height: 1.4;
+.docs-content section > h2 {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: var(--bg);
+  padding: 10px 0 12px;
+  margin: 0 0 15px;
+  font-size: 23px;
   font-weight: 600;
-  margin: 0 0 16px;
+  line-height: 1.4;
   letter-spacing: -0.2px;
 }
-.methodology-content h3 {
-  font-size: 17px;
+.docs-content h3 {
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 600;
-  margin: 25px 0 10px;
+  margin: 23px 0 8px;
 }
-.methodology-content p {
-  margin: 0 0 17px;
-  max-width: 79ch;
+.docs-content p {
+  margin: 0 0 16px;
+  max-width: 76ch;
 }
-.methodology-content ol {
-  padding-left: 23px;
-  margin: 12px 0 20px;
+.docs-content ul,
+.docs-content ol {
+  padding-left: 22px;
+  margin: 12px 0 18px;
 }
-.methodology-content li {
-  padding-left: 5px;
-  margin-bottom: 11px;
+.docs-content li {
+  padding-left: 4px;
+  margin-bottom: 10px;
 }
-.methodology-content dl {
-  display: block;
-  margin: 20px 0;
-  font-size: 16px;
+.docs-features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 24px;
 }
-.methodology-content dt {
-  color: var(--ink);
+.docs-features > div {
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+}
+.docs-features h3,
+.docs-focus-labels h3,
+.docs-example h3 {
+  margin: 0 0 7px;
+}
+.docs-features p,
+.docs-secondary {
+  font-size: 15px;
+  color: var(--muted);
+}
+.docs-features p {
+  margin: 0;
+}
+.docs-update-list {
+  display: grid;
+  gap: 18px;
+  margin: 22px 0;
+}
+.docs-update-list > div {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 20px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+.docs-update-list h3 {
+  margin: 0;
+}
+.docs-update-list p {
+  margin: 0;
+}
+.docs-content .scope-rules {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px 30px;
+  font-size: 15px;
+  margin: 24px 0;
+}
+.docs-content .scope-rules > div {
+  border-top: 1px solid var(--line);
+  padding-top: 15px;
+}
+.docs-content dt {
   font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 7px;
 }
-.methodology-content dd {
+.docs-content dd {
+  margin: 0;
+  font-size: 15px;
   line-height: 1.75;
 }
-.scope-rules > div,
-.methodology-facts > div {
+.docs-focus-labels {
   display: grid;
-  grid-template-columns: 190px minmax(0, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 24px;
+  margin: 24px 0;
+}
+.docs-focus-labels > div {
   border-top: 1px solid var(--line);
-  padding: 18px 0;
+  padding-top: 15px;
 }
-.scope-rules > div:first-child,
-.methodology-facts > div:first-child {
-  padding-top: 0;
-  border-top: 0;
+.docs-focus-labels p {
+  font-size: 15px;
+  margin: 0;
 }
-.methodology-facts dt {
+.docs-example {
+  background: var(--soft);
+  border-left: 2px solid var(--line);
+  padding: 16px 20px;
+  margin: 22px 0;
+}
+.docs-example p {
+  margin: 0;
   font-size: 15px;
 }
-.methodology-definitions {
+.docs-disclosure {
   border: 1px solid var(--line);
-  padding: 14px 18px;
-  border-radius: 3px;
   background: var(--surface);
+  border-radius: 3px;
+  padding: 13px 17px;
   margin-top: 22px;
 }
-.methodology-definitions summary {
+.docs-disclosure summary {
   font-size: 15px;
+  color: var(--ink);
 }
-.methodology-definitions dl {
+.docs-disclosure[open] summary {
+  margin-bottom: 17px;
+}
+.docs-disclosure p:last-child {
+  margin-bottom: 0;
+}
+.docs-definitions dl {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px;
   font-size: 15px;
-  margin-bottom: 5px;
+  margin: 0 0 4px;
 }
-.methodology-definitions dt {
-  margin-bottom: 5px;
-}
-.engagement-definition {
+.docs-engagement {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);
-  gap: 24px;
-  padding: 6px 0 15px;
+  gap: 22px;
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
 }
-.engagement-definition h3 {
-  margin: 0;
-  padding-top: 3px;
-}
-.engagement-definition p {
+.docs-engagement h3,
+.docs-engagement p {
   margin: 0;
 }
-.methodology-content .methodology-sources {
-  color: var(--muted);
+.docs-facts {
+  display: block;
+  font-size: 16px;
+  margin: 22px 0;
+}
+.docs-facts > div {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 20px;
+  border-top: 1px solid var(--line);
+  padding: 16px 0;
+}
+.docs-facts dt {
+  font-size: 15px;
+}
+.docs-sources {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
   font-size: 14px;
-  margin-top: 22px;
 }
 @media (max-width: 1000px) {
-  .methodology-layout {
-    grid-template-columns: 140px minmax(0, 1fr);
-    gap: 30px;
+  .docs-layout {
+    grid-template-columns: 165px minmax(0, 1fr);
+    gap: 28px;
   }
-  .scope-rules > div,
-  .methodology-facts > div,
-  .engagement-definition {
+  .docs-features {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .docs-update-list > div,
+  .docs-facts > div,
+  .docs-engagement {
     grid-template-columns: 1fr;
     gap: 7px;
   }
 }
-@media (max-width: 700px) {
-  .methodology-layout {
+@media (max-width: 760px) {
+  .docs-layout {
     display: block;
   }
-  .methodology-nav {
-    position: static;
+  .docs-nav {
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    background: var(--bg);
+    margin-bottom: 16px;
+  }
+  .docs-nav-label {
+    display: none;
+  }
+  .docs-nav-list {
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px 20px;
-    padding: 0 0 22px;
-    margin-bottom: 24px;
-    border-bottom: 1px solid var(--line);
+    overflow-x: auto;
+    scrollbar-width: thin;
+    gap: 4px;
   }
-  .methodology-heading {
-    padding-bottom: 23px;
+  .docs-nav a {
+    flex-shrink: 0;
+    border-left: 0;
+    border-bottom: 2px solid var(--line);
+    padding: 10px;
+    font-size: 13px;
+    white-space: nowrap;
   }
-  .methodology-content h2 {
-    font-size: 20px;
+  .docs-content section > h2 {
+    top: 49px;
+    font-size: 21px;
+    padding: 10px 0;
   }
-  .methodology-definitions dl {
+  .docs-content section {
+    scroll-margin-top: 70px;
+  }
+  .docs-content .scope-rules,
+  .docs-focus-labels,
+  .docs-definitions dl {
     grid-template-columns: 1fr;
+    gap: 18px;
   }
-  .methodology-content dd {
-    margin-bottom: 0;
+  .docs-content dd {
+    margin: 0;
   }
-  .methodology-content section {
-    padding-bottom: 24px;
-    margin-bottom: 24px;
+  .docs-heading {
+    padding-bottom: 22px;
+  }
+  .docs-content h3 {
+    font-size: 16px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .docs-nav a {
+    transition: none;
   }
 }
