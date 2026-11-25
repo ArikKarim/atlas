@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T21:21:09.086Z",
+  "checkedAt": "2026-11-25T00:35:17.951Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -44,6 +44,13 @@
     },
     {
       "ids": [
+        "H.R.1766",
+        "S.2049"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
         "H.R.1736",
         "S.4762"
       ],
@@ -51,8 +58,15 @@
     },
     {
       "ids": [
-        "H.R.1766",
-        "S.2049"
+        "H.R.8915",
+        "S.4591"
+      ],
+      "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.8915",
+        "S.1367"
       ],
       "relationship": "Related bill"
     },
@@ -69,20 +83,6 @@
         "S.1775"
       ],
       "relationship": "Identical bill"
-    },
-    {
-      "ids": [
-        "H.R.8915",
-        "S.4591"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
-        "H.R.8915",
-        "S.1367"
-      ],
-      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -114,13 +114,6 @@
     },
     {
       "ids": [
-        "H.R.4801",
-        "S.2528"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
         "H.R.5511",
         "S.2164"
       ],
@@ -128,10 +121,10 @@
     },
     {
       "ids": [
-        "H.R.6621",
-        "S.3319"
+        "H.R.4801",
+        "S.2528"
       ],
-      "relationship": "Related bill"
+      "relationship": "Identical bill"
     },
     {
       "ids": [
@@ -139,6 +132,13 @@
         "S.146"
       ],
       "relationship": "Contained in public law"
+    },
+    {
+      "ids": [
+        "H.R.6621",
+        "S.3319"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -247,17 +247,17 @@
     },
     {
       "ids": [
-        "H.R.7434",
-        "S.3809"
-      ],
-      "relationship": "Identical bill"
-    },
-    {
-      "ids": [
         "H.R.8623",
         "S.3062"
       ],
       "relationship": "Related bill"
+    },
+    {
+      "ids": [
+        "H.R.7434",
+        "S.3809"
+      ],
+      "relationship": "Identical bill"
     },
     {
       "ids": [

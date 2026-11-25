@@ -1,6 +1,6 @@
 # Atlas candidate review
 
-Generated 2026-11-24T21:21:40.569Z. 389 candidates; 202 tracked bills remain unchanged.
+Generated 2026-11-25T00:38:40.461Z. 389 candidates; 202 tracked bills remain unchanged.
 
 Open `candidate-review.html` for filters, evidence, and Include / Exclude / Defer decisions. Export your decisions and import them with `npm run review:candidates -- --import path/to/decisions.json`. Included candidates still require an explicit reviewed change to the Tracker.
 
