@@ -47,5 +47,5 @@ export function changelogPage({
     if (!groups.has(date)) groups.set(date, []);
     groups.get(date).push(entry);
   }
-  return `<section class="page-heading changelog-heading"><h1>Changelog</h1></section><div class="changelog">${[...groups].map(([date, items]) => `<section class="changelog-day"><h2><time datetime="${esc(date)}">${label(date)}</time></h2><ul>${items.map((item) => `<li><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></li>`).join("")}</ul></section>`).join("")}<p class="changelog-refresh">Official data last refreshed ${reviewedDate(snapshot?.checkedAt)}.</p></div>`;
+  return `<section class="page-heading changelog-heading"><h1 id="changelog-title">Changelog</h1></section><div class="changelog">${[...groups].map(([date, items]) => `<section class="changelog-day"><h2><time datetime="${esc(date)}">${label(date)}</time></h2><ul>${items.map((item) => `<li><h3>${esc(item.title)}</h3><p>${esc(item.description)}</p></li>`).join("")}</ul></section>`).join("")}<p class="changelog-refresh">Official data last refreshed ${reviewedDate(snapshot?.checkedAt)}.</p></div>`;
 }

@@ -2,6 +2,7 @@ import { engagementKind } from "./model.js";
 import { renderTracker } from "./tracker-view.js";
 import { routeState, trackerHash } from "./explore.js";
 import { changelogPage } from "./changelog.js";
+import { methodologyPage } from "./methodology.js";
 import { companionStats } from "./companions.js";
 import { patternsHash } from "./chart-export.js";
 import { engagementUrl, engagementDescription } from "./engagement.js";
@@ -110,15 +111,24 @@ function showView(view, state, push = false) {
   document.querySelectorAll("[data-view]").forEach((button) => {
     const selected = button.dataset.view === view;
     button.setAttribute("aria-selected", String(selected));
-    button.tabIndex = selected ? 0 : -1;
+    button.tabIndex =
+      selected || (view === "changelog" && button.dataset.view === "tracker")
+        ? 0
+        : -1;
   });
+  const changelogLink = document.getElementById("changelog-link");
+  if (view === "changelog") changelogLink.setAttribute("aria-current", "page");
+  else changelogLink.removeAttribute("aria-current");
+  main.setAttribute("role", view === "changelog" ? "region" : "tabpanel");
   main.setAttribute(
     "aria-labelledby",
     view === "charts"
       ? "charts-tab"
       : view === "changelog"
-        ? "changelog-tab"
-        : "tracker-tab",
+        ? "changelog-title"
+        : view === "methodology"
+          ? "methodology-tab"
+          : "tracker-tab",
   );
   const hash =
     view === "charts"
@@ -136,6 +146,14 @@ function showView(view, state, push = false) {
         requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
       requestedChart = "";
     }
+  } else if (view === "methodology") {
+    main.innerHTML = methodologyPage({ research });
+    if (state?.section)
+      requestAnimationFrame(() =>
+        document
+          .getElementById("method-" + state.section)
+          ?.scrollIntoView({ block: "start" }),
+      );
   } else if (view === "changelog")
     main.innerHTML = changelogPage({
       research,
@@ -144,7 +162,8 @@ function showView(view, state, push = false) {
       releases,
     });
   else tracker();
-  if (view !== "charts" || !state?.chart) window.scrollTo({ top: 0 });
+  if (!state?.section && (view !== "charts" || !state?.chart))
+    window.scrollTo({ top: 0 });
 }
 for (const button of document.querySelectorAll("[data-view]")) {
   button.onclick = () => showView(button.dataset.view, null, true);
@@ -188,8 +207,11 @@ document.addEventListener("click", (e) => {
   }
   const nav = e.target.closest("[data-view-link]");
   if (nav) {
-    dialog.close();
+    e.preventDefault();
+    if (dialog.open) dialog.close();
     showView(nav.dataset.viewLink, null, true);
+    main.setAttribute("tabindex", "-1");
+    main.focus({ preventScroll: true });
     return;
   }
   const plot = e.target.closest("[data-explore]");

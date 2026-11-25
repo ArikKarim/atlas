@@ -111,10 +111,9 @@ main {
 
 .toolbar {
   display: grid;
-  grid-template-columns: minmax(240px, 1.6fr) minmax(120px, 0.7fr) minmax(
-      180px,
-      1.2fr
-    ) minmax(160px, 1fr) minmax(155px, 1fr);
+  grid-template-columns:
+    minmax(240px, 1.6fr) minmax(120px, 0.7fr) minmax(180px, 1.2fr)
+    minmax(160px, 1fr) minmax(155px, 1fr);
   gap: 12px;
   padding: 0 0 17px;
   border-bottom: 1px solid var(--line);
@@ -3015,5 +3014,205 @@ select option {
 
   .changelog-day {
     padding-block: 23px;
+  }
+}
+
+footer #changelog-link {
+  margin-left: auto;
+  color: var(--muted);
+  text-decoration: none;
+}
+footer #changelog-link:hover,
+footer #changelog-link[aria-current="page"] {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.methodology-heading,
+.methodology-layout {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+.methodology-heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.methodology-heading p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 75ch;
+  margin-top: 10px;
+}
+.methodology-layout {
+  display: grid;
+  grid-template-columns: 160px minmax(0, 1fr);
+  gap: 52px;
+  padding-bottom: 42px;
+}
+.methodology-nav {
+  position: sticky;
+  top: 24px;
+  align-self: start;
+  display: grid;
+  gap: 15px;
+  font-size: 14px;
+  padding-top: 4px;
+}
+.methodology-nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+.methodology-nav a:hover,
+.methodology-nav a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.methodology-content {
+  min-width: 0;
+  font-size: 16px;
+  line-height: 1.75;
+}
+.methodology-content section {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 28px;
+}
+.methodology-content section:last-child {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.methodology-content h2 {
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin: 0 0 16px;
+  letter-spacing: -0.2px;
+}
+.methodology-content h3 {
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 25px 0 10px;
+}
+.methodology-content p {
+  margin: 0 0 17px;
+  max-width: 79ch;
+}
+.methodology-content ol {
+  padding-left: 23px;
+  margin: 12px 0 20px;
+}
+.methodology-content li {
+  padding-left: 5px;
+  margin-bottom: 11px;
+}
+.methodology-content dl {
+  display: block;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.methodology-content dt {
+  color: var(--ink);
+  font-weight: 600;
+}
+.methodology-content dd {
+  line-height: 1.75;
+}
+.scope-rules > div,
+.methodology-facts > div {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 24px;
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+}
+.scope-rules > div:first-child,
+.methodology-facts > div:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+.methodology-facts dt {
+  font-size: 15px;
+}
+.methodology-definitions {
+  border: 1px solid var(--line);
+  padding: 14px 18px;
+  border-radius: 3px;
+  background: var(--surface);
+  margin-top: 22px;
+}
+.methodology-definitions summary {
+  font-size: 15px;
+}
+.methodology-definitions dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.methodology-definitions dt {
+  margin-bottom: 5px;
+}
+.engagement-definition {
+  display: grid;
+  grid-template-columns: 190px minmax(0, 1fr);
+  gap: 24px;
+  padding: 6px 0 15px;
+}
+.engagement-definition h3 {
+  margin: 0;
+  padding-top: 3px;
+}
+.engagement-definition p {
+  margin: 0;
+}
+.methodology-content .methodology-sources {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 22px;
+}
+@media (max-width: 1000px) {
+  .methodology-layout {
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 30px;
+  }
+  .scope-rules > div,
+  .methodology-facts > div,
+  .engagement-definition {
+    grid-template-columns: 1fr;
+    gap: 7px;
+  }
+}
+@media (max-width: 700px) {
+  .methodology-layout {
+    display: block;
+  }
+  .methodology-nav {
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 20px;
+    padding: 0 0 22px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--line);
+  }
+  .methodology-heading {
+    padding-bottom: 23px;
+  }
+  .methodology-content h2 {
+    font-size: 20px;
+  }
+  .methodology-definitions dl {
+    grid-template-columns: 1fr;
+  }
+  .methodology-content dd {
+    margin-bottom: 0;
+  }
+  .methodology-content section {
+    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 }

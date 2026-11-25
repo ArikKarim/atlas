@@ -89,14 +89,14 @@
           >
             Trends</button
           ><button
-            id="changelog-tab"
+            id="methodology-tab"
             role="tab"
             aria-controls="main"
             aria-selected="false"
             tabindex="-1"
-            data-view="changelog"
+            data-view="methodology"
           >
-            Changelog
+            Methodology
           </button>
         </nav>
         <button
@@ -120,7 +120,12 @@
       <main id="main" role="tabpanel" aria-labelledby="tracker-tab">
         <p class="loading" role="status">Loading Atlas…</p>
       </main>
-      <footer><span>© 2026 Arik Karim</span></footer>
+      <footer>
+        <span>© 2026 Arik Karim</span
+        ><a id="changelog-link" href="#changelog" data-view-link="changelog"
+          >Changelog</a
+        >
+      </footer>
       <dialog id="detail" aria-label="Bill details and source information">
         <button class="close" aria-label="Close dialog">×</button>
         <div id="dialog-body"></div>

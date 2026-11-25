@@ -1,6 +1,11 @@
 [
   {
     "date": "2026-11-24",
+    "title": "Methodology and review criteria added",
+    "description": "Defined inclusion criteria, focus-area assignment, SIIA engagement, and counting rules. Candidate review now shows the same scope checklist. Moved Changelog to the footer."
+  },
+  {
+    "date": "2026-11-24",
     "title": "Changelog added",
     "description": "Added a dated record of major site and research updates, including earlier milestones."
   },

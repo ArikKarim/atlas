@@ -12,7 +12,7 @@ Light mode uses a warm cream palette, with a dark-mode toggle. Image exports fol
 
 The Companion families view compares every tracked version side by side, keeping each bill’s status, dates, sponsors, and engagement separate. CSV exports from that view include all tracked versions of the matching families.
 
-The **Changelog** tab keeps a short, dated record of site improvements, research reviews, companion additions, and substantive official-data updates.
+The **Methodology** tab explains inclusion criteria, candidate review, focus areas, SIIA engagement, and counting rules. The footer links to **Changelog**, a dated record of site and research updates.
 
 ## Access
 
@@ -100,3 +100,5 @@ Action histories refresh daily at 11:53 UTC and when the action-sync code change
 The browser entry point coordinates navigation and data loading. Tracker, Trends, bill details, Changelog, and theme behavior live in separate modules. Charts on the page and exported charts share one set of data specifications. Shared formatting, CSV protection, file downloads, sort options, and engagement classification each have one implementation.
 
 Run `npm run build` to prepare `dist/` for GitHub Pages. The build automatically versions the entire JavaScript and CSS dependency graph from its contents; source imports do not need manual cache-version edits. `npm start` continues to serve the source locally, and `npm run start:secure` retains the prepared server-protected deployment.
+
+The scope rules and review checklist in `public/methodology.js` also appear in the candidate review page, so inclusion decisions use the same criteria as the published Methodology. SIIA engagement does not determine inclusion.

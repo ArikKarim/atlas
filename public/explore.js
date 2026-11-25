@@ -127,8 +127,17 @@ export function trackerHash(filters = {}, page = 1) {
 export function routeState(hash) {
   const [view, query = ""] = String(hash).replace(/^#/, "").split("?"),
     p = new URLSearchParams(query);
-  if (["changelog", "methodology", "history"].includes(view))
+  if (["changelog", "history"].includes(view))
     return { view: "changelog", filters: {}, page: 1 };
+  if (view === "methodology") {
+    const section = p.get("section");
+    return {
+      view: "methodology",
+      ...(["scope", "focus", "engagement", "data"].includes(section)
+        ? { section }
+        : {}),
+    };
+  }
   if (["trends", "patterns", "charts"].includes(view))
     return readPatternsHash(hash);
   const filters = {};
