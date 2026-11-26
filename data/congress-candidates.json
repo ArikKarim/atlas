@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T20:37:03.203Z",
+  "generatedAt": "2026-11-26T20:17:28.638Z",
   "congress": 119,
   "coverage": {
     "warnings": [
@@ -13,7 +13,7 @@
       }
     ],
     "billCount": 16968,
-    "summaryVersions": 5467,
+    "summaryVersions": 5468,
     "trackedBills": 202,
     "relatedBillChecks": 202,
     "fields": [
@@ -53,7 +53,7 @@
       "pattern": "\\b(?:data privacy|consumer privacy|personal data|data protection|data brokers?|biometric|privacy protections?)\\b"
     }
   ],
-  "candidateCount": 388,
+  "candidateCount": 389,
   "candidates": [
     {
       "id": "H.R.1",
@@ -8733,6 +8733,99 @@
         "Right of privacy"
       ],
       "policyArea": "Armed Forces and National Security"
+    },
+    {
+      "id": "H.R.2347",
+      "title": "Bipartisan American Affordability and Jobs Act of 2026",
+      "chamber": "House",
+      "evidence": [
+        {
+          "area": "Data centers & compute",
+          "field": "summary",
+          "term": "data centers",
+          "excerpt": "ERC to establish ratepayer protections related to certain large computational loads (e.g. data centers); removing permit requirements for onshore oil and gas drilling on nonfederal land; and accelerating renewable energy, geothermal, hydropower, nuclear, or offshore ene",
+          "versionDate": "2026-11-25T22:20:12Z"
+        },
+        {
+          "area": "Energy & grid",
+          "field": "summary",
+          "term": "energy infrastructure",
+          "excerpt": "angered species to expedite permits. Additionally, the bill addresses numerous aspects of energy infrastructure permitting, including by expanding the authority of the Federal Energy Regulatory Commission (FERC) to issue construction permits for certain interstate elect",
+          "versionDate": "2026-11-25T22:20:12Z"
+        }
+      ],
+      "relatedTo": [],
+      "summary": "Bipartisan American Affordability and Jobs Act of 2026 This bill modifies federal permitting processes to expedite a wide range of projects. It also excludes from federal income tax certain damages from lawsuits relating to sexual acts. The bill limits the scope of the National Environmental Policy Act, including by further limiting the types of federal actions that trigger environmental review, and exempting additional types of projects from environmental review. The bill also limits permit obligations under the Clean Water Act, including by narrowing the scope of review for water quality certifications, extending the term for permits issued under the National Pollutant Discharge Elimination System, and limiting the time period for review of permits for discharges of dredged or fill materials. It also shortens timelines for certain requirements concerning threatened or endangered species to expedite permits. Additionally, the bill addresses numerous aspects of energy infrastructure permitting, including by expanding the authority of the Federal Energy Regulatory Commission (FERC) to issue construction permits for certain interstate electricity transmission projects; directing FERC to establish ratepayer protections related to certain large computational loads (e.g. data centers); removing permit requirements for onshore oil and gas drilling on nonfederal land; and accelerating renewable energy, geothermal, hydropower, nuclear, or offshore energy projects. It also limits the types of projects that trigger review under the National Historic Preservation Act. Finally, the bill excludes from an individual's federal income tax certain damages received due to sexual acts or contact, regardless of whether there are medical records or observable injuries.",
+      "summaryDate": "2026-11-25T22:20:12Z",
+      "areas": [
+        "Data centers & compute",
+        "Energy & grid"
+      ],
+      "reviewGroup": "Broader policy scope",
+      "decision": "pending",
+      "note": "",
+      "introduced": "2025-03-25",
+      "sponsor": "Smucker (R-PA)",
+      "latestAction": {
+        "date": "2026-11-24",
+        "text": "Message on Senate action sent to the House."
+      },
+      "url": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
+      "subjects": [
+        "Administrative law and regulatory procedures",
+        "Advanced technology and technological innovations",
+        "Alternative and renewable resources",
+        "Assault and harassment offenses",
+        "Building construction",
+        "Civil actions and liability",
+        "Coal",
+        "Computers and information technology",
+        "Consumer affairs",
+        "Crime victims",
+        "Currency",
+        "Dams and canals",
+        "Data collection, sharing, protection",
+        "Department of the Interior",
+        "Digital media",
+        "Electric power generation and transmission",
+        "Endangered and threatened species",
+        "Energy efficiency and conservation",
+        "Energy prices",
+        "Energy revenues and royalties",
+        "Energy storage, supplies, demand",
+        "Environmental assessment, monitoring, research",
+        "Environmental regulatory procedures",
+        "Federal Energy Regulatory Commission (FERC)",
+        "Federal-Indian relations",
+        "Government information and archives",
+        "Government trust funds",
+        "Income tax exclusion",
+        "Indian claims",
+        "Indian lands and resources rights",
+        "Industrial facilities",
+        "Industrial policy and productivity",
+        "Infrastructure development",
+        "Intergovernmental relations",
+        "Judicial review and appeals",
+        "Land use and conservation",
+        "Licensing and registrations",
+        "Lighting, heating, cooling",
+        "Marine pollution",
+        "Mining",
+        "Nuclear power",
+        "Oil and gas",
+        "Pipelines",
+        "Public participation and lobbying",
+        "Public utilities and utility rates",
+        "Seashores and lakeshores",
+        "Sex offenses",
+        "State and local government operations",
+        "Tariffs",
+        "User charges and fees",
+        "Water quality",
+        "Water use and supply"
+      ],
+      "policyArea": "Environmental Protection"
     },
     {
       "id": "H.R.2348",

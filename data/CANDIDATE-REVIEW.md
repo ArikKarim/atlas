@@ -1,6 +1,6 @@
 # Atlas candidate review
 
-Generated 2026-11-25T20:37:03.203Z. 388 candidates; 202 tracked bills remain unchanged.
+Generated 2026-11-26T20:17:28.638Z. 389 candidates; 202 tracked bills remain unchanged.
 
 Open `candidate-review.html` for filters, evidence, and Include / Exclude / Defer decisions. Export your decisions and import them with `npm run review:candidates -- --import path/to/decisions.json`. Included candidates still require an explicit reviewed change to the Tracker.
 
@@ -229,6 +229,7 @@ Coverage: titles, available summary versions, and related bills. Full bill text 
 | [H.R.1737](https://www.congress.gov/bill/119th-congress/house-bill/1737) | To direct the Secretary of Commerce to submit to Congress a report containing an assessment of the value, cost, and feasibility of a trans-Atlantic submarine fiber optic cable connecting the contiguous United States, the United States Virgin Islands, Ghana, and Nigeria. | Broader policy scope | Data centers & compute | Plaskett (D-VI) |  | pending |
 | [H.R.2166](https://www.congress.gov/bill/119th-congress/house-bill/2166) | Safe Routes Act of 2025 | Broader policy scope | Semiconductors & export controls | Wied (R-WI) |  | pending |
 | [H.R.2261](https://www.congress.gov/bill/119th-congress/house-bill/2261) | Strengthening Oversight of DHS Intelligence Act | Broader policy scope | Privacy & data governance | Hernández (D-PR) |  | pending |
+| [H.R.2347](https://www.congress.gov/bill/119th-congress/house-bill/2347) | Bipartisan American Affordability and Jobs Act of 2026 | Broader policy scope | Data centers & compute; Energy & grid | Smucker (R-PA) |  | pending |
 | [H.R.2348](https://www.congress.gov/bill/119th-congress/house-bill/2348) | Brake for Kids Act of 2025 | Broader policy scope | Algorithms & platforms | Stauber (R-MN) |  | pending |
 | [H.R.2480](https://www.congress.gov/bill/119th-congress/house-bill/2480) | Securing Semiconductor Supply Chains Act of 2025 | Broader policy scope | Semiconductors & export controls | Landsman (D-OH) |  | pending |
 | [H.R.2657](https://www.congress.gov/bill/119th-congress/house-bill/2657) | Sammy’s Law | Broader policy scope | Algorithms & platforms | Wasserman Schultz (D-FL) |  | pending |
