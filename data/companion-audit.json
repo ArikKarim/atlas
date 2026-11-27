@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T20:14:46.979Z",
+  "checkedAt": "2026-11-27T20:03:09.747Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -170,13 +170,6 @@
     },
     {
       "ids": [
-        "H.R.9340",
-        "S.5028"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.6425",
         "S.3355"
       ],
@@ -188,6 +181,13 @@
         "S.4821"
       ],
       "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.9340",
+        "S.5028"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [
