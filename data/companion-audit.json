@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-27T20:03:09.747Z",
+  "checkedAt": "2026-11-28T18:59:30.707Z",
   "added": [
     "H.R.2794",
     "H.R.5885",
@@ -100,17 +100,17 @@
     },
     {
       "ids": [
-        "H.R.3447",
-        "S.1705"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.3562",
         "S.1837"
       ],
       "relationship": "Identical bill"
+    },
+    {
+      "ids": [
+        "H.R.3447",
+        "S.1705"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -128,17 +128,17 @@
     },
     {
       "ids": [
-        "H.R.6621",
-        "S.3319"
-      ],
-      "relationship": "Related bill"
-    },
-    {
-      "ids": [
         "H.R.633",
         "S.146"
       ],
       "relationship": "Contained in public law"
+    },
+    {
+      "ids": [
+        "H.R.6621",
+        "S.3319"
+      ],
+      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -170,6 +170,13 @@
     },
     {
       "ids": [
+        "H.R.9340",
+        "S.5028"
+      ],
+      "relationship": "Related bill"
+    },
+    {
+      "ids": [
         "H.R.6425",
         "S.3355"
       ],
@@ -181,13 +188,6 @@
         "S.4821"
       ],
       "relationship": "Identical bill"
-    },
-    {
-      "ids": [
-        "H.R.9340",
-        "S.5028"
-      ],
-      "relationship": "Related bill"
     },
     {
       "ids": [
@@ -226,15 +226,15 @@
     },
     {
       "ids": [
-        "H.R.2794",
-        "S.1367"
+        "H.R.6322",
+        "S.1473"
       ],
       "relationship": "Related bill"
     },
     {
       "ids": [
-        "H.R.6322",
-        "S.1473"
+        "H.R.2794",
+        "S.1367"
       ],
       "relationship": "Related bill"
     },
@@ -275,15 +275,15 @@
     },
     {
       "ids": [
-        "H.R.9155",
-        "S.4695"
+        "H.R.9442",
+        "S.4214"
       ],
       "relationship": "Identical bill"
     },
     {
       "ids": [
-        "H.R.9442",
-        "S.4214"
+        "H.R.9155",
+        "S.4695"
       ],
       "relationship": "Identical bill"
     },
